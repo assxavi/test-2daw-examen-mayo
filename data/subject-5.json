@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "What does UX stand for?",
+    "options": [
+      { "text": "User Experience", "isCorrect": true },
+      { "text": "Universal Exchange", "isCorrect": false },
+      { "text": "User Extension", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What minimum touch target size is recommended for mobile buttons?",
+    "options": [
+      { "text": "44px", "isCorrect": true },
+      { "text": "22px", "isCorrect": false },
+      { "text": "30px", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Why is one-question-per-screen useful on mobile?",
+    "options": [
+      { "text": "It reduces cognitive load", "isCorrect": true },
+      { "text": "It increases scroll depth", "isCorrect": false },
+      { "text": "It avoids all user input", "isCorrect": false }
+    ]
+  }
+]

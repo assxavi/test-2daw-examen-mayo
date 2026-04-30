@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "En una aplicación Java se necesita representar la ruta de un directorio, comprobar si existe y listar su contenido, pero sin abrirlo para leer datos. ¿Qué elemento encaja mejor con esa necesidad?",
+    "options": [
+      { "text": "FileReader, porque permite leer caracteres del directorio.", "isCorrect": false },
+      { "text": "File, porque representa archivos y directorios y permite consultar información sobre ellos.", "isCorrect": true },
+      { "text": "BufferedReader, porque mejora el acceso a cualquier recurso del sistema.", "isCorrect": false },
+      { "text": "ObjectInputStream, porque sirve para recorrer estructuras del sistema de archivos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Un programa se ejecuta desde C:/proyecto y quiere acceder al fichero pelis.txt situado en cine/drama. Si se desea usar una ruta relativa válida, ¿cuál sería la opción más adecuada?",
+    "options": [
+      { "text": "./C:/proyecto/cine/drama/pelis.txt", "isCorrect": false },
+      { "text": "cine/drama/pelis.txt", "isCorrect": true },
+      { "text": "/raiz/cine/drama/pelis.txt", "isCorrect": false },
+      { "text": "http://cine/drama/pelis.txt", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "¿Qué afirmación describe correctamente una ruta absoluta al trabajar con la clase File?",
+    "options": [
+      { "text": "Depende siempre del directorio desde el que se ejecuta el programa.", "isCorrect": false },
+      { "text": "Solo puede usarse en sistemas Linux.", "isCorrect": false },
+      { "text": "Indica la ubicación completa del recurso desde la raíz del sistema de archivos.", "isCorrect": true },
+      { "text": "Obliga a utilizar el constructor File (URI).", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "En Java, al trabajar con ficheros de texto, FileReader y BufferedReader suelen utilizarse conjuntamente porque:",
+    "options": [
+      { "text": "ambos son filtros y ninguno accede directamente al fichero.", "isCorrect": false },
+      { "text": "FileReader actúa como iniciador y BufferedReader como filtro que mejora la lectura.", "isCorrect": true },
+      { "text": "BufferedReader reemplaza por completo a FileReader y no necesita apoyo.", "isCorrect": false },
+      { "text": "ambos escriben y leen a la vez sobre el mismo flujo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Un desarrollador debe guardar varias líneas en peliculas.txt y quiere que cada nueva ejecución añada contenido al final sin borrar lo anterior. ¿Qué opción refleja mejor esa necesidad?",
+    "options": [
+      { "text": "Crear new FileWriter (nombreArchivo) en cada ejecución.", "isCorrect": false },
+      { "text": "Usar new FileWriter(nombreArchivo, true) para abrir el fichero en modo añadido.", "isCorrect": true },
+      { "text": "Sustituir FileWriter por FileReader.", "isCorrect": false },
+      { "text": "Usar BufferedReader y llamar a readLine() antes de escribir.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "En el ejemplo de escritura de películas, ¿qué método se usa para insertar un salto de línea después de cada título?",
+    "options": [
+      { "text": "writeLine()", "isCorrect": false },
+      { "text": "append()", "isCorrect": false },
+      { "text": "newLine()", "isCorrect": true },
+      { "text": "nextLine()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Si un programa lee un fichero de texto línea a línea hasta llegar al final, ¿qué condición permite detener correctamente el bucle de lectura?",
+    "options": [
+      { "text": "Cuando readLine() devuelve una cadena vacía.", "isCorrect": false },
+      { "text": "Cuando readLine() devuelve false.", "isCorrect": false },
+      { "text": "Cuando readLine() devuelve null.", "isCorrect": true },
+      { "text": "Cuando readLine() lanza siempre una excepción final.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Qué afirmación es correcta sobre los flujos de datos en Java?",
+    "options": [
+      { "text": "Un mismo flujo sirve simultáneamente como entrada y salida de forma general.", "isCorrect": false },
+      { "text": "Para leer y escribir un fichero suelen necesitarse dos flujos distintos.", "isCorrect": true },
+      { "text": "Todos los flujos derivan directamente de File.", "isCorrect": false },
+      { "text": "Los flujos solo pueden trabajar con archivos, no con otros orígenes o destinos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Dentro de los flujos en formato Unicode de 16 bits, ¿qué pareja de clases abstractas actúa como base del modelo?",
+    "options": [
+      { "text": "InputStream y OutputStream", "isCorrect": false },
+      { "text": "FileReader y FileWriter", "isCorrect": false },
+      { "text": "Reader y Writer", "isCorrect": true },
+      { "text": "BufferedReader y BufferedWriter", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Si una aplicación necesita leer enteros y double directamente desde un fichero binario, ¿qué clase resulta más apropiada?",
+    "options": [
+      { "text": "BufferedReader", "isCorrect": false },
+      { "text": "ObjectInputStream", "isCorrect": false },
+      { "text": "DataInputStream", "isCorrect": true },
+      { "text": "FileWriter", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Al serializar un objeto Alumno para guardarlo en disco, la clase debe:",
+    "options": [
+      { "text": "heredar obligatoriamente de ObjectOutputStream.", "isCorrect": false },
+      { "text": "implementar la interfaz Serializable.", "isCorrect": true },
+      { "text": "tener todos sus atributos como public.", "isCorrect": false },
+      { "text": "declarar todos sus métodos como static.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es la función principal de serialVersionUID en una clase serializable?",
+    "options": [
+      { "text": "Indicar cuántos objetos pueden guardarse en un fichero.", "isCorrect": false },
+      { "text": "Controlar el tamaño en bytes del objeto serializado.", "isCorrect": false },
+      { "text": "Verificar la compatibilidad entre versiones de la clase durante la deserialización.", "isCorrect": true },
+      { "text": "Convertir automáticamente los atributos private en públicos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Un equipo guarda un objeto Alumno con una versión de la clase y intenta leerlo con otra versión que añade nuevos atributos. Si las versiones no son compatibles, ¿qué situación describe mejor lo que ocurre?",
+    "options": [
+      { "text": "El objeto se recupera siempre sin cambios porque Java ignora las diferencias.", "isCorrect": false },
+      { "text": "Se lanza una InvalidClassException al deserializar.", "isCorrect": true },
+      { "text": "El fichero se convierte automáticamente a texto plano.", "isCorrect": false },
+      { "text": "FileReader adapta la estructura del objeto al vuelo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "En la serialización de objetos, ObjectOutputStream suele trabajar junto a FileOutputStream porque:",
+    "options": [
+      { "text": "el primero actúa como filtro y el segundo como iniciador del flujo binario.", "isCorrect": true },
+      { "text": "ambos son iniciadores y deben duplicarse por seguridad.", "isCorrect": false },
+      { "text": "FileOutputStream solo sirve para texto y ObjectOutputStream corrige eso.", "isCorrect": false },
+      { "text": "ObjectOutputStream crea directorios automáticamente antes de escribir.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "¿Qué sucede con un atributo declarado como transient cuando el objeto se deserializa?",
+    "options": [
+      { "text": "Conserva siempre el último valor que tenía antes de serializarse.", "isCorrect": false },
+      { "text": "Se elimina también del código fuente de la clase.", "isCorrect": false },
+      { "text": "No se recupera desde el fichero y toma el valor predeterminado de su tipo.", "isCorrect": true },
+      { "text": "Se convierte automáticamente en static.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "En una clase Alumno, se decide marcar notaMedia como transient porque puede recalcularse. ¿Qué justificación encaja mejor?",
+    "options": [
+      { "text": "Evitar que el objeto implemente Serializable.", "isCorrect": false },
+      { "text": "Excluir de la serialización un dato no imprescindible para reconstruir el objeto.", "isCorrect": true },
+      { "text": "Forzar que notaMedia se escriba dos veces en el fichero.", "isCorrect": false },
+      { "text": "Convertir el fichero resultante en legible como texto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Un alumno crea un directorio con new File(\"nuevoDirectorio\") y quiere crearlo físicamente. ¿Qué método sería el adecuado?",
+    "options": [
+      { "text": "mkdir()", "isCorrect": true },
+      { "text": "createDir()", "isCorrect": false },
+      { "text": "makeDirectory()", "isCorrect": false },
+      { "text": "build()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Si se quiere comprobar que un recurso existe y además es realmente un directorio antes de listar su contenido, ¿qué combinación es la más apropiada?",
+    "options": [
+      { "text": "canRead() y canWrite()", "isCorrect": false },
+      { "text": "exists() e isDirectory()", "isCorrect": true },
+      { "text": "length() y getName()", "isCorrect": false },
+      { "text": "delete() y mkdir()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Tras leer productos serializados desde un fichero, se muestran solo aquellos con precio mayor que 50. ¿Qué idea didáctica se trabaja?",
+    "options": [
+      { "text": "Que la serialización solo sirve para cadenas de texto.", "isCorrect": false },
+      { "text": "Que, una vez deserializados los objetos, pueden procesarse y filtrarse con lógica de programa.", "isCorrect": true },
+      { "text": "Que ObjectInputStream sustituye a las colecciones de Java.", "isCorrect": false },
+      { "text": "Que los ficheros binarios no admiten listas de objetos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué ventaja aporta try-with-resources en el manejo de flujos?",
+    "options": [
+      { "text": "Impide que se produzca cualquier excepción de entrada/salida.", "isCorrect": false },
+      { "text": "Cierra automáticamente los recursos al finalizar el bloque, incluso si ocurre un error.", "isCorrect": true },
+      { "text": "Convierte cualquier fichero binario en texto legible.", "isCorrect": false },
+      { "text": "Obliga a usar rutas absolutas en lugar de relativas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "En una aplicación se necesita un formato de texto que permita estructurar datos jerárquicos e intercambiarlos entre sistemas distintos definiendo etiquetas propias. ¿Qué tecnología encaja mejor?",
+    "options": [
+      { "text": "HTML, porque está pensada para describir datos personalizados.", "isCorrect": false },
+      { "text": "XML, porque es un lenguaje de marcado extensible orientado a estructurar y transportar datos.", "isCorrect": true },
+      { "text": "CSS, porque organiza información en árbol.", "isCorrect": false },
+      { "text": "SQL, porque define etiquetas para intercambio de documentos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "¿Cuál es una diferencia esencial entre XML y HTML?",
+    "options": [
+      { "text": "XML está pensado principalmente para describir datos, mientras que HTML se centra en mostrarlos.", "isCorrect": true },
+      { "text": "HTML permite etiquetas personalizadas y XML no.", "isCorrect": false },
+      { "text": "XML no puede contener estructura jerárquica.", "isCorrect": false },
+      { "text": "HTML se usa para intercambio de datos y XML solo para diseño visual.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Un documento XML válido debe cumplir una condición estructural básica. ¿Cuál es?",
+    "options": [
+      { "text": "Incluir siempre una hoja XSLT.", "isCorrect": false },
+      { "text": "Contener exactamente un único elemento raíz.", "isCorrect": true },
+      { "text": "Tener todos los datos guardados como atributos.", "isCorrect": false },
+      { "text": "Empezar siempre con un comentario.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "En el encabezado XML, la parte encoding=\"UTF-8\" indica principalmente:",
+    "options": [
+      { "text": "el nombre del elemento raíz.", "isCorrect": false },
+      { "text": "el número máximo de etiquetas permitido.", "isCorrect": false },
+      { "text": "la codificación de caracteres del documento.", "isCorrect": true },
+      { "text": "que el documento ya está transformado a HTML.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "En un XML como '<persona id=\"123\"><nombre>Ana</nombre></persona>', ¿qué es id=\"123\"?",
+    "options": [
+      { "text": "Un nodo de texto.", "isCorrect": false },
+      { "text": "Un atributo del elemento persona.", "isCorrect": true },
+      { "text": "Un elemento hijo obligatorio.", "isCorrect": false },
+      { "text": "Una expresión XPath.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Para mostrar el contenido de un XML con formato de tabla HTML sin modificar el archivo original, ¿qué opción es la más adecuada?",
+    "options": [
+      { "text": "Usar XSLT para transformar el XML a HTML.", "isCorrect": true },
+      { "text": "Sustituir XML por un comentario.", "isCorrect": false },
+      { "text": "Convertir el XML en atributo.", "isCorrect": false },
+      { "text": "Aplicar solo DOM sin ninguna transformación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Qué característica describe correctamente a XSLT?",
+    "options": [
+      { "text": "Es un lenguaje imperativo para compilar clases Java.", "isCorrect": false },
+      { "text": "Es un lenguaje declarativo basado en plantillas para transformar documentos XML.", "isCorrect": true },
+      { "text": "Solo permite generar otros documentos XML.", "isCorrect": false },
+      { "text": "No puede usar expresiones XPath.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "En una hoja XSLT, ¿qué elemento se utiliza para recorrer varios nodos seleccionados?",
+    "options": [
+      { "text": "xsl:choose", "isCorrect": false },
+      { "text": "xsl:template", "isCorrect": false },
+      { "text": "xsl:for-each", "isCorrect": true },
+      { "text": "xsl:output", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "En una transformación XSLT, ¿qué instrucción define que el formato de salida sea HTML?",
+    "options": [
+      { "text": "xsl:value-of", "isCorrect": false },
+      { "text": "xsl:output method=\"html\"", "isCorrect": true },
+      { "text": "xsl:if test=\"html\"", "isCorrect": false },
+      { "text": "xsl:call-template name=\"html\"", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "XPath se utiliza principalmente para:",
+    "options": [
+      { "text": "compilar documentos XML en bytecode.", "isCorrect": false },
+      { "text": "navegar y seleccionar nodos dentro de un documento XML.", "isCorrect": true },
+      { "text": "validar automáticamente cualquier XML sin reglas previas.", "isCorrect": false },
+      { "text": "cifrar el contenido textual de un nodo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué expresión XPath selecciona el título del primer libro de una biblioteca?",
+    "options": [
+      { "text": "/biblioteca/libro[1]/titulo", "isCorrect": true },
+      { "text": "titulo/libro[1]/biblioteca", "isCorrect": false },
+      { "text": "//titulo[libro=1]", "isCorrect": false },
+      { "text": "biblioteca.titulo.primero", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Para obtener solo los nombres de estudiantes con edad mayor que 21 a partir de un XML, XPath es útil porque:",
+    "options": [
+      { "text": "Permite filtrar nodos mediante predicados según condiciones.", "isCorrect": true },
+      { "text": "Solo sirve para contar elementos, no para seleccionarlos.", "isCorrect": false },
+      { "text": "Solo funciona dentro de HTML, no en XML.", "isCorrect": false },
+      { "text": "Obliga a recorrer todos los nodos manualmente con Java.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué función XPath permite contar cuántos nodos hay en un conjunto seleccionado?",
+    "options": [
+      { "text": "size()", "isCorrect": false },
+      { "text": "length()", "isCorrect": false },
+      { "text": "count()", "isCorrect": true },
+      { "text": "total()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "En el parser DOM, ¿qué representa normalmente la interfaz Document?",
+    "options": [
+      { "text": "Un atributo individual de un nodo.", "isCorrect": false },
+      { "text": "El documento XML completo cargado en memoria.", "isCorrect": true },
+      { "text": "Una hoja XSLT pendiente de compilar.", "isCorrect": false },
+      { "text": "El conjunto de excepciones del analizador.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "¿Qué ventaja ofrece DOM al trabajar con XML pequeño o mediano que debe modificarse?",
+    "options": [
+      { "text": "No carga el documento en memoria.", "isCorrect": false },
+      { "text": "Solo permite acceso secuencial.", "isCorrect": false },
+      { "text": "Facilita el acceso y la modificación de cualquier parte del árbol en cualquier momento.", "isCorrect": true },
+      { "text": "Funciona únicamente con documentos sin atributos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Cuál es la principal desventaja del parser DOM con archivos XML muy grandes?",
+    "options": [
+      { "text": "No soporta documentos con elemento raíz.", "isCorrect": false },
+      { "text": "Exige usar XSLT en todas las operaciones.", "isCorrect": false },
+      { "text": "Consume más memoria al cargar el documento completo.", "isCorrect": true },
+      { "text": "No permite leer texto contenido en nodos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "En Java, ¿qué secuencia de clases crea el analizador para parsear un XML con DOM?",
+    "options": [
+      { "text": "TransformerFactory y Transformer", "isCorrect": false },
+      { "text": "DocumentBuilderFactory y DocumentBuilder", "isCorrect": true },
+      { "text": "NodeList y Element", "isCorrect": false },
+      { "text": "XPathFactory y XPathResult", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Después de parsear un XML, ¿qué método de 'Document' obtiene el nodo raíz?",
+    "options": [
+      { "text": "getRootNode()", "isCorrect": false },
+      { "text": "getFirstChildElement()", "isCorrect": false },
+      { "text": "getDocumentElement()", "isCorrect": true },
+      { "text": "getMainTag()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "¿Qué utilidad tiene la llamada doc.getElementsByTagName(\"estudiante\")?",
+    "options": [
+      { "text": "Borra todos los nodos estudiante del documento.", "isCorrect": false },
+      { "text": "Recupera una colección de elementos con esa etiqueta para poder iterarlos.", "isCorrect": true },
+      { "text": "Transforma el XML a HTML automáticamente.", "isCorrect": false },
+      { "text": "Convierte cada estudiante en atributo del nodo raíz.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Para guardar físicamente un XML creado en memoria, ¿qué tecnología interviene directamente?",
+    "options": [
+      { "text": "Transformer, para convertir el DOM en archivo físico.", "isCorrect": true },
+      { "text": "BufferedReader, para escribir el árbol DOM.", "isCorrect": false },
+      { "text": "FileWriter, porque es la única clase válida para XML.", "isCorrect": false },
+      { "text": "NodeList, para exportar el documento a disco.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "En una aplicación Java orientada a objetos que usa bases de datos relacionales, ¿qué resume mejor el \"desfase objeto-relacional\"?",
+    "options": [
+      { "text": "Que Java no puede conectarse a bases de datos relacionales.", "isCorrect": false },
+      { "text": "Que los modelos de objetos y tablas no encajan de forma directa y hay que traducir entre ambos mundos.", "isCorrect": true },
+      { "text": "Que SQL solo funciona con lenguajes funcionales.", "isCorrect": false },
+      { "text": "Que las bases de datos relacionales no permiten relaciones entre datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Si una clase Equipo contiene una colección de Jugador, ¿qué estructura refleja mejor la traducción relacional?",
+    "options": [
+      { "text": "Una única tabla con todos los campos de equipo y jugadores mezclados.", "isCorrect": false },
+      { "text": "Dos tablas, Equipo y Jugador, relacionadas mediante una clave foránea desde Jugador hacia Equipo.", "isCorrect": true },
+      { "text": "Una tabla por cada atributo, todas sin relaciones.", "isCorrect": false },
+      { "text": "Un único fichero de texto sin claves.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Al llevar una clase con un atributo de tipo objeto anidado a una tabla, ¿qué reto típico se destaca?",
+    "options": [
+      { "text": "Que los SGBD generan automáticamente el tipo anidado.", "isCorrect": false },
+      { "text": "Que hay que descomponer el objeto en varias columnas simples.", "isCorrect": true },
+      { "text": "Que solo se puede guardar el nombre de la clase en una columna.", "isCorrect": false },
+      { "text": "Que SQL no admite columnas de tipo texto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "JDBC se describe como:",
+    "options": [
+      { "text": "Un sistema gestor de bases de datos propio de Java.", "isCorrect": false },
+      { "text": "Una API que define cómo las aplicaciones Java acceden a bases de datos relacionales mediante drivers.", "isCorrect": true },
+      { "text": "Un lenguaje alternativo a SQL.", "isCorrect": false },
+      { "text": "Un protocolo de red genérico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Qué papel desempeña un driver JDBC de tipo 4?",
+    "options": [
+      { "text": "Actúa como puente JDBC-ODBC usando librerías nativas externas.", "isCorrect": false },
+      { "text": "Es código Java puro que traduce las llamadas JDBC directamente al protocolo nativo del SGBD.", "isCorrect": true },
+      { "text": "Solo sirve para bases de datos en memoria.", "isCorrect": false },
+      { "text": "Necesita siempre un middleware intermedio.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Qué interfaz de JDBC representa una conexión activa y gestiona transacciones?",
+    "options": [
+      { "text": "Driver", "isCorrect": false },
+      { "text": "Connection", "isCorrect": true },
+      { "text": "Statement", "isCorrect": false },
+      { "text": "ResultSet", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Qué método se emplea para ejecutar sentencias DDL (CREATE, ALTER) usando Statement?",
+    "options": [
+      { "text": "executeQuery()", "isCorrect": false },
+      { "text": "executeUpdate()", "isCorrect": true },
+      { "text": "executeDDL()", "isCorrect": false },
+      { "text": "executeResult()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "En la URL de conexión a MySQL, ¿por qué se incluye el parámetro serverTimezone=UTC?",
+    "options": [
+      { "text": "Para activar el modo lectura-solo.", "isCorrect": false },
+      { "text": "Para evitar problemas relacionados con la zona horaria entre Java y MySQL.", "isCorrect": true },
+      { "text": "Para forzar que la base de datos se cree si no existe.", "isCorrect": false },
+      { "text": "Para habilitar el uso de transacciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Qué efecto tiene declarar una columna como INT AUTOINCREMENT PRIMARY KEY?",
+    "options": [
+      { "text": "Permite valores nulos y duplicados.", "isCorrect": false },
+      { "text": "Genera automáticamente un identificador único para cada fila nueva.", "isCorrect": true },
+      { "text": "Impide insertar cualquier registro sin especificar el ID.", "isCorrect": false },
+      { "text": "Solo sirve para tablas temporales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Qué sentencia SQL refleja mejor una operación de cambio de estructura para añadir una columna?",
+    "options": [
+      { "text": "INSERT INTO Clientes...", "isCorrect": false },
+      { "text": "UPDATE Clientes SET...", "isCorrect": false },
+      { "text": "ALTER TABLE Clientes ADD COLUMN...", "isCorrect": true },
+      { "text": "CREATE INDEX...", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Cuál es el objetivo principal de un índice en una base de datos?",
+    "options": [
+      { "text": "reducir el tamaño físico de la tabla.", "isCorrect": false },
+      { "text": "mejorar la velocidad de búsqueda y filtrado.", "isCorrect": true },
+      { "text": "impedir que se inserten filas duplicadas.", "isCorrect": false },
+      { "text": "eliminar automáticamente los registros antiguos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Qué efecto tiene un uso excesivo de índices en tablas con muchas inserciones?",
+    "options": [
+      { "text": "Acelera tanto lecturas como escrituras sin coste.", "isCorrect": false },
+      { "text": "Puede ralentizar las operaciones de escritura por el mantenimiento de los índices.", "isCorrect": true },
+      { "text": "Impide la ejecución de transacciones.", "isCorrect": false },
+      { "text": "Desactiva las claves foráneas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Al definir una columna que referencia a otra tabla, ¿qué diseño se aplica?",
+    "options": [
+      { "text": "Un índice compuesto.", "isCorrect": false },
+      { "text": "Una restricción FOREIGN KEY para asegurar integridad referencial.", "isCorrect": true },
+      { "text": "Una restricción CHECK sobre el total.", "isCorrect": false },
+      { "text": "Un valor por defecto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "En SQL, ¿qué objetivo tiene la parte CHECK (total > 0)?",
+    "options": [
+      { "text": "Permitir totales negativos.", "isCorrect": false },
+      { "text": "Asegurar que solo se aceptan totales mayores que cero.", "isCorrect": true },
+      { "text": "Generar el total automáticamente.", "isCorrect": false },
+      { "text": "Convertir el total a entero.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "¿Qué ventaja aporta el uso de DROP TABLE IF EXISTS?",
+    "options": [
+      { "text": "Hace que la tabla se recree automáticamente.", "isCorrect": false },
+      { "text": "Evita errores si la tabla ya ha sido eliminada previamente.", "isCorrect": true },
+      { "text": "Convierte la tabla en temporal.", "isCorrect": false },
+      { "text": "Asegura que se eliminen todas las bases de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "¿Qué interfaz de JDBC representa el resultado de un SELECT y permite recorrer las filas?",
+    "options": [
+      { "text": "Statement", "isCorrect": false },
+      { "text": "PreparedStatement", "isCorrect": false },
+      { "text": "ResultSet", "isCorrect": true },
+      { "text": "DatabaseMetaData", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Para ejecutar muchas veces la misma sentencia SQL con parámetros distintos, ¿qué interfaz es más adecuada?",
+    "options": [
+      { "text": "Statement", "isCorrect": false },
+      { "text": "PreparedStatement", "isCorrect": true },
+      { "text": "CallableStatement", "isCorrect": false },
+      { "text": "ResultSetMetaData", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Cuál es una buena práctica al trabajar con JDBC y DDL?",
+    "options": [
+      { "text": "Dejar los recursos abiertos siempre.", "isCorrect": false },
+      { "text": "Usar try-with-resources para cerrar automáticamente Connection y Statement.", "isCorrect": true },
+      { "text": "Ejecutar todo el DDL dentro de un ResultSet.", "isCorrect": false },
+      { "text": "Evitar el manejo de excepciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué aporta el uso de DEFAULT 1000 en una columna numérica?",
+    "options": [
+      { "text": "Obliga a que todos tengan siempre el valor 1000.", "isCorrect": false },
+      { "text": "Asigna 1000 solo cuando ya exista un valor previo.", "isCorrect": false },
+      { "text": "Asigna 1000 automáticamente si no se proporciona valor al insertar.", "isCorrect": true },
+      { "text": "Convierte el valor a entero.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Si se intenta insertar una fila con una clave foránea que no existe en la tabla de referencia:",
+    "options": [
+      { "text": "Se inserta igualmente y luego se crea la referencia.", "isCorrect": false },
+      { "text": "La sentencia INSERT falla por violar la restricción de integridad.", "isCorrect": true },
+      { "text": "El SGBD sustituye el valor por cero.", "isCorrect": false },
+      { "text": "El registro se guarda sin relación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "En una aplicación Java orientada a objetos que necesita persistir datos en tablas relacionales, ¿qué problema intenta resolver principalmente el mapeo objeto-relacional?",
+    "options": [
+      { "text": "Que Java no pueda ejecutar código SQL.", "isCorrect": false },
+      { "text": "Que exista una diferencia entre cómo se modelan los datos en objetos y cómo se almacenan en tablas.", "isCorrect": true },
+      { "text": "Que las bases de datos relacionales no permitan claves primarias.", "isCorrect": false },
+      { "text": "Que Hibernate sustituya al compilador de Java.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Cuando una clase Cliente en Java tiene atributos como id, nombre y email, ¿qué representa normalmente el proceso de mapeo en Hibernate?",
+    "options": [
+      { "text": "Convertir la clase en una interfaz funcional.", "isCorrect": false },
+      { "text": "Relacionar la clase con una tabla y cada atributo con una columna.", "isCorrect": true },
+      { "text": "Convertir cada atributo en una base de datos distinta.", "isCorrect": false },
+      { "text": "Eliminar la necesidad de clave primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "¿Cuál es la ventaja más clara de utilizar un framework ORM como Hibernate frente al acceso directo con JDBC puro?",
+    "options": [
+      { "text": "Elimina por completo la necesidad de una base de datos.", "isCorrect": false },
+      { "text": "Permite trabajar con objetos Java y reduce parte del código repetitivo de persistencia.", "isCorrect": true },
+      { "text": "Impide hacer operaciones SELECT.", "isCorrect": false },
+      { "text": "Obliga a usar únicamente bases de datos NoSQL.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Un framework ORM se define mejor como:",
+    "options": [
+      { "text": "Una herramienta que transforma clases Java en interfaces gráficas.", "isCorrect": false },
+      { "text": "Un conjunto de librerías que facilita la correspondencia entre objetos y tablas relacionales.", "isCorrect": true },
+      { "text": "Un servidor de aplicaciones para desplegar proyectos web.", "isCorrect": false },
+      { "text": "Un editor visual de bases de datos sin código.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "En Hibernate, una clase de entidad es normalmente una clase Java que:",
+    "options": [
+      { "text": "solo contiene métodos estáticos.", "isCorrect": false },
+      { "text": "representa información persistente del dominio y se asocia a una tabla.", "isCorrect": true },
+      { "text": "no puede tener atributos privados.", "isCorrect": false },
+      { "text": "se usa exclusivamente para conexiones de red.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "¿Qué anotación se utiliza habitualmente para indicar que una clase Java es una entidad persistente en Hibernate?",
+    "options": [
+      { "text": "@Column", "isCorrect": false },
+      { "text": "@Entity", "isCorrect": true },
+      { "text": "@TableField", "isCorrect": false },
+      { "text": "@PersistentClass", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Si una entidad Producto necesita marcar su identificador principal, ¿qué combinación de anotaciones es la más habitual?",
+    "options": [
+      { "text": "@Entity y @JoinColumn", "isCorrect": false },
+      { "text": "@Id y, en muchos casos, @GeneratedValue", "isCorrect": true },
+      { "text": "@Basic y @Transient", "isCorrect": false },
+      { "text": "@Version y @Override", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "En una entidad Hibernate, la anotación @Column(name = \"precio_unitario\") se usa principalmente para:",
+    "options": [
+      { "text": "crear una segunda clase de apoyo.", "isCorrect": false },
+      { "text": "indicar el nombre exacto de la columna con la que se mapea el atributo.", "isCorrect": true },
+      { "text": "abrir la conexión con la base de datos.", "isCorrect": false },
+      { "text": "ejecutar automáticamente un INSERT.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Un desarrollador define una clase de entidad con un atributo que se calcula en tiempo de ejecución y no debe persistirse. ¿Qué solución es la adecuada?",
+    "options": [
+      { "text": "Marcarlo con @Transient.", "isCorrect": true },
+      { "text": "Marcarlo con @Id.", "isCorrect": false },
+      { "text": "Convertirlo en static obligatoriamente.", "isCorrect": false },
+      { "text": "Guardarlo siempre como clave ajena.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "En la configuración de Hibernate, ¿qué componente se utiliza normalmente para crear sesiones de trabajo contra la base de datos?",
+    "options": [
+      { "text": "SessionFactory", "isCorrect": true },
+      { "text": "ResultSetFactory", "isCorrect": false },
+      { "text": "EntityCursor", "isCorrect": false },
+      { "text": "DriverManagerHibernate", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "¿Qué idea describe mejor una Session en Hibernate?",
+    "options": [
+      { "text": "Un fichero XML donde se guardan las consultas.", "isCorrect": false },
+      { "text": "Un objeto que representa una conversación de trabajo con la base de datos para gestionar entidades.", "isCorrect": true },
+      { "text": "Un tipo de tabla temporal.", "isCorrect": false },
+      { "text": "Un sustituto del modelo entidad-relación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "En un proyecto con Hibernate, la configuración incluye URL, usuario, contraseña y dialecto SQL porque:",
+    "options": [
+      { "text": "Hibernate necesita conocer cómo conectarse al SGBD y cómo generar SQL compatible.", "isCorrect": true },
+      { "text": "esos datos solo sirven para dibujar diagramas UML.", "isCorrect": false },
+      { "text": "sin ellos Hibernate funciona únicamente en memoria.", "isCorrect": false },
+      { "text": "el dialecto reemplaza a las entidades Java.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "En una operación de alta de un nuevo objeto Empleado, ¿qué acción corresponde conceptualmente al CREATE del CRUD?",
+    "options": [
+      { "text": "Cargar una entidad existente para mostrarla.", "isCorrect": false },
+      { "text": "Persistir una nueva entidad en la base de datos.", "isCorrect": true },
+      { "text": "Borrar una fila por su identificador.", "isCorrect": false },
+      { "text": "Cerrar la SessionFactory.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "Si una aplicación recupera un objeto Pedido desde la base de datos a partir de su identificador, ¿qué operación CRUD realiza?",
+    "options": [
+      { "text": "Create", "isCorrect": false },
+      { "text": "Update", "isCorrect": false },
+      { "text": "Read", "isCorrect": true },
+      { "text": "Delete", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "Un usuario modifica el correo electrónico de un Cliente ya existente y sincroniza el cambio. ¿Qué operación CRUD representa esto?",
+    "options": [
+      { "text": "Create", "isCorrect": false },
+      { "text": "Read", "isCorrect": false },
+      { "text": "Update", "isCorrect": true },
+      { "text": "Delete", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Cuál sería el equivalente al DELETE del CRUD en Hibernate?",
+    "options": [
+      { "text": "Insertar una nueva entidad con clave nula.", "isCorrect": false },
+      { "text": "Eliminar una entidad persistente de la base de datos.", "isCorrect": true },
+      { "text": "Consultar todos los registros de una tabla.", "isCorrect": false },
+      { "text": "Añadir una anotación a la clase.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "¿Por qué se recomienda abrir una transacción antes de operaciones de escritura en Hibernate?",
+    "options": [
+      { "text": "Porque sin transacción Java no puede compilar.", "isCorrect": false },
+      { "text": "Porque permite asegurar consistencia y confirmar o deshacer cambios si ocurre un error.", "isCorrect": true },
+      { "text": "Porque reemplaza el uso de entidades.", "isCorrect": false },
+      { "text": "Porque evita definir la clave primaria.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "Si un desarrollador olvida cerrar la Session al terminar una operación, ¿qué problema puede aparecer?",
+    "options": [
+      { "text": "Las anotaciones dejan de funcionar en tiempo de compilación.", "isCorrect": false },
+      { "text": "Puede haber fugas de recursos y un uso ineficiente de conexiones.", "isCorrect": true },
+      { "text": "Todas las tablas se eliminan automáticamente.", "isCorrect": false },
+      { "text": "Hibernate convierte las entidades en clases abstractas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "En una relación uno a muchos entre Departamento y Empleado, ¿qué utilidad aporta Hibernate?",
+    "options": [
+      { "text": "Facilita mapear relaciones entre objetos y tablas con menos código repetitivo.", "isCorrect": true },
+      { "text": "Impide trabajar con claves foráneas.", "isCorrect": false },
+      { "text": "Obliga a guardar todos los datos en una sola tabla.", "isCorrect": false },
+      { "text": "Hace innecesario el diseño del modelo de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Qué opción resume mejor una buena práctica al trabajar con Hibernate y CRUD?",
+    "options": [
+      { "text": "Abrir sesiones sin cerrarlas para reutilizarlas indefinidamente.", "isCorrect": false },
+      { "text": "Usar entidades bien anotadas, sesiones controladas y transacciones para modificar datos.", "isCorrect": true },
+      { "text": "Evitar las claves primarias porque Hibernate las genera siempre.", "isCorrect": false },
+      { "text": "Reemplazar todas las consultas por cadenas escritas en consola.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "¿Qué describe mejor una relación «uno a uno» entre Persona y DetallePersona?",
+    "options": [
+      { "text": "Una persona puede tener muchos detalles y cada detalle pertenece a muchas personas.", "isCorrect": false },
+      { "text": "Cada persona se asocia, como máximo, con un único detalle y viceversa.", "isCorrect": true },
+      { "text": "No existe relación entre las tablas, solo entre las clases.", "isCorrect": false },
+      { "text": "Una persona se relaciona con todos los detalles de la base de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "¿Qué anotación se utiliza habitualmente para declarar una relación uno a uno?",
+    "options": [
+      { "text": "@OneToMany", "isCorrect": false },
+      { "text": "@ManyToMany", "isCorrect": false },
+      { "text": "@OneToOne", "isCorrect": true },
+      { "text": "@EmbeddedId", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "En una relación uno a uno, ¿qué anotación indica la columna que actúa como clave foránea?",
+    "options": [
+      { "text": "@JoinColumn", "isCorrect": true },
+      { "text": "@Column", "isCorrect": false },
+      { "text": "@IdClass", "isCorrect": false },
+      { "text": "@SecondaryTable", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "En una relación «uno a muchos» entre Cliente y Pedido, ¿qué patrón de mapeo es más común?",
+    "options": [
+      { "text": "Una lista de clientes dentro de la entidad Pedido.", "isCorrect": false },
+      { "text": "Una colección de pedidos en Cliente (@OneToMany) y en Pedido un atributo cliente (@ManyToOne).", "isCorrect": true },
+      { "text": "Dos entidades sin ninguna anotación de relación.", "isCorrect": false },
+      { "text": "Un único campo entero en Cliente con el número de pedidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "¿Qué lado suele ser el propietario de la relación en una asociación uno a muchos?",
+    "options": [
+      { "text": "La entidad que tiene la colección.", "isCorrect": false },
+      { "text": "Siempre la entidad con más columnas.", "isCorrect": false },
+      { "text": "Normalmente el lado @ManyToOne, que contiene la clave foránea.", "isCorrect": true },
+      { "text": "Ninguno, Hibernate decide aleatoriamente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "¿Qué anotación es típica para mapear una relación muchos a muchos entre Alumno y Curso?",
+    "options": [
+      { "text": "@ManyToOne", "isCorrect": false },
+      { "text": "@OneToOne", "isCorrect": false },
+      { "text": "@ManyToMany", "isCorrect": true },
+      { "text": "@ElementCollection", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "En una relación muchos a muchos, ¿qué papel desempeña la tabla intermedia?",
+    "options": [
+      { "text": "Guardar solo estadísticas sin claves.", "isCorrect": false },
+      { "text": "Almacenar pares de claves (idAlumno, idCurso) que representan cada matrícula.", "isCorrect": true },
+      { "text": "Sustituir a las tablas Alumno y Curso.", "isCorrect": false },
+      { "text": "Actuar como copia de seguridad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "¿Qué anotación indica el nombre de la tabla intermedia y sus columnas de enlace?",
+    "options": [
+      { "text": "@JoinColumn", "isCorrect": false },
+      { "text": "@JoinTable", "isCorrect": true },
+      { "text": "@SecondaryTable", "isCorrect": false },
+      { "text": "@TableGenerator", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "Si se quiere obtener la Persona junto con su DetallePersona mapeado, ¿qué enfoque es habitual?",
+    "options": [
+      { "text": "Ejecutar dos consultas SQL manuales.", "isCorrect": false },
+      { "text": "Acceder a la propiedad persona.getDetalle() aprovechando la relación.", "isCorrect": true },
+      { "text": "Guardar los detalles en un Map estático global.", "isCorrect": false },
+      { "text": "Solo es posible con procedimientos almacenados.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "En una relación uno a muchos, ¿cómo se recorren los pedidos de un cliente desde código?",
+    "options": [
+      { "text": "Cargando el cliente y recorriendo la colección cliente.getPedidos().", "isCorrect": true },
+      { "text": "Consultando directamente la tabla de unión sin entidades.", "isCorrect": false },
+      { "text": "Modificando manualmente las claves foráneas.", "isCorrect": false },
+      { "text": "Clonando el objeto cliente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "¿Qué beneficio principal aporta el mapeo muchos a muchos frente a SQL manual?",
+    "options": [
+      { "text": "Evita completamente el uso de transacciones.", "isCorrect": false },
+      { "text": "Impide borrar filas de la tabla intermedia.", "isCorrect": false },
+      { "text": "Obliga a no usar claves primarias.", "isCorrect": false },
+      { "text": "Permite trabajar con colecciones de objetos (alumno.getCursos()) directamente.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "En Hibernate, una clave primaria compuesta se utiliza cuando:",
+    "options": [
+      { "text": "Se quiere que la clave sea de tipo String.", "isCorrect": false },
+      { "text": "Una fila se identifica de forma única por la combinación de varios campos.", "isCorrect": true },
+      { "text": "No existe ninguna clave primaria.", "isCorrect": false },
+      { "text": "Se desea que la tabla no tenga índices.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "¿Qué anotaciones ofrece Hibernate para mapear claves primarias compuestas?",
+    "options": [
+      { "text": "Utilizar @EmbeddedId o @IdClass.", "isCorrect": true },
+      { "text": "@GeneratedValue sin más.", "isCorrect": false },
+      { "text": "@Transient.", "isCorrect": false },
+      { "text": "Crear siempre una tabla intermedia adicional.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "Si una tabla intermedia muchos a muchos requiere información adicional (ej. fecha), ¿qué se recomienda?",
+    "options": [
+      { "text": "Mantener la relación y añadir columnas extra sin cambiar nada.", "isCorrect": false },
+      { "text": "Convertir la tabla intermedia en una entidad propia con relaciones @ManyToOne.", "isCorrect": true },
+      { "text": "Eliminar las claves foráneas.", "isCorrect": false },
+      { "text": "Guardar la información en un fichero externo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "Al usar List o Set en una relación, ¿qué detalle práctico afecta al número de consultas?",
+    "options": [
+      { "text": "Que las colecciones no pueden estar vacías.", "isCorrect": false },
+      { "text": "La configuración de la estrategia de carga (perezosa o ansiosa).", "isCorrect": true },
+      { "text": "Que siempre se cargan todos los datos de golpe.", "isCorrect": false },
+      { "text": "Que la colección debe ser siempre de tipo Vector.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "¿Qué significa marcar una relación uno a uno con optional = false?",
+    "options": [
+      { "text": "Que la columna asociada puede ser nula.", "isCorrect": false },
+      { "text": "Que Hibernate ignorará esa relación.", "isCorrect": false },
+      { "text": "Que la asociación es obligatoria; no se permiten filas sin la relación.", "isCorrect": true },
+      { "text": "Que la relación se convierte en muchos a muchos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "En relaciones uno a muchos, ¿qué problema aparece si no se planifica bien la estrategia fetch?",
+    "options": [
+      { "text": "Que la base de datos se vuelva de solo lectura.", "isCorrect": false },
+      { "text": "El problema de N+1 consultas (una para la principal y una extra por cada hijo).", "isCorrect": true },
+      { "text": "Que Hibernate no pueda generar SQL.", "isCorrect": false },
+      { "text": "Que la relación pase a ser uno a uno.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "En una clave compuesta con @EmbeddedId, la clase que representa la clave debe:",
+    "options": [
+      { "text": "No necesitar implementar equals ni hashCode.", "isCorrect": false },
+      { "text": "Ser una clase simple con campos clave y métodos equals/hashCode coherentes.", "isCorrect": true },
+      { "text": "Incluir siempre lógica de negocio compleja.", "isCorrect": false },
+      { "text": "Ser una interfaz sin implementación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "¿Cómo se obtienen todos los libros de un autor en una relación muchos a muchos mapeada?",
+    "options": [
+      { "text": "Acceder a la colección autor.getLibros() directamente.", "isCorrect": true },
+      { "text": "Ejecutar manualmente un DELETE sobre la tabla intermedia.", "isCorrect": false },
+      { "text": "Releer todo el catálogo y filtrarlo a mano.", "isCorrect": false },
+      { "text": "No es posible en Hibernate.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "¿Cuál es una buena práctica general al trabajar con relaciones en Hibernate?",
+    "options": [
+      { "text": "Evitar las anotaciones y gestionar todo con SQL manual.", "isCorrect": false },
+      { "text": "Mapear correctamente asociaciones y elegir la estrategia de carga adecuada.", "isCorrect": true },
+      { "text": "Usar siempre carga ansiosa (EAGER) en todas las asociaciones.", "isCorrect": false },
+      { "text": "Utilizar una única tabla con todos los datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 101,
+    "question": "¿Cuál es el objetivo principal de Spring Data en una aplicación Spring Boot?",
+    "options": [
+      { "text": "Sustituir completamente a la base de datos.", "isCorrect": false },
+      { "text": "Simplificar el acceso a datos proporcionando repositorios y eliminando código repetitivo.", "isCorrect": true },
+      { "text": "Generar automáticamente interfaces gráficas.", "isCorrect": false },
+      { "text": "Reemplazar al servidor web embebido.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 102,
+    "question": "¿Qué interfaz suelen extender los repositorios de Spring Data JPA para operaciones CRUD?",
+    "options": [
+      { "text": "JdbcTemplate", "isCorrect": false },
+      { "text": "JpaEntityManager", "isCorrect": false },
+      { "text": "JpaRepository", "isCorrect": true },
+      { "text": "RepositoryManager", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 103,
+    "question": "Para una entidad Cliente, ¿cuál es la firma de interfaz típica para un repositorio CRUD?",
+    "options": [
+      { "text": "public interface ClienteRepository {}", "isCorrect": false },
+      { "text": "public interface ClienteRepository extends JpaRepository<Cliente, Long> {}", "isCorrect": true },
+      { "text": "public interface ClienteRepository extends List<Cliente> {}", "isCorrect": false },
+      { "text": "public interface ClienteRepository extends Transactional {}", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 104,
+    "question": "¿Qué ofrecen los \"derived query methods\" en Spring Data?",
+    "options": [
+      { "text": "Generar scripts SQL para crear la base de datos.", "isCorrect": false },
+      { "text": "Cambiar de gestor de base de datos sin configuración.", "isCorrect": false },
+      { "text": "Crear consultas a partir del nombre del método (ej. findByEmail).", "isCorrect": true },
+      { "text": "Ejecutar consultas solo en memoria.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 105,
+    "question": "¿Qué hace el método List<Cliente> findByNombreContaining(String texto)?",
+    "options": [
+      { "text": "Busca clientes cuyo nombre es exactamente igual a texto.", "isCorrect": false },
+      { "text": "Busca clientes que no tienen nombre.", "isCorrect": false },
+      { "text": "Busca clientes cuyo nombre contiene la subcadena indicada.", "isCorrect": true },
+      { "text": "Elimina clientes por nombre.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 106,
+    "question": "¿Qué anotación define una consulta personalizada cuando el nombre del método no basta?",
+    "options": [
+      { "text": "@QueryParam", "isCorrect": false },
+      { "text": "@Sql", "isCorrect": false },
+      { "text": "@Query", "isCorrect": true },
+      { "text": "@Native", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 107,
+    "question": "En @Query, ¿qué permite hacer el atributo nativeQuery = true?",
+    "options": [
+      { "text": "Ejecutar solo consultas en memoria.", "isCorrect": false },
+      { "text": "Desactivar todas las transacciones.", "isCorrect": false },
+      { "text": "Indicar que la consulta es SQL nativo en lugar de JPQL.", "isCorrect": true },
+      { "text": "Obligar a que el método sea de solo lectura.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 108,
+    "question": "¿Qué ventaja tiene usar interfaces de repositorio frente a EntityManager manualmente?",
+    "options": [
+      { "text": "El rendimiento siempre es mayor.", "isCorrect": false },
+      { "text": "Reduce código repetitivo y ofrece automáticamente CRUD, paginación y ordenación.", "isCorrect": true },
+      { "text": "Permite usar Spring sin anotaciones.", "isCorrect": false },
+      { "text": "Elimina la necesidad de configurar la conexión.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 109,
+    "question": "¿Qué interfaz proporciona métodos básicos como findAll, save y deleteById?",
+    "options": [
+      { "text": "JpaTemplate", "isCorrect": false },
+      { "text": "CrudManager", "isCorrect": false },
+      { "text": "CrudRepository", "isCorrect": true },
+      { "text": "JdbcRepository", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 110,
+    "question": "¿Qué anotación indica que un método debe ejecutarse dentro de una transacción?",
+    "options": [
+      { "text": "@Repository", "isCorrect": false },
+      { "text": "@Service", "isCorrect": false },
+      { "text": "@Transactional", "isCorrect": true },
+      { "text": "@PersistenceContext", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 111,
+    "question": "¿Cómo se configuran por defecto las transacciones en los repositorios de Spring Data?",
+    "options": [
+      { "text": "Todos los métodos se ejecutan sin transacción.", "isCorrect": false },
+      { "text": "Lectura usa transacciones read-only y escritura transacciones normales.", "isCorrect": true },
+      { "text": "Solo los métodos con @Query son transaccionales.", "isCorrect": false },
+      { "text": "Las transacciones dependen del nombre del método.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 112,
+    "question": "Al definir un método personalizado (ej. findByEstado), ¿qué ocurre con la transacción?",
+    "options": [
+      { "text": "Hereda automáticamente una transacción de escritura.", "isCorrect": false },
+      { "text": "Nunca se puede ejecutar dentro de una transacción.", "isCorrect": false },
+      { "text": "No lleva configuración por defecto; hay que anotarlo o usar un servicio transaccional.", "isCorrect": true },
+      { "text": "Obliga a usar SQL nativo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 113,
+    "question": "¿Cuál es el mejor lugar para colocar los límites de transacción (@Transactional)?",
+    "options": [
+      { "text": "En cada método del repositorio individualmente.", "isCorrect": false },
+      { "text": "En la capa de servicios, agrupando varias operaciones en una unidad de trabajo.", "isCorrect": true },
+      { "text": "Solo en los controladores REST.", "isCorrect": false },
+      { "text": "Únicamente en la clase de aplicación principal.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 114,
+    "question": "¿Qué beneficio aporta marcar una transacción como readOnly = true?",
+    "options": [
+      { "text": "Impide completamente hacer SELECT.", "isCorrect": false },
+      { "text": "Obliga a usar siempre SQL nativo.", "isCorrect": false },
+      { "text": "Permite optimizaciones internas por ser una operación solo de lectura.", "isCorrect": true },
+      { "text": "Evita que se cierren las conexiones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 115,
+    "question": "¿Qué hace el método findByClienteId(Long idCliente) en un repositorio de Pedido?",
+    "options": [
+      { "text": "Devuelve un único cliente por su ID.", "isCorrect": false },
+      { "text": "Elimina todos los pedidos del cliente.", "isCorrect": false },
+      { "text": "Devuelve la lista de pedidos cuyo cliente.id coincide con el parámetro.", "isCorrect": true },
+      { "text": "Actualiza el estado de los pedidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 116,
+    "question": "¿Qué anotación se coloca en la interfaz para que Spring la detecte como componente de datos?",
+    "options": [
+      { "text": "@Component", "isCorrect": false },
+      { "text": "@Entity", "isCorrect": false },
+      { "text": "@Repository", "isCorrect": true },
+      { "text": "@EntityScan", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 117,
+    "question": "Para paginar resultados, ¿qué tipo de parámetro se añade al método del repositorio?",
+    "options": [
+      { "text": "Un int con el número de página.", "isCorrect": false },
+      { "text": "Un Map con filtros.", "isCorrect": false },
+      { "text": "Un objeto Pageable para indicar página, tamaño y ordenación.", "isCorrect": true },
+      { "text": "Una lista de IDs.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 118,
+    "question": "¿Qué tipo de valor devuelven los métodos con resultados paginados?",
+    "options": [
+      { "text": "List<T> obligatoriamente.", "isCorrect": false },
+      { "text": "Stream<T>.", "isCorrect": false },
+      { "text": "Page<T> o Slice<T>, con metadatos de paginación.", "isCorrect": true },
+      { "text": "Optional<T>.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 119,
+    "question": "En una consulta con parámetros nombrados (:inicio, :fin), ¿qué anotación enlaza los parámetros del método?",
+    "options": [
+      { "text": "@ParamValue", "isCorrect": false },
+      { "text": "@Param", "isCorrect": true },
+      { "text": "@Bind", "isCorrect": false },
+      { "text": "@PathVariable", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 120,
+    "question": "¿Qué práctica es adecuada al combinar Spring Data JPA con transacciones?",
+    "options": [
+      { "text": "Anotar todos los métodos de repositorio con @Transactional.", "isCorrect": false },
+      { "text": "Evitar siempre las transacciones.", "isCorrect": false },
+      { "text": "Límites transaccionales en servicios y marcar como readOnly las lecturas.", "isCorrect": true },
+      { "text": "Abrir y cerrar transacciones manualmente con EntityTransaction.", "isCorrect": false }
+    ]
+  }
+]

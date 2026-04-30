@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      { "text": "JSON.parse()", "isCorrect": true },
+      { "text": "JSON.stringify()", "isCorrect": false },
+      { "text": "Object.fromJSON()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the result type of fetch()?",
+    "options": [
+      { "text": "Promise", "isCorrect": true },
+      { "text": "Array", "isCorrect": false },
+      { "text": "String", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which keyword declares a block-scoped variable?",
+    "options": [
+      { "text": "let", "isCorrect": true },
+      { "text": "var", "isCorrect": false },
+      { "text": "constantly", "isCorrect": false }
+    ]
+  }
+]

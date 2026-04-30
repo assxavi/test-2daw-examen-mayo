@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "What is localStorage mainly used for in web apps?",
+    "options": [
+      { "text": "Persisting small key-value data", "isCorrect": true },
+      { "text": "Running server-side queries", "isCorrect": false },
+      { "text": "Styling DOM elements", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which method removes a key from localStorage?",
+    "options": [
+      { "text": "removeItem()", "isCorrect": true },
+      { "text": "deleteKey()", "isCorrect": false },
+      { "text": "drop()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What should you do before storing objects in localStorage?",
+    "options": [
+      { "text": "Convert them to JSON strings", "isCorrect": true },
+      { "text": "Encrypt them with CSS", "isCorrect": false },
+      { "text": "Store them directly as objects", "isCorrect": false }
+    ]
+  }
+]

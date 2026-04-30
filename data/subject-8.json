@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which algorithm produces an unbiased in-place shuffle?",
+    "options": [
+      { "text": "Fisher-Yates", "isCorrect": true },
+      { "text": "Bubble sort", "isCorrect": false },
+      { "text": "Binary search", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "In Fisher-Yates, where should the random index be selected from?",
+    "options": [
+      { "text": "From 0 to current index", "isCorrect": true },
+      { "text": "From 0 to full length always", "isCorrect": false },
+      { "text": "From current index to full length", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Why is array.sort(() => Math.random() - 0.5) not ideal for shuffling?",
+    "options": [
+      { "text": "It can create biased results", "isCorrect": true },
+      { "text": "It always crashes the app", "isCorrect": false },
+      { "text": "It only works on strings", "isCorrect": false }
+    ]
+  }
+]

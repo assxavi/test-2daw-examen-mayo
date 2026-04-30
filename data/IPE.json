@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué plataforma de aprendizaje fue fundada por Harvard y MIT?",
+    "options": [
+      { "text": "edX.", "isCorrect": true },
+      { "text": "Coursera.", "isCorrect": false },
+      { "text": "Udemy.", "isCorrect": false },
+      { "text": "Google Activate.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "¿Qué tipo de currículum se enfoca en las habilidades y destrezas en lugar de la experiencia laboral?",
+    "options": [
+      { "text": "Currículum funcional.", "isCorrect": true },
+      { "text": "Currículum cronológico.", "isCorrect": false },
+      { "text": "Currículum mixto.", "isCorrect": false },
+      { "text": "Currículum Europass.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "¿Qué es fundamental para mantenerse actualizado en el mercado laboral?",
+    "options": [
+      { "text": "Formación continua.", "isCorrect": true },
+      { "text": "Experiencia laboral.", "isCorrect": false },
+      { "text": "Referencias.", "isCorrect": false },
+      { "text": "Voluntariado.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "¿Qué herramienta simula entrevistas técnicas y de comportamiento con feedback en tiempo real?",
+    "options": [
+      { "text": "InterviewPrep.", "isCorrect": false },
+      { "text": "Big Interview.", "isCorrect": true },
+      { "text": "Yoodli.", "isCorrect": false },
+      { "text": "Jobscan.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "¿Qué tipo de currículum combina elementos del cronológico y el funcional?",
+    "options": [
+      { "text": "Currículum mixto.", "isCorrect": true },
+      { "text": "Currículum funcional.", "isCorrect": false },
+      { "text": "Currículum cronológico.", "isCorrect": false },
+      { "text": "Currículum Europas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "¿Qué habilidad es altamente valorada en un entorno empresarial digitalizado?",
+    "options": [
+      { "text": "Habilidades en TIC.", "isCorrect": true },
+      { "text": "Habilidades artísticas.", "isCorrect": false },
+      { "text": "Habilidades culinarias.", "isCorrect": false },
+      { "text": "Habilidades deportivas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "¿Qué herramienta usa IA para sugerir vacantes relevantes?",
+    "options": [
+      { "text": "Indeed.", "isCorrect": false },
+      { "text": "LinkedIn.", "isCorrect": false },
+      { "text": "Talentprise.", "isCorrect": true },
+      { "text": "Simplify.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Qué herramienta organiza tu búsqueda de empleo y envía recordatorios para seguimientos?",
+    "options": [
+      { "text": "Huntr.", "isCorrect": true },
+      { "text": "Crystal.", "isCorrect": false },
+      { "text": "Jobscan.", "isCorrect": false },
+      { "text": "LazyApply.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "¿Qué herramienta analiza perfiles de LinkedIn y sugiere cómo comunicarte con reclutadores?",
+    "options": [
+      { "text": "Crystal.", "isCorrect": true },
+      { "text": "Huntr.", "isCorrect": false },
+      { "text": "Jobscan.", "isCorrect": false },
+      { "text": "LazyApply.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "¿Qué porcentaje de empleos se consiguen a través de contactos según LinkedIn?",
+    "options": [
+      { "text": "85 %.", "isCorrect": true },
+      { "text": "50 %.", "isCorrect": false },
+      { "text": "70 %.", "isCorrect": false },
+      { "text": "90 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "¿Qué es Europass?",
+    "options": [
+      { "text": "Un currículum europeo común.", "isCorrect": true },
+      { "text": "Una red social.", "isCorrect": false },
+      { "text": "Un portal de empleo nacional.", "isCorrect": false },
+      { "text": "Un test psicotécnico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "¿Qué plataforma es la red profesional por excelencia?",
+    "options": [
+      { "text": "LinkedIn.", "isCorrect": true },
+      { "text": "Instagram.", "isCorrect": false },
+      { "text": "TikTok.", "isCorrect": false },
+      { "text": "Facebook.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "¿Qué derecho garantiza la LOPDGDD en España?",
+    "options": [
+      { "text": "Protección de datos personales.", "isCorrect": true },
+      { "text": "Derecho a la vivienda.", "isCorrect": false },
+      { "text": "Derecho a la educación gratuita.", "isCorrect": false },
+      { "text": "Derecho a la nacionalidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "¿Qué es la marca personal?",
+    "options": [
+      { "text": "Un proceso estratégico para construir y gestionar una identidad profesional única.", "isCorrect": true },
+      { "text": "Una red social para buscar empleo.", "isCorrect": false },
+      { "text": "Un tipo de entrevista de trabajo.", "isCorrect": false },
+      { "text": "Una prueba psicotécnica.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "¿Cuál es el primer paso para construir una marca personal?",
+    "options": [
+      { "text": "Realizar un autoanálisis de fortalezas, debilidades, intereses y valores.", "isCorrect": true },
+      { "text": "Hacer un currículum.", "isCorrect": false },
+      { "text": "Buscar empleo en Internet.", "isCorrect": false },
+      { "text": "Presentarse a entrevistas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "¿Qué miden las pruebas psicométricas?",
+    "options": [
+      { "text": "Personalidad, inteligencia emocional y adaptación.", "isCorrect": true },
+      { "text": "Solo conocimientos técnicos.", "isCorrect": false },
+      { "text": "Experiencia laboral.", "isCorrect": false },
+      { "text": "Nivel de estudios.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "¿Qué evalúan las entrevistas por competencias?",
+    "options": [
+      { "text": "Habilidades específicas a través de experiencias pasadas.", "isCorrect": true },
+      { "text": "Solo conocimientos técnicos.", "isCorrect": false },
+      { "text": "Nivel de idiomas.", "isCorrect": false },
+      { "text": "Estado civil.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "¿Qué es el análisis de currículum vitae?",
+    "options": [
+      { "text": "Revisión de la experiencia, formación y habilidades del candidato.", "isCorrect": true },
+      { "text": "Prueba de idiomas.", "isCorrect": false },
+      { "text": "Dinámica de grupo.", "isCorrect": false },
+      { "text": "Test psicotécnico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "¿Qué es el derecho al olvido?",
+    "options": [
+      { "text": "Solicitar la supresión de datos personales en Internet.", "isCorrect": true },
+      { "text": "No asistir a entrevistas.", "isCorrect": false },
+      { "text": "Cambiar de empleo.", "isCorrect": false },
+      { "text": "Borrar el historial de navegación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué es el método STAR?",
+    "options": [
+      { "text": "Situación, tarea, acción, resultado.", "isCorrect": true },
+      { "text": "Selección, trabajo, adaptación, revisión.", "isCorrect": false },
+      { "text": "Solución, tarea, acción, reunión.", "isCorrect": false },
+      { "text": "Situación, trabajo, acción, resultado.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿Qué actitud favorece la inclusión y el respeto en equipos diversos?",
+    "options": [
+      { "text": "Reconocer y celebrar la diversidad.", "isCorrect": true },
+      { "text": "Ignorar las diferencias.", "isCorrect": false },
+      { "text": "Segregar por grupos.", "isCorrect": false },
+      { "text": "Evitar el contacto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "¿Qué actitud promueve un ambiente laboral positivo?",
+    "options": [
+      { "text": "Fomentar la comunicación abierta y constructiva.", "isCorrect": true },
+      { "text": "Criticar constantemente.", "isCorrect": false },
+      { "text": "Evitar el diálogo.", "isCorrect": false },
+      { "text": "Imponer decisiones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "¿Qué habilidad implica analizar problemas desde diferentes perspectivas?",
+    "options": [
+      { "text": "Pensamiento crítico.", "isCorrect": true },
+      { "text": "Impulsividad.", "isCorrect": false },
+      { "text": "Conformismo.", "isCorrect": false },
+      { "text": "Superficialidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "¿Qué técnica asertiva consiste en expresar cómo te sientes en primera persona?",
+    "options": [
+      { "text": "Autorrevelación.", "isCorrect": true },
+      { "text": "Sarcasmo.", "isCorrect": false },
+      { "text": "Acusación.", "isCorrect": false },
+      { "text": "Silencio.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Qué estrategia ayuda a mejorar la empatía en el trabajo?",
+    "options": [
+      { "text": "Practicar la escucha activa.", "isCorrect": true },
+      { "text": "Interrumpir constantemente.", "isCorrect": false },
+      { "text": "Ignorar a los compañeros.", "isCorrect": false },
+      { "text": "Imponer opiniones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "¿Qué elemento refuerza la credibilidad del mensaje en una presentación oral?",
+    "options": [
+      { "text": "Congruencia entre comunicación verbal y no verbal.", "isCorrect": true },
+      { "text": "Contradecirse constantemente.", "isCorrect": false },
+      { "text": "Evitar el contacto visual.", "isCorrect": false },
+      { "text": "Hablar sin gesticular.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Qué competencia personal es clave para la empleabilidad actual?",
+    "options": [
+      { "text": "Adaptabilidad y flexibilidad.", "isCorrect": true },
+      { "text": "Memorización de datos.", "isCorrect": false },
+      { "text": "Dominio de idiomas extranjeros.", "isCorrect": false },
+      { "text": "Conocimiento técnico específico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "¿Qué técnica asertiva consiste en aceptar parte de la crítica sin discutir?",
+    "options": [
+      { "text": "Banco de niebla.", "isCorrect": true },
+      { "text": "Ignorar.", "isCorrect": false },
+      { "text": "Gritar.", "isCorrect": false },
+      { "text": "Sarcasmo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "¿Qué habilidad social facilita la comprensión y el apoyo hacia los compañeros?",
+    "options": [
+      { "text": "Empatía.", "isCorrect": true },
+      { "text": "Autoridad.", "isCorrect": false },
+      { "text": "Competitividad.", "isCorrect": false },
+      { "text": "Individualismo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Qué competencia implica gestionar el tiempo y las tareas de forma eficiente?",
+    "options": [
+      { "text": "Autogestión y organización.", "isCorrect": true },
+      { "text": "Creatividad artística.", "isCorrect": false },
+      { "text": "Carisma.", "isCorrect": false },
+      { "text": "Impulsividad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué característica define a un grupo de trabajo (no equipo)?",
+    "options": [
+      { "text": "Los miembros pueden trabajar de forma independiente.", "isCorrect": true },
+      { "text": "Tienen un objetivo común.", "isCorrect": false },
+      { "text": "La toma de decisiones es conjunta.", "isCorrect": false },
+      { "text": "Los roles están claramente definidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Qué elemento es fundamental para que exista confianza en un equipo?",
+    "options": [
+      { "text": "Cumplimiento consistente de compromisos.", "isCorrect": true },
+      { "text": "Competencia desleal.", "isCorrect": false },
+      { "text": "Ocultar información.", "isCorrect": false },
+      { "text": "Falta de apoyo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué técnica de gestión del tiempo propone capturar todas las tareas en un sistema externo?",
+    "options": [
+      { "text": "GTD (getting things done).", "isCorrect": true },
+      { "text": "Método pomodoro.", "isCorrect": false },
+      { "text": "Matriz de Eisenhower.", "isCorrect": false },
+      { "text": "Flowtime.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "¿Qué estrategia de negociación recomienda centrarse en los intereses y no en las posiciones?",
+    "options": [
+      { "text": "Negociación basada en intereses.", "isCorrect": true },
+      { "text": "Negociación distributiva.", "isCorrect": false },
+      { "text": "Negociación competitiva.", "isCorrect": false },
+      { "text": "Negociación por imposición.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "¿Qué herramienta permite crear, editar y compartir documentos en tiempo real?",
+    "options": [
+      { "text": "Google Docs.", "isCorrect": true },
+      { "text": "Dropbox.", "isCorrect": false },
+      { "text": "Microsoft Teams.", "isCorrect": false },
+      { "text": "Flock.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Qué rol de Belbin aporta ideas creativas e innovadoras?",
+    "options": [
+      { "text": "Cerebro (plant).", "isCorrect": true },
+      { "text": "Implementador.", "isCorrect": false },
+      { "text": "Cohesionador.", "isCorrect": false },
+      { "text": "Finalizador.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es la función principal del cohesionador?",
+    "options": [
+      { "text": "Fomentar la cooperación y resolver conflictos.", "isCorrect": true },
+      { "text": "Analizar objetivamente las opciones.", "isCorrect": false },
+      { "text": "Convertir ideas en acciones.", "isCorrect": false },
+      { "text": "Desarrollar contactos externos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "¿Qué herramienta colaborativa organiza proyectos en tableros visuales?",
+    "options": [
+      { "text": "Trello.", "isCorrect": true },
+      { "text": "Google Drive.", "isCorrect": false },
+      { "text": "Padlet.", "isCorrect": false },
+      { "text": "Figma.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "¿Qué rol de Belbin clarifica objetivos y delega eficazmente?",
+    "options": [
+      { "text": "Coordinador.", "isCorrect": true },
+      { "text": "Implementador.", "isCorrect": false },
+      { "text": "Especialista.", "isCorrect": false },
+      { "text": "Monitor evaluador.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Qué C del modelo de Tom Peters implica dedicación a los objetivos del equipo?",
+    "options": [
+      { "text": "Compromiso.", "isCorrect": true },
+      { "text": "Coordinación.", "isCorrect": false },
+      { "text": "Confianza.", "isCorrect": false },
+      { "text": "Complementariedad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "¿Qué tipo de innovación se centra en el uso de nuevas tecnologías?",
+    "options": [
+      { "text": "Innovación tecnológica.", "isCorrect": true },
+      { "text": "Innovación social.", "isCorrect": false },
+      { "text": "Innovación de marketing.", "isCorrect": false },
+      { "text": "Innovación narrativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "¿Qué es la innovación incremental?",
+    "options": [
+      { "text": "Mejoras graduales y continuas sobre productos, servicios o procesos ya existentes.", "isCorrect": true },
+      { "text": "Cambios radicales y disruptivos.", "isCorrect": false },
+      { "text": "Solo afecta a la estructura organizacional.", "isCorrect": false },
+      { "text": "Se basa en la copia de ideas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué es la innovación de marketing?",
+    "options": [
+      { "text": "Aplicar nuevas estrategias de comercialización, diseño, distribución o promoción.", "isCorrect": true },
+      { "text": "Solo mejorar la producción.", "isCorrect": false },
+      { "text": "Cambiar únicamente la estructura interna.", "isCorrect": false },
+      { "text": "Limitarse a la publicidad tradicional.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué metodología visual ayuda a comprender un problema?",
+    "options": [
+      { "text": "Mapas mentales.", "isCorrect": true },
+      { "text": "Elevator pitch.", "isCorrect": false },
+      { "text": "Prototipado.", "isCorrect": false },
+      { "text": "Kanban.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Qué factor NO es esencial en la creatividad?",
+    "options": [
+      { "text": "Conformismo.", "isCorrect": true },
+      { "text": "Originalidad.", "isCorrect": false },
+      { "text": "Curiosidad.", "isCorrect": false },
+      { "text": "Sentido del humor.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál NO es una característica de la creatividad?",
+    "options": [
+      { "text": "Repetición sistemática de procesos.", "isCorrect": true },
+      { "text": "Originalidad.", "isCorrect": false },
+      { "text": "Curiosidad.", "isCorrect": false },
+      { "text": "Flexibilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Objetivo principal de metodologías ágiles como Scrum y Kanban:",
+    "options": [
+      { "text": "Mejorar la eficiencia y adaptabilidad en la gestión de proyectos.", "isCorrect": true },
+      { "text": "Eliminar la creatividad.", "isCorrect": false },
+      { "text": "Limitar la colaboración.", "isCorrect": false },
+      { "text": "Fomentar la rigidez.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "¿Qué es la innovación de producto?",
+    "options": [
+      { "text": "Introducir bienes o servicios nuevos o mejorados significativamente.", "isCorrect": true },
+      { "text": "Mejorar procesos internos.", "isCorrect": false },
+      { "text": "Cambiar la estructura organizativa.", "isCorrect": false },
+      { "text": "Modificar marketing.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Qué tipo de creatividad se basa en imitar y adaptar ideas?",
+    "options": [
+      { "text": "Mimética.", "isCorrect": true },
+      { "text": "Analógica.", "isCorrect": false },
+      { "text": "Bisociativa.", "isCorrect": false },
+      { "text": "Narrativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Qué es la lluvia de ideas contradictorias?",
+    "options": [
+      { "text": "Generar ideas considerando hacer lo opuesto a lo habitual.", "isCorrect": true },
+      { "text": "Repetir ideas conocidas.", "isCorrect": false },
+      { "text": "Limitar creatividad.", "isCorrect": false },
+      { "text": "Aceptar solo ideas positivas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Por qué es importante la autoconfianza en el emprendimiento?",
+    "options": [
+      { "text": "Ayuda a superar el miedo al fracaso y tomar decisiones valientes.", "isCorrect": true },
+      { "text": "Hace arrogante al emprendedor.", "isCorrect": false },
+      { "text": "Evita la colaboración.", "isCorrect": false },
+      { "text": "Reduce la formación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Qué herramienta ayuda a autoevaluar competencias digitales?",
+    "options": [
+      { "text": "Herramienta de autodiagnóstico digital.", "isCorrect": true },
+      { "text": "Manual de papel.", "isCorrect": false },
+      { "text": "Consultas informales.", "isCorrect": false },
+      { "text": "Evitar autoevaluación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "¿Qué área implica buscar, evaluar y gestionar datos?",
+    "options": [
+      { "text": "Alfabetización informacional.", "isCorrect": true },
+      { "text": "Creación de contenido digital.", "isCorrect": false },
+      { "text": "Seguridad.", "isCorrect": false },
+      { "text": "Resolución de problemas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "¿Qué define al liderazgo en un equipo emprendedor?",
+    "options": [
+      { "text": "Influir, motivar e inspirar a otros para alcanzar metas.", "isCorrect": true },
+      { "text": "Imponer decisiones.", "isCorrect": false },
+      { "text": "Delegar sin supervisión.", "isCorrect": false },
+      { "text": "Evitar decisiones bajo presión.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Ventaja del trabajo colaborativo en innovación:",
+    "options": [
+      { "text": "Mayor creatividad gracias a la diversidad de enfoques.", "isCorrect": true },
+      { "text": "Menor compromiso.", "isCorrect": false },
+      { "text": "Menos comunicación.", "isCorrect": false },
+      { "text": "Menor adaptabilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "¿Qué habilidad permite recuperarse de fracasos?",
+    "options": [
+      { "text": "Resiliencia.", "isCorrect": true },
+      { "text": "Rigidez.", "isCorrect": false },
+      { "text": "Desconfianza.", "isCorrect": false },
+      { "text": "Evitar innovación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "¿Qué competencia permite analizar información y generar soluciones creativas?",
+    "options": [
+      { "text": "Pensamiento crítico e innovación.", "isCorrect": true },
+      { "text": "Autoconfianza.", "isCorrect": false },
+      { "text": "Delegar.", "isCorrect": false },
+      { "text": "Persistencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Qué describe la innovación colaborativa?",
+    "options": [
+      { "text": "Soluciones disruptivas mediante equipos diversos.", "isCorrect": true },
+      { "text": "Trabajo aislado.", "isCorrect": false },
+      { "text": "No compartir ideas.", "isCorrect": false },
+      { "text": "Mantener métodos fijos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué competencia es clave para presentar proyectos y negociar?",
+    "options": [
+      { "text": "Habilidades de comunicación.", "isCorrect": true },
+      { "text": "Evitar contacto social.", "isCorrect": false },
+      { "text": "Mantener secretos.", "isCorrect": false },
+      { "text": "Trabajar solo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "¿Qué es la Agenda 2030?",
+    "options": [
+      { "text": "Un marco integral con diecisiete objetivos de desarrollo sostenible.", "isCorrect": true },
+      { "text": "Programa para grandes empresas.", "isCorrect": false },
+      { "text": "Iniciativa para países en desarrollo.", "isCorrect": false },
+      { "text": "Normas fiscales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Qué técnica de creatividad aplica sustituir, combinar, adaptar o modificar?",
+    "options": [
+      { "text": "SCAMPER.", "isCorrect": true },
+      { "text": "Brainwriting.", "isCorrect": false },
+      { "text": "Seis sombreros.", "isCorrect": false },
+      { "text": "DAFO.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Modelo de negocio basado en cuota periódica:",
+    "options": [
+      { "text": "Suscripción.", "isCorrect": true },
+      { "text": "Venta directa.", "isCorrect": false },
+      { "text": "Afiliados.", "isCorrect": false },
+      { "text": "Franquicia.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Técnica de creatividad que aporta ideas sin juzgar:",
+    "options": [
+      { "text": "Brainstorming.", "isCorrect": true },
+      { "text": "SCAMPER.", "isCorrect": false },
+      { "text": "Mapas mentales.", "isCorrect": false },
+      { "text": "Análisis morfológico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Modelo de negocio de productos hechos a mano:",
+    "options": [
+      { "text": "Artesano.", "isCorrect": true },
+      { "text": "Producción en masa.", "isCorrect": false },
+      { "text": "Franquicia.", "isCorrect": false },
+      { "text": "Marketplace.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Técnica visual que organiza ideas desde un tema central:",
+    "options": [
+      { "text": "Mapas mentales.", "isCorrect": true },
+      { "text": "Brainstorming.", "isCorrect": false },
+      { "text": "SCAMPER.", "isCorrect": false },
+      { "text": "Análisis morfológico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Herramienta para comprender al cliente ideal:",
+    "options": [
+      { "text": "Mapa de empatía.", "isCorrect": true },
+      { "text": "Canvas.", "isCorrect": false },
+      { "text": "DAFO.", "isCorrect": false },
+      { "text": "PESTEL.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Modelo que conecta compradores y vendedores y cobra comisión:",
+    "options": [
+      { "text": "Marketplace.", "isCorrect": true },
+      { "text": "Freemium.", "isCorrect": false },
+      { "text": "Producción en masa.", "isCorrect": false },
+      { "text": "Suscripción.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Objetivo de la fase “definir” en design thinking:",
+    "options": [
+      { "text": "Sintetizar la información y formular el reto.", "isCorrect": true },
+      { "text": "Generar ideas.", "isCorrect": false },
+      { "text": "Probar prototipos.", "isCorrect": false },
+      { "text": "Analizar impacto económico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Primer paso para generar una idea emprendedora:",
+    "options": [
+      { "text": "Identificación de un problema o necesidad.", "isCorrect": true },
+      { "text": "Modelo de negocio.", "isCorrect": false },
+      { "text": "Validación.", "isCorrect": false },
+      { "text": "Análisis de impacto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "Ventaja de integrar los ODS en modelos de negocio:",
+    "options": [
+      { "text": "Generar impacto social y ambiental positivo.", "isCorrect": true },
+      { "text": "Disminuir innovación.", "isCorrect": false },
+      { "text": "Limitar crecimiento.", "isCorrect": false },
+      { "text": "Reducir competencia.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "¿Qué herramienta analiza factores internos y externos?",
+    "options": [
+      { "text": "DAFO.", "isCorrect": true },
+      { "text": "PESTEL.", "isCorrect": false },
+      { "text": "Canvas.", "isCorrect": false },
+      { "text": "Benchmarking.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "Primer paso de un estudio de mercado:",
+    "options": [
+      { "text": "Recopilar información secundaria.", "isCorrect": true },
+      { "text": "Lanzar producto.", "isCorrect": false },
+      { "text": "Contratar vendedores.", "isCorrect": false },
+      { "text": "Crear logotipo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "Objetivo principal de la imagen corporativa:",
+    "options": [
+      { "text": "Generar una percepción positiva en el público.", "isCorrect": true },
+      { "text": "Mejorar productividad.", "isCorrect": false },
+      { "text": "Reducir costes.", "isCorrect": false },
+      { "text": "Aumentar rotación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "¿Qué es una oportunidad en el DAFO?",
+    "options": [
+      { "text": "Una tendencia del mercado que puede beneficiar a la empresa.", "isCorrect": true },
+      { "text": "Un problema interno.", "isCorrect": false },
+      { "text": "Un error de gestión.", "isCorrect": false },
+      { "text": "Un fallo de producción.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "¿Qué se busca con un estudio de mercado?",
+    "options": [
+      { "text": "Conocer necesidades y preferencias de los clientes.", "isCorrect": true },
+      { "text": "Mejorar cultura interna.", "isCorrect": false },
+      { "text": "Implementar tecnologías.", "isCorrect": false },
+      { "text": "Reducir costes.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Qué es la misión de una empresa?",
+    "options": [
+      { "text": "La razón de ser y propósito fundamental.", "isCorrect": true },
+      { "text": "Objetivo de ventas.", "isCorrect": false },
+      { "text": "Eslogan.", "isCorrect": false },
+      { "text": "Nombre comercial.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "¿Qué es la cultura empresarial?",
+    "options": [
+      { "text": "El conjunto de valores, normas y comportamientos compartidos dentro de una empresa.", "isCorrect": true },
+      { "text": "El logotipo y colores de la empresa.", "isCorrect": false },
+      { "text": "El producto o servicio que ofrece la empresa.", "isCorrect": false },
+      { "text": "El posicionamiento en redes sociales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "¿Qué analiza el modelo PESTEL?",
+    "options": [
+      { "text": "Factores políticos, económicos, socioculturales, tecnológicos, ecológicos y legales.", "isCorrect": true },
+      { "text": "Productos, estrategias, tácticas, experiencia, liderazgo y logística.", "isCorrect": false },
+      { "text": "Procesos, equipos, servicios, tecnología, estrategias y logística.", "isCorrect": false },
+      { "text": "Personas, espacios, sistemas, tiempos, estrategias y liderazgo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "¿Qué elemento es propio de la cultura empresarial?",
+    "options": [
+      { "text": "Normas y valores compartidos.", "isCorrect": true },
+      { "text": "Estrategia de marketing digital.", "isCorrect": false },
+      { "text": "Diseño del producto.", "isCorrect": false },
+      { "text": "Publicidad en televisión.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Qué es el benchmarking?",
+    "options": [
+      { "text": "Comparar procesos y resultados con los de la competencia.", "isCorrect": true },
+      { "text": "Crear un nuevo producto.", "isCorrect": false },
+      { "text": "Contratar nuevos empleados.", "isCorrect": false },
+      { "text": "Realizar una auditoría interna.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "¿Qué implica un modelo de negocio sostenible?",
+    "options": [
+      { "text": "Equilibrar rentabilidad, impacto ambiental y bienestar social.", "isCorrect": true },
+      { "text": "Maximizar únicamente las ganancias económicas.", "isCorrect": false },
+      { "text": "Fomentar la competencia interna.", "isCorrect": false },
+      { "text": "Ignorar las normativas ambientales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "¿Qué caracteriza a una empresa de base tecnológica?",
+    "options": [
+      { "text": "Uso central de la tecnología para crear valor.", "isCorrect": true },
+      { "text": "Rechazo de la innovación.", "isCorrect": false },
+      { "text": "Estructura tradicional sin cambios.", "isCorrect": false },
+      { "text": "Evitar la digitalización.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "¿Qué función cumple la inteligencia artificial en el modelo de negocio?",
+    "options": [
+      { "text": "Automatizar tareas y mejorar la toma de decisiones.", "isCorrect": true },
+      { "text": "Sustituir por completo al personal.", "isCorrect": false },
+      { "text": "Aumentar el consumo energético sin control.", "isCorrect": false },
+      { "text": "Eliminar la personalización de servicios.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "¿Qué paso es necesario para constituir una sociedad limitada?",
+    "options": [
+      { "text": "Escritura pública ante notario.", "isCorrect": true },
+      { "text": "Registro de patentes.", "isCorrect": false },
+      { "text": "Licencia de actividad.", "isCorrect": false },
+      { "text": "Alta en el IAE.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "¿Qué grupo de interés no está en la matriz del bien común?",
+    "options": [
+      { "text": "Entorno social.", "isCorrect": false },
+      { "text": "Competidores directos.", "isCorrect": true },
+      { "text": "Proveedores.", "isCorrect": false },
+      { "text": "Personas empleadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "¿Qué documento se presenta en el Registro Mercantil para una nueva sociedad?",
+    "options": [
+      { "text": "Escritura de constitución.", "isCorrect": true },
+      { "text": "Licencia de apertura.", "isCorrect": false },
+      { "text": "Certificado digital.", "isCorrect": false },
+      { "text": "Libro de visitas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "¿Qué permite el sistema CIRCE?",
+    "options": [
+      { "text": "Realizar trámites de constitución de empresas por Internet.", "isCorrect": true },
+      { "text": "Gestionar únicamente la contabilidad.", "isCorrect": false },
+      { "text": "Contratar empleados extranjeros.", "isCorrect": false },
+      { "text": "Registrar marcas internacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "¿Qué organismo regula los contratos de trabajo en España?",
+    "options": [
+      { "text": "Ministerio de Trabajo.", "isCorrect": true },
+      { "text": "Ministerio de Economía.", "isCorrect": false },
+      { "text": "Ministerio de Industria.", "isCorrect": false },
+      { "text": "Banco de España.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "¿Qué trámite es necesario si una empresa contrata trabajadores?",
+    "options": [
+      { "text": "Alta de los trabajadores en la Seguridad Social.", "isCorrect": true },
+      { "text": "Inscripción en el Registro de Patentes.", "isCorrect": false },
+      { "text": "Obtención de certificado digital.", "isCorrect": false },
+      { "text": "Registro de la marca.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "¿Qué forma jurídica corresponde a una persona física que emprende?",
+    "options": [
+      { "text": "Empresario individual.", "isCorrect": true },
+      { "text": "Sociedad anónima.", "isCorrect": false },
+      { "text": "Sociedad limitada.", "isCorrect": false },
+      { "text": "Cooperativa.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "¿Qué es el IAE (impuesto de actividades económicas)?",
+    "options": [
+      { "text": "Un impuesto municipal que grava el ejercicio de actividades económicas.", "isCorrect": true },
+      { "text": "Un impuesto sobre la renta de las personas físicas.", "isCorrect": false },
+      { "text": "Un impuesto sobre las ventas internacionales.", "isCorrect": false },
+      { "text": "Un impuesto sobre beneficios.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "¿Cuál es el tipo general del IVA en España?",
+    "options": [
+      { "text": "21 %.", "isCorrect": true },
+      { "text": "10 %.", "isCorrect": false },
+      { "text": "4 %.", "isCorrect": false },
+      { "text": "25 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "¿Qué debe registrar un autónomo, aunque no lleve contabilidad?",
+    "options": [
+      { "text": "Facturas emitidas y recibidas.", "isCorrect": true },
+      { "text": "Nóminas de empleados.", "isCorrect": false },
+      { "text": "Inventarios mensuales.", "isCorrect": false },
+      { "text": "Balance anual.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "¿Qué es una amortización?",
+    "options": [
+      { "text": "El reparto del coste de un bien a lo largo de su vida útil.", "isCorrect": true },
+      { "text": "El pago de una deuda.", "isCorrect": false },
+      { "text": "El ingreso por ventas.", "isCorrect": false },
+      { "text": "La devolución de un préstamo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "¿Qué mide el ROI (return on investment)?",
+    "options": [
+      { "text": "La rentabilidad de una inversión respecto a su coste.", "isCorrect": true },
+      { "text": "El valor total de los activos.", "isCorrect": false },
+      { "text": "El nivel de endeudamiento.", "isCorrect": false },
+      { "text": "El crecimiento de las ventas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "¿Qué impuesto grava la renta de las personas físicas en España?",
+    "options": [
+      { "text": "IRPF.", "isCorrect": true },
+      { "text": "IVA.", "isCorrect": false },
+      { "text": "IS.", "isCorrect": false },
+      { "text": "IAE.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "¿Qué ayuda permite a los nuevos autónomos pagar una cuota reducida a la seguridad social?",
+    "options": [
+      { "text": "Tarifa plana.", "isCorrect": true },
+      { "text": "Kit digital.", "isCorrect": false },
+      { "text": "Fondo Next Generation.", "isCorrect": false },
+      { "text": "Préstamo ICO.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "¿Qué es el balance de situación?",
+    "options": [
+      { "text": "El documento que muestra el patrimonio, activos y pasivos de la empresa en un momento dado.", "isCorrect": true },
+      { "text": "El resumen de ventas anuales.", "isCorrect": false },
+      { "text": "El listado de clientes y proveedores.", "isCorrect": false },
+      { "text": "El plan de marketing.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "¿Qué se incluye en el activo corriente?",
+    "options": [
+      { "text": "Bienes y derechos que pueden convertirse en dinero en menos de doce meses.", "isCorrect": true },
+      { "text": "Maquinaria y edificios.", "isCorrect": false },
+      { "text": "Capital social.", "isCorrect": false },
+      { "text": "Reservas legales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "¿Qué indica un fondo de maniobra positivo?",
+    "options": [
+      { "text": "Que la empresa tiene suficiente liquidez para afrontar sus deudas a corto plazo.", "isCorrect": true },
+      { "text": "Que la empresa está en quiebra.", "isCorrect": false },
+      { "text": "Que el pasivo corriente es mayor que el activo corriente.", "isCorrect": false },
+      { "text": "Que la empresa no tiene deudas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 101,
+    "question": "¿Cuál es el primer paso para encontrar empleo?",
+    "options": [
+      { "text": "Definir tus objetivos.", "isCorrect": true },
+      { "text": "Crear un currículum.", "isCorrect": false },
+      { "text": "Hacer networking.", "isCorrect": false },
+      { "text": "Buscar ofertas de empleo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 102,
+    "question": "¿Qué es fundamental para mantenerse actualizado en el mercado laboral?",
+    "options": [
+      { "text": "Formación continua.", "isCorrect": true },
+      { "text": "Experiencia laboral.", "isCorrect": false },
+      { "text": "Referencias.", "isCorrect": false },
+      { "text": "Voluntariado.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 103,
+    "question": "¿Qué porcentaje de empleos se consiguen a través de contactos según LinkedIn?",
+    "options": [
+      { "text": "85 %.", "isCorrect": true },
+      { "text": "50 %.", "isCorrect": false },
+      { "text": "70 %.", "isCorrect": false },
+      { "text": "90 %.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 104,
+    "question": "¿Qué tipo de currículum se enfoca en las habilidades y destrezas en lugar de la experiencia laboral?",
+    "options": [
+      { "text": "Currículum funcional.", "isCorrect": true },
+      { "text": "Currículum cronológico.", "isCorrect": false },
+      { "text": "Currículum mixto.", "isCorrect": false },
+      { "text": "Currículum Europass.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 105,
+    "question": "¿Qué herramienta analiza tu CV con IA y lo optimiza para pasar los sistemas ATS?",
+    "options": [
+      { "text": "Rezi.", "isCorrect": true },
+      { "text": "Enhancv.", "isCorrect": false },
+      { "text": "Simplify.", "isCorrect": false },
+      { "text": "Yoodli.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 106,
+    "question": "¿Qué es la marca personal?",
+    "options": [
+      { "text": "Un proceso estratégico para construir y gestionar una identidad profesional única.", "isCorrect": true },
+      { "text": "Una red social para buscar empleo.", "isCorrect": false },
+      { "text": "Un tipo de entrevista de trabajo.", "isCorrect": false },
+      { "text": "Una prueba psicotécnica.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 107,
+    "question": "¿Cuál es el primer paso para construir una marca personal?",
+    "options": [
+      { "text": "Realizar un autoanálisis de fortalezas, debilidades, intereses y valores.", "isCorrect": true },
+      { "text": "Hacer un currículum.", "isCorrect": false },
+      { "text": "Buscar empleo en internet.", "isCorrect": false },
+      { "text": "Presentarse a entrevistas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 108,
+    "question": "¿Qué metodología se recomienda para definir los objetivos profesionales?",
+    "options": [
+      { "text": "SMART.", "isCorrect": true },
+      { "text": "SWOT.", "isCorrect": false },
+      { "text": "DAFO.", "isCorrect": false },
+      { "text": "STAR.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 109,
+    "question": "¿Qué evalúan las entrevistas por competencias?",
+    "options": [
+      { "text": "Habilidades específicas a través de experiencias pasadas.", "isCorrect": true },
+      { "text": "Solo conocimientos técnicos.", "isCorrect": false },
+      { "text": "Nivel de idiomas.", "isCorrect": false },
+      { "text": "Estado civil.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 110,
+    "question": "¿Qué permite la inteligencia artificial en la selección del personal?",
+    "options": [
+      { "text": "Automatizar la criba curricular y predecir el rendimiento.", "isCorrect": true },
+      { "text": "Realizar entrevistas presenciales.", "isCorrect": false },
+      { "text": "Escribir cartas de presentación.", "isCorrect": false },
+      { "text": "Organizar reuniones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 111,
+    "question": "¿Cuál de las siguientes es una competencia personal clave para la empleabilidad actual?",
+    "options": [
+      { "text": "Adaptabilidad y flexibilidad.", "isCorrect": true },
+      { "text": "Memorización de datos.", "isCorrect": false },
+      { "text": "Dominio de idiomas extranjeros.", "isCorrect": false },
+      { "text": "Conocimiento técnico específico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 112,
+    "question": "¿Qué habilidad social facilita la comprensión y el apoyo hacia los compañeros?",
+    "options": [
+      { "text": "Empatía.", "isCorrect": true },
+      { "text": "Autoridad.", "isCorrect": false },
+      { "text": "Competitividad.", "isCorrect": false },
+      { "text": "Individualismo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 113,
+    "question": "¿Qué técnica de comunicación asertiva consiste en aceptar parte de la crítica sin discutir?",
+    "options": [
+      { "text": "Banco de niebla.", "isCorrect": true },
+      { "text": "Ignorar.", "isCorrect": false },
+      { "text": "Gritar.", "isCorrect": false },
+      { "text": "Sarcasmo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 114,
+    "question": "¿Qué competencia implica gestionar el tiempo y las tareas de forma eficiente?",
+    "options": [
+      { "text": "Autogestión y organización.", "isCorrect": true },
+      { "text": "Creatividad artística.", "isCorrect": false },
+      { "text": "Carisma.", "isCorrect": false },
+      { "text": "Impulsividad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 115,
+    "question": "¿Qué actitud favorece el trabajo en equipo?",
+    "options": [
+      { "text": "Colaboración.", "isCorrect": true },
+      { "text": "Individualismo.", "isCorrect": false },
+      { "text": "Competencia desleal.", "isCorrect": false },
+      { "text": "Aislamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 116,
+    "question": "¿Qué es un equipo de trabajo según Robbins?",
+    "options": [
+      { "text": "Un grupo que genera sinergia positiva a través del esfuerzo coordinado.", "isCorrect": true },
+      { "text": "Un conjunto de personas que trabajan de manera independiente.", "isCorrect": false },
+      { "text": "Un grupo con roles poco definidos.", "isCorrect": false },
+      { "text": "Un grupo que no tiene objetivos comunes.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 117,
+    "question": "¿Cuál de las siguientes no es una característica de un equipo de trabajo?",
+    "options": [
+      { "text": "Roles poco definidos.", "isCorrect": true },
+      { "text": "Objetivo común.", "isCorrect": false },
+      { "text": "Autonomía en la toma de decisiones.", "isCorrect": false },
+      { "text": "Sinergia positiva.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 118,
+    "question": "¿Cuál es la primera de las cinco C del trabajo en equipo según Tom Peters?",
+    "options": [
+      { "text": "Comunicación.", "isCorrect": false },
+      { "text": "Coordinación.", "isCorrect": false },
+      { "text": "Complementariedad.", "isCorrect": true },
+      { "text": "Confianza.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 119,
+    "question": "¿Qué herramienta permite crear, editar y compartir documentos en tiempo real con múltiples usuarios?",
+    "options": [
+      { "text": "Google Docs.", "isCorrect": true },
+      { "text": "Figma.", "isCorrect": false },
+      { "text": "Trello.", "isCorrect": false },
+      { "text": "Padlet.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 120,
+    "question": "¿Qué rol grupal según Belbin es creativo e imaginativo y aporta ideas originales?",
+    "options": [
+      { "text": "Cerebro.", "isCorrect": true },
+      { "text": "Implementador.", "isCorrect": false },
+      { "text": "Cohesionador.", "isCorrect": false },
+      { "text": "Finalizador.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 121,
+    "question": "¿Cuál es el objetivo principal de la gestión del tiempo en equipos?",
+    "options": [
+      { "text": "Priorizar tareas de alto valor y cumplir plazos.", "isCorrect": true },
+      { "text": "Aumentar la carga de trabajo.", "isCorrect": false },
+      { "text": "Reducir la comunicación.", "isCorrect": false },
+      { "text": "Delegar todas las tareas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 122,
+    "question": "¿En qué consiste el método pomodoro?",
+    "options": [
+      { "text": "Trabajar en intervalos de tiempo enfocados seguidos de breves descansos.", "isCorrect": true },
+      { "text": "Realizar tareas sin pausas.", "isCorrect": false },
+      { "text": "Delegar todo el trabajo.", "isCorrect": false },
+      { "text": "Trabajar solo en equipo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 123,
+    "question": "¿Qué herramienta organiza proyectos y tareas en tableros visuales con listas y tarjetas?",
+    "options": [
+      { "text": "Trello.", "isCorrect": true },
+      { "text": "Slack.", "isCorrect": false },
+      { "text": "Dropbox.", "isCorrect": false },
+      { "text": "Asana.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 124,
+    "question": "¿Qué técnica ayuda a clasificar las tareas según su urgencia e importancia?",
+    "options": [
+      { "text": "Matriz de Eisenhower.", "isCorrect": true },
+      { "text": "Método flowtime.", "isCorrect": false },
+      { "text": "Método pomodoro.", "isCorrect": false },
+      { "text": "Banco de niebla.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 125,
+    "question": "¿Qué actitud es fundamental para mantener la confianza en un equipo?",
+    "options": [
+      { "text": "Cumplimiento consistente de compromisos.", "isCorrect": true },
+      { "text": "Ocultar información.", "isCorrect": false },
+      { "text": "Evitar asumir riesgos.", "isCorrect": false },
+      { "text": "Trabajar de forma aislada.", "isCorrect": false }
+    ]
+  }
+]

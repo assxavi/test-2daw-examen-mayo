@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which command initializes a new Git repository?",
+    "options": [
+      { "text": "git init", "isCorrect": true },
+      { "text": "git clone", "isCorrect": false },
+      { "text": "git start", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which branch name is commonly used as the default main branch?",
+    "options": [
+      { "text": "main", "isCorrect": true },
+      { "text": "release", "isCorrect": false },
+      { "text": "develop-only", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is GitHub Pages typically used for?",
+    "options": [
+      { "text": "Hosting static websites", "isCorrect": true },
+      { "text": "Running backend daemons", "isCorrect": false },
+      { "text": "Compiling native binaries", "isCorrect": false }
+    ]
+  }
+]

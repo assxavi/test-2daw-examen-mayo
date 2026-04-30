@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "What is the role of aria-live in accessible interfaces?",
+    "options": [
+      { "text": "It announces dynamic content updates", "isCorrect": true },
+      { "text": "It increases animation speed", "isCorrect": false },
+      { "text": "It stores keyboard shortcuts", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Why should color not be the only way to show correctness?",
+    "options": [
+      { "text": "Some users cannot distinguish all colors", "isCorrect": true },
+      { "text": "Color is unsupported in browsers", "isCorrect": false },
+      { "text": "It makes CSS invalid", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which element is semantically appropriate for primary actions?",
+    "options": [
+      { "text": "button", "isCorrect": true },
+      { "text": "div", "isCorrect": false },
+      { "text": "span", "isCorrect": false }
+    ]
+  }
+]

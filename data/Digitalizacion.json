@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "¿En qué año comenzó la Guerra Civil española?",
+    "options": [
+      { "text": "1936", "isCorrect": true },
+      { "text": "1929", "isCorrect": false },
+      { "text": "1942", "isCorrect": false },
+      { "text": "1918", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "¿Qué constitución instauró la Segunda República en España?",
+    "options": [
+      { "text": "La Constitución de 1931", "isCorrect": true },
+      { "text": "La Constitución de 1978", "isCorrect": false },
+      { "text": "La Constitución de Cádiz de 1812", "isCorrect": false },
+      { "text": "El Estatuto Real de 1834", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "¿Qué rey impulsó la unificación dinástica junto con Isabel de Castilla?",
+    "options": [
+      { "text": "Fernando de Aragón", "isCorrect": true },
+      { "text": "Carlos III", "isCorrect": false },
+      { "text": "Felipe II", "isCorrect": false },
+      { "text": "Alfonso XIII", "isCorrect": false }
+    ]
+  }
+]

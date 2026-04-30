@@ -1,0 +1,1397 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es el principal objetivo del desarrollo de interfaces de usuario?",
+    "options": [
+      { "text": "Mejorar el rendimiento del hardware.", "isCorrect": false },
+      { "text": "Facilitar la interacción entre el usuario y la tecnología.", "isCorrect": true },
+      { "text": "Reducir el tamaño del código fuente.", "isCorrect": false },
+      { "text": "Aumentar la velocidad de la CPU.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "¿Qué propiedad se usa para establecer si un componente puede recibir interacciones?",
+    "options": [
+      { "text": "Visible.", "isCorrect": false },
+      { "text": "Enabled.", "isCorrect": true },
+      { "text": "Size.", "isCorrect": false },
+      { "text": "Alignment.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "¿Qué tipo de interfaz introdujo por primera vez el uso del ratón y las ventanas?",
+    "options": [
+      { "text": "TUI.", "isCorrect": false },
+      { "text": "GUI.", "isCorrect": true },
+      { "text": "NUI.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "¿Qué método de JavaScript se usa para crear un nuevo elemento en el DOM?",
+    "options": [
+      { "text": "createElement.", "isCorrect": true },
+      { "text": "removeChild.", "isCorrect": false },
+      { "text": "querySelector.", "isCorrect": false },
+      { "text": "setText.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "¿Qué propiedad en CSS permite cambiar el espacio interno de un elemento?",
+    "options": [
+      { "text": "margin.", "isCorrect": false },
+      { "text": "padding.", "isCorrect": true },
+      { "text": "border.", "isCorrect": false },
+      { "text": "width.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "¿Qué característica principal define a un componente reutilizable?",
+    "options": [
+      { "text": "No requiere pruebas.", "isCorrect": false },
+      { "text": "Encapsula funcionalidad específica y puede ser usado en diferentes contextos.", "isCorrect": true },
+      { "text": "Solo funciona en una única aplicación.", "isCorrect": false },
+      { "text": "No permite configuración.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "¿Qué patrón de diseño permite crear múltiples instancias con diferentes configuraciones?",
+    "options": [
+      { "text": "Singleton.", "isCorrect": false },
+      { "text": "Fábrica.", "isCorrect": true },
+      { "text": "Decorador.", "isCorrect": false },
+      { "text": "Observador.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Qué método elimina un nodo hijo del DOM?",
+    "options": [
+      { "text": "appendChild.", "isCorrect": false },
+      { "text": "replaceChild.", "isCorrect": false },
+      { "text": "removeChild.", "isCorrect": true },
+      { "text": "insertAdjacentHTML.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "¿Qué atributo HTML5 obliga a que un campo no esté vacío?",
+    "options": [
+      { "text": "required.", "isCorrect": true },
+      { "text": "pattern.", "isCorrect": false },
+      { "text": "maxlength.", "isCorrect": false },
+      { "text": "type.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "¿Qué propiedad se utiliza para establecer la alineación de un componente?",
+    "options": [
+      { "text": "Position.", "isCorrect": false },
+      { "text": "Visible.", "isCorrect": false },
+      { "text": "Width.", "isCorrect": false },
+      { "text": "Alignment.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es la función del método onClick() en componentes visuales?",
+    "options": [
+      { "text": "Ejecutar una acción cuando el componente es clicado.", "isCorrect": true },
+      { "text": "Cambiar el tamaño del componente.", "isCorrect": false },
+      { "text": "Mostrar texto en el componente.", "isCorrect": false },
+      { "text": "Validar el formulario.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "¿Qué es una media query en CSS?",
+    "options": [
+      { "text": "Una función de JavaScript.", "isCorrect": false },
+      { "text": "Una regla condicional para adaptar estilos al tamaño del dispositivo.", "isCorrect": true },
+      { "text": "Una forma de importar hojas de estilo.", "isCorrect": false },
+      { "text": "Una validación del formulario.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "¿Qué clase de menú aparece al hacer clic derecho sobre un elemento?",
+    "options": [
+      { "text": "Menú principal.", "isCorrect": false },
+      { "text": "Menú contextual.", "isCorrect": true },
+      { "text": "Menú vertical.", "isCorrect": false },
+      { "text": "Menú emergente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "¿Qué propiedad permite establecer un valor máximo en un campo de texto?",
+    "options": [
+      { "text": "minLength.", "isCorrect": false },
+      { "text": "maxLength.", "isCorrect": true },
+      { "text": "pattern.", "isCorrect": false },
+      { "text": "limit.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "¿Qué componente suele usarse para seleccionar una única opción de varias?",
+    "options": [
+      { "text": "Checkbox.", "isCorrect": false },
+      { "text": "Radio button.", "isCorrect": true },
+      { "text": "Textarea.", "isCorrect": false },
+      { "text": "Label.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "¿Qué herramienta ayuda a generar rápidamente estructuras de proyecto?",
+    "options": [
+      { "text": "Bootstrap.", "isCorrect": false },
+      { "text": "HTML5.", "isCorrect": false },
+      { "text": "GIT.", "isCorrect": false },
+      { "text": "Generadores de código.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "¿Qué método se usa para cambiar el texto de un componente en tiempo de ejecución?",
+    "options": [
+      { "text": "setText().", "isCorrect": true },
+      { "text": "replaceText().", "isCorrect": false },
+      { "text": "assignText().", "isCorrect": false },
+      { "text": "update().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es una ventaja de las validaciones en el cliente?",
+    "options": [
+      { "text": "Mejoran la seguridad.", "isCorrect": false },
+      { "text": "Ofrecen retroalimentación inmediata.", "isCorrect": true },
+      { "text": "No requieren conexión.", "isCorrect": false },
+      { "text": "Solo sirven con CSS.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "¿Cuál es el propósito de un cuadro de diálogo modal?",
+    "options": [
+      { "text": "Mostrar gráficos.", "isCorrect": false },
+      { "text": "Capturar eventos del teclado.", "isCorrect": false },
+      { "text": "Bloquear la interfaz principal hasta que el usuario responda.", "isCorrect": true },
+      { "text": "Reproducir sonidos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué propiedad se usa para definir la fuente de datos de una tabla?",
+    "options": [
+      { "text": "columns.", "isCorrect": false },
+      { "text": "rows.", "isCorrect": false },
+      { "text": "dataSource.", "isCorrect": true },
+      { "text": "records.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿Qué tipo de enlace de datos permite que los cambios en el modelo se reflejen en la vista, pero no al revés?",
+    "options": [
+      { "text": "Enlace bidireccional.", "isCorrect": false },
+      { "text": "Enlace unidireccional.", "isCorrect": true },
+      { "text": "Enlace doble.", "isCorrect": false },
+      { "text": "Enlace reflejado.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "¿Qué atributo se usa en Angular para establecer enlace bidireccional?",
+    "options": [
+      { "text": "ngBind.", "isCorrect": false },
+      { "text": "ngValue.", "isCorrect": false },
+      { "text": "ngLink.", "isCorrect": false },
+      { "text": "[(ngModel)].", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "¿Qué framework usa v-model para el enlace bidireccional en formularios?",
+    "options": [
+      { "text": "Vue.js.", "isCorrect": true },
+      { "text": "Bootstrap.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "¿Cuál es el propósito principal del event bus en frameworks como Vue.js?",
+    "options": [
+      { "text": "Almacenar estados globales.", "isCorrect": false },
+      { "text": "Establecer estilos CSS.", "isCorrect": false },
+      { "text": "Comunicar componentes no relacionados.", "isCorrect": true },
+      { "text": "Renderizar vistas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Qué método se utiliza para emitir eventos en un event bus en Vue.js?",
+    "options": [
+      { "text": "$emit.", "isCorrect": true },
+      { "text": "$on.", "isCorrect": false },
+      { "text": "$trigger.", "isCorrect": false },
+      { "text": "$broadcast.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "¿Qué ventaja aporta el uso del patrón event-bus?",
+    "options": [
+      { "text": "Acopla más los componentes.", "isCorrect": false },
+      { "text": "Evita el uso de props.", "isCorrect": false },
+      { "text": "Permite una comunicación desacoplada.", "isCorrect": true },
+      { "text": "Aumenta la complejidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Qué método se usa para escuchar eventos con event bus en Vue.js?",
+    "options": [
+      { "text": "$on.", "isCorrect": true },
+      { "text": "$listen.", "isCorrect": false },
+      { "text": "$observe.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "¿Qué biblioteca se usa en Angular para implementar un event bus con observables?",
+    "options": [
+      { "text": "Lodash.", "isCorrect": false },
+      { "text": "RxJS.", "isCorrect": true },
+      { "text": "jQuery.", "isCorrect": false },
+      { "text": "D3.js.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "¿Qué permite hacer el área de diseño en un IDE?",
+    "options": [
+      { "text": "Configurar la base de datos.", "isCorrect": false },
+      { "text": "Escribir scripts de backend.", "isCorrect": false },
+      { "text": "Diseñar la interfaz visualmente.", "isCorrect": true },
+      { "text": "Depurar errores de compilación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Qué editor permite modificar las propiedades visuales de los componentes en un IDE?",
+    "options": [
+      { "text": "Editor de eventos.", "isCorrect": false },
+      { "text": "Editor de código.", "isCorrect": false },
+      { "text": "Editor de sintaxis.", "isCorrect": false },
+      { "text": "Editor de propiedades.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué menú es típico para abrir o guardar proyectos en un IDE?",
+    "options": [
+      { "text": "«Archivo».", "isCorrect": true },
+      { "text": "«Herramientas».", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es la principal ventaja de personalizar la barra de herramientas de un IDE?",
+    "options": [
+      { "text": "Acceso rápido a funciones clave.", "isCorrect": true },
+      { "text": "Reducir el uso de CPU.", "isCorrect": false },
+      { "text": "Mejorar el diseño visual.", "isCorrect": false },
+      { "text": "Eliminar errores de sintaxis.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué herramienta gráfica se usa para representar clases y relaciones?",
+    "options": [
+      { "text": "Javadoc.", "isCorrect": false },
+      { "text": "StarUML.", "isCorrect": true },
+      { "text": "GitHub.", "isCorrect": false },
+      { "text": "Jenkins.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "¿Cuál es una característica de los diseñadores de base de datos en un IDE?",
+    "options": [
+      { "text": "Compilan el proyecto.", "isCorrect": false },
+      { "text": "Ejecutan código Python.", "isCorrect": false },
+      { "text": "Modifican esquemas visualmente.", "isCorrect": true },
+      { "text": "Crean estilos CSS.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "¿Qué herramienta permite diseñar informes visuales basados en datos?",
+    "options": [
+      { "text": "JasperReports.", "isCorrect": true },
+      { "text": "Postman.", "isCorrect": false },
+      { "text": "Node.js.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Qué ventaja tiene usar herramientas gráficas integradas en un IDE?",
+    "options": [
+      { "text": "Aumentan el tiempo de desarrollo.", "isCorrect": false },
+      { "text": "Reducen errores manuales.", "isCorrect": true },
+      { "text": "Limita el trabajo colaborativo.", "isCorrect": false },
+      { "text": "Dificultan la depuración.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál de las siguientes no es una característica de la usabilidad?",
+    "options": [
+      { "text": "Eficacia.", "isCorrect": false },
+      { "text": "Eficiencia.", "isCorrect": false },
+      { "text": "Satisfacción.", "isCorrect": false },
+      { "text": "Popularidad.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "¿Qué establece la ley de Fitts?",
+    "options": [
+      { "text": "Mientras más opciones, más difícil decidir.", "isCorrect": false },
+      { "text": "Cuanto más lejos o pequeño un objetivo, más difícil su acceso.", "isCorrect": true },
+      { "text": "El usuario debe recibir retroalimentación.", "isCorrect": false },
+      { "text": "El diseño debe ser minimalista.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "¿Cuál de estas normas ISO se enfoca en la ergonomía en interfaces?",
+    "options": [
+      { "text": "ISO 9241.", "isCorrect": true },
+      { "text": "ISO 40500.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Qué principio de usabilidad se refiere a informar al usuario del estado del sistema?",
+    "options": [
+      { "text": "Consistencia.", "isCorrect": false },
+      { "text": "Accesibilidad.", "isCorrect": false },
+      { "text": "Eficiencia.", "isCorrect": false },
+      { "text": "Visibilidad del sistema.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "¿Qué es la accesibilidad digital?",
+    "options": [
+      { "text": "Uso de pantallas táctiles.", "isCorrect": false },
+      { "text": "Facilidad para programar.", "isCorrect": false },
+      { "text": "Diseñar para todos, incluidas personas con discapacidades.", "isCorrect": true },
+      { "text": "Diseñar solo para móviles.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "¿Cuál es uno de los principios de las WCAG?",
+    "options": [
+      { "text": "Conectividad.", "isCorrect": false },
+      { "text": "Modularidad.", "isCorrect": false },
+      { "text": "Perceptibilidad.", "isCorrect": true },
+      { "text": "Fiabilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué nivel de conformidad WCAG se considera mínimo obligatorio?",
+    "options": [
+      { "text": "Nivel A.", "isCorrect": true },
+      { "text": "Nivel Z.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué ISO corresponde a las WCAG formalizadas?",
+    "options": [
+      { "text": "La ISO 25010.", "isCorrect": false },
+      { "text": "La ISO 40500.", "isCorrect": true },
+      { "text": "La ISO 9001.", "isCorrect": false },
+      { "text": "La ISO 9241.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Qué disciplina estudia la interacción entre personas y computadoras?",
+    "options": [
+      { "text": "UX research.", "isCorrect": false },
+      { "text": "Human computer interaction (HCI).", "isCorrect": true },
+      { "text": "DevOps.", "isCorrect": false },
+      { "text": "Accesibilidad web.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es el propósito de la propiedad color en un componente visual?",
+    "options": [
+      { "text": "Cambiar el tamaño del componente.", "isCorrect": false },
+      { "text": "Definir el texto del componente.", "isCorrect": false },
+      { "text": "Establecer el color del fondo o del texto del componente.", "isCorrect": true },
+      { "text": "Hacer que el componente sea interactivo.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Cuál de las siguientes propiedades se usa para establecer la posición de un componente en la interfaz?",
+    "options": [
+      { "text": "Position.", "isCorrect": true },
+      { "text": "Location.", "isCorrect": false },
+      { "text": "Align.", "isCorrect": false },
+      { "text": "Coords.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál de los siguientes métodos se activa cuando el usuario deja de enfocar un componente?",
+    "options": [
+      { "text": "onFocus.", "isCorrect": false },
+      { "text": "onChange.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Qué método se usa para cambiar el texto que muestra un componente, como una etiqueta, en JavaScript?",
+    "options": [
+      { "text": "innerHTML.", "isCorrect": false },
+      { "text": "updateText.", "isCorrect": false },
+      { "text": "changeContent.", "isCorrect": false },
+      { "text": "innerText.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Qué método se utiliza para ocultar un componente visual en la interfaz?",
+    "options": [
+      { "text": "hide().", "isCorrect": true },
+      { "text": "show().", "isCorrect": false },
+      { "text": "enable().", "isCorrect": false },
+      { "text": "focus().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Qué propiedad se usa para deshabilitar un componente visual, evitando que el usuario interactúe con él?",
+    "options": [
+      { "text": "Color.", "isCorrect": false },
+      { "text": "Text.", "isCorrect": false },
+      { "text": "Enabled.", "isCorrect": true },
+      { "text": "Visible.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Qué método se utiliza comúnmente para ejecutar una acción cuando se hace clic en un botón?",
+    "options": [
+      { "text": "onMouseOver.", "isCorrect": false },
+      { "text": "onClick.", "isCorrect": true },
+      { "text": "onChange.", "isCorrect": false },
+      { "text": "onFocus.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "¿Qué método se utiliza para hacer que un componente pierda el foco?",
+    "options": [
+      { "text": "focus().", "isCorrect": false },
+      { "text": "blur().", "isCorrect": true },
+      { "text": "unfocus().", "isCorrect": false },
+      { "text": "disable().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "¿Cuál de los siguientes métodos es responsable de mostrar un componente oculto?",
+    "options": [
+      { "text": "hide().", "isCorrect": false },
+      { "text": "show().", "isCorrect": true },
+      { "text": "display().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "¿Cuál es la mejor práctica al manipular dinámicamente el DOM para evitar problemas de rendimiento?",
+    "options": [
+      { "text": "Modificar el DOM directamente en cada cambio.", "isCorrect": false },
+      { "text": "Evitar el uso de fragmentos de documentos.", "isCorrect": false },
+      { "text": "Minimizar las manipulaciones del DOM.", "isCorrect": true },
+      { "text": "No usar clases CSS.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "¿Cuál es el método correcto para crear un nuevo elemento en el DOM?",
+    "options": [
+      { "text": "createElement.", "isCorrect": true },
+      { "text": "appendChild.", "isCorrect": false },
+      { "text": "removeChild.", "isCorrect": false },
+      { "text": "insertBefore.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "¿Cuál de las siguientes opciones no es un selector de CSS?",
+    "options": [
+      { "text": "#id.", "isCorrect": false },
+      { "text": ".class", "isCorrect": false },
+      { "text": "element", "isCorrect": false },
+      { "text": "method.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Qué propiedad de CSS se utiliza para definir el espacio interno entre el contenido de un elemento y su borde?",
+    "options": [
+      { "text": "margin.", "isCorrect": false },
+      { "text": "padding.", "isCorrect": true },
+      { "text": "border.", "isCorrect": false },
+      { "text": "spacing.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué método se usa para eliminar un nodo específico del DOM?",
+    "options": [
+      { "text": "createElement.", "isCorrect": false },
+      { "text": "removeChild.", "isCorrect": true },
+      { "text": "appendChild.", "isCorrect": false },
+      { "text": "replaceChild.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "¿Cuál es la principal función del método insertBefore?",
+    "options": [
+      { "text": "Crear un nuevo nodo.", "isCorrect": false },
+      { "text": "Añadir un nodo al final del DOM.", "isCorrect": false },
+      { "text": "Insertar un nodo antes de un nodo existente.", "isCorrect": true },
+      { "text": "Eliminar un nodo del DOM.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Qué atributo HTML5 obliga a que un campo no esté vacío?",
+    "options": [
+      { "text": "required.", "isCorrect": true },
+      { "text": "pattern.", "isCorrect": false },
+      { "text": "maxlength.", "isCorrect": false },
+      { "text": "minlength.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "¿Cuál es una desventaja potencial de integrar múltiples componentes de terceros en un proyecto?",
+    "options": [
+      { "text": "Mejora del rendimiento.", "isCorrect": false },
+      { "text": "Mayor compatibilidad entre navegadores.", "isCorrect": false },
+      { "text": "Complejidad en la gestión de dependencias.", "isCorrect": true },
+      { "text": "Reducción de la seguridad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "¿Cuál es una de las funciones principales de las pruebas de integración en la fase de integración de componentes?",
+    "options": [
+      { "text": "Asegurar que los componentes se compilen correctamente.", "isCorrect": false },
+      { "text": "Verificar la interacción correcta entre componentes.", "isCorrect": true },
+      { "text": "Probar la interfaz gráfica de usuario.", "isCorrect": false },
+      { "text": "Validar la documentación del código.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "¿Qué método de JavaScript se utiliza para establecer un estilo CSS en un elemento HTML?",
+    "options": [
+      { "text": "setAttribute.", "isCorrect": true },
+      { "text": "getAttribute.", "isCorrect": false },
+      { "text": "addEventListener.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "¿Cuál es el propósito principal de un patrón de diseño en el desarrollo de software?",
+    "options": [
+      { "text": "Incrementar la dificultad de entender el código.", "isCorrect": false },
+      { "text": "Proporcionar soluciones reutilizables para problemas comunes.", "isCorrect": true },
+      { "text": "Evitar la modularización y componentización.", "isCorrect": false },
+      { "text": "Crear código que no sea mantenible.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "¿Cuál es una propiedad clave de un componente Button en una interfaz de usuario?",
+    "options": [
+      { "text": "textColor.", "isCorrect": false },
+      { "text": "maxLength.", "isCorrect": false },
+      { "text": "onClick.", "isCorrect": true },
+      { "text": "dataSource.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "¿Qué es la serialización en el contexto de los componentes de software?",
+    "options": [
+      { "text": "Convertir un objeto en un formato que pueda ser almacenado o transmitido.", "isCorrect": true },
+      { "text": "Un proceso para eliminar componentes antiguos.", "isCorrect": false },
+      { "text": "Un método para hacer el código más difícil de leer.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "¿Cuál es una de las principales ventajas del desarrollo basado en componentes?",
+    "options": [
+      { "text": "Aumenta la complejidad del código.", "isCorrect": false },
+      { "text": "Facilita la reutilización del código.", "isCorrect": true },
+      { "text": "Requiere más recursos para su implementación.", "isCorrect": false },
+      { "text": "Hace el código más difícil de mantener.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "¿Qué es la componentización en el desarrollo de software?",
+    "options": [
+      { "text": "El proceso de combinar todos los componentes en un único módulo.", "isCorrect": false },
+      { "text": "El proceso de dividir una aplicación en componentes modulares e independientes.", "isCorrect": true },
+      { "text": "Una técnica para hacer que los componentes sean menos reutilizables.", "isCorrect": false },
+      { "text": "Un método para eliminar la modularidad del software.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "¿Cuál es una ventaja de utilizar librerías y frameworks en el desarrollo de software?",
+    "options": [
+      { "text": "Requiere más tiempo de desarrollo.", "isCorrect": false },
+      { "text": "Reduce la modularidad del código.", "isCorrect": false },
+      { "text": "Evita la reutilización de código.", "isCorrect": false },
+      { "text": "Permite utilizar soluciones probadas y optimizadas.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "¿Cuál de las siguientes es una propiedad común en un componente visual?",
+    "options": [
+      { "text": "textColor en un componente Button.", "isCorrect": true },
+      { "text": "maxLength en un componente de imagen.", "isCorrect": false },
+      { "text": "columnHeaders en un componente de entrada de texto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "¿Qué se busca al refactorizar el código en un proyecto?",
+    "options": [
+      { "text": "Hacer que el código sea menos modular.", "isCorrect": false },
+      { "text": "Incrementar la complejidad del código.", "isCorrect": false },
+      { "text": "Mejorar la legibilidad, modularidad y reutilización del código.", "isCorrect": true },
+      { "text": "Reducir la eficiencia del código.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál de las siguientes opciones describe una buena práctica para la reutilización de código?",
+    "options": [
+      { "text": "Duplicar código en diferentes partes del proyecto.", "isCorrect": false },
+      { "text": "Evitar el uso de patrones de diseño.", "isCorrect": false },
+      { "text": "Documentar y modularizar el código para facilitar su reutilización.", "isCorrect": true },
+      { "text": "Evitar la creación de componentes reutilizables.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "¿Qué permite la propiedad dataSource en un componente de tabla?",
+    "options": [
+      { "text": "Cambiar el color de fondo de la tabla.", "isCorrect": false },
+      { "text": "Configurar la fuente de datos para las filas de la tabla.", "isCorrect": true },
+      { "text": "Ordenar las columnas de la tabla.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "¿Qué característica del event-bus permite que componentes no relacionados puedan comunicarse?",
+    "options": [
+      { "text": "El uso de funciones anónimas.", "isCorrect": false },
+      { "text": "La capacidad de emitir y suscribirse a eventos de manera independiente.", "isCorrect": true },
+      { "text": "La herencia de propiedades globales.", "isCorrect": false },
+      { "text": "La replicación automática de eventos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Cuál es una situación ideal para utilizar un event-bus?",
+    "options": [
+      { "text": "Comunicación entre componentes que comparten un mismo padre.", "isCorrect": false },
+      { "text": "Actualización de un solo componente en una aplicación pequeña.", "isCorrect": false },
+      { "text": "Comunicación entre componentes que no tienen relación directa en la jerarquía.", "isCorrect": true },
+      { "text": "Reemplazo de funciones de ciclo de vida en componentes.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "¿Qué método se utiliza en Vue.js para emitir un evento a través del event-bus?",
+    "options": [
+      { "text": "eventBus.$emit().", "isCorrect": true },
+      { "text": "eventBus.fireEvent().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "¿Qué debe hacerse cuando un componente ya no necesita escuchar eventos en un event-bus?",
+    "options": [
+      { "text": "Eliminar el componente.", "isCorrect": false },
+      { "text": "Hacer que el componente deje de renderizar.", "isCorrect": false },
+      { "text": "Desuscribirse del event-bus.", "isCorrect": true },
+      { "text": "Reiniciar el event-bus.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "¿Cómo se utiliza, comúnmente, un event-bus en Vue.js?",
+    "options": [
+      { "text": "Con un servicio externo.", "isCorrect": false },
+      { "text": "Con un objeto Vue vacío.", "isCorrect": true },
+      { "text": "Con un archivo JSON.", "isCorrect": false },
+      { "text": "Con un módulo HTTP.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Cuál es una buena práctica al usar event-bus en proyectos grandes?",
+    "options": [
+      { "text": "Emitir todos los eventos posibles desde el componente raíz.", "isCorrect": false },
+      { "text": "Documentar claramente los eventos y sus suscriptores.", "isCorrect": true },
+      { "text": "Evitar la creación de eventos personalizados.", "isCorrect": false },
+      { "text": "Integrar el event-bus directamente en cada componente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "¿Qué método se usa comúnmente para escuchar eventos en un event-bus?",
+    "options": [
+      { "text": "eventBus.$on().", "isCorrect": true },
+      { "text": "eventBus.listen().", "isCorrect": false },
+      { "text": "eventBus.addEventListener().", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "¿Cuál es una alternativa al event-bus en aplicaciones Angular para gestionar el estado y la comunicación entre componentes?",
+    "options": [
+      { "text": "HTML5 LocalStorage.", "isCorrect": false },
+      { "text": "Directivas personalizadas.", "isCorrect": false },
+      { "text": "Servicios con RxJS.", "isCorrect": true },
+      { "text": "Propiedades dinámicas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "¿Cuál de las siguientes afirmaciones es verdadera respecto al uso de un event-bus en Angular?",
+    "options": [
+      { "text": "Se implementa utilizando módulos globales.", "isCorrect": false },
+      { "text": "Requiere un sistema de plantillas para funcionar.", "isCorrect": false },
+      { "text": "Es implementado, comúnmente, mediante servicios y RxJS.", "isCorrect": true },
+      { "text": "Depende exclusivamente de directivas de Angular.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "¿Qué técnica se utiliza para evitar que los eventos emitidos en un event-bus afecten a otros componentes no relacionados?",
+    "options": [
+      { "text": "Utilizar múltiples event-bus.", "isCorrect": true },
+      { "text": "Filtrar eventos antes de suscribirse.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "¿Qué permite hacer una barra de herramientas en un IDE?",
+    "options": [
+      { "text": "Navegar entre los diferentes archivos de un proyecto.", "isCorrect": false },
+      { "text": "Acceder rápidamente a funciones y comandos comunes.", "isCorrect": true },
+      { "text": "Gestionar la memoria del sistema.", "isCorrect": false },
+      { "text": "Crear diagramas UML.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "¿Qué función tiene el diseñador de bases de datos en un IDE?",
+    "options": [
+      { "text": "Ejecutar scripts automatizados.", "isCorrect": false },
+      { "text": "Crear y modificar esquemas de bases de datos visualmente.", "isCorrect": true },
+      { "text": "Gestionar los permisos de usuario.", "isCorrect": false },
+      { "text": "Generar informes de rendimiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "¿Cuál es una característica común de los generadores de informes en un IDE?",
+    "options": [
+      { "text": "Permiten diseñar layouts visuales para reportes basados en datos.", "isCorrect": true },
+      { "text": "Permiten la edición en tiempo real de los registros del sistema.", "isCorrect": false },
+      { "text": "Compilan el código fuente más rápido.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "¿Qué característica distingue a un entorno de desarrollo como Visual Studio en la configuración de proyectos web?",
+    "options": [
+      { "text": "Ofrece soporte limitado para lenguajes de programación.", "isCorrect": false },
+      { "text": "Carece de herramientas de depuración.", "isCorrect": false },
+      { "text": "Permite integrar y desplegar directamente en la nube.", "isCorrect": true },
+      { "text": "No soporta bases de datos relacionales.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "¿Qué permite el uso de media queries en el desarrollo de interfaces de usuario?",
+    "options": [
+      { "text": "Realizar consultas en bases de datos SQL.", "isCorrect": false },
+      { "text": "Diseñar interfaces adaptativas para diferentes tamaños de pantalla.", "isCorrect": true },
+      { "text": "Compilar código en diferentes lenguajes.", "isCorrect": false },
+      { "text": "Generar documentación automática.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "¿Cuál es una tarea común que se realiza durante la configuración de un proyecto en un IDE?",
+    "options": [
+      { "text": "Configurar el entorno de ejecución.", "isCorrect": true },
+      { "text": "Crear documentos de diseño gráfico.", "isCorrect": false },
+      { "text": "Escribir artículos técnicos.", "isCorrect": false },
+      { "text": "Gestionar las redes sociales del proyecto.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "¿Qué permite una herramienta de diseño gráfico integrada en un IDE?",
+    "options": [
+      { "text": "Diseñar la arquitectura de software visualmente.", "isCorrect": true },
+      { "text": "Compilar código en múltiples lenguajes.", "isCorrect": false },
+      { "text": "Gestionar versiones de código fuente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "¿Cuál de los siguientes menús en un IDE generalmente contiene las opciones para crear, abrir y guardar proyectos?",
+    "options": [
+      { "text": "Menú «Archivo».", "isCorrect": true },
+      { "text": "Menú «Ver».", "isCorrect": false },
+      { "text": "Menú «Herramientas».", "isCorrect": false },
+      { "text": "Menú «Depuración».", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "¿Qué es el área de diseño en un IDE?",
+    "options": [
+      { "text": "Un espacio para escribir código manualmente.", "isCorrect": false },
+      { "text": "Una herramienta para gestionar bases de datos.", "isCorrect": false },
+      { "text": "Un entorno visual para construir interfaces de usuario.", "isCorrect": true },
+      { "text": "Un editor de texto avanzado para depuración.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "¿Qué tipo de proyectos es comúnmente configurado con el uso de Maven en Eclipse?",
+    "options": [
+      { "text": "Proyectos de diseño gráfico.", "isCorrect": false },
+      { "text": "Proyectos de gestión de bases de datos / Java.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "¿Qué se considera un problema de usabilidad?",
+    "options": [
+      { "text": "Interacciones ágiles.", "isCorrect": false },
+      { "text": "Falta de retroalimentación.", "isCorrect": true },
+      { "text": "Interfaz simplificada.", "isCorrect": false },
+      { "text": "Uso de guías de usuario.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "¿Qué garantiza la ISO/IEC 27001 en el desarrollo de software?",
+    "options": [
+      { "text": "La capacidad de accesibilidad.", "isCorrect": false },
+      { "text": "La seguridad de la información.", "isCorrect": true },
+      { "text": "La interoperabilidad de los sistemas.", "isCorrect": false },
+      { "text": "La velocidad de procesamiento.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "¿Qué evalúa la ISO 25010?",
+    "options": [
+      { "text": "La calidad del producto de software.", "isCorrect": true },
+      { "text": "La seguridad de los sistemas.", "isCorrect": false },
+      { "text": "La capacidad de almacenamiento de un sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "¿Qué son las interfaces tangibles en la HCI?",
+    "options": [
+      { "text": "Interacciones visuales en pantallas.", "isCorrect": false },
+      { "text": "Interfaces basadas en comandos de texto.", "isCorrect": false },
+      { "text": "Interfaces que permiten a los usuarios interactuar con sistemas mediante objetos físicos.", "isCorrect": true },
+      { "text": "Dispositivos de entrada estándar como el ratón.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "¿Qué significa el principio de visibilidad del sistema en usabilidad?",
+    "options": [
+      { "text": "Que los elementos estén visibles en todo momento.", "isCorrect": false },
+      { "text": "Que el usuario conozca el estado del sistema mediante retroalimentación.", "isCorrect": true },
+      { "text": "Que el sistema sea visualmente atractivo.", "isCorrect": false },
+      { "text": "Que el sistema pueda operarse sin retroalimentación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "¿Qué es un estándar?",
+    "options": [
+      { "text": "Una herramienta de diseño gráfico.", "isCorrect": false },
+      { "text": "Un acuerdo documentado que establece reglas para productos o procesos.", "isCorrect": true },
+      { "text": "Un tipo de software interactivo.", "isCorrect": false },
+      { "text": "Un programa de pruebas de usabilidad.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 101,
+    "question": "¿Cuál de las siguientes es una característica de la calidad del software según los estándares de usabilidad?",
+    "options": [
+      { "text": "Accesibilidad.", "isCorrect": true },
+      { "text": "Operabilidad.", "isCorrect": false },
+      { "text": "Retroalimentación.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 102,
+    "question": "¿Qué permite la ISO 40500?",
+    "options": [
+      { "text": "Establecer normas de velocidad web.", "isCorrect": false },
+      { "text": "Formalizar las pautas de accesibilidad web (WCAG 2.0).", "isCorrect": true },
+      { "text": "Definir las estructuras de software.", "isCorrect": false },
+      { "text": "Controlar la seguridad de datos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 103,
+    "question": "¿Qué es la WCAG?",
+    "options": [
+      { "text": "Una norma ISO relacionada con la calidad.", "isCorrect": false },
+      { "text": "Un conjunto de pautas para hacer contenido web accesible.", "isCorrect": true },
+      { "text": "Un estándar para diseñar interfaces gráficas.", "isCorrect": false },
+      { "text": "Un marco de trabajo para realizar pruebas automatizadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 104,
+    "question": "¿Qué establece la ISO 9241?",
+    "options": [
+      { "text": "Normas de seguridad en la web.", "isCorrect": false },
+      { "text": "Normas sobre ergonomía en la interacción humano-computadora.", "isCorrect": true },
+      { "text": "Normas sobre privacidad en Internet.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 105,
+    "question": "¿Qué formato de ayuda es más adecuado para ser accesible desde cualquier dispositivo con conexión a Internet?",
+    "options": [
+      { "text": "CHM.", "isCorrect": false },
+      { "text": "PDF.", "isCorrect": false },
+      { "text": "Ayuda basada en web (web help).", "isCorrect": true },
+      { "text": "XML.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 106,
+    "question": "¿Qué debe incluir una buena estructura de ficheros de ayuda?",
+    "options": [
+      { "text": "Solo texto sin imágenes.", "isCorrect": false },
+      { "text": "Información técnica avanzada exclusivamente.", "isCorrect": false },
+      { "text": "Índice, tabla de contenido y sistema de búsqueda.", "isCorrect": true },
+      { "text": "Solo enlaces externos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 107,
+    "question": "¿Cuál es el objetivo principal de la documentación en el desarrollo de software?",
+    "options": [
+      { "text": "Facilitar el uso, mantenimiento y comprensión del sistema.", "isCorrect": true },
+      { "text": "Reducir el tamaño del software.", "isCorrect": false },
+      { "text": "Realizar pruebas automatizadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 108,
+    "question": "¿Qué formato de fichero de ayuda es comúnmente utilizado en sistemas Windows?",
+    "options": [
+      { "text": "CHM (compiled HTML help).", "isCorrect": true },
+      { "text": "DOC.", "isCorrect": false },
+      { "text": "RTF.", "isCorrect": false },
+      { "text": "XML.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 109,
+    "question": "¿Qué tipo de contenido no suele incluirse en un manual de usuario?",
+    "options": [
+      { "text": "Descripción de funcionalidades.", "isCorrect": false },
+      { "text": "Capturas de pantalla.", "isCorrect": false },
+      { "text": "Ejemplos de uso.", "isCorrect": false },
+      { "text": "Código fuente de la aplicación.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 110,
+    "question": "¿Cuál es una ventaja principal de los ficheros de ayuda compilados (CHM)?",
+    "options": [
+      { "text": "Pueden ser usados sin conexión a Internet.", "isCorrect": true },
+      { "text": "Solo funcionan en dispositivos móviles.", "isCorrect": false },
+      { "text": "Son compatibles con cualquier sistema operativo.", "isCorrect": false },
+      { "text": "No requieren ninguna actualización.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 111,
+    "question": "¿Qué característica define a los ficheros de ayuda electrónicos modernos?",
+    "options": [
+      { "text": "Pueden modificar el código del software.", "isCorrect": false },
+      { "text": "No permiten búsquedas.", "isCorrect": false },
+      { "text": "Incluyen hipervínculos, índices y capacidad de búsqueda.", "isCorrect": true },
+      { "text": "Se pueden usar en cualquier sistema operativo sin restricciones.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 112,
+    "question": "¿Qué tipo de contenido suele incluir un manual de instalación?",
+    "options": [
+      { "text": "Instrucciones paso a paso sobre la instalación del software.", "isCorrect": true },
+      { "text": "Información sobre el diseño del software.", "isCorrect": false },
+      { "text": "Comparativas entre software.", "isCorrect": false },
+      { "text": "Descripción de funcionalidades avanzadas.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 113,
+    "question": "¿Qué herramienta se utiliza comúnmente para generar ficheros de ayuda en formato CHM?",
+    "options": [
+      { "text": "MadCap Flare.", "isCorrect": false },
+      { "text": "HelpNDoc.", "isCorrect": false },
+      { "text": "HTML Help Workshop.", "isCorrect": true },
+      { "text": "MkDocs.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 114,
+    "question": "¿Cuál es una ventaja de usar sistemas de control de versiones para los ficheros de ayuda?",
+    "options": [
+      { "text": "Permite realizar un seguimiento de los cambios y retroceder si es necesario.", "isCorrect": true },
+      { "text": "Hace que los archivos sean más pequeños.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 115,
+    "question": "¿Qué gestor de paquetes automatiza la instalación de software en Windows desde la línea de comandos?",
+    "options": [
+      { "text": "dpkg.", "isCorrect": false },
+      { "text": "Chocolatey.", "isCorrect": true },
+      { "text": "YUM.", "isCorrect": false },
+      { "text": "AppImage.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 116,
+    "question": "¿Qué herramienta de Java automatiza la gestión de dependencias y empaquetado de proyectos?",
+    "options": [
+      { "text": "Inno Setup.", "isCorrect": false },
+      { "text": "Maven.", "isCorrect": true },
+      { "text": "InstallShield.", "isCorrect": false },
+      { "text": "NSIS.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 117,
+    "question": "¿Cuál es la función de dpkg en Linux?",
+    "options": [
+      { "text": "Instalar, actualizar y eliminar paquetes .deb.", "isCorrect": true },
+      { "text": "Desarrollar aplicaciones web.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 118,
+    "question": "¿Qué archivo en Linux permite empaquetar aplicaciones con todas sus dependencias para evitar problemas de compatibilidad entre distribuciones?",
+    "options": [
+      { "text": "MSI.", "isCorrect": false },
+      { "text": "RPM.", "isCorrect": false },
+      { "text": "Flatpak.", "isCorrect": true },
+      { "text": "WAR.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 119,
+    "question": "¿Cuál de las siguientes herramientas es utilizada para crear instaladores en Windows con soporte para actualizaciones y parches?",
+    "options": [
+      { "text": "NSIS.", "isCorrect": false },
+      { "text": "Gradle.", "isCorrect": false },
+      { "text": "Chocolatey.", "isCorrect": false },
+      { "text": "InstallShield.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 120,
+    "question": "¿Qué archivo empaqueta aplicaciones web en Java para desplegarlas en servidores de aplicaciones?",
+    "options": [
+      { "text": "WAR.", "isCorrect": true },
+      { "text": "JAR.", "isCorrect": false },
+      { "text": "EXE.", "isCorrect": false },
+      { "text": "MSI.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 121,
+    "question": "¿Qué herramienta permite crear paquetes .deb de forma sencilla a través de una interfaz gráfica?",
+    "options": [
+      { "text": "InstallShield.", "isCorrect": false },
+      { "text": "NSIS.", "isCorrect": false },
+      { "text": "CheckInstall.", "isCorrect": false },
+      { "text": "Debreate.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 122,
+    "question": "¿Cuál es el formato más común para empaquetar software en Linux basado en Debian?",
+    "options": [
+      { "text": ".rpm.", "isCorrect": false },
+      { "text": ".exe.", "isCorrect": false },
+      { "text": ".msi.", "isCorrect": false },
+      { "text": ".deb.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 123,
+    "question": "¿Qué herramienta permite empaquetar software en Linux creando paquetes .deb?",
+    "options": [
+      { "text": "Inno Setup.", "isCorrect": false },
+      { "text": "NSIS.", "isCorrect": false },
+      { "text": "Debreate.", "isCorrect": true },
+      { "text": "InstallShield.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 124,
+    "question": "¿Cuál es la principal ventaja del formato AppImage en Linux?",
+    "options": [
+      { "text": "Requiere instalación previa del software.", "isCorrect": false },
+      { "text": "No necesita instalación y es portable.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 125,
+    "question": "¿Qué caracteriza una prueba no funcional?",
+    "options": [
+      { "text": "Evalúa la interacción entre componentes.", "isCorrect": false },
+      { "text": "Se enfoca en la creación de usuarios.", "isCorrect": false },
+      { "text": "Valida las funciones básicas del sistema.", "isCorrect": false },
+      { "text": "Evalúa el rendimiento, la seguridad y la usabilidad.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 126,
+    "question": "¿Qué método de prueba implica ejecutar casos sin conocer el código fuente?",
+    "options": [
+      { "text": "Caja blanca.", "isCorrect": false },
+      { "text": "Caja negra.", "isCorrect": true },
+      { "text": "Pruebas unitarias.", "isCorrect": false },
+      { "text": "Pruebas de regresión.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 127,
+    "question": "¿Cuál de las siguientes herramientas genera informes detallados con gráficos y tablas de integración continua?",
+    "options": [
+      { "text": "Junit.", "isCorrect": false },
+      { "text": "Jenkins / Allure.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 128,
+    "question": "¿Qué tipo de prueba busca fallos desconocidos explorando diferentes partes del sistema sin guion predefinido?",
+    "options": [
+      { "text": "Pruebas de regresión.", "isCorrect": false },
+      { "text": "Pruebas funcionales.", "isCorrect": false },
+      { "text": "Pruebas exploratorias.", "isCorrect": true },
+      { "text": "Pruebas de integración.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 129,
+    "question": "¿Qué herramientas permite generar informes detallados de pruebas realizadas con JUnit?",
+    "options": [
+      { "text": "Jenkins.", "isCorrect": false },
+      { "text": "TestNG.", "isCorrect": false },
+      { "text": "Maven.", "isCorrect": false },
+      { "text": "Allure.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 130,
+    "question": "¿Qué mide una prueba de rendimiento?",
+    "options": [
+      { "text": "El número de errores en la interfaz.", "isCorrect": false },
+      { "text": "La seguridad del sistema.", "isCorrect": false },
+      { "text": "La rapidez de respuesta del sistema bajo carga.", "isCorrect": true },
+      { "text": "La facilidad de uso del sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 131,
+    "question": "¿Qué evalúa primordialmente una prueba funcional?",
+    "options": [
+      { "text": "Verifica que las funciones del software operen como se espera.", "isCorrect": true },
+      { "text": "Evalúa el rendimiento bajo carga.", "isCorrect": false },
+      { "text": "Mide el tiempo de respuesta del sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 132,
+    "question": "¿Qué indica el porcentaje de pruebas fallidas en un informe?",
+    "options": [
+      { "text": "El número de errores corregidos.", "isCorrect": false },
+      { "text": "La proporción de casos de prueba que no funcionaron como se esperaba.", "isCorrect": true },
+      { "text": "El rendimiento del sistema.", "isCorrect": false },
+      { "text": "La seguridad del software.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 133,
+    "question": "¿Qué herramienta es adecuada para realizar pruebas de integración continua y generar informes automáticos?",
+    "options": [
+      { "text": "Junit.", "isCorrect": false },
+      { "text": "Allure.", "isCorrect": false },
+      { "text": "ExtentReports.", "isCorrect": false },
+      { "text": "Jenkins.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 134,
+    "question": "¿Cuál es el propósito de un resumen en el informe de pruebas?",
+    "options": [
+      { "text": "Probar la estabilidad del sistema.", "isCorrect": false },
+      { "text": "Proporcionar una visión general del estado de las pruebas.", "isCorrect": true },
+      { "text": "Verificar la interacción de módulos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 135,
+    "question": "¿Qué componente clave de la usabilidad mide cuántos errores cometen los usuarios durante la interacción?",
+    "options": [
+      { "text": "Número de errores.", "isCorrect": true },
+      { "text": "Satisfacción del usuario.", "isCorrect": false },
+      { "text": "Tiempo de respuesta.", "isCorrect": false },
+      { "text": "Tasa de abandono.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 136,
+    "question": "¿Cuál es una de las principales funciones de Google Analytics en términos de UX?",
+    "options": [
+      { "text": "Medir la tasa de éxito en pruebas de usuario.", "isCorrect": false },
+      { "text": "Grabar sesiones de usuario.", "isCorrect": false },
+      { "text": "Medir el comportamiento de navegación y la tasa de abandono.", "isCorrect": true },
+      { "text": "Evaluar la consistencia del diseño visual.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 137,
+    "question": "¿Qué técnica se utiliza para evaluar la usabilidad basándose en un conjunto de reglas o principios?",
+    "options": [
+      { "text": "Análisis heurístico.", "isCorrect": true },
+      { "text": "Encuesta de satisfacción.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 138,
+    "question": "¿Qué aspecto cubre la UX en el diseño de productos digitales?",
+    "options": [
+      { "text": "Solo la interfaz gráfica de usuario (UI).", "isCorrect": false },
+      { "text": "Solo la funcionalidad del sistema.", "isCorrect": false },
+      { "text": "Solo la velocidad del sistema.", "isCorrect": false },
+      { "text": "Todas las interacciones y emociones del usuario con el sistema.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 139,
+    "question": "¿Qué función clave ofrece Crazy Egg para analizar el comportamiento de los usuarios en una página web?",
+    "options": [
+      { "text": "Probar versiones de una interfaz.", "isCorrect": false },
+      { "text": "Mostrar mapas de calor que indican dónde hacen clic los usuarios.", "isCorrect": true },
+      { "text": "Realizar encuestas de satisfacción.", "isCorrect": false },
+      { "text": "Grabar el comportamiento del usuario.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 140,
+    "question": "¿Qué es la usabilidad dentro de la UX?",
+    "options": [
+      { "text": "El diseño visual de la interfaz.", "isCorrect": false },
+      { "text": "La facilidad con la que los usuarios pueden usar un sistema y cumplir sus objetivos.", "isCorrect": true },
+      { "text": "La capacidad de un sistema de soportar múltiples plataformas.", "isCorrect": false },
+      { "text": "La velocidad de carga del sistema.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 141,
+    "question": "¿Qué métrica suele usarse para medir la eficiencia de una interfaz?",
+    "options": [
+      { "text": "El tiempo de respuesta del sistema.", "isCorrect": false },
+      { "text": "La tasa de conversión de un sitio web.", "isCorrect": false },
+      { "text": "El número de clics necesarios para completar una tarea.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 142,
+    "question": "¿Qué indica una alta tasa de abandono en una interfaz?",
+    "options": [
+      { "text": "Que los usuarios completan sus tareas rápidamente.", "isCorrect": false },
+      { "text": "Que el sistema es eficiente.", "isCorrect": false },
+      { "text": "Que la interfaz es intuitiva.", "isCorrect": false },
+      { "text": "Que los usuarios abandonan la tarea antes de completarla.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 143,
+    "question": "¿Qué herramienta es útil para realizar pruebas de usabilidad remotas y obtener retroalimentación de usuarios?",
+    "options": [
+      { "text": "Crazy Egg.", "isCorrect": false },
+      { "text": "Google Analytics.", "isCorrect": false },
+      { "text": "UsabilityHub.", "isCorrect": true },
+      { "text": "Hotjar.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 144,
+    "question": "¿Qué tipo de herramienta es Maze?",
+    "options": [
+      { "text": "Un gestor de mapas de calor.", "isCorrect": false },
+      { "text": "Una plataforma de pruebas de usabilidad basada en prototipos interactivos.", "isCorrect": true },
+      { "text": "Un análisis de eventos.", "isCorrect": false }
+    ]
+  }
+]

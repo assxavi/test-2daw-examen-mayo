@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which array method creates a new array with transformed values?",
+    "options": [
+      { "text": "map()", "isCorrect": true },
+      { "text": "forEach()", "isCorrect": false },
+      { "text": "push()", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What does filter() return?",
+    "options": [
+      { "text": "A new array with matching items", "isCorrect": true },
+      { "text": "A boolean for each item", "isCorrect": false },
+      { "text": "The first matching item only", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which method combines array elements into one value?",
+    "options": [
+      { "text": "reduce()", "isCorrect": true },
+      { "text": "slice()", "isCorrect": false },
+      { "text": "concat()", "isCorrect": false }
+    ]
+  }
+]

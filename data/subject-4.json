@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "question": "Which HTTP method is typically used to create data?",
+    "options": [
+      { "text": "POST", "isCorrect": true },
+      { "text": "GET", "isCorrect": false },
+      { "text": "DELETE", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which status code means 'Not Found'?",
+    "options": [
+      { "text": "404", "isCorrect": true },
+      { "text": "200", "isCorrect": false },
+      { "text": "301", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which status code usually indicates a server error?",
+    "options": [
+      { "text": "500", "isCorrect": true },
+      { "text": "204", "isCorrect": false },
+      { "text": "302", "isCorrect": false }
+    ]
+  }
+]
