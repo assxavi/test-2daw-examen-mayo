@@ -1,6 +1,6 @@
 const appRoot = document.querySelector("#app");
 
-const subjectFiles = ["Acceso a Datos.json", "Desarrollo de Interfaces.json", "Digitalizacion.json", "IPE.json","DWES.json","sostenibilidad.json", "python.json","DWEC.json","despliegue.json", "interfaces.json" ];
+const subjectFiles = ["Acceso a Datos.json", "Desarrollo de Interfaces.json", "Digitalizacion.json", "IPE.json","DWES.json","sostenibilidad.json", "python.json","DWEC.json","despliegue.json", "Interfaces.json" ];
 const countOptions = [10, 20, 50, "all", "custom"];
 
 const initialState = {
@@ -170,14 +170,28 @@ async function loadQuestions(fileName) {
     }
 
     const payload = await response.json();
-    if (!Array.isArray(payload)) {
-      return [];
-    }
-
-    return payload.filter(isValidQuestion);
+    return normalizeQuestions(payload).filter(isValidQuestion);
   } catch {
     return [];
   }
+}
+
+function normalizeQuestions(payload) {
+  if (!Array.isArray(payload)) {
+    return [];
+  }
+
+  if (payload.every(isValidQuestion)) {
+    return payload;
+  }
+
+  return payload.flatMap((sectionItem) => {
+    if (!sectionItem || !Array.isArray(sectionItem.questions)) {
+      return [];
+    }
+
+    return sectionItem.questions;
+  });
 }
 
 function isValidQuestion(questionItem) {
