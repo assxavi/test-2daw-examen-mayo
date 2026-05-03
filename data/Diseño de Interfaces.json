@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "question": "Que es una interfaz de usuario (UI)?",
+    "options": [
+      { "text": "Un sistema operativo para dispositivos móviles", "isCorrect": false },
+      { "text": "La parte visual e interactiva de una aplicacion o sitio web.", "isCorrect": true },
+      { "text": "Un lenguaje de programacion especifico", "isCorrect": false },
+      { "text": "Un hardware especializado para diseño gráfico", "isCorrect": false }
+    ]
+  },
+
+  
+  {
+    "id": 2,
+    "question": "¿Cual de los siguientes no es un componente básico de una interfaz web según el documento?",
+    "options": [
+      { "text": "Cabecera (header).", "isCorrect": false },
+      { "text": "Cuerpo (body).", "isCorrect": false },
+      { "text": "Pie de página (footer).", "isCorrect": false },
+      { "text": "Sistema de gestión de bases de datos.", "isCorrect": true }
+    ]
+  },
+
+   {
+    "id": 2,
+    "question": "El equilibrio informal se logra principalmente mediante:",
+    "options": [
+      { "text": "La apilicación de la simetria perfecta en el diseño.", "isCorrect": false },
+      { "text": "La apilicación de la simetria perfecta en el diseño", "isCorrect": false },
+      { "text": "Pie de página (footer).", "isCorrect": false },
+      { "text": "Sistema de gestión de bases de datos.", "isCorrect": true }
+    ]
+  },
+
+   {
+    "id": 2,
+    "question": "¿Cual de los siguientes no es un componente básico de una interfaz web según el documento?",
+    "options": [
+      { "text": "Cabecera (header).", "isCorrect": false },
+      { "text": "Cuerpo (body).", "isCorrect": false },
+      { "text": "Pie de página (footer).", "isCorrect": false },
+      { "text": "Sistema de gestión de bases de datos.", "isCorrect": true }
+    ]
+  },
+
+   {
+    "id": 2,
+    "question": "¿Cual de los siguientes no es un componente básico de una interfaz web según el documento?",
+    "options": [
+      { "text": "Cabecera (header).", "isCorrect": false },
+      { "text": "Cuerpo (body).", "isCorrect": false },
+      { "text": "Pie de página (footer).", "isCorrect": false },
+      { "text": "Sistema de gestión de bases de datos.", "isCorrect": true }
+    ]
+  }
+
+
+]
