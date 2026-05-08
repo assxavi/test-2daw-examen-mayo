@@ -1,3302 +1,792 @@
 [
   {
     "id": 1,
-    "question": "¿Cuál es una característica clave de un sistema distribuido?",
+    "question": "¿Qué ocurre si un componente no tiene selector?",
     "options": [
-      {
-        "text": "Todos los componentes están en una sola máquina.",
-        "isCorrect": false
-      },
-      {
-        "text": "Falta de comunicación entre componentes.",
-        "isCorrect": false
-      },
-      {
-        "text": "Fallo de un componente no afecta al sistema.",
-        "isCorrect": true
-      },
-      {
-        "text": "Comunicación síncrona obligatoria.",
-        "isCorrect": false
-      }
+      { "text": "Da error automático", "isCorrect": false },
+      { "text": "Se convierte en servicio", "isCorrect": false },
+      { "text": "No se puede usar en el HTML", "isCorrect": true },
+      { "text": "Se ejecuta igual", "isCorrect": false }
     ]
   },
   {
     "id": 2,
-    "question": "¿Cómo se puede definir cloud computing?",
+    "question": "Un servicio en Angular se define como:",
     "options": [
-      {
-        "text": "Es la interconexión de una serie de ordenadores.",
-        "isCorrect": false
-      },
-      {
-        "text": "Es el proceso de planificar y ejecutar una serie de tareas.",
-        "isCorrect": false
-      },
-      {
-        "text": "Son una serie de servicios de computación ofrecidos a través de Internet.",
-        "isCorrect": true
-      },
-      {
-        "text": "Ninguna de las respuestas anteriores es correcta.",
-        "isCorrect": false
-      }
+      { "text": "Una clase para lógica compartida", "isCorrect": true },
+      { "text": "Un componente reutilizable", "isCorrect": false },
+      { "text": "Un módulo obligatorio", "isCorrect": false },
+      { "text": "Una directiva", "isCorrect": false }
     ]
   },
   {
     "id": 3,
-    "question": "¿Qué tipo de hosting es más adecuado para una gran empresa que necesita el máximo rendimiento, seguridad y control total sobre su servidor?",
+    "question": "¿Qué estado indica que una Promise se ha completado correctamente?",
     "options": [
-      {
-        "text": "Hosting compartido.",
-        "isCorrect": false
-      },
-      {
-        "text": "Hosting VPS (servidor virtual privado).",
-        "isCorrect": false
-      },
-      {
-        "text": "Hosting dedicado.",
-        "isCorrect": true
-      },
-      {
-        "text": "Hosting gratuito.",
-        "isCorrect": false
-      }
+      { "text": "Rejected", "isCorrect": false },
+      { "text": "Pending", "isCorrect": false },
+      { "text": "Completed", "isCorrect": false },
+      { "text": "Fulfilled", "isCorrect": true }
     ]
   },
   {
     "id": 4,
-    "question": "¿Cuál de las siguientes opciones es un ejemplo de un servicio SaaS?",
+    "question": "¿Qué hace provideRouter(routes) en Angular?",
     "options": [
-      {
-        "text": "Un servidor virtual en la nube.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un entorno de desarrollo en la nube.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un software de gestión de relaciones con clientes (CRM) en línea.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un sistema operativo alojado.",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta HTTP", "isCorrect": false },
+      { "text": "Define componentes", "isCorrect": false },
+      { "text": "Define signals", "isCorrect": false },
+      { "text": "Activa el sistema de rutas", "isCorrect": true }
     ]
   },
   {
     "id": 5,
-    "question": "¿Cómo se puede definir cloud computing?",
+    "question": "En Angular, el método http.get() devuelve:",
     "options": [
-      {
-        "text": "Es la interconexión de una serie de ordenadores.",
-        "isCorrect": false
-      },
-      {
-        "text": "Es el proceso de planificar y ejecutar una serie de tareas.",
-        "isCorrect": false
-      },
-      {
-        "text": "Son una serie de servicios de computación ofrecidos a través de Internet.",
-        "isCorrect": true
-      },
-      {
-        "text": "Ninguna de las respuestas anteriores es correcta.",
-        "isCorrect": false
-      }
+      { "text": "Un Signal", "isCorrect": false },
+      { "text": "Una Promise", "isCorrect": false },
+      { "text": "Un Observable", "isCorrect": true },
+      { "text": "Un array", "isCorrect": false }
     ]
   },
   {
     "id": 6,
-    "question": "¿Cuál es la capa encargada de interactuar directamente con la base de datos en una arquitectura web de tres capas?",
+    "question": "En TypeScript, implements se utiliza para:",
     "options": [
-      {
-        "text": "Capa de presentación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de negocio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de datos.",
-        "isCorrect": true
-      },
-      {
-        "text": "Capa de seguridad.",
-        "isCorrect": false
-      }
+      { "text": "Ejecutar funciones", "isCorrect": false },
+      { "text": "Heredar clases", "isCorrect": false },
+      { "text": "Crear objetos", "isCorrect": false },
+      { "text": "Implementar interfaces", "isCorrect": true }
     ]
   },
   {
     "id": 7,
-    "question": "¿Qué sucede si la capa de negocio y la capa de datos están fuertemente acopladas en una arquitectura web de tres capas?",
+    "question": "En Angular, ¿qué hace (click)=\"metodo()\"?",
     "options": [
-      {
-        "text": "Mejora la eficiencia de la aplicación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Dificulta la reutilización de la lógica de negocio.",
-        "isCorrect": true
-      },
-      {
-        "text": "Facilita la integración de nuevas tecnologías.",
-        "isCorrect": false
-      },
-      {
-        "text": "Aumenta la independencia de la capa de presentación.",
-        "isCorrect": false
-      }
+      { "text": "Asigna un valor", "isCorrect": false },
+      { "text": "Crea un evento global", "isCorrect": false },
+      { "text": "Navega", "isCorrect": false },
+      { "text": "Ejecuta un método al hacer click", "isCorrect": true }
     ]
   },
   {
     "id": 8,
-    "question": "¿Cuál es el principal beneficio de utilizar un hosting en la nube (cloud hosting)?",
+    "question": "¿Qué devuelve fetch() al ejecutarse?",
     "options": [
-      {
-        "text": "Recursos fijos e inmutables.",
-        "isCorrect": false
-      },
-      {
-        "text": "Escalabilidad y alta disponibilidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "Administración compleja y costosa.",
-        "isCorrect": false
-      },
-      {
-        "text": "Dependencia de un único servidor físico.",
-        "isCorrect": false
-      }
+      { "text": "Objeto JavaScript", "isCorrect": false },
+      { "text": "Observable", "isCorrect": false },
+      { "text": "Signal", "isCorrect": false },
+      { "text": "Promise", "isCorrect": true }
     ]
   },
   {
     "id": 9,
-    "question": "¿Cuál de las siguientes afirmaciones sobre la computación en la nube es correcta?",
+    "question": "En fetch, ¿qué propiedad indica que la respuesta ha sido correcta?",
     "options": [
-      {
-        "text": "Los usuarios deben gestionar la infraestructura subyacente.",
-        "isCorrect": false
-      },
-      {
-        "text": "Los servicios en la nube no permiten la colaboración en tiempo real.",
-        "isCorrect": false
-      },
-      {
-        "text": "La computación en la nube siempre requiere un servidor local para funcionar.",
-        "isCorrect": false
-      },
-      {
-        "text": "La computación en la nube elimina la necesidad de instalar aplicaciones en dispositivos locales.",
-        "isCorrect": true
-      }
+      { "text": "body", "isCorrect": false },
+      { "text": "statusText", "isCorrect": false },
+      { "text": "ok", "isCorrect": true },
+      { "text": "response", "isCorrect": false }
     ]
   },
   {
     "id": 10,
-    "question": "¿Qué tipo de hosting ofrece recursos dedicados y mayor control del servidor sin el costo de un servidor físico completo?",
+    "question": "Un decorador en Angular sirve para:",
     "options": [
-      {
-        "text": "Hosting VPS (servidor virtual privado).",
-        "isCorrect": true
-      },
-      {
-        "text": "Hosting compartido.",
-        "isCorrect": false
-      },
-      {
-        "text": "Hosting dedicado.",
-        "isCorrect": false
-      },
-      {
-        "text": "Hosting reseller.",
-        "isCorrect": false
-      }
+      { "text": "Ejecutar HTTP", "isCorrect": false },
+      { "text": "Añadir metadatos a clases", "isCorrect": true },
+      { "text": "Definir rutas", "isCorrect": false },
+      { "text": "Crear servicios", "isCorrect": false }
     ]
   },
   {
     "id": 11,
-    "question": "¿Cuál de las siguientes es una característica importante de los servidores web modernos?",
+    "question": "¿Qué hace el método set() en un signal?",
     "options": [
-      {
-        "text": "Gestionar bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Proporcionar acceso remoto seguro a través de SSH.",
-        "isCorrect": false
-      },
-      {
-        "text": "Manejar grandes cantidades de tráfico simultáneo.",
-        "isCorrect": true
-      },
-      {
-        "text": "Almacenar archivos de sistema críticos.",
-        "isCorrect": false
-      }
+      { "text": "Incrementa valor", "isCorrect": false },
+      { "text": "Elimina el signal", "isCorrect": false },
+      { "text": "Convierte el tipo", "isCorrect": false },
+      { "text": "Sustituye el valor completo", "isCorrect": true }
     ]
   },
   {
     "id": 12,
-    "question": "¿Cuál de las siguientes es una función principal de un servidor web?",
+    "question": "¿Qué ocurre si se hacen varias llamadas a fetch?",
     "options": [
-      {
-        "text": "Proteger las conexiones de red.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servir contenido estático a los clientes.",
-        "isCorrect": true
-      },
-      {
-        "text": "Almacenar bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecutar scripts de servidor.",
-        "isCorrect": false
-      }
+      { "text": "Solo se ejecuta una", "isCorrect": false },
+      { "text": "Se ejecutan todas las peticiones", "isCorrect": true },
+      { "text": "Da error", "isCorrect": false },
+      { "text": "Se cancelan automáticamente", "isCorrect": false }
     ]
   },
   {
     "id": 13,
-    "question": "¿Qué tipo de recurso es un archivo HTML en una aplicación web?",
+    "question": "En Angular moderno, el bloque @if se utiliza para:",
     "options": [
-      {
-        "text": "Recurso estático.",
-        "isCorrect": true
-      },
-      {
-        "text": "Recurso dinámico.",
-        "isCorrect": false
-      },
-      {
-        "text": "Recurso multimedia.",
-        "isCorrect": false
-      },
-      {
-        "text": "Recurso de red.",
-        "isCorrect": false
-      }
+      { "text": "Ejecutar HTTP", "isCorrect": false },
+      { "text": "Renderizar contenido condicional", "isCorrect": true },
+      { "text": "Crear rutas", "isCorrect": false },
+      { "text": "Iterar colecciones", "isCorrect": false }
     ]
   },
   {
     "id": 14,
-    "question": "¿Qué tipo de recurso es una hoja de estilo CSS en una aplicación web?",
+    "question": "¿Qué es una Promise en JavaScript?",
     "options": [
-      {
-        "text": "Recurso estático.",
-        "isCorrect": true
-      },
-      {
-        "text": "Recurso dinámico.",
-        "isCorrect": false
-      },
-      {
-        "text": "Recurso de bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Recurso de red.",
-        "isCorrect": false
-      }
+      { "text": "Un signal", "isCorrect": false },
+      { "text": "Un valor inmediato", "isCorrect": false },
+      { "text": "Un array", "isCorrect": false },
+      { "text": "Un valor que estará disponible en el futuro", "isCorrect": true }
     ]
   },
   {
     "id": 15,
-    "question": "¿Cuál es una ventaja clave de utilizar Nginx en comparación con otros servidores web?",
+    "question": "¿Qué ocurre si se usa (click) en un botón en Angular?",
     "options": [
-      {
-        "text": "Es más fácil de configurar.",
-        "isCorrect": false
-      },
-      {
-        "text": "Maneja conexiones simultáneas de manera más eficiente.",
-        "isCorrect": true
-      },
-      {
-        "text": "Ofrece mayor compatibilidad con PHP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Tiene mejor integración con sistemas Windows.",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta un método al hacer click", "isCorrect": true },
+      { "text": "Crea rutas", "isCorrect": false },
+      { "text": "Modifica signals automáticamente", "isCorrect": false },
+      { "text": "Navega automáticamente", "isCorrect": false }
     ]
   },
   {
     "id": 16,
-    "question": "¿Cuál es la función de los archivos JavaScript en una aplicación web?",
+    "question": "¿Qué método se utiliza para transformar la respuesta de fetch en JSON?",
     "options": [
-      {
-        "text": "Añadir interactividad a las páginas web.",
-        "isCorrect": true
-      },
-      {
-        "text": "Aplicar estilos a las páginas web.",
-        "isCorrect": false
-      },
-      {
-        "text": "Almacenar datos de la aplicación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Configurar el servidor web.",
-        "isCorrect": false
-      }
+      { "text": "json()", "isCorrect": true },
+      { "text": "stringify()", "isCorrect": false },
+      { "text": "parse()", "isCorrect": false },
+      { "text": "convert()", "isCorrect": false }
     ]
   },
   {
     "id": 17,
-    "question": "¿Cuál es el formato estándar utilizado para empaquetar aplicaciones web en Java?",
+    "question": "¿Qué ocurre si usas fetch sin await?",
     "options": [
-      {
-        "text": "ZIP.",
-        "isCorrect": false
-      },
-      {
-        "text": "JAR.",
-        "isCorrect": false
-      },
-      {
-        "text": "EAR.",
-        "isCorrect": false
-      },
-      {
-        "text": "WAR.",
-        "isCorrect": true
-      }
+      { "text": "Devuelve JSON directamente", "isCorrect": false },
+      { "text": "Devuelve Promise", "isCorrect": true },
+      { "text": "Devuelve Observable", "isCorrect": false },
+      { "text": "Da error", "isCorrect": false }
     ]
   },
   {
     "id": 18,
-    "question": "¿Para qué tipo de aplicaciones está diseñado principalmente Apache Tomcat?",
+    "question": "En fetch, ¿qué indica la propiedad ok?",
     "options": [
-      {
-        "text": "Aplicaciones de escritorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Aplicaciones web basadas en Java.",
-        "isCorrect": true
-      },
-      {
-        "text": "Aplicaciones móviles.",
-        "isCorrect": false
-      },
-      {
-        "text": "Juegos en línea.",
-        "isCorrect": false
-      }
+      { "text": "El contenido de la respuesta", "isCorrect": false },
+      { "text": "Si la petición ha sido correcta", "isCorrect": true },
+      { "text": "La URL", "isCorrect": false },
+      { "text": "El tipo de datos", "isCorrect": false }
     ]
   },
   {
     "id": 19,
-    "question": "¿Qué tipo de servidor es Nginx?",
+    "question": "¿Qué ocurre cuando cambia el valor de un signal?",
     "options": [
-      {
-        "text": "Servidor de bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidor de aplicaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidor web y proxy inverso.",
-        "isCorrect": true
-      },
-      {
-        "text": "Servidor de archivos.",
-        "isCorrect": false
-      }
+      { "text": "Se reinicia el componente", "isCorrect": false },
+      { "text": "No ocurre nada", "isCorrect": false },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "Angular actualiza automáticamente la vista", "isCorrect": true }
     ]
   },
   {
     "id": 20,
-    "question": "¿Qué información se puede encontrar típicamente en un descriptor de despliegue?",
+    "question": "En Angular, un servicio suele declararse en:",
     "options": [
-      {
-        "text": "Código fuente de la aplicación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Configuraciones del sistema operativo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Mapeo de URL a servlets.",
-        "isCorrect": true
-      },
-      {
-        "text": "Estadísticas de rendimiento de la aplicación.",
-        "isCorrect": false
-      }
+      { "text": "imports", "isCorrect": false },
+      { "text": "routes", "isCorrect": false },
+      { "text": "providers", "isCorrect": true },
+      { "text": "exports", "isCorrect": false }
     ]
   },
   {
     "id": 21,
-    "question": "¿Qué función tiene el método HTTP GET?",
+    "question": "¿Qué representa una ruta en Angular?",
     "options": [
-      {
-        "text": "Solicitar un recurso sin modificarlo.",
-        "isCorrect": true
-      },
-      {
-        "text": "Enviar datos al servidor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar un recurso en el servidor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crear un nuevo recurso en el servidor.",
-        "isCorrect": false
-      }
+      { "text": "Un módulo", "isCorrect": false },
+      { "text": "Un servicio", "isCorrect": false },
+      { "text": "Un componente", "isCorrect": false },
+      { "text": "Una URL asociada a un componente", "isCorrect": true }
     ]
   },
   {
     "id": 22,
-    "question": "¿Cuál de los siguientes tipos de host virtual requiere que cada sitio web tenga una dirección IP única?",
+    "question": "¿Qué devuelve jugadores() si jugadores es un signal de array?",
     "options": [
-      {
-        "text": "Host virtual basado en nombre.",
-        "isCorrect": false
-      },
-      {
-        "text": "Host virtual basado en directorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Host virtual basado en puerto.",
-        "isCorrect": false
-      },
-      {
-        "text": "Host virtual basado en IP.",
-        "isCorrect": true
-      }
+      { "text": "Promise", "isCorrect": false },
+      { "text": "Array", "isCorrect": true },
+      { "text": "String", "isCorrect": false },
+      { "text": "Observable", "isCorrect": false }
     ]
   },
   {
     "id": 23,
-    "question": "¿Qué característica principal diferencia HTTPS de HTTP?",
+    "question": "¿Qué hace await fetch()?",
     "options": [
-      {
-        "text": "HTTPS cifra las comunicaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "HTTPS es más rápido.",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTPS es sin estado.",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTPS es un protocolo de transferencia de archivos.",
-        "isCorrect": false
-      }
+      { "text": "Espera a que la petición se complete", "isCorrect": true },
+      { "text": "Ejecuta código síncrono", "isCorrect": false },
+      { "text": "Convierte en signal", "isCorrect": false },
+      { "text": "Convierte en Observable", "isCorrect": false }
     ]
   },
   {
     "id": 24,
-    "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre el protocolo SSH?",
+    "question": "El método subscribe() se utiliza para:",
     "options": [
-      {
-        "text": "SSH no cifra las comunicaciones por defecto.",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH utiliza la autenticación basada en claves públicas.",
-        "isCorrect": true
-      },
-      {
-        "text": "SSH es menos seguro que Telnet.",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH no permite la transferencia de archivos.",
-        "isCorrect": false
-      }
+      { "text": "Escuchar y procesar datos de un Observable", "isCorrect": true },
+      { "text": "Eliminar errores", "isCorrect": false },
+      { "text": "Crear rutas", "isCorrect": false },
+      { "text": "Convertir signals", "isCorrect": false }
     ]
   },
   {
     "id": 25,
-    "question": "¿Qué código de estado HTTP indica que el recurso solicitado no se encuentra en el servidor?",
+    "question": "¿Qué hace el binding {{ valor }} en Angular?",
     "options": [
-      {
-        "text": "200 OK.",
-        "isCorrect": false
-      },
-      {
-        "text": "401 Unauthorized.",
-        "isCorrect": false
-      },
-      {
-        "text": "404 Not Found.",
-        "isCorrect": true
-      },
-      {
-        "text": "500 Internal Server Error.",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta eventos", "isCorrect": false },
+      { "text": "Navega", "isCorrect": false },
+      { "text": "Muestra datos en el template", "isCorrect": true },
+      { "text": "Crea rutas", "isCorrect": false }
     ]
   },
   {
     "id": 26,
-    "question": "¿Cuál es la principal ventaja de utilizar hosts virtuales basados en nombre en un servidor web?",
+    "question": "En Angular, ¿qué ocurre si accedes a un signal sin usar ()?",
     "options": [
-      {
-        "text": "Permite que varios servidores físicos compartan un solo sitio web.",
-        "isCorrect": false
-      },
-      {
-        "text": "Permite que varios dominios compartan la misma dirección IP.",
-        "isCorrect": true
-      },
-      {
-        "text": "Facilita la configuración de múltiples direcciones IP para un solo dominio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Aumenta la seguridad al encriptar las conexiones entre servidores.",
-        "isCorrect": false
-      }
+      { "text": "Devuelve null", "isCorrect": false },
+      { "text": "Da error", "isCorrect": false },
+      { "text": "Devuelve el valor", "isCorrect": false },
+      { "text": "Devuelve el objeto signal", "isCorrect": true }
     ]
   },
   {
     "id": 27,
-    "question": "¿Qué método HTTP se utiliza para actualizar un recurso existente o crear uno nuevo si no existe?",
+    "question": "¿Qué función cumple router-outlet en Angular?",
     "options": [
-      {
-        "text": "DELETE.",
-        "isCorrect": false
-      },
-      {
-        "text": "GET.",
-        "isCorrect": false
-      },
-      {
-        "text": "POST.",
-        "isCorrect": false
-      },
-      {
-        "text": "PUT.",
-        "isCorrect": true
-      }
+      { "text": "Crear enlaces", "isCorrect": false },
+      { "text": "Proteger rutas", "isCorrect": false },
+      { "text": "Mostrar el componente asociado a la ruta activa", "isCorrect": true },
+      { "text": "Crear servicios", "isCorrect": false }
     ]
   },
   {
     "id": 28,
-    "question": "¿Cuál es una de las funciones principales del método HTTP DELETE?",
+    "question": "¿Qué indica la propiedad ok en una respuesta fetch?",
     "options": [
-      {
-        "text": "Solicitar un recurso sin modificarlo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Enviar datos al servidor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar un recurso en el servidor.",
-        "isCorrect": true
-      },
-      {
-        "text": "Actualizar un recurso existente en el servidor.",
-        "isCorrect": false
-      }
+      { "text": "Si la respuesta ha sido correcta", "isCorrect": true },
+      { "text": "El contenido", "isCorrect": false },
+      { "text": "El tipo de dato", "isCorrect": false },
+      { "text": "La URL", "isCorrect": false }
     ]
   },
-  {
-    "id": 29,
-    "question": "¿Qué ventaja tiene HTTPS sobre HTTP, en términos de seguridad?",
-    "options": [
-      {
-        "text": "HTTPS es más rápido que HTTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTPS no requiere autenticación.",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTPS utiliza cifrado para proteger los datos en tránsito.",
-        "isCorrect": true
-      },
-      {
-        "text": "HTTPS utiliza el protocolo SSH.",
-        "isCorrect": false
-      }
-    ]
-  },
+ 
   {
     "id": 30,
-    "question": "¿Qué código de estado HTTP indica que la solicitud no pudo ser entendida por el servidor debido a una sintaxis incorrecta?",
+    "question": "En Angular, un evento click se captura con:",
     "options": [
-      {
-        "text": "401 Unauthorized.",
-        "isCorrect": false
-      },
-      {
-        "text": "400 Bad Request.",
-        "isCorrect": true
-      },
-      {
-        "text": "403 Forbidden.",
-        "isCorrect": false
-      },
-      {
-        "text": "500 Internal Server Error.",
-        "isCorrect": false
-      }
+      { "text": "[click]", "isCorrect": false },
+      { "text": "click", "isCorrect": false },
+      { "text": "(click)", "isCorrect": true }
     ]
   },
   {
     "id": 31,
-    "question": "¿Cuál de las siguientes tecnologías se puede integrar con Tomcat para mejorar la seguridad y el rendimiento de las aplicaciones web?",
+    "question": "¿Qué ocurre si modificas directamente un array dentro de un signal sin usar update()?",
     "options": [
-      {
-        "text": "Nginx.",
-        "isCorrect": true
-      },
-      {
-        "text": "MySQL.",
-        "isCorrect": false
-      },
-      {
-        "text": "Docker.",
-        "isCorrect": false
-      },
-      {
-        "text": "Redis.",
-        "isCorrect": false
-      }
+      { "text": "Angular siempre detecta el cambio", "isCorrect": false },
+      { "text": "Da error automático", "isCorrect": false },
+      { "text": "Puede no actualizar correctamente la vista", "isCorrect": true },
+      { "text": "El array se elimina", "isCorrect": false }
     ]
   },
   {
     "id": 32,
-    "question": "¿Qué función es esencial en un servidor de aplicaciones para manejar operaciones de base de datos de manera confiable?",
+    "question": "¿Qué tipo es routes en Angular?",
     "options": [
-      {
-        "text": "Gestión de sesiones.",
-        "isCorrect": false
-      },
-      {
-        "text": "Integración con servicios externos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Manejo de transacciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "Seguridad.",
-        "isCorrect": false
-      }
+      { "text": "Tipo Routes", "isCorrect": true },
+      { "text": "Observable", "isCorrect": false },
+      { "text": "Objeto simple", "isCorrect": false },
+      { "text": "Array de strings", "isCorrect": false }
     ]
   },
   {
     "id": 33,
-    "question": "¿Cuál de las siguientes tareas se realiza típicamente en el archivo context.xml de Tomcat?",
+    "question": "¿Qué ocurre si no se incluye router-outlet en la aplicación?",
     "options": [
-      {
-        "text": "Configuración del firewall.",
-        "isCorrect": false
-      },
-      {
-        "text": "Definición de parámetros específicos de la aplicación.",
-        "isCorrect": true
-      },
-      {
-        "text": "Configuración del puerto HTTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestión de roles y usuarios.",
-        "isCorrect": false
-      }
+      { "text": "No afecta", "isCorrect": false },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "Da error automáticamente", "isCorrect": false },
+      { "text": "No se muestran los componentes de las rutas", "isCorrect": true }
     ]
   },
   {
     "id": 34,
-    "question": "¿Qué comando se utiliza para iniciar el servicio Tomcat después de su configuración en Ubuntu?",
+    "question": "¿Cómo se lee el valor de un signal en el template?",
     "options": [
-      {
-        "text": "sudo apt update",
-        "isCorrect": false
-      },
-      {
-        "text": "sudo nginx t",
-        "isCorrect": false
-      },
-      {
-        "text": "sudo systemctl daemonreload",
-        "isCorrect": false
-      },
-      {
-        "text": "sudo systemctl start tomcat",
-        "isCorrect": true
-      }
+      { "text": "signal()", "isCorrect": true },
+      { "text": "signal.value", "isCorrect": false },
+      { "text": "get(signal)", "isCorrect": false },
+      { "text": "signal", "isCorrect": false }
     ]
   },
   {
     "id": 35,
-    "question": "¿Qué archivo en Tomcat se utiliza para definir el puerto en el que escucha el servidor?",
+    "question": "¿Qué hace el decorador @Component?",
     "options": [
-      {
-        "text": "tomcatusers.xml",
-        "isCorrect": false
-      },
-      {
-        "text": "server.xml",
-        "isCorrect": true
-      },
-      {
-        "text": "context.xml",
-        "isCorrect": false
-      },
-      {
-        "text": "web.xml",
-        "isCorrect": false
-      }
+      { "text": "Define una clase como componente Angular", "isCorrect": true },
+      { "text": "Define rutas", "isCorrect": false },
+      { "text": "Ejecuta lógica", "isCorrect": false },
+      { "text": "Define un servicio", "isCorrect": false }
     ]
   },
   {
     "id": 36,
-    "question": "¿Cuál es la utilidad del comando sudo ufw allow 8080/tcp en la instalación de Tomcat?",
+    "question": "El bloque @if en Angular moderno permite:",
     "options": [
-      {
-        "text": "Iniciar Tomcat automáticamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "Permitir tráfico a través del puerto 8080.",
-        "isCorrect": true
-      },
-      {
-        "text": "Verificar la versión de Java instalada.",
-        "isCorrect": false
-      },
-      {
-        "text": "Configurar usuarios de Tomcat.",
-        "isCorrect": false
-      }
+      { "text": "Iterar arrays", "isCorrect": false },
+      { "text": "Definir servicios", "isCorrect": false },
+      { "text": "Renderizar contenido condicionalmente", "isCorrect": true },
+      { "text": "Crear rutas", "isCorrect": false }
     ]
   },
   {
     "id": 37,
-    "question": "¿Cuál de las siguientes es una característica principal de Apache Tomcat?",
+    "question": "En Angular, ¿qué ocurre si no se hace subscribe() a un Observable HTTP?",
     "options": [
-      {
-        "text": "Soporte nativo para PHP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Compatibilidad con Java Servlet y JSP.",
-        "isCorrect": true
-      },
-      {
-        "text": "Implementación de ASP.NET.",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestión de bases de datos NoSQL.",
-        "isCorrect": false
-      }
+      { "text": "Lanza error", "isCorrect": false },
+      { "text": "Devuelve null", "isCorrect": false },
+      { "text": "Se ejecuta automáticamente", "isCorrect": false },
+      { "text": "No se ejecuta la petición", "isCorrect": true }
     ]
   },
   {
     "id": 38,
-    "question": "¿Qué especificación adicional puede ser soportada por Tomcat mediante la extensión con otros componentes?",
+    "question": "¿Qué hace el método update() en un signal?",
     "options": [
-      {
-        "text": "Ruby on Rails.",
-        "isCorrect": false
-      },
-      {
-        "text": "JPA (Java Persistence API).",
-        "isCorrect": true
-      },
-      {
-        "text": "ASP.NET.",
-        "isCorrect": false
-      },
-      {
-        "text": "Django.",
-        "isCorrect": false
-      }
+      { "text": "Elimina el signal", "isCorrect": false },
+      { "text": "Modifica el valor de forma reactiva", "isCorrect": true },
+      { "text": "Lee el valor", "isCorrect": false },
+      { "text": "Convierte el valor", "isCorrect": false }
     ]
   },
   {
     "id": 39,
-    "question": "¿Cuál es el propósito de crear un archivo de servicio systemd para Tomcat en un servidor Ubuntu?",
+    "question": "¿Qué tipo de dato devuelve response.json() tras un fetch?",
     "options": [
-      {
-        "text": "Mejorar la velocidad de arranque del servidor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Administrar Tomcat como un servicio del sistema.",
-        "isCorrect": true
-      },
-      {
-        "text": "Configurar las bases de datos para Tomcat.",
-        "isCorrect": false
-      },
-      {
-        "text": "Monitorear el tráfico de red.",
-        "isCorrect": false
-      }
+      { "text": "Objeto JavaScript", "isCorrect": true },
+      { "text": "String", "isCorrect": false },
+      { "text": "Observable", "isCorrect": false },
+      { "text": "Signal", "isCorrect": false }
     ]
   },
   {
     "id": 40,
-    "question": "¿Cuál es la principal diferencia entre un servidor de aplicaciones y un servidor web?",
+    "question": "¿Qué ocurre cuando un método modifica un signal?",
     "options": [
-      {
-        "text": "Un servidor de aplicaciones maneja contenido estático, mientras que un servidor web maneja lógica de negocio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un servidor de aplicaciones maneja la lógica dinámica de las aplicaciones, mientras que un servidor web se encarga de servir contenido estático.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un servidor de aplicaciones solo gestiona bases de datos, mientras que un servidor web maneja la interfaz de usuario.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un servidor web no puede gestionar solicitudes HTTP, mientras que un servidor de aplicaciones sí.",
-        "isCorrect": false
-      }
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "Da error", "isCorrect": false },
+      { "text": "No ocurre nada", "isCorrect": false },
+      { "text": "La vista se actualiza automáticamente", "isCorrect": true }
     ]
   },
   {
     "id": 41,
-    "question": "¿Cuál es el propósito de un archivo de zona en DNS?",
+    "question": "¿Qué ocurre si se navega a una ruta no definida?",
     "options": [
-      {
-        "text": "Almacenar la caché de direcciones IP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Reenviar consultas a otros servidores DNS.",
-        "isCorrect": false
-      },
-      {
-        "text": "Contener los registros de recursos para una zona específica.",
-        "isCorrect": true
-      },
-      {
-        "text": "Gestionar la asignación de direcciones IP dinámicas.",
-        "isCorrect": false
-      }
+      { "text": "No se muestra contenido o da error", "isCorrect": true },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "Se muestra el último componente", "isCorrect": false },
+      { "text": "Se ejecuta el home automáticamente", "isCorrect": false }
     ]
   },
   {
     "id": 42,
-    "question": "¿Qué función tiene un servidor DNS raíz?",
+    "question": "¿Qué método permite navegar desde TypeScript en Angular?",
     "options": [
-      {
-        "text": "Actuar como el punto de partida para la resolución de nombres de dominio.",
-        "isCorrect": true
-      },
-      {
-        "text": "Almacenar toda la información de nombres de dominio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestionar la caché de nombres de dominio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Delegar la gestión de nombres a servidores secundarios.",
-        "isCorrect": false
-      }
+      { "text": "routerLink", "isCorrect": false },
+      { "text": "goTo(url)", "isCorrect": false },
+      { "text": "navigateHTML()", "isCorrect": false },
+      { "text": "router.navigate()", "isCorrect": true }
     ]
   },
   {
     "id": 43,
-    "question": "¿Qué herramienta se utiliza para capturar y analizar el tráfico DNS en tiempo real?",
+    "question": "¿Qué hace el método map() en un array?",
     "options": [
-      {
-        "text": "`nslookup`",
-        "isCorrect": false
-      },
-      {
-        "text": "Wireshark",
-        "isCorrect": true
-      },
-      {
-        "text": "DNSQuerySniffer",
-        "isCorrect": false
-      },
-      {
-        "text": "`dig`",
-        "isCorrect": false
-      }
+      { "text": "Modifica el array original", "isCorrect": false },
+      { "text": "Elimina elementos", "isCorrect": false },
+      { "text": "Devuelve un nuevo array transformado", "isCorrect": true },
+      { "text": "Ordena", "isCorrect": false }
     ]
   },
   {
     "id": 44,
-    "question": "¿Qué herramienta de línea de comandos se utiliza para realizar consultas DNS avanzadas y proporciona una salida detallada?",
+    "question": "¿Qué ocurre cuando un método modifica un signal?",
     "options": [
-      {
-        "text": "`nslookup`",
-        "isCorrect": false
-      },
-      {
-        "text": "`dig`",
-        "isCorrect": true
-      },
-      {
-        "text": "`host`",
-        "isCorrect": false
-      },
-      {
-        "text": "`whois`",
-        "isCorrect": false
-      }
+      { "text": "La vista se actualiza automáticamente", "isCorrect": true },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "No ocurre nada", "isCorrect": false },
+      { "text": "Da error", "isCorrect": false }
     ]
   },
   {
     "id": 45,
-    "question": "¿Qué característica distingue a un sistema de nombres plano?",
+    "question": "¿Cómo se accede al valor de un signal dentro del template?",
     "options": [
-      {
-        "text": "Estructura jerárquica organizada en niveles.",
-        "isCorrect": false
-      },
-      {
-        "text": "Resolución distribuida de nombres.",
-        "isCorrect": false
-      },
-      {
-        "text": "Delegación de autoridad en diferentes entidades.",
-        "isCorrect": false
-      },
-      {
-        "text": "Unicidad global de nombres dentro del sistema.",
-        "isCorrect": true
-      }
+      { "text": "signal()", "isCorrect": true },
+      { "text": "signal.value", "isCorrect": false },
+      { "text": "signal", "isCorrect": false },
+      { "text": "get(signal)", "isCorrect": false }
     ]
   },
   {
     "id": 46,
-    "question": "¿Qué herramienta se utiliza comúnmente para realizar búsquedas de registros de dominio y obtener información de contacto del registrante?",
+    "question": "¿Qué ocurre si llamas varias veces a update() sobre un signal?",
     "options": [
-      {
-        "text": "nslookup",
-        "isCorrect": false
-      },
-      {
-        "text": "host",
-        "isCorrect": false
-      },
-      {
-        "text": "dig",
-        "isCorrect": false
-      },
-      {
-        "text": "whois",
-        "isCorrect": true
-      }
+      { "text": "Se reinicia el valor", "isCorrect": false },
+      { "text": "Se ignoran los cambios", "isCorrect": false },
+      { "text": "Da error", "isCorrect": false },
+      { "text": "Se aplican los cambios correctamente", "isCorrect": true }
     ]
   },
   {
     "id": 47,
-    "question": "¿Qué tipo de consulta DNS traduce una dirección IP en un nombre de dominio?",
+    "question": "¿Qué devuelve JSON.stringify(objeto)?",
     "options": [
-      {
-        "text": "Consulta recursiva.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta iterativa.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta no recursiva.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta inversa.",
-        "isCorrect": true
-      }
+      { "text": "Una cadena en formato JSON", "isCorrect": true },
+      { "text": "Un objeto JSON", "isCorrect": false },
+      { "text": "Una promesa", "isCorrect": false },
+      { "text": "Un archivo", "isCorrect": false }
     ]
   },
   {
     "id": 48,
-    "question": "¿Qué característica distingue a un FQDN en la estructura DNS?",
+    "question": "El estado inicial de una Promise en JavaScript es:",
     "options": [
-      {
-        "text": "Incluye todos los niveles de dominio necesarios para localizar un recurso específico.",
-        "isCorrect": true
-      },
-      {
-        "text": "Solo incluye el nombre del host y el dominio de segundo nivel.",
-        "isCorrect": false
-      },
-      {
-        "text": "Es exclusivo de redes internas y no es accesible públicamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "No requiere de un dominio de nivel superior.",
-        "isCorrect": false
-      }
+      { "text": "Rejected", "isCorrect": false },
+      { "text": "Pending", "isCorrect": true },
+      { "text": "Completed", "isCorrect": false },
+      { "text": "Fulfilled", "isCorrect": false }
     ]
   },
   {
     "id": 49,
-    "question": "¿Qué tipo de consulta DNS requiere que el servidor DNS complete la resolución sin delegar la responsabilidad al cliente?",
+    "question": "¿Qué se define en el archivo app.routes.ts?",
     "options": [
-      {
-        "text": "Consulta recursiva.",
-        "isCorrect": true
-      },
-      {
-        "text": "Consulta iterativa.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta inversa.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta no recursiva.",
-        "isCorrect": false
-      }
+      { "text": "Servicios", "isCorrect": false },
+      { "text": "Componentes", "isCorrect": false },
+      { "text": "Signals", "isCorrect": false },
+      { "text": "Rutas de la aplicación", "isCorrect": true }
     ]
   },
   {
     "id": 50,
-    "question": "¿Cuál es un beneficio clave de utilizar un sistema de nombres jerárquico como DNS en el despliegue de aplicaciones web?",
+    "question": "En arquitectura cliente-servidor:",
     "options": [
-      {
-        "text": "Reduce el tráfico de red al mínimo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Permite una mayor escalabilidad y flexibilidad en la gestión de nombres de dominio.",
-        "isCorrect": true
-      },
-      {
-        "text": "Elimina la necesidad de servidores de nombres secundarios.",
-        "isCorrect": false
-      },
-      {
-        "text": "Proporciona direcciones IP dinámicas automáticamente.",
-        "isCorrect": false
-      }
+      { "text": "El cliente responde a sí mismo", "isCorrect": false },
+      { "text": "El servidor inicia siempre la comunicación", "isCorrect": false },
+      { "text": "El cliente realiza la petición y el servidor responde", "isCorrect": true },
+      { "text": "Ambos actúan sin comunicación", "isCorrect": false }
     ]
   },
   {
     "id": 51,
-    "question": "¿Qué puerto se utiliza por defecto para el canal de control en FTP?",
+    "question": "En Angular, ¿qué ocurre cuando cambia el valor de un signal?",
     "options": [
-      {
-        "text": "21.",
-        "isCorrect": true
-      },
-      {
-        "text": "22.",
-        "isCorrect": false
-      },
-      {
-        "text": "80.",
-        "isCorrect": false
-      },
-      {
-        "text": "443.",
-        "isCorrect": false
-      }
+      { "text": "Angular actualiza automáticamente la vista", "isCorrect": true },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "No ocurre nada", "isCorrect": false },
+      { "text": "Se reinicia el componente", "isCorrect": false }
     ]
   },
   {
     "id": 52,
-    "question": "¿Cuál de los siguientes es un protocolo de transferencia de archivos que no utiliza cifrado por defecto?",
+    "question": "¿Qué ocurre si modificas un signal sin usar set() o update()?",
     "options": [
-      {
-        "text": "SFTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTPS.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTP.",
-        "isCorrect": true
-      },
-      {
-        "text": "HTTPS.",
-        "isCorrect": false
-      }
+      { "text": "Da error automático", "isCorrect": false },
+      { "text": "Se reinicia el componente", "isCorrect": false },
+      { "text": "No se actualiza correctamente la vista", "isCorrect": true },
+      { "text": "Funciona igual", "isCorrect": false }
     ]
   },
   {
     "id": 53,
-    "question": "¿Qué comando FTP se usa para cambiar el directorio en el servidor?",
+    "question": "Para heredar de una clase en TypeScript se utiliza:",
     "options": [
-      {
-        "text": "PWD.",
-        "isCorrect": false
-      },
-      {
-        "text": "LIST.",
-        "isCorrect": false
-      },
-      {
-        "text": "CWD.",
-        "isCorrect": true
-      },
-      {
-        "text": "STOR.",
-        "isCorrect": false
-      }
+      { "text": "inherits", "isCorrect": false },
+      { "text": "implements", "isCorrect": false },
+      { "text": "super", "isCorrect": false },
+      { "text": "extends", "isCorrect": true }
     ]
   },
   {
     "id": 54,
-    "question": "¿Qué herramienta permite a los administradores monitorear las actividades en un servidor FTP?",
+    "question": "¿Qué hace el evento (input) en Angular?",
     "options": [
-      {
-        "text": "Logging.",
-        "isCorrect": true
-      },
-      {
-        "text": "LIST.",
-        "isCorrect": false
-      },
-      {
-        "text": "VPN.",
-        "isCorrect": false
-      },
-      {
-        "text": "Noop.",
-        "isCorrect": false
-      }
+      { "text": "Detecta cambios en un campo de entrada", "isCorrect": true },
+      { "text": "Ejecuta rutas", "isCorrect": false },
+      { "text": "Modifica signals automáticamente", "isCorrect": false },
+      { "text": "Ejecuta HTTP", "isCorrect": false }
     ]
   },
   {
     "id": 55,
-    "question": "¿Qué operación realiza el comando RETR en FTP?",
+    "question": "¿Qué hace el método set() en un signal?",
     "options": [
-      {
-        "text": "Cambia el nombre de un archivo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea un directorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Descarga un archivo del servidor.",
-        "isCorrect": true
-      },
-      {
-        "text": "Sube un archivo al servidor.",
-        "isCorrect": false
-      }
+      { "text": "Incrementa el valor", "isCorrect": false },
+      { "text": "Elimina el signal", "isCorrect": false },
+      { "text": "Convierte el tipo", "isCorrect": false },
+      { "text": "Sustituye completamente el valor", "isCorrect": true }
     ]
   },
   {
     "id": 56,
-    "question": "¿Qué puerto utiliza SFTP por defecto?",
+    "question": "¿Qué función tiene el decorador @Output()?",
     "options": [
-      {
-        "text": "20.",
-        "isCorrect": false
-      },
-      {
-        "text": "22.",
-        "isCorrect": true
-      },
-      {
-        "text": "21.",
-        "isCorrect": false
-      },
-      {
-        "text": "80.",
-        "isCorrect": false
-      }
+      { "text": "Definir servicios", "isCorrect": false },
+      { "text": "Crear rutas", "isCorrect": false },
+      { "text": "Enviar eventos al componente padre", "isCorrect": true },
+      { "text": "Recibir datos del padre", "isCorrect": false }
     ]
   },
   {
     "id": 57,
-    "question": "¿Cuál es el propósito del comando FTP STOR?",
+    "question": "¿Qué devuelve jugadores().length si jugadores es un signal de tipo array?",
     "options": [
-      {
-        "text": "Subir un archivo al servidor.",
-        "isCorrect": true
-      },
-      {
-        "text": "Descargar un archivo del servidor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Cambiar el directorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar un archivo del servidor.",
-        "isCorrect": false
-      }
+      { "text": "Un Observable", "isCorrect": false },
+      { "text": "Un string", "isCorrect": false },
+      { "text": "Una Promise", "isCorrect": false },
+      { "text": "El número de elementos", "isCorrect": true }
     ]
   },
   {
     "id": 58,
-    "question": "¿Qué protocolo usa SSL/TLS para garantizar la seguridad durante la transferencia de archivos?",
+    "question": "¿Qué ocurre si haces this.signal = nuevoValor en Angular?",
     "options": [
-      {
-        "text": "SFTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTPS.",
-        "isCorrect": true
-      },
-      {
-        "text": "SMTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "IMAP.",
-        "isCorrect": false
-      }
+      { "text": "Es obligatorio", "isCorrect": false },
+      { "text": "Rompe el patrón reactivo", "isCorrect": true },
+      { "text": "Mejora rendimiento", "isCorrect": false },
+      { "text": "Funciona correctamente", "isCorrect": false }
     ]
   },
   {
     "id": 59,
-    "question": "¿Qué tipo de cifrado utiliza SFTP para asegurar las transferencias de archivos?",
+    "question": "Los standalone components permiten:",
     "options": [
-      {
-        "text": "SSL.",
-        "isCorrect": false
-      },
-      {
-        "text": "TLS.",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH.",
-        "isCorrect": true
-      },
-      {
-        "text": "AES.",
-        "isCorrect": false
-      }
+      { "text": "Evitar el uso de NgModules", "isCorrect": true },
+      { "text": "Reemplazar servicios", "isCorrect": false },
+      { "text": "Eliminar TypeScript", "isCorrect": false },
+      { "text": "Evitar rutas", "isCorrect": false }
     ]
   },
   {
     "id": 60,
-    "question": "¿Qué puerto utiliza el canal de datos en modo activo de FTP?",
+    "question": "El método fetch() en JavaScript se utiliza para:",
     "options": [
-      {
-        "text": "20.",
-        "isCorrect": true
-      },
-      {
-        "text": "21.",
-        "isCorrect": false
-      },
-      {
-        "text": "22.",
-        "isCorrect": false
-      },
-      {
-        "text": "80.",
-        "isCorrect": false
-      }
+      { "text": "Crear eventos", "isCorrect": false },
+      { "text": "Generar rutas", "isCorrect": false },
+      { "text": "Realizar peticiones HTTP", "isCorrect": true },
+      { "text": "Modificar el DOM", "isCorrect": false }
     ]
   },
   {
     "id": 61,
-    "question": "¿Qué recurso de red se puede gestionar a través de LDAP?",
+    "question": "¿Para qué se utiliza track en el bloque @for?",
     "options": [
-      {
-        "text": "Solo bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Solo servidores de impresión.",
-        "isCorrect": false
-      },
-      {
-        "text": "Solo aplicaciones web.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidores de archivos, aplicaciones web, servidores de impresión y bases de datos.",
-        "isCorrect": true
-      }
+      { "text": "Para eliminar duplicados", "isCorrect": false },
+      { "text": "Para crear signals", "isCorrect": false },
+      { "text": "Para identificar cada elemento de forma única", "isCorrect": true },
+      { "text": "Para ordenar elementos", "isCorrect": false }
     ]
   },
   {
     "id": 62,
-    "question": "¿Para qué se utiliza principalmente LDAP en una red local?",
+    "question": "En un componente standalone, ¿cómo se gestionan las dependencias?",
     "options": [
-      {
-        "text": "Autenticación y autorización de usuarios y dispositivos.",
-        "isCorrect": true
-      },
-      {
-        "text": "Transferencia de archivos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Configuración de routers y switches.",
-        "isCorrect": false
-      },
-      {
-        "text": "Cifrado de datos.",
-        "isCorrect": false
-      }
+      { "text": "Se importan directamente en el componente", "isCorrect": true },
+      { "text": "No necesitan imports", "isCorrect": false },
+      { "text": "No se pueden usar", "isCorrect": false },
+      { "text": "Solo mediante módulos", "isCorrect": false }
     ]
   },
   {
     "id": 63,
-    "question": "¿Qué es LDAP?",
+    "question": "En Angular, ¿qué métodos permiten modificar el valor de un signal correctamente?",
     "options": [
-      {
-        "text": "Un protocolo para transmisión de archivos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un protocolo para acceder a servicios de directorio.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un tipo de base de datos relacional.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un sistema operativo de red.",
-        "isCorrect": false
-      }
+      { "text": "set() y update()", "isCorrect": true },
+      { "text": "change()", "isCorrect": false },
+      { "text": "push()", "isCorrect": false },
+      { "text": "modify()", "isCorrect": false }
     ]
   },
   {
     "id": 64,
-    "question": "¿Qué protocolo puede trabajar junto a LDAP para mejorar la seguridad de la autenticación?",
+    "question": "¿Qué hace el método slice() en un array?",
     "options": [
-      {
-        "text": "SSL/TLS.",
-        "isCorrect": true
-      },
-      {
-        "text": "SMTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "DHCP.",
-        "isCorrect": false
-      }
+      { "text": "Devuelve una copia parcial", "isCorrect": true },
+      { "text": "Elimina elementos definitivamente", "isCorrect": false },
+      { "text": "Modifica el array original", "isCorrect": false },
+      { "text": "Ordena el array", "isCorrect": false }
     ]
   },
   {
     "id": 65,
-    "question": "¿Qué es el control de acceso basado en roles (RBAC)?",
+    "question": "¿Qué hace JSON.stringify() con un array?",
     "options": [
-      {
-        "text": "Un tipo de conexión a bases de datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un sistema donde los permisos de acceso se otorgan en función de los roles de los usuarios.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un protocolo de seguridad de red.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un mecanismo para transferir archivos.",
-        "isCorrect": false
-      }
+      { "text": "Lo convierte en Observable", "isCorrect": false },
+      { "text": "Lo ordena", "isCorrect": false },
+      { "text": "Lo convierte en string JSON", "isCorrect": true },
+      { "text": "Lo elimina", "isCorrect": false }
     ]
   },
   {
     "id": 66,
-    "question": "¿Qué tipo de información puede almacenar LDAP?",
+    "question": "¿Qué método permite modificar un signal de tipo array correctamente?",
     "options": [
-      {
-        "text": "Solo credenciales de usuario.",
-        "isCorrect": false
-      },
-      {
-        "text": "Credenciales de usuario, dispositivos y recursos.",
-        "isCorrect": true
-      },
-      {
-        "text": "Solo dispositivos conectados.",
-        "isCorrect": false
-      },
-      {
-        "text": "Solo políticas de seguridad.",
-        "isCorrect": false
-      }
+      { "text": "update()", "isCorrect": true },
+      { "text": "map()", "isCorrect": false },
+      { "text": "change()", "isCorrect": false },
+      { "text": "push()", "isCorrect": false }
     ]
   },
   {
     "id": 67,
-    "question": "¿Cuál de las siguientes afirmaciones es verdadera sobre LDAP?",
+    "question": "En Angular, ¿qué permite standalone: true?",
     "options": [
-      {
-        "text": "LDAP funciona únicamente con sistemas Windows.",
-        "isCorrect": false
-      },
-      {
-        "text": "LDAP no se puede utilizar para autenticación de usuarios.",
-        "isCorrect": false
-      },
-      {
-        "text": "LDAP es un protocolo de acceso a bases de datos relacionales.",
-        "isCorrect": false
-      },
-      {
-        "text": "LDAP es compatible con diferentes sistemas operativos, como Windows, Linux y Unix.",
-        "isCorrect": true
-      }
+      { "text": "Evitar el uso de módulos", "isCorrect": true },
+      { "text": "Crear servicios", "isCorrect": false },
+      { "text": "Crear rutas", "isCorrect": false },
+      { "text": "Ejecutar HTTP", "isCorrect": false }
     ]
   },
   {
     "id": 68,
-    "question": "¿Cómo se identifica una entrada en un servidor LDAP?",
+    "question": "¿Qué hace el método set() en un signal?",
     "options": [
-      {
-        "text": "Por su dirección IP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Por un ID de sesión.",
-        "isCorrect": false
-      },
-      {
-        "text": "Por un DN (distinguished name).",
-        "isCorrect": true
-      },
-      {
-        "text": "Por un archivo de configuración.",
-        "isCorrect": false
-      }
+      { "text": "Añade un valor", "isCorrect": false },
+      { "text": "Ejecuta HTTP", "isCorrect": false },
+      { "text": "Sustituye el valor actual", "isCorrect": true },
+      { "text": "Elimina el signal", "isCorrect": false }
     ]
   },
   {
     "id": 69,
-    "question": "¿Cómo mejora LDAP la seguridad de la red?",
+    "question": "¿Qué hace JSON.parse()?",
     "options": [
-      {
-        "text": "Centralizando la autenticación y autorización de usuarios.",
-        "isCorrect": true
-      },
-      {
-        "text": "Permitiendo el acceso a todos los dispositivos sin autenticación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Bloqueando el tráfico de red en todas las subredes.",
-        "isCorrect": false
-      },
-      {
-        "text": "Cifrando los correos electrónicos enviados en la red.",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta HTTP", "isCorrect": false },
+      { "text": "Crea signals", "isCorrect": false },
+      { "text": "Convierte objeto a string", "isCorrect": false },
+      { "text": "Convierte string JSON a objeto", "isCorrect": true }
     ]
   },
   {
     "id": 70,
-    "question": "¿Qué es OpenLDAP?",
+    "question": "¿Dónde se define la plantilla HTML en un componente Angular?",
     "options": [
-      {
-        "text": "Una implementación de código abierto de LDAP.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un sistema de gestión de bases de datos relacionales.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un software para transferencia de archivos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un protocolo para transmisión de vídeo.",
-        "isCorrect": false
-      }
+      { "text": "imports", "isCorrect": false },
+      { "text": "providers", "isCorrect": false },
+      { "text": "template o templateUrl", "isCorrect": true },
+      { "text": "selector", "isCorrect": false }
     ]
   },
   {
     "id": 71,
-    "question": "¿Qué etiqueta de Javadoc se utiliza para describir un parámetro en un método?",
+    "question": "En TypeScript, una interfaz se utiliza principalmente para definir:",
     "options": [
-      {
-        "text": "`@param`",
-        "isCorrect": true
-      },
-      {
-        "text": "`@return`",
-        "isCorrect": false
-      },
-      {
-        "text": "`@method`",
-        "isCorrect": false
-      },
-      {
-        "text": "`@version`",
-        "isCorrect": false
-      }
+      { "text": "Una clase concreta", "isCorrect": false },
+      { "text": "Un método especial", "isCorrect": false },
+      { "text": "La estructura que deben cumplir los datos", "isCorrect": true },
+      { "text": "Un decorador", "isCorrect": false }
     ]
   },
   {
     "id": 72,
-    "question": "¿Qué comando permite fusionar dos ramas en Git?",
+    "question": "¿Qué ocurre si se usa interpolación {{ valor }} en Angular?",
     "options": [
-      {
-        "text": "`git add`",
-        "isCorrect": false
-      },
-      {
-        "text": "`git checkout`",
-        "isCorrect": false
-      },
-      {
-        "text": "`git log`",
-        "isCorrect": false
-      },
-      {
-        "text": "`git merge`",
-        "isCorrect": true
-      }
+      { "text": "Navega", "isCorrect": false },
+      { "text": "Ejecuta eventos", "isCorrect": false },
+      { "text": "Crea rutas", "isCorrect": false },
+      { "text": "Muestra datos en el template", "isCorrect": true }
     ]
   },
   {
     "id": 73,
-    "question": "¿Qué es un branch en Git?",
+    "question": "¿Qué ocurre si un componente no está definido en las rutas?",
     "options": [
-      {
-        "text": "Una versión final del código.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una función externa a Git.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una línea separada de desarrollo.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un sistema de backup automático.",
-        "isCorrect": false
-      }
+      { "text": "No afecta", "isCorrect": false },
+      { "text": "Se convierte en servicio", "isCorrect": false },
+      { "text": "Se ejecuta automáticamente", "isCorrect": false },
+      { "text": "No se puede acceder por URL", "isCorrect": true }
     ]
   },
   {
     "id": 74,
-    "question": "¿Qué comando se utiliza para agregar un archivo al área de preparación?",
+    "question": "¿Qué decorador permite recibir datos desde un componente padre?",
     "options": [
-      {
-        "text": "`git add`",
-        "isCorrect": true
-      },
-      {
-        "text": "`git commit`",
-        "isCorrect": false
-      },
-      {
-        "text": "`git push`",
-        "isCorrect": false
-      },
-      {
-        "text": "`git pull`",
-        "isCorrect": false
-      }
+      { "text": "@Injectable()", "isCorrect": false },
+      { "text": "@Component()", "isCorrect": false },
+      { "text": "@Output()", "isCorrect": false },
+      { "text": "@Input()", "isCorrect": true }
     ]
   },
   {
     "id": 75,
-    "question": "¿Qué archivo de configuración guarda los ajustes globales de Git como el nombre de usuario y el correo electrónico?",
+    "question": "¿En qué archivo se suele usar bootstrapApplication?",
     "options": [
-      {
-        "text": "`.gitconfig`",
-        "isCorrect": true
-      },
-      {
-        "text": "`README.md`",
-        "isCorrect": false
-      },
-      {
-        "text": "`index.html`",
-        "isCorrect": false
-      },
-      {
-        "text": "`config.json`",
-        "isCorrect": false
-      }
+      { "text": "styles.css", "isCorrect": false },
+      { "text": "main.ts", "isCorrect": true },
+      { "text": "app.component.ts", "isCorrect": false },
+      { "text": "index.html", "isCorrect": false }
     ]
   },
   {
     "id": 76,
-    "question": "¿Qué sistema de control de versiones es centralizado?",
+    "question": "routerLink en Angular permite:",
     "options": [
-      {
-        "text": "Git.",
-        "isCorrect": false
-      },
-      {
-        "text": "Subversion.",
-        "isCorrect": true
-      },
-      {
-        "text": "Mercurial.",
-        "isCorrect": false
-      },
-      {
-        "text": "Perforce.",
-        "isCorrect": false
-      }
+      { "text": "Navegar declarativamente desde el HTML", "isCorrect": true },
+      { "text": "Navegar desde TypeScript", "isCorrect": false },
+      { "text": "Ejecutar HTTP", "isCorrect": false },
+      { "text": "Crear rutas dinámicas", "isCorrect": false }
     ]
   },
   {
     "id": 77,
-    "question": "¿Qué hace el comando `git status`?",
+    "question": "El bloque @for se utiliza para:",
     "options": [
-      {
-        "text": "Crea un nuevo repositorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Guarda los cambios.",
-        "isCorrect": false
-      },
-      {
-        "text": "Elimina una rama.",
-        "isCorrect": false
-      },
-      {
-        "text": "Muestra el estado actual del repositorio.",
-        "isCorrect": true
-      }
+      { "text": "Ejecutar HTTP", "isCorrect": false },
+      { "text": "Declarar servicios", "isCorrect": false },
+      { "text": "Iterar colecciones y renderizar elementos", "isCorrect": true },
+      { "text": "Crear signals", "isCorrect": false }
     ]
   },
   {
     "id": 78,
-    "question": "¿Cuál es el propósito del comando `git pull`?",
+    "question": "En Angular moderno, un signal es:",
     "options": [
-      {
-        "text": "Crear una nueva rama.",
-        "isCorrect": false
-      },
-      {
-        "text": "Guardar los cambios locales en el servidor remoto.",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar el repositorio local con los cambios del remoto.",
-        "isCorrect": true
-      },
-      {
-        "text": "Crear un commit.",
-        "isCorrect": false
-      }
+      { "text": "Un servicio", "isCorrect": false },
+      { "text": "Un tipo de Observable", "isCorrect": false },
+      { "text": "Un valor reactivo que notifica cambios automáticamente", "isCorrect": true },
+      { "text": "Un decorador", "isCorrect": false }
     ]
   },
   {
     "id": 79,
-    "question": "¿Qué hace el comando `git add`?",
+    "question": "En Angular, ¿qué diferencia existe entre Property Binding y Event Binding?",
     "options": [
-      {
-        "text": "Guarda los cambios en el repositorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea un nuevo repositorio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Añade cambios al área de preparación (staging area).",
-        "isCorrect": true
-      },
-      {
-        "text": "Muestra el historial de commits.",
-        "isCorrect": false
-      }
+      { "text": "Son iguales", "isCorrect": false },
+      { "text": "Property Binding envía datos al DOM y Event Binding recibe eventos", "isCorrect": true },
+      { "text": "Event Binding envía datos al DOM", "isCorrect": false },
+      { "text": "Ninguna", "isCorrect": false }
     ]
   },
   {
     "id": 80,
-    "question": "¿Qué es GitHub?",
-    "options": [
-      {
-        "text": "Un sistema operativo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un editor de texto.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un servidor para aplicaciones Java.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una plataforma basada en Git para alojar repositorios y colaborar en proyectos.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 81,
-    "question": "¿Qué hace el comando `docker-compose up`?",
-    "options": [
-      {
-        "text": "Detiene todos los servicios definidos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Levanta y ejecuta todos los servicios definidos en el archivo `docker - compose.yml`.",
-        "isCorrect": true
-      },
-      {
-        "text": "Muestra la configuración de los servicios.",
-        "isCorrect": false
-      },
-      {
-        "text": "Elimina todos los servicios activos.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 82,
-    "question": "¿Qué significa el comando `docker run -d`?",
-    "options": [
-      {
-        "text": "Ejecuta el contenedor en segundo plano.",
-        "isCorrect": true
-      },
-      {
-        "text": "Ejecuta el contenedor y muestra el log de errores.",
-        "isCorrect": false
-      },
-      {
-        "text": "Elimina el contenedor después de su ejecución.",
-        "isCorrect": false
-      },
-      {
-        "text": "Muestra los detalles del contenedor.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 83,
-    "question": "¿Qué comando se utiliza para crear una imagen Docker a partir de un Dockerfile?",
-    "options": [
-      {
-        "text": "`docker run`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker pull`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker push`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker build`",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 84,
-    "question": "¿Qué significa el comando `docker volume`?",
-    "options": [
-      {
-        "text": "Inicia un contenedor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestiona volúmenes de datos en Docker.",
-        "isCorrect": true
-      },
-      {
-        "text": "Reinicia una red de Docker.",
-        "isCorrect": false
-      },
-      {
-        "text": "Detiene un contenedor.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 85,
-    "question": "¿Qué comando se utiliza para iniciar un contenedor que ya ha sido creado, pero está detenido?",
-    "options": [
-      {
-        "text": "`docker run`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker pull`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker start`",
-        "isCorrect": true
-      },
-      {
-        "text": "`docker init`",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 86,
-    "question": "¿Cuál de los siguientes no es un comando de Docker?",
-    "options": [
-      {
-        "text": "`docker ps`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker ls`",
-        "isCorrect": true
-      },
-      {
-        "text": "`docker run`",
-        "isCorrect": false
-      },
-      {
-        "text": "`docker images`",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 87,
-    "question": "¿Qué es una imagen en Docker?",
-    "options": [
-      {
-        "text": "Un archivo de configuración.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una plantilla inmutable que contiene todo lo necesario para ejecutar una aplicación.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un archivo que define las dependencias de una aplicación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una instantánea de un contenedor en ejecución.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 88,
-    "question": "¿Cuál es el propósito del comando `docker logs`?",
-    "options": [
-      {
-        "text": "Mostrar los registros de un contenedor.",
-        "isCorrect": true
-      },
-      {
-        "text": "Mostrar las imágenes almacenadas localmente.",
-        "isCorrect": false
-      },
-      {
-        "text": "Mostrar los contenedores detenidos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Reiniciar el contenedor y guardar los registros.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 89,
-    "question": "¿Qué opción se usa para eliminar un contenedor inmediatamente después de su ejecución?",
-    "options": [
-      {
-        "text": "`--rm`",
-        "isCorrect": true
-      },
-      {
-        "text": "`--delete`",
-        "isCorrect": false
-      },
-      {
-        "text": "`--clean`",
-        "isCorrect": false
-      },
-      {
-        "text": "`--purge`",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 90,
-    "question": "¿Qué hace el comando `docker exec`?",
-    "options": [
-      {
-        "text": "Elimina un contenedor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecuta un comando en un contenedor en ejecución.",
-        "isCorrect": true
-      },
-      {
-        "text": "Reinicia un contenedor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista las imágenes del sistema.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 91,
-    "question": "¿Cuál es una ventaja de usar GitHub Actions para CI/CD?",
-    "options": [
-      {
-        "text": "Se requiere mucha intervención manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Es costoso.",
-        "isCorrect": false
-      },
-      {
-        "text": "Solo funciona en sistemas Windows.",
-        "isCorrect": false
-      },
-      {
-        "text": "Está completamente integrado con GitHub.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 92,
-    "question": "¿Qué herramienta es comúnmente utilizada para analizar la calidad del código en CI?",
-    "options": [
-      {
-        "text": "Excel.",
-        "isCorrect": false
-      },
-      {
-        "text": "Maven.",
-        "isCorrect": false
-      },
-      {
-        "text": "CircleCI.",
-        "isCorrect": false
-      },
-      {
-        "text": "SonarQube.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 93,
-    "question": "¿Cuál es uno de los eventos que pueden activar un flujo de trabajo en GitHub Actions?",
-    "options": [
-      {
-        "text": "push.",
-        "isCorrect": true
-      },
-      {
-        "text": "fork.",
-        "isCorrect": false
-      },
-      {
-        "text": "tag.",
-        "isCorrect": false
-      },
-      {
-        "text": "rollback.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 94,
-    "question": "¿Qué comando ejecuta pruebas en un proyecto Java usando Maven?",
-    "options": [
-      {
-        "text": "npm test",
-        "isCorrect": false
-      },
-      {
-        "text": "run test",
-        "isCorrect": false
-      },
-      {
-        "text": "execute tests",
-        "isCorrect": false
-      },
-      {
-        "text": "mvn test",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 95,
-    "question": "¿Cuál es uno de los beneficios principales de la integración continua?",
-    "options": [
-      {
-        "text": "Aumentar la carga de trabajo manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Detectar errores solo al final del proyecto.",
-        "isCorrect": false
-      },
-      {
-        "text": "Detectar errores tempranos en el ciclo de desarrollo.",
-        "isCorrect": true
-      },
-      {
-        "text": "Reducir la colaboración en el equipo.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 96,
-    "question": "¿Cuál de las siguientes no es una característica de GitHub Actions?",
-    "options": [
-      {
-        "text": "Ejecuciones paralelas.",
-        "isCorrect": false
-      },
-      {
-        "text": "Triggers por eventos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Marketplace de acciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "Despliegues manuales obligatorios.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 97,
-    "question": "¿Qué herramienta es un ejemplo de plataforma de CI/CD en la nube?",
-    "options": [
-      {
-        "text": "GitHub Actions.",
-        "isCorrect": false
-      },
-      {
-        "text": "Jenkins.",
-        "isCorrect": false
-      },
-      {
-        "text": "SonarQube.",
-        "isCorrect": false
-      },
-      {
-        "text": "AWS CodePipeline.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 98,
-    "question": "¿Qué herramienta es conocida por su flexibilidad y popularidad en CI?",
-    "options": [
-      {
-        "text": "Travis CI.",
-        "isCorrect": false
-      },
-      {
-        "text": "GitHub Actions.",
-        "isCorrect": false
-      },
-      {
-        "text": "CircleCI.",
-        "isCorrect": false
-      },
-      {
-        "text": "Jenkins.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 99,
-    "question": "¿Cuál de las siguientes opciones describe un pipeline de CI?",
-    "options": [
-      {
-        "text": "Un proceso de verificación manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un conjunto automatizado de pruebas y validaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un proceso exclusivo de desarrollo local.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un script que ejecuta tareas de documentación.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 100,
-    "question": "¿Qué tipo de pruebas se ejecutan típicamente en un pipeline de CI?",
-    "options": [
-      {
-        "text": "Unitarias e integración.",
-        "isCorrect": true
-      },
-      {
-        "text": "Solo manuales.",
-        "isCorrect": false
-      },
-      {
-        "text": "Solo de seguridad.",
-        "isCorrect": false
-      },
-      {
-        "text": "Pruebas visuales.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "question": "¿Cuál de las siguientes capas se encarga de mostrar la interfaz de usuario y recoger la interacción del usuario?",
-    "options": [
-      {
-        "text": "Capa de acceso a datos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de lógica de negocio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de presentación.",
-        "isCorrect": true
-      },
-      {
-        "text": "Capa de infraestructura.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "question": "¿Qué tipo de servidor se encarga de ejecutar la lógica de negocio de una aplicación web?",
-    "options": [
-      {
-        "text": "Servidor de aplicaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "Servidor de caché.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidor DNS.",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidor proxy.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "question": "¿Qué formato de archivo se utiliza para empaquetar aplicaciones web Java para su despliegue?",
-    "options": [
-      {
-        "text": ".war",
-        "isCorrect": true
-      },
-      {
-        "text": ".zip",
-        "isCorrect": false
-      },
-      {
-        "text": ".jsp",
-        "isCorrect": false
-      },
-      {
-        "text": ".class",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "question": "¿Cuál de los siguientes elementos permite identificar un recurso de red a partir de una dirección IP?",
-    "options": [
-      {
-        "text": "Registro MX.",
-        "isCorrect": false
-      },
-      {
-        "text": "Registro A.",
-        "isCorrect": false
-      },
-      {
-        "text": "Registro CNAME.",
-        "isCorrect": false
-      },
-      {
-        "text": "Registro PTR.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "question": "¿Qué característica de los sistemas distribuidos permite aumentar el número de nodos sin afectar al sistema existente?",
-    "options": [
-      {
-        "text": "Escalabilidad vertical.",
-        "isCorrect": false
-      },
-      {
-        "text": "Alta disponibilidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "Escalabilidad horizontal.",
-        "isCorrect": true
-      },
-      {
-        "text": "Portabilidad.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "question": "¿Qué componente en Nginx se utiliza para distribuir la carga entre varios servidores de aplicaciones?",
-    "options": [
-      {
-        "text": "SSL Handler.",
-        "isCorrect": false
-      },
-      {
-        "text": "Certificado TLS.",
-        "isCorrect": false
-      },
-      {
-        "text": "Cache Handler.",
-        "isCorrect": false
-      },
-      {
-        "text": "Proxy inverso con balanceo de carga.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "question": "¿Qué archivo define las rutas, páginas de inicio y controladores de una aplicación Java EE?",
-    "options": [
-      {
-        "text": "web.xml",
-        "isCorrect": true
-      },
-      {
-        "text": "server.xml",
-        "isCorrect": false
-      },
-      {
-        "text": "catalina.out",
-        "isCorrect": false
-      },
-      {
-        "text": "apache.conf",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 108,
-    "question": "¿Qué servicio DNS traduce un nombre como <ejemplo.com> en su dirección IP?",
-    "options": [
-      {
-        "text": "Consulta inversa.",
-        "isCorrect": false
-      },
-      {
-        "text": "Consulta recursiva.",
-        "isCorrect": true
-      },
-      {
-        "text": "Zona PTR.",
-        "isCorrect": false
-      },
-      {
-        "text": "Registro SPF.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "question": "¿Cuál es una ventaja del hosting en la nube frente al hosting tradicional?",
-    "options": [
-      {
-        "text": "Escalabilidad y pago por uso.",
-        "isCorrect": true
-      },
-      {
-        "text": "Mayor dependencia del hardware.",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestión centralizada del software.",
-        "isCorrect": false
-      },
-      {
-        "text": "Menor disponibilidad.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 110,
-    "question": "¿Qué protocolo se usa habitualmente para administrar un servidor Linux de forma remota y segura?",
-    "options": [
-      {
-        "text": "HTTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Telnet.",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 111,
-    "question": "¿Qué archivo contiene las clases Java compiladas de una aplicación web?",
-    "options": [
-      {
-        "text": "web.xml",
-        "isCorrect": false
-      },
-      {
-        "text": "webapps/ROOT",
-        "isCorrect": false
-      },
-      {
-        "text": "WEB-INF/classes",
-        "isCorrect": true
-      },
-      {
-        "text": "META-INF/manifest",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 112,
-    "question": "¿Cuál de los siguientes no es un modelo de servicio de cloud computing?",
-    "options": [
-      {
-        "text": "HTTP as a Service.",
-        "isCorrect": true
-      },
-      {
-        "text": "Infrastructure as a Service.",
-        "isCorrect": false
-      },
-      {
-        "text": "Software as a Service.",
-        "isCorrect": false
-      },
-      {
-        "text": "Platform as a Service.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "question": "¿Qué hace un archivo CNAME en una zona DNS?",
-    "options": [
-      {
-        "text": "Asocia una IP a un dominio.",
-        "isCorrect": false
-      },
-      {
-        "text": "Define el servidor de correo.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea un alias de otro nombre de dominio.",
-        "isCorrect": true
-      },
-      {
-        "text": "Resuelve una IP inversa.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "question": "¿Qué componente de una arquitectura web se comunica directamente con la base de datos?",
-    "options": [
-      {
-        "text": "Capa de presentación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de red.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capa de acceso a datos.",
-        "isCorrect": true
-      },
-      {
-        "text": "Servidor proxy.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 115,
-    "question": "¿Cuál es el nombre completo que identifica un recurso en Internet de forma única?",
-    "options": [
-      {
-        "text": "IP.",
-        "isCorrect": false
-      },
-      {
-        "text": "Subdominio.",
-        "isCorrect": false
-      },
-      {
-        "text": "FQDN.",
-        "isCorrect": true
-      },
-      {
-        "text": "URL corta.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "question": "¿Qué herramienta permite realizar consultas DNS desde la línea de comandos?",
-    "options": [
-      {
-        "text": "ipconfig.",
-        "isCorrect": false
-      },
-      {
-        "text": "netstat.",
-        "isCorrect": false
-      },
-      {
-        "text": "dig.",
-        "isCorrect": true
-      },
-      {
-        "text": "ssh.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "question": "¿Cuál es la ventaja principal de HTTP/2 respecto a HTTP/1.1?",
-    "options": [
-      {
-        "text": "Multiplexación de solicitudes.",
-        "isCorrect": true
-      },
-      {
-        "text": "Mayor número de errores.",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminación de cabeceras.",
-        "isCorrect": false
-      },
-      {
-        "text": "Requiere hardware nuevo.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 118,
-    "question": "¿Qué tipo de host virtual permite múltiples dominios en una misma IP?",
-    "options": [
-      {
-        "text": "Host IP-based.",
-        "isCorrect": false
-      },
-      {
-        "text": "Host PTR.",
-        "isCorrect": false
-      },
-      {
-        "text": "Host name-based.",
-        "isCorrect": true
-      },
-      {
-        "text": "Host jerárquico.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 119,
-    "question": "¿Cuál es el protocolo seguro usado para cifrar las comunicaciones HTTP?",
-    "options": [
-      {
-        "text": "FTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "SFTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "HTTPS.",
-        "isCorrect": true
-      },
-      {
-        "text": "SSH.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 120,
-    "question": "¿Qué significa que HTTP es un protocolo sin estado?",
-    "options": [
-      {
-        "text": "Cada solicitud es independiente.",
-        "isCorrect": true
-      },
-      {
-        "text": "Solo permite GET.",
-        "isCorrect": false
-      },
-      {
-        "text": "No permite autenticación.",
-        "isCorrect": false
-      },
-      {
-        "text": "Requiere cifrado.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "question": "¿Cuál de los siguientes no es un servidor de aplicaciones?",
-    "options": [
-      {
-        "text": "Nginx.",
-        "isCorrect": true
-      },
-      {
-        "text": "JBoss.",
-        "isCorrect": false
-      },
-      {
-        "text": "WebLogic.",
-        "isCorrect": false
-      },
-      {
-        "text": "Apache Tomcat.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 122,
-    "question": "¿Qué servidor es el más adecuado para servir archivos estáticos como HTML y CSS?",
-    "options": [
-      {
-        "text": "Apache HTTP.",
-        "isCorrect": true
-      },
-      {
-        "text": "JBoss.",
-        "isCorrect": false
-      },
-      {
-        "text": "WildFly.",
-        "isCorrect": false
-      },
-      {
-        "text": "Tomcat EE.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "question": "¿Qué protocolo permite conexiones cifradas y ejecución remota de comandos en Linux?",
-    "options": [
-      {
-        "text": "DNS.",
-        "isCorrect": false
-      },
-      {
-        "text": "Telnet.",
-        "isCorrect": false
-      },
-      {
-        "text": "FTP.",
-        "isCorrect": false
-      },
-      {
-        "text": "SSH.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "question": "¿Qué representa una zona en un servidor DNS?",
-    "options": [
-      {
-        "text": "Un servicio web.",
-        "isCorrect": false
-      },
-      {
-        "text": "Un tipo de consulta.",
-        "isCorrect": false
-      },
-      {
-        "text": "Una parte del espacio de nombres.",
-        "isCorrect": true
-      },
-      {
-        "text": "Un dominio inverso.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 125,
-    "question": "¿Cuál de las siguientes opciones corresponde a una consulta inversa DNS?",
-    "options": [
-      {
-        "text": "www.google.com — 142.250.190.4",
-        "isCorrect": false
-      },
-      {
-        "text": "dig google.com",
-        "isCorrect": false
-      },
-      {
-        "text": "142.250.190.4 — www.google.com",
-        "isCorrect": true
-      },
-      {
-        "text": "whois google.com",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 126,
-    "question": "¿Qué comando se utiliza para construir una imagen Docker a partir de un Dockerfile?",
-    "options": [
-      {
-        "text": "docker run",
-        "isCorrect": false
-      },
-      {
-        "text": "docker star.",
-        "isCorrect": false
-      },
-      {
-        "text": "docker buil.",
-        "isCorrect": true
-      },
-      {
-        "text": "docker creat.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 127,
-    "question": "¿Qué práctica requiere menos intervención manual para desplegar a producción?",
-    "options": [
-      {
-        "text": "Continuous Deployment.",
-        "isCorrect": true
-      },
-      {
-        "text": "Continuous Delivery.",
-        "isCorrect": false
-      },
-      {
-        "text": "Integración manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Despliegue programado.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 128,
-    "question": "¿Cuál es la función de docker-compose.yml?",
-    "options": [
-      {
-        "text": "Crear contenedores individuales.",
-        "isCorrect": false
-      },
-      {
-        "text": "Definir servicios multicontenedor.",
-        "isCorrect": true
-      },
-      {
-        "text": "Administrar volúmenes locales.",
-        "isCorrect": false
-      },
-      {
-        "text": "Iniciar contenedores manualmente.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 129,
-    "question": "¿Qué evento puede activar un workflow de GitHub Actions?",
-    "options": [
-      {
-        "text": "Reload.",
-        "isCorrect": false
-      },
-      {
-        "text": "Push.",
-        "isCorrect": true
-      },
-      {
-        "text": "Init.",
-        "isCorrect": false
-      },
-      {
-        "text": "Compile.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "question": "¿Qué herramienta de CI/CD está integrada nativamente en GitHub?",
-    "options": [
-      {
-        "text": "GitHub Actions.",
-        "isCorrect": true
-      },
-      {
-        "text": "Travis CI.",
-        "isCorrect": false
-      },
-      {
-        "text": "CircleCI.",
-        "isCorrect": false
-      },
-      {
-        "text": "Jenkins.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 131,
-    "question": "¿Qué comando permite iniciar un contenedor basado en una imagen existente?",
-    "options": [
-      {
-        "text": "docker run",
-        "isCorrect": true
-      },
-      {
-        "text": "docker create",
-        "isCorrect": false
-      },
-      {
-        "text": "docker exec",
-        "isCorrect": false
-      },
-      {
-        "text": "docker pull",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 132,
-    "question": "¿Cuál es uno de los beneficios del enfoque CI?",
-    "options": [
-      {
-        "text": "Revisión manual de todo el código.",
-        "isCorrect": false
-      },
-      {
-        "text": "Integración mensual del código.",
-        "isCorrect": false
-      },
-      {
-        "text": "Despliegue sin validaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "Detección temprana de errores.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 133,
-    "question": "¿Qué parte del flujo de trabajo GitHub Actions ejecuta una tarea concreta?",
-    "options": [
-      {
-        "text": "job.",
-        "isCorrect": false
-      },
-      {
-        "text": "workflow.",
-        "isCorrect": false
-      },
-      {
-        "text": "step.",
-        "isCorrect": true
-      },
-      {
-        "text": "matrix.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 134,
-    "question": "¿Qué archivo define una imagen personalizada en Docker?",
-    "options": [
-      {
-        "text": "docker-compose.yml.",
-        "isCorrect": false
-      },
-      {
-        "text": "README.md.",
-        "isCorrect": false
-      },
-      {
-        "text": "Dockerfile.",
-        "isCorrect": true
-      },
-      {
-        "text": "containerfile.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 135,
-    "question": "¿Qué herramienta de CI permite automatizar tareas desde GitHub sin servidores externos?",
-    "options": [
-      {
-        "text": "GitHub Actions.",
-        "isCorrect": true
-      },
-      {
-        "text": "Jenkins.",
-        "isCorrect": false
-      },
-      {
-        "text": "Travis.",
-        "isCorrect": false
-      },
-      {
-        "text": "Bitbucket Pipelines.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 136,
-    "question": "¿Qué comando se usa para mostrar los contenedores activos en Docker?",
-    "options": [
-      {
-        "text": "docker show",
-        "isCorrect": false
-      },
-      {
-        "text": "docker ps",
-        "isCorrect": true
-      },
-      {
-        "text": "docker list",
-        "isCorrect": false
-      },
-      {
-        "text": "docker run",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 137,
-    "question": "¿Qué tipo de archivo utilizan los flujos de trabajo de GitHub Actions?",
-    "options": [
-      {
-        "text": ".json",
-        "isCorrect": false
-      },
-      {
-        "text": ".yml",
-        "isCorrect": true
-      },
-      {
-        "text": ".conf",
-        "isCorrect": false
-      },
-      {
-        "text": ".bash",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 138,
-    "question": "¿Qué indica EXPOSE 3000 en un Dockerfile?",
-    "options": [
-      {
-        "text": "Que el contenedor usará el puerto 3000.",
-        "isCorrect": true
-      },
-      {
-        "text": "Que se abrirá una conexión SSH.",
-        "isCorrect": false
-      },
-      {
-        "text": "Que el puerto se cerrará.",
-        "isCorrect": false
-      },
-      {
-        "text": "Que se usará como volumen.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 139,
-    "question": "¿Qué característica ofrece Docker frente a máquinas virtuales?",
-    "options": [
-      {
-        "text": "Uso exclusivo de Windows.",
-        "isCorrect": false
-      },
-      {
-        "text": "Emulación de hardware.",
-        "isCorrect": false
-      },
-      {
-        "text": "Ligereza y rapidez.",
-        "isCorrect": true
-      },
-      {
-        "text": "Menor aislamiento.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 140,
-    "question": "¿Qué elemento permite que Docker reutilice capas ya construidas",
-    "options": [
-      {
-        "text": "Volúmenes.",
-        "isCorrect": false
-      },
-      {
-        "text": "Imagen base.",
-        "isCorrect": false
-      },
-      {
-        "text": "Capas intermedias.",
-        "isCorrect": true
-      },
-      {
-        "text": "Variables de entorno.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 141,
-    "question": "¿Qué indica CMD [\"npm\", \"start\"] en un Dockerfile?",
-    "options": [
-      {
-        "text": "La instalación de dependencias.",
-        "isCorrect": false
-      },
-      {
-        "text": "La definición del volumen.",
-        "isCorrect": false
-      },
-      {
-        "text": "El comando que ejecuta la app.",
-        "isCorrect": true
-      },
-      {
-        "text": "La configuración de red.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "question": "¿Qué comando en Docker elimina una imagen?",
-    "options": [
-      {
-        "text": "docker delete",
-        "isCorrect": false
-      },
-      {
-        "text": "docker rmi",
-        "isCorrect": true
-      },
-      {
-        "text": "docker shutdown",
-        "isCorrect": false
-      },
-      {
-        "text": "docker untag",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 143,
-    "question": "¿Cuál es la función de docker pull?",
-    "options": [
-      {
-        "text": "Subir una imagen.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crear un contenedor.",
-        "isCorrect": false
-      },
-      {
-        "text": "Descargar una imagen.",
-        "isCorrect": true
-      },
-      {
-        "text": "Listar contenedores.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 144,
-    "question": "¿Qué tipo de prueba automatizada verifica una función específica del código?",
-    "options": [
-      {
-        "text": "Prueba unitaria.",
-        "isCorrect": true
-      },
-      {
-        "text": "Prueba de integración.",
-        "isCorrect": false
-      },
-      {
-        "text": "Prueba manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Prueba de carga.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 145,
-    "question": "¿Qué permite escalar servicios en Docker Compose?",
-    "options": [
-      {
-        "text": "docker-compose update",
-        "isCorrect": false
-      },
-      {
-        "text": "docker scale",
-        "isCorrect": false
-      },
-      {
-        "text": "docker-compose up –scale",
-        "isCorrect": true
-      },
-      {
-        "text": "docker-compose grow",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 146,
-    "question": "¿Cuál es una ventaja del despliegue continuo?",
-    "options": [
-      {
-        "text": "Mayor control manual.",
-        "isCorrect": false
-      },
-      {
-        "text": "Reducción de commits.",
-        "isCorrect": false
-      },
-      {
-        "text": "No usar pruebas.",
-        "isCorrect": false
-      },
-      {
-        "text": "Entrega frecuente de software.",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 147,
-    "question": "¿Qué rol tiene GitHub Actions en CI/CD?",
-    "options": [
-      {
-        "text": "Gestionar usuarios.",
-        "isCorrect": false
-      },
-      {
-        "text": "Automatizar pruebas y despliegue.",
-        "isCorrect": true
-      },
-      {
-        "text": "Monitorear servidores.",
-        "isCorrect": false
-      },
-      {
-        "text": "Crear contenedores.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 148,
-    "question": "¿Qué diferencia principal tiene un contenedor frente a una VM?",
-    "options": [
-      {
-        "text": "Comparte el kernel del sistema operativo.",
-        "isCorrect": true
-      },
-      {
-        "text": "Usa más recursos.",
-        "isCorrect": false
-      },
-      {
-        "text": "Tiene su propio sistema operativo completo.",
-        "isCorrect": false
-      },
-      {
-        "text": "No permite virtualización.",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 149,
-    "question": "¿Qué comando se utiliza para ver el historial de commits en Git?",
-    "options": [
-      {
-        "text": "git show",
-        "isCorrect": false
-      },
-      {
-        "text": "git push",
-        "isCorrect": false
-      },
-      {
-        "text": "git log",
-        "isCorrect": true
-      },
-      {
-        "text": "git Branch",
-        "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 150,
-    "question": "¿Qué puerto se utiliza por defecto en GitHub Actions para ejecutar runners en Linux?",
-    "options": [
-      {
-        "text": "3000.",
-        "isCorrect": false
-      },
-      {
-        "text": "22.",
-        "isCorrect": false
-      },
-      {
-        "text": "5000.",
-        "isCorrect": false
-      },
-      {
-        "text": "No depende de un puerto específico.",
-        "isCorrect": true
-      }
+    "question": "¿Qué ocurre al usar routerLink en un enlace HTML?",
+    "options": [
+      { "text": "No hace nada", "isCorrect": false },
+      { "text": "Lanza error", "isCorrect": false },
+      { "text": "Se recarga la página", "isCorrect": false },
+      { "text": "Navega sin recargar la página", "isCorrect": true }
     ]
   }
 ]
