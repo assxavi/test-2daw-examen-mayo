@@ -3,1761 +3,801 @@
     "id": 1,
     "question": "¿Cómo se crea una aplicación básica en Flask?",
     "options": [
-      {
-        "text": "app",
-        "isCorrect": false
-      },
-      {
-        "text": "Flask.create()",
-        "isCorrect": false
-      },
-      {
-        "text": "Flask(name)",
-        "isCorrect": false
-      },
-      {
-        "text": "Flask()",
-        "isCorrect": true
-      }
-     
+      { "text": "Flask.create()", "isCorrect": false },
+      { "text": "Flask(name)", "isCorrect": true },
+      { "text": "new Flask(name)", "isCorrect": false },
+      { "text": "Flask()", "isCorrect": false }
+      
     ]
   },
   {
     "id": 2,
     "question": "¿Qué librería se usa para trabajar con DataFrames?",
     "options": [
-      {
-        "text": "SciPy",
-        "isCorrect": false
-      },
-      {
-        "text": "NumPy",
-        "isCorrect": false
-      },
-      {
-        "text": "Matplotlib",
-        "isCorrect": false
-      },
-      {
-        "text": "Pandas",
-        "isCorrect": true
-      }
+      { "text": "SciPy", "isCorrect": false },
+      { "text": "NumPy", "isCorrect": false },
+      { "text": "Matplotlib", "isCorrect": false },
+      { "text": "Pandas", "isCorrect": true }
     ]
   },
   {
     "id": 3,
     "question": "¿Cuál es el operador de división entera en Python?",
     "options": [
-      {
-        "text": "**",
-        "isCorrect": false
-      },
-      {
-        "text": "//",
-        "isCorrect": true
-      },
-      {
-        "text": "/",
-        "isCorrect": false
-      },
-      {
-        "text": "%",
-        "isCorrect": false
-      }
+      { "text": "**", "isCorrect": false },
+      { "text": "//", "isCorrect": true },
+      { "text": "/", "isCorrect": false },
+      { "text": "%", "isCorrect": false }
     ]
   },
   {
     "id": 4,
     "question": "¿Cuál es el resultado de len(\"Python\")?",
     "options": [
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "7",
-        "isCorrect": false
-      },
-      {
-        "text": "5",
-        "isCorrect": false
-      },
-      {
-        "text": "6",
-        "isCorrect": true
-      }
+      { "text": "Error", "isCorrect": false },
+      { "text": "7", "isCorrect": false },
+      { "text": "5", "isCorrect": false },
+      { "text": "6", "isCorrect": true }
     ]
   },
   {
     "id": 5,
     "question": "¿Para qué sirve un modelo en Django?",
     "options": [
-      {
-        "text": "Gestionar rutas",
-        "isCorrect": false
-      },
-      {
-        "text": "Procesar peticiones",
-        "isCorrect": false
-      },
-      {
-        "text": "Renderizar vistas",
-        "isCorrect": false
-      },
-      {
-        "text": "Definir la estructura de datos",
-        "isCorrect": true
-      }
+      { "text": "Gestionar rutas", "isCorrect": false },
+      { "text": "Procesar peticiones", "isCorrect": false },
+      { "text": "Renderizar vistas", "isCorrect": false },
+      { "text": "Definir la estructura de datos", "isCorrect": true }
     ]
   },
   {
     "id": 6,
     "question": "¿Qué clase se usa en SQLAlchemy para definir modelos?",
     "options": [
-      {
-        "text": "SQLAlchemy.Model",
-        "isCorrect": false
-      },
-      {
-        "text": "Base.Model",
-        "isCorrect": false
-      },
-      {
-        "text": "db.Table",
-        "isCorrect": false
-      },
-      {
-        "text": "db.Model",
-        "isCorrect": true
-      }
+      { "text": "SQLAlchemy.Model", "isCorrect": false },
+      { "text": "Base.Model", "isCorrect": false },
+      { "text": "db.Table", "isCorrect": false },
+      { "text": "db.Model", "isCorrect": true }
     ]
   },
   {
     "id": 7,
     "question": "¿Qué comando aplica migraciones en Django?",
     "options": [
-      {
-        "text": "makemigrations",
-        "isCorrect": false
-      },
-      {
-        "text": "runserver",
-        "isCorrect": false
-      },
-      {
-        "text": "python manage.py migrate",
-        "isCorrect": true
-      },
-      {
-        "text": "startapp",
-        "isCorrect": false
-      }
+      { "text": "makemigrations", "isCorrect": false },
+      { "text": "runserver", "isCorrect": false },
+      { "text": "python manage.py migrate", "isCorrect": true },
+      { "text": "startapp", "isCorrect": false }
     ]
   },
   {
     "id": 8,
     "question": "¿Cómo se instala Django REST Framework?",
     "options": [
-      {
-        "text": "django-rest",
-        "isCorrect": false
-      },
-      {
-        "text": "django-api",
-        "isCorrect": false
-      },
-      {
-        "text": "pip install drf",
-        "isCorrect": false
-      },
-      {
-        "text": "pip install djangorestframework",
-        "isCorrect": true
-      }
+      { "text": "django-rest", "isCorrect": false },
+      { "text": "django-api", "isCorrect": false },
+      { "text": "pip install drf", "isCorrect": false },
+      { "text": "pip install djangorestframework", "isCorrect": true }
     ]
   },
   {
     "id": 9,
     "question": "¿Qué devuelve 5 // 2?",
     "options": [
-      {
-        "text": "2.5",
-        "isCorrect": false
-      },
-      {
-        "text": "0",
-        "isCorrect": false
-      },
-      {
-        "text": "1",
-        "isCorrect": false
-      },
-      {
-        "text": "2",
-        "isCorrect": true
-      }
+      { "text": "2.5", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true }
     ]
   },
   {
     "id": 10,
     "question": "¿Qué es Python?",
     "options": [
-      {
-        "text": "Lenguaje interpretado",
-        "isCorrect": true
-      },
-      {
-        "text": "Base de datos",
-        "isCorrect": false
-      },
-      {
-        "text": "Framework",
-        "isCorrect": false
-      },
-      {
-        "text": "Sistema operativo",
-        "isCorrect": false
-      }
+      { "text": "Lenguaje interpretado", "isCorrect": true },
+      { "text": "Base de datos", "isCorrect": false },
+      { "text": "Framework", "isCorrect": false },
+      { "text": "Sistema operativo", "isCorrect": false }
     ]
   },
   {
     "id": 11,
     "question": "¿Qué hace @app.delete en FastAPI?",
     "options": [
-      {
-        "text": "Lee datos",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualiza",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea recurso",
-        "isCorrect": false
-      },
-      {
-        "text": "Define endpoint DELETE",
-        "isCorrect": true
-      }
+      { "text": "Lee datos", "isCorrect": false },
+      { "text": "Actualiza", "isCorrect": false },
+      { "text": "Crea recurso", "isCorrect": false },
+      { "text": "Define endpoint DELETE", "isCorrect": true }
     ]
   },
   {
     "id": 12,
     "question": "¿Qué devuelve una ruta GET típica en FastAPI?",
     "options": [
-      {
-        "text": "Texto plano",
-        "isCorrect": false
-      },
-      {
-        "text": "HTML",
-        "isCorrect": false
-      },
-      {
-        "text": "XML",
-        "isCorrect": false
-      },
-      {
-        "text": "JSON",
-        "isCorrect": true
-      }
+      { "text": "Texto plano", "isCorrect": false },
+      { "text": "HTML", "isCorrect": false },
+      { "text": "XML", "isCorrect": false },
+      { "text": "JSON", "isCorrect": true }
     ]
   },
   {
     "id": 13,
     "question": "¿Qué ocurre si un recurso no existe en FastAPI?",
     "options": [
-      {
-        "text": "Se devuelve error o mensaje",
-        "isCorrect": true
-      },
-      {
-        "text": "Se elimina",
-        "isCorrect": false
-      },
-      {
-        "text": "Se crea",
-        "isCorrect": false
-      },
-      {
-        "text": "Se ignora",
-        "isCorrect": false
-      }
+      { "text": "Se devuelve error o mensaje", "isCorrect": true },
+      { "text": "Se elimina", "isCorrect": false },
+      { "text": "Se crea", "isCorrect": false },
+      { "text": "Se ignora", "isCorrect": false }
     ]
   },
   {
     "id": 14,
     "question": "¿Para qué sirve BaseModel en FastAPI?",
     "options": [
-      {
-        "text": "Ejecutar SQL",
-        "isCorrect": false
-      },
-      {
-        "text": "Renderizar HTML",
-        "isCorrect": false
-      },
-      {
-        "text": "Conectar BD",
-        "isCorrect": false
-      },
-      {
-        "text": "Validar datos",
-        "isCorrect": true
-      }
+      { "text": "Ejecutar SQL", "isCorrect": false },
+      { "text": "Renderizar HTML", "isCorrect": false },
+      { "text": "Conectar BD", "isCorrect": false },
+      { "text": "Validar datos", "isCorrect": true }
     ]
   },
   {
     "id": 15,
     "question": "¿Qué hace un endpoint GET con parámetro id?",
     "options": [
-      {
-        "text": "Elimina recurso",
-        "isCorrect": false
-      },
-      {
-        "text": "Recupera recurso",
-        "isCorrect": true
-      },
-      {
-        "text": "Actualiza",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea recurso",
-        "isCorrect": false
-      }
+      { "text": "Elimina recurso", "isCorrect": false },
+      { "text": "Recupera recurso", "isCorrect": true },
+      { "text": "Actualiza", "isCorrect": false },
+      { "text": "Crea recurso", "isCorrect": false }
     ]
   },
   {
     "id": 16,
     "question": "¿Qué devuelve un GET por id inexistente?",
     "options": [
-      {
-        "text": "Error o mensaje",
-        "isCorrect": true
-      },
-      {
-        "text": "Nuevo objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "None",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista vacía",
-        "isCorrect": false
-      }
+      { "text": "Error o mensaje", "isCorrect": true },
+      { "text": "Nuevo objeto", "isCorrect": false },
+      { "text": "None", "isCorrect": false },
+      { "text": "Lista vacía", "isCorrect": false }
     ]
   },
   {
     "id": 17,
     "question": "¿Qué hace POST en una API REST?",
     "options": [
-      {
-        "text": "Leer recurso",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Crear recurso",
-        "isCorrect": true
-      }
+      { "text": "Leer recurso", "isCorrect": false },
+      { "text": "Actualizar", "isCorrect": false },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Crear recurso", "isCorrect": true }
     ]
   },
   {
     "id": 18,
     "question": "¿Qué hace DELETE si el recurso existe?",
     "options": [
-      {
-        "text": "Elimina recurso",
-        "isCorrect": true
-      },
-      {
-        "text": "Devuelve lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Ignora",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualiza",
-        "isCorrect": false
-      }
+      { "text": "Elimina recurso", "isCorrect": true },
+      { "text": "Devuelve lista", "isCorrect": false },
+      { "text": "Ignora", "isCorrect": false },
+      { "text": "Actualiza", "isCorrect": false }
     ]
   },
   {
     "id": 19,
     "question": "¿Qué hace DELETE si no existe el recurso?",
     "options": [
-      {
-        "text": "Actualiza",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea recurso",
-        "isCorrect": false
-      },
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Devuelve error",
-        "isCorrect": true
-      }
+      { "text": "Actualiza", "isCorrect": false },
+      { "text": "Crea recurso", "isCorrect": false },
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Devuelve error", "isCorrect": true }
     ]
   },
   {
     "id": 20,
     "question": "¿Qué hace PUT en una API?",
     "options": [
-      {
-        "text": "Crear",
-        "isCorrect": false
-      },
-      {
-        "text": "Leer",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar recurso",
-        "isCorrect": true
-      }
+      { "text": "Crear", "isCorrect": false },
+      { "text": "Leer", "isCorrect": false },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Actualizar recurso", "isCorrect": true }
     ]
   },
   {
     "id": 21,
     "question": "¿Qué estructura se usa para representar JSON en Python?",
     "options": [
-      {
-        "text": "Tupla",
-        "isCorrect": false
-      },
-      {
-        "text": "Set",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Diccionario",
-        "isCorrect": true
-      }
+      { "text": "Tupla", "isCorrect": false },
+      { "text": "Set", "isCorrect": false },
+      { "text": "Lista", "isCorrect": false },
+      { "text": "Diccionario", "isCorrect": true }
     ]
   },
   {
     "id": 22,
     "question": "¿Qué comando inicia servidor Django?",
     "options": [
-      {
-        "text": "startapp",
-        "isCorrect": false
-      },
-      {
-        "text": "python manage.py runserver",
-        "isCorrect": true
-      },
-      {
-        "text": "migrate",
-        "isCorrect": false
-      },
-      {
-        "text": "makemigrations",
-        "isCorrect": false
-      }
+      { "text": "startapp", "isCorrect": false },
+      { "text": "python manage.py runserver", "isCorrect": true },
+      { "text": "migrate", "isCorrect": false },
+      { "text": "makemigrations", "isCorrect": false }
     ]
   },
   {
     "id": 23,
     "question": "¿Qué hace makemigrations?",
     "options": [
-      {
-        "text": "Borra BD",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecuta servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "Genera migraciones",
-        "isCorrect": true
-      },
-      {
-        "text": "Aplica migraciones",
-        "isCorrect": false
-      }
+      { "text": "Borra BD", "isCorrect": false },
+      { "text": "Ejecuta servidor", "isCorrect": false },
+      { "text": "Genera migraciones", "isCorrect": true },
+      { "text": "Aplica migraciones", "isCorrect": false }
     ]
   },
   {
     "id": 24,
     "question": "¿Qué hace migrate?",
     "options": [
-      {
-        "text": "Arranca servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "Aplica cambios BD",
-        "isCorrect": true
-      },
-      {
-        "text": "Crea modelos",
-        "isCorrect": false
-      },
-      {
-        "text": "Borra datos",
-        "isCorrect": false
-      }
+      { "text": "Arranca servidor", "isCorrect": false },
+      { "text": "Aplica cambios BD", "isCorrect": true },
+      { "text": "Crea modelos", "isCorrect": false },
+      { "text": "Borra datos", "isCorrect": false }
     ]
   },
   {
     "id": 25,
     "question": "¿Qué archivo define modelos en Django?",
     "options": [
-      {
-        "text": "settings.py",
-        "isCorrect": false
-      },
-      {
-        "text": "models.py",
-        "isCorrect": true
-      },
-      {
-        "text": "urls.py",
-        "isCorrect": false
-      },
-      {
-        "text": "views.py",
-        "isCorrect": false
-      }
+      { "text": "settings.py", "isCorrect": false },
+      { "text": "models.py", "isCorrect": true },
+      { "text": "urls.py", "isCorrect": false },
+      { "text": "views.py", "isCorrect": false }
     ]
   },
   {
     "id": 26,
     "question": "¿Qué archivo define rutas en Django?",
     "options": [
-      {
-        "text": "views.py",
-        "isCorrect": false
-      },
-      {
-        "text": "admin.py",
-        "isCorrect": false
-      },
-      {
-        "text": "models.py",
-        "isCorrect": false
-      },
-      {
-        "text": "urls.py",
-        "isCorrect": true
-      }
+      { "text": "views.py", "isCorrect": false },
+      { "text": "admin.py", "isCorrect": false },
+      { "text": "models.py", "isCorrect": false },
+      { "text": "urls.py", "isCorrect": true }
     ]
   },
   {
     "id": 27,
     "question": "¿Qué archivo contiene lógica en Django?",
     "options": [
-      {
-        "text": "settings.py",
-        "isCorrect": false
-      },
-      {
-        "text": "views.py",
-        "isCorrect": true
-      },
-      {
-        "text": "models.py",
-        "isCorrect": false
-      },
-      {
-        "text": "urls.py",
-        "isCorrect": false
-      }
+      { "text": "settings.py", "isCorrect": false },
+      { "text": "views.py", "isCorrect": true },
+      { "text": "models.py", "isCorrect": false },
+      { "text": "urls.py", "isCorrect": false }
     ]
   },
   {
     "id": 28,
     "question": "¿Qué hace Flask route?",
     "options": [
-      {
-        "text": "Compila",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecuta BD",
-        "isCorrect": false
-      },
-      {
-        "text": "Define endpoint",
-        "isCorrect": true
-      },
-      {
-        "text": "Renderiza CSS",
-        "isCorrect": false
-      }
+      { "text": "Compila", "isCorrect": false },
+      { "text": "Ejecuta BD", "isCorrect": false },
+      { "text": "Define endpoint", "isCorrect": true },
+      { "text": "Renderiza CSS", "isCorrect": false }
     ]
   },
   {
     "id": 29,
     "question": "¿Qué devuelve jsonify en Flask?",
     "options": [
-      {
-        "text": "HTML",
-        "isCorrect": false
-      },
-      {
-        "text": "JSON",
-        "isCorrect": true
-      },
-      {
-        "text": "XML",
-        "isCorrect": false
-      },
-      {
-        "text": "Texto",
-        "isCorrect": false
-      }
+      { "text": "HTML", "isCorrect": false },
+      { "text": "JSON", "isCorrect": true },
+      { "text": "XML", "isCorrect": false },
+      { "text": "Texto", "isCorrect": false }
     ]
   },
   {
     "id": 30,
     "question": "¿Qué hace request.json en Flask?",
     "options": [
-      {
-        "text": "Leer JSON",
-        "isCorrect": true
-      },
-      {
-        "text": "Borrar JSON",
-        "isCorrect": false
-      },
-      {
-        "text": "Validar",
-        "isCorrect": false
-      },
-      {
-        "text": "Escribir JSON",
-        "isCorrect": false
-      }
+      { "text": "Leer JSON", "isCorrect": true },
+      { "text": "Borrar JSON", "isCorrect": false },
+      { "text": "Validar", "isCorrect": false },
+      { "text": "Escribir JSON", "isCorrect": false }
     ]
   },
   {
     "id": 31,
     "question": "¿Qué hace db.session.add()?",
     "options": [
-      {
-        "text": "Guardar definitivo",
-        "isCorrect": false
-      },
-      {
-        "text": "Añadir objeto",
-        "isCorrect": true
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar",
-        "isCorrect": false
-      }
+      { "text": "Guardar definitivo", "isCorrect": false },
+      { "text": "Añadir objeto", "isCorrect": true },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Actualizar", "isCorrect": false }
     ]
   },
   {
     "id": 32,
     "question": "¿Qué hace commit()?",
     "options": [
-      {
-        "text": "Guardar cambios",
-        "isCorrect": true
-      },
-      {
-        "text": "Crear tabla",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar BD",
-        "isCorrect": false
-      },
-      {
-        "text": "Leer datos",
-        "isCorrect": false
-      }
+      { "text": "Guardar cambios", "isCorrect": true },
+      { "text": "Crear tabla", "isCorrect": false },
+      { "text": "Eliminar BD", "isCorrect": false },
+      { "text": "Leer datos", "isCorrect": false }
     ]
   },
   {
     "id": 33,
     "question": "¿Qué hace query.all()?",
     "options": [
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Ninguno",
-        "isCorrect": false
-      },
-      {
-        "text": "Uno",
-        "isCorrect": false
-      },
-      {
-        "text": "Devuelve todos registros",
-        "isCorrect": true
-      }
+      { "text": "Error", "isCorrect": false },
+      { "text": "Ninguno", "isCorrect": false },
+      { "text": "Uno", "isCorrect": false },
+      { "text": "Devuelve todos registros", "isCorrect": true }
     ]
   },
   {
     "id": 34,
     "question": "¿Qué hace query.get(id)?",
     "options": [
-      {
-        "text": "Crea objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "Devuelve lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Borra",
-        "isCorrect": false
-      },
-      {
-        "text": "Busca por id",
-        "isCorrect": true
-      }
+      { "text": "Crea objeto", "isCorrect": false },
+      { "text": "Devuelve lista", "isCorrect": false },
+      { "text": "Borra", "isCorrect": false },
+      { "text": "Busca por id", "isCorrect": true }
     ]
   },
   {
     "id": 35,
     "question": "¿Qué ocurre si query.get(id) no encuentra?",
     "options": [
-      {
-        "text": "None",
-        "isCorrect": true
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "0",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista vacía",
-        "isCorrect": false
-      }
+      { "text": "None", "isCorrect": true },
+      { "text": "Error", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "Lista vacía", "isCorrect": false }
     ]
   },
   {
     "id": 36,
     "question": "¿Qué hace pip install?",
     "options": [
-      {
-        "text": "Instala paquetes",
-        "isCorrect": true
-      },
-      {
-        "text": "Compila",
-        "isCorrect": false
-      },
-      {
-        "text": "Borra",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecuta código",
-        "isCorrect": false
-      }
+      { "text": "Instala paquetes", "isCorrect": true },
+      { "text": "Compila", "isCorrect": false },
+      { "text": "Borra", "isCorrect": false },
+      { "text": "Ejecuta código", "isCorrect": false }
     ]
   },
   {
     "id": 37,
     "question": "¿Qué es un entorno virtual?",
     "options": [
-      {
-        "text": "Servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "BD",
-        "isCorrect": false
-      },
-      {
-        "text": "Framework",
-        "isCorrect": false
-      },
-      {
-        "text": "Entorno aislado",
-        "isCorrect": true
-      }
+      { "text": "Servidor", "isCorrect": false },
+      { "text": "BD", "isCorrect": false },
+      { "text": "Framework", "isCorrect": false },
+      { "text": "Entorno aislado", "isCorrect": true }
     ]
   },
   {
     "id": 38,
     "question": "¿Qué comando activa venv (Windows)?",
     "options": [
-      {
-        "text": "run venv",
-        "isCorrect": false
-      },
-      {
-        "text": "source venv/bin/activate",
-        "isCorrect": false
-      },
-      {
-        "text": "venv\\Scripts\\activate",
-        "isCorrect": true
-      },
-      {
-        "text": "activate venv",
-        "isCorrect": false
-      }
+      { "text": "run venv", "isCorrect": false },
+      { "text": "source venv/bin/activate", "isCorrect": false },
+      { "text": "venv\\Scripts\\activate", "isCorrect": true },
+      { "text": "activate venv", "isCorrect": false }
     ]
   },
   {
     "id": 39,
     "question": "¿Qué comando instala FastAPI?",
     "options": [
-      {
-        "text": "pip fastapi",
-        "isCorrect": false
-      },
-      {
-        "text": "fastapi install",
-        "isCorrect": false
-      },
-      {
-        "text": "install fastapi",
-        "isCorrect": false
-      },
-      {
-        "text": "pip install fastapi",
-        "isCorrect": true
-      }
+      { "text": "pip fastapi", "isCorrect": false },
+      { "text": "fastapi install", "isCorrect": false },
+      { "text": "install fastapi", "isCorrect": false },
+      { "text": "pip install fastapi", "isCorrect": true }
     ]
   },
   {
     "id": 40,
     "question": "¿Qué servidor usa FastAPI?",
     "options": [
-      {
-        "text": "gunicorn",
-        "isCorrect": false
-      },
-      {
-        "text": "apache",
-        "isCorrect": false
-      },
-      {
-        "text": "uvicorn",
-        "isCorrect": true
-      },
-      {
-        "text": "nginx",
-        "isCorrect": false
-      }
+      { "text": "gunicorn", "isCorrect": false },
+      { "text": "apache", "isCorrect": false },
+      { "text": "uvicorn", "isCorrect": true },
+      { "text": "nginx", "isCorrect": false }
     ]
   },
   {
     "id": 41,
     "question": "¿Qué hace uvicorn?",
     "options": [
-      {
-        "text": "Base de datos",
-        "isCorrect": false
-      },
-      {
-        "text": "IDE",
-        "isCorrect": false
-      },
-      {
-        "text": "Framework",
-        "isCorrect": false
-      },
-      {
-        "text": "Servidor ASGI",
-        "isCorrect": true
-      }
+      { "text": "Base de datos", "isCorrect": false },
+      { "text": "IDE", "isCorrect": false },
+      { "text": "Framework", "isCorrect": false },
+      { "text": "Servidor ASGI", "isCorrect": true }
     ]
   },
   {
     "id": 42,
     "question": "¿Qué indica código 404?",
     "options": [
-      {
-        "text": "Correcto",
-        "isCorrect": false
-      },
-      {
-        "text": "Error servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "No encontrado",
-        "isCorrect": true
-      },
-      {
-        "text": "Creado",
-        "isCorrect": false
-      }
+      { "text": "Correcto", "isCorrect": false },
+      { "text": "Error servidor", "isCorrect": false },
+      { "text": "No encontrado", "isCorrect": true },
+      { "text": "Creado", "isCorrect": false }
     ]
   },
   {
     "id": 43,
     "question": "¿Qué indica código 500?",
     "options": [
-      {
-        "text": "Error servidor",
-        "isCorrect": true
-      },
-      {
-        "text": "No encontrado",
-        "isCorrect": false
-      },
-      {
-        "text": "OK",
-        "isCorrect": false
-      },
-      {
-        "text": "Creado",
-        "isCorrect": false
-      }
+      { "text": "Error servidor", "isCorrect": true },
+      { "text": "No encontrado", "isCorrect": false },
+      { "text": "OK", "isCorrect": false },
+      { "text": "Creado", "isCorrect": false }
     ]
   },
   {
     "id": 44,
     "question": "¿Qué indica código 200?",
     "options": [
-      {
-        "text": "No encontrado",
-        "isCorrect": false
-      },
-      {
-        "text": "OK",
-        "isCorrect": true
-      },
-      {
-        "text": "Creado",
-        "isCorrect": false
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      }
+      { "text": "No encontrado", "isCorrect": false },
+      { "text": "OK", "isCorrect": true },
+      { "text": "Creado", "isCorrect": false },
+      { "text": "Error", "isCorrect": false }
     ]
   },
   {
     "id": 45,
     "question": "¿Qué hace status.HTTP_201_CREATED?",
     "options": [
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Indica creación",
-        "isCorrect": true
-      },
-      {
-        "text": "OK",
-        "isCorrect": false
-      },
-      {
-        "text": "Borrado",
-        "isCorrect": false
-      }
+      { "text": "Error", "isCorrect": false },
+      { "text": "Indica creación", "isCorrect": true },
+      { "text": "OK", "isCorrect": false },
+      { "text": "Borrado", "isCorrect": false }
     ]
   },
   {
     "id": 46,
     "question": "¿Qué hace un endpoint sin return?",
     "options": [
-      {
-        "text": "Devuelve lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Devuelve JSON",
-        "isCorrect": false
-      },
-      {
-        "text": "Error o None",
-        "isCorrect": true
-      },
-      {
-        "text": "Devuelve string",
-        "isCorrect": false
-      }
+      { "text": "Devuelve lista", "isCorrect": false },
+      { "text": "Devuelve JSON", "isCorrect": false },
+      { "text": "Error o None", "isCorrect": true },
+      { "text": "Devuelve string", "isCorrect": false }
     ]
   },
   {
     "id": 47,
     "question": "¿Qué tipo devuelve FastAPI automáticamente?",
     "options": [
-      {
-        "text": "HTML",
-        "isCorrect": false
-      },
-      {
-        "text": "XML",
-        "isCorrect": false
-      },
-      {
-        "text": "JSON",
-        "isCorrect": true
-      },
-      {
-        "text": "Texto",
-        "isCorrect": false
-      }
+      { "text": "HTML", "isCorrect": false },
+      { "text": "XML", "isCorrect": false },
+      { "text": "JSON", "isCorrect": true },
+      { "text": "Texto", "isCorrect": false }
     ]
   },
   {
     "id": 48,
     "question": "¿Qué hace @app.put?",
     "options": [
-      {
-        "text": "Crear",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar",
-        "isCorrect": true
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Leer",
-        "isCorrect": false
-      }
+      { "text": "Crear", "isCorrect": false },
+      { "text": "Actualizar", "isCorrect": true },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Leer", "isCorrect": false }
     ]
   },
   {
     "id": 49,
     "question": "¿Qué hace @app.get?",
     "options": [
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar",
-        "isCorrect": false
-      },
-      {
-        "text": "Leer",
-        "isCorrect": true
-      },
-      {
-        "text": "Crear",
-        "isCorrect": false
-      }
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Actualizar", "isCorrect": false },
+      { "text": "Leer", "isCorrect": true },
+      { "text": "Crear", "isCorrect": false }
     ]
   },
   {
     "id": 50,
     "question": "¿Qué hace un parámetro tipado (id:int)?",
     "options": [
-      {
-        "text": "Elimina",
-        "isCorrect": false
-      },
-      {
-        "text": "Convierte siempre",
-        "isCorrect": false
-      },
-      {
-        "text": "Ignora",
-        "isCorrect": false
-      },
-      {
-        "text": "Valida tipo",
-        "isCorrect": true
-      }
+      { "text": "Elimina", "isCorrect": false },
+      { "text": "Convierte siempre", "isCorrect": false },
+      { "text": "Ignora", "isCorrect": false },
+      { "text": "Valida tipo", "isCorrect": true }
     ]
   },
   {
     "id": 51,
     "question": "¿Qué pasa si envías mal tipo en FastAPI?",
     "options": [
-      {
-        "text": "Error validación",
-        "isCorrect": true
-      },
-      {
-        "text": "Se corrige",
-        "isCorrect": false
-      },
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Se ignora",
-        "isCorrect": false
-      }
+      { "text": "Error validación", "isCorrect": true },
+      { "text": "Se corrige", "isCorrect": false },
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Se ignora", "isCorrect": false }
     ]
   },
   {
     "id": 52,
     "question": "¿Qué hace list.append() en API?",
     "options": [
-      {
-        "text": "Actualizar",
-        "isCorrect": false
-      },
-      {
-        "text": "Añadir elemento",
-        "isCorrect": true
-      },
-      {
-        "text": "Leer",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      }
+      { "text": "Actualizar", "isCorrect": false },
+      { "text": "Añadir elemento", "isCorrect": true },
+      { "text": "Leer", "isCorrect": false },
+      { "text": "Eliminar", "isCorrect": false }
     ]
   },
   {
     "id": 53,
     "question": "¿Qué ocurre tras POST exitoso?",
     "options": [
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Nuevo recurso",
-        "isCorrect": true
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Elimina",
-        "isCorrect": false
-      }
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Nuevo recurso", "isCorrect": true },
+      { "text": "Error", "isCorrect": false },
+      { "text": "Elimina", "isCorrect": false }
     ]
   },
   {
     "id": 54,
     "question": "¿Qué devuelve normalmente POST?",
     "options": [
-      {
-        "text": "Lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Objeto creado",
-        "isCorrect": true
-      },
-      {
-        "text": "None",
-        "isCorrect": false
-      }
+      { "text": "Lista", "isCorrect": false },
+      { "text": "Error", "isCorrect": false },
+      { "text": "Objeto creado", "isCorrect": true },
+      { "text": "None", "isCorrect": false }
     ]
   },
   {
     "id": 55,
     "question": "¿Qué hace DELETE tras eliminar?",
     "options": [
-      {
-        "text": "Objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "Mensaje confirmación",
-        "isCorrect": true
-      },
-      {
-        "text": "None",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista",
-        "isCorrect": false
-      }
+      { "text": "Objeto", "isCorrect": false },
+      { "text": "Mensaje confirmación", "isCorrect": true },
+      { "text": "None", "isCorrect": false },
+      { "text": "Lista", "isCorrect": false }
     ]
   },
   {
     "id": 56,
     "question": "¿Qué devuelve DELETE inexistente?",
     "options": [
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Mensaje error",
-        "isCorrect": true
-      },
-      {
-        "text": "Objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista",
-        "isCorrect": false
-      }
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Mensaje error", "isCorrect": true },
+      { "text": "Objeto", "isCorrect": false },
+      { "text": "Lista", "isCorrect": false }
     ]
   },
   {
     "id": 57,
     "question": "¿Qué hace GET colección?",
     "options": [
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista recursos",
-        "isCorrect": true
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Uno",
-        "isCorrect": false
-      }
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Lista recursos", "isCorrect": true },
+      { "text": "Error", "isCorrect": false },
+      { "text": "Uno", "isCorrect": false }
     ]
   },
   {
     "id": 58,
     "question": "¿Qué hace GET por id?",
     "options": [
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "Un recurso",
-        "isCorrect": true
-      },
-      {
-        "text": "Lista",
-        "isCorrect": false
-      }
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Error", "isCorrect": false },
+      { "text": "Un recurso", "isCorrect": true },
+      { "text": "Lista", "isCorrect": false }
     ]
   },
   {
     "id": 59,
     "question": "¿Qué devuelve si lista está vacía?",
     "options": [
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "0",
-        "isCorrect": false
-      },
-      {
-        "text": "None",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista vacía",
-        "isCorrect": true
-      }
+      { "text": "Error", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "None", "isCorrect": false },
+      { "text": "Lista vacía", "isCorrect": true }
     ]
   },
   {
     "id": 60,
     "question": "¿Qué estructura devuelve JSON?",
     "options": [
-      {
-        "text": "Set",
-        "isCorrect": false
-      },
-      {
-        "text": "Lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Diccionario",
-        "isCorrect": true
-      },
-      {
-        "text": "Tupla",
-        "isCorrect": false
-      }
+      { "text": "Set", "isCorrect": false },
+      { "text": "Lista", "isCorrect": false },
+      { "text": "Diccionario", "isCorrect": true },
+      { "text": "Tupla", "isCorrect": false }
     ]
   },
   {
     "id": 61,
     "question": "¿Qué hace import fastapi?",
     "options": [
-      {
-        "text": "Ejecuta API",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "Importa módulo",
-        "isCorrect": true
-      },
-      {
-        "text": "Nada",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta API", "isCorrect": false },
+      { "text": "Crea servidor", "isCorrect": false },
+      { "text": "Importa módulo", "isCorrect": true },
+      { "text": "Nada", "isCorrect": false }
     ]
   },
   {
     "id": 62,
     "question": "¿Qué hace from fastapi import FastAPI?",
     "options": [
-      {
-        "text": "Nada",
-        "isCorrect": false
-      },
-      {
-        "text": "Importa clase",
-        "isCorrect": true
-      },
-      {
-        "text": "Ejecuta",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea app",
-        "isCorrect": false
-      }
+      { "text": "Nada", "isCorrect": false },
+      { "text": "Importa clase", "isCorrect": true },
+      { "text": "Ejecuta", "isCorrect": false },
+      { "text": "Crea app", "isCorrect": false }
     ]
   },
   {
     "id": 63,
     "question": "¿Qué hace FastAPI()?",
     "options": [
-      {
-        "text": "Importa",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea ruta",
-        "isCorrect": false
-      },
-      {
-        "text": "Ejecuta servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "Crea aplicación",
-        "isCorrect": true
-      }
+      { "text": "Importa", "isCorrect": false },
+      { "text": "Crea ruta", "isCorrect": false },
+      { "text": "Ejecuta servidor", "isCorrect": false },
+      { "text": "Crea aplicación", "isCorrect": true }
     ]
   },
   {
     "id": 64,
     "question": "¿Qué devuelve una función sin return?",
     "options": [
-      {
-        "text": "None",
-        "isCorrect": true
-      },
-      {
-        "text": "Error",
-        "isCorrect": false
-      },
-      {
-        "text": "String",
-        "isCorrect": false
-      },
-      {
-        "text": "0",
-        "isCorrect": false
-      }
+      { "text": "None", "isCorrect": true },
+      { "text": "Error", "isCorrect": false },
+      { "text": "String", "isCorrect": false },
+      { "text": "0", "isCorrect": false }
     ]
   },
   {
     "id": 65,
     "question": "¿Qué hace raise HTTPException?",
     "options": [
-      {
-        "text": "Crea objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualiza",
-        "isCorrect": false
-      },
-      {
-        "text": "Borra",
-        "isCorrect": false
-      },
-      {
-        "text": "Lanza error HTTP",
-        "isCorrect": true
-      }
+      { "text": "Crea objeto", "isCorrect": false },
+      { "text": "Actualiza", "isCorrect": false },
+      { "text": "Borra", "isCorrect": false },
+      { "text": "Lanza error HTTP", "isCorrect": true }
     ]
   },
   {
     "id": 66,
     "question": "¿Qué atributo define código en HTTPException?",
     "options": [
-      {
-        "text": "status_code",
-        "isCorrect": true
-      },
-      {
-        "text": "code",
-        "isCorrect": false
-      },
-      {
-        "text": "error",
-        "isCorrect": false
-      },
-      {
-        "text": "http",
-        "isCorrect": false
-      }
+      { "text": "status_code", "isCorrect": true },
+      { "text": "code", "isCorrect": false },
+      { "text": "error", "isCorrect": false },
+      { "text": "http", "isCorrect": false }
     ]
   },
   {
     "id": 67,
     "question": "¿Qué atributo define mensaje?",
     "options": [
-      {
-        "text": "message",
-        "isCorrect": false
-      },
-      {
-        "text": "detail",
-        "isCorrect": true
-      },
-      {
-        "text": "text",
-        "isCorrect": false
-      },
-      {
-        "text": "body",
-        "isCorrect": false
-      }
+      { "text": "message", "isCorrect": false },
+      { "text": "detail", "isCorrect": true },
+      { "text": "text", "isCorrect": false },
+      { "text": "body", "isCorrect": false }
     ]
   },
   {
     "id": 68,
     "question": "¿Qué hace path parameter en FastAPI?",
     "options": [
-      {
-        "text": "Crear ruta",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Actualizar",
-        "isCorrect": false
-      },
-      {
-        "text": "Recibir valor URL",
-        "isCorrect": true
-      }
+      { "text": "Crear ruta", "isCorrect": false },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Actualizar", "isCorrect": false },
+      { "text": "Recibir valor URL", "isCorrect": true }
     ]
   },
   {
     "id": 69,
     "question": "¿Qué hace query parameter?",
     "options": [
-      {
-        "text": "Crear objeto",
-        "isCorrect": false
-      },
-      {
-        "text": "Eliminar",
-        "isCorrect": false
-      },
-      {
-        "text": "Recibir datos query",
-        "isCorrect": true
-      },
-      {
-        "text": "Guardar",
-        "isCorrect": false
-      }
+      { "text": "Crear objeto", "isCorrect": false },
+      { "text": "Eliminar", "isCorrect": false },
+      { "text": "Recibir datos query", "isCorrect": true },
+      { "text": "Guardar", "isCorrect": false }
     ]
   },
   {
     "id": 70,
     "question": "¿Cuál es la sintaxis correcta para mostrar una variable en Django?",
     "options": [
-      {
-        "text": "{{ variable }}",
-        "isCorrect": true
-      },
-      {
-        "text": "{% variable %}",
-        "isCorrect": false
-      },
-      {
-        "text": "$ variable",
-        "isCorrect": false
-      },
-      {
-        "text": "<%= variable %>",
-        "isCorrect": false
-      }
+      { "text": "{{ variable }}", "isCorrect": true },
+      { "text": "{% variable %}", "isCorrect": false },
+      { "text": "$ variable", "isCorrect": false },
+      { "text": "<%= variable %>", "isCorrect": false }
     ]
   },
   {
     "id": 71,
     "question": "¿Qué proporciona Swagger en FastAPI?",
     "options": [
-      {
-        "text": "Servidor",
-        "isCorrect": false
-      },
-      {
-        "text": "Base de datos",
-        "isCorrect": false
-      },
-      {
-        "text": "Documentación interactiva",
-        "isCorrect": true
-      },
-      {
-        "text": "Testing",
-        "isCorrect": false
-      }
+      { "text": "Servidor", "isCorrect": false },
+      { "text": "Base de datos", "isCorrect": false },
+      { "text": "Documentación interactiva", "isCorrect": true },
+      { "text": "Testing", "isCorrect": false }
     ]
   },
   {
     "id": 72,
     "question": "¿Qué estructura es inmutable?",
     "options": [
-      {
-        "text": "Lista",
-        "isCorrect": false
-      },
-      {
-        "text": "Set",
-        "isCorrect": false
-      },
-      {
-        "text": "Tupla",
-        "isCorrect": true
-      },
-      {
-        "text": "Diccionario",
-        "isCorrect": false
-      }
+      { "text": "Lista", "isCorrect": false },
+      { "text": "Set", "isCorrect": false },
+      { "text": "Tupla", "isCorrect": true },
+      { "text": "Diccionario", "isCorrect": false }
     ]
   },
   {
     "id": 73,
     "question": "¿Qué hace un serializador en DRF?",
     "options": [
-      {
-        "text": "Migrar",
-        "isCorrect": false
-      },
-      {
-        "text": "Gestionar URLs",
-        "isCorrect": false
-      },
-      {
-        "text": "Autenticar",
-        "isCorrect": false
-      },
-      {
-        "text": "Convertir objetos a JSON",
-        "isCorrect": true
-      }
+      { "text": "Migrar", "isCorrect": false },
+      { "text": "Gestionar URLs", "isCorrect": false },
+      { "text": "Autenticar", "isCorrect": false },
+      { "text": "Convertir objetos a JSON", "isCorrect": true }
     ]
   },
   {
     "id": 74,
     "question": "¿Cómo se guardan cambios en SQLAlchemy?",
     "options": [
-      {
-        "text": "session.save()",
-        "isCorrect": false
-      },
-      {
-        "text": "db.commit()",
-        "isCorrect": false
-      },
-      {
-        "text": "db.save()",
-        "isCorrect": false
-      },
-      {
-        "text": "db.session.commit()",
-        "isCorrect": true
-      }
+      { "text": "session.save()", "isCorrect": false },
+      { "text": "db.commit()", "isCorrect": false },
+      { "text": "db.save()", "isCorrect": false },
+      { "text": "db.session.commit()", "isCorrect": true }
     ]
   },
   {
     "id": 75,
     "question": "¿Qué método obtiene todos los resultados de una consulta?",
     "options": [
-      {
-        "text": "fetchone()",
-        "isCorrect": false
-      },
-      {
-        "text": "fetchall()",
-        "isCorrect": true
-      },
-      {
-        "text": "execute()",
-        "isCorrect": false
-      },
-      {
-        "text": "queryall()",
-        "isCorrect": false
-      }
+      { "text": "fetchone()", "isCorrect": false },
+      { "text": "fetchall()", "isCorrect": true },
+      { "text": "execute()", "isCorrect": false },
+      { "text": "queryall()", "isCorrect": false }
     ]
   },
   {
     "id": 76,
     "question": "¿Qué palabra clave define una función?",
     "options": [
-      {
-        "text": "function",
-        "isCorrect": false
-      },
-      {
-        "text": "func",
-        "isCorrect": false
-      },
-      {
-        "text": "def",
-        "isCorrect": true
-      },
-      {
-        "text": "define",
-        "isCorrect": false
-      }
+      { "text": "function", "isCorrect": false },
+      { "text": "func", "isCorrect": false },
+      { "text": "def", "isCorrect": true },
+      { "text": "define", "isCorrect": false }
     ]
   },
   {
     "id": 77,
     "question": "¿Qué código HTTP indica creación?",
     "options": [
-      {
-        "text": "201",
-        "isCorrect": true
-      },
-      {
-        "text": "204",
-        "isCorrect": false
-      },
-      {
-        "text": "404",
-        "isCorrect": false
-      },
-      {
-        "text": "200",
-        "isCorrect": false
-      }
+      { "text": "201", "isCorrect": true },
+      { "text": "204", "isCorrect": false },
+      { "text": "404", "isCorrect": false },
+      { "text": "200", "isCorrect": false }
     ]
   },
   {
     "id": 78,
     "question": "¿Qué tipo es True?",
     "options": [
-      {
-        "text": "Entero",
-        "isCorrect": false
-      },
-      {
-        "text": "Float",
-        "isCorrect": false
-      },
-      {
-        "text": "Booleano",
-        "isCorrect": true
-      },
-      {
-        "text": "String",
-        "isCorrect": false
-      }
+      { "text": "Entero", "isCorrect": false },
+      { "text": "Float", "isCorrect": false },
+      { "text": "Booleano", "isCorrect": true },
+      { "text": "String", "isCorrect": false }
     ]
   },
   {
     "id": 79,
     "question": "¿Qué método muestra primeras filas en Pandas?",
     "options": [
-      {
-        "text": "df.top()",
-        "isCorrect": false
-      },
-      {
-        "text": "df.head()",
-        "isCorrect": true
-      },
-      {
-        "text": "df.start()",
-        "isCorrect": false
-      },
-      {
-        "text": "df.first()",
-        "isCorrect": false
-      }
+      { "text": "df.top()", "isCorrect": false },
+      { "text": "df.head()", "isCorrect": true },
+      { "text": "df.start()", "isCorrect": false },
+      { "text": "df.first()", "isCorrect": false }
     ]
   },
   {
     "id": 80,
     "question": "¿Qué hace @app.post en FastAPI?",
     "options": [
-      {
-        "text": "Ejecuta consulta",
-        "isCorrect": false
-      },
-      {
-        "text": "Define endpoint POST",
-        "isCorrect": true
-      },
-      {
-        "text": "Renderiza HTML",
-        "isCorrect": false
-      },
-      {
-        "text": "Define clase",
-        "isCorrect": false
-      }
+      { "text": "Ejecuta consulta", "isCorrect": false },
+      { "text": "Define endpoint POST", "isCorrect": true },
+      { "text": "Renderiza HTML", "isCorrect": false },
+      { "text": "Define clase", "isCorrect": false }
     ]
   }
 ]
