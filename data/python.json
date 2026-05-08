@@ -16,25 +16,10 @@
         "isCorrect": false
       },
       {
-        "text": "new Flask(name)",
-        "isCorrect": false
-      },
-      {
         "text": "Flask()",
         "isCorrect": true
-      },
-      {
-        "text": "app",
-        "isCorrect": false
-      },
-      {
-        "text": "app",
-        "isCorrect": false
-      },
-      {
-        "text": "app",
-        "isCorrect": false
       }
+     
     ]
   },
   {
