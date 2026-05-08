@@ -1,3916 +1,1777 @@
 [
   {
-    "section": "TEMA 1",
-    "questions": [
+    "id": 1,
+    "question": "¿Cómo se crea una aplicación básica en Flask?",
+    "options": [
       {
-        "id": 1,
-        "question": "¿Cuál de las siguientes afirmaciones sobre la consola interactiva de Python es falsa?",
-        "options": [
-          {
-            "text": "No permite definir funciones o clases, solo ejecutar expresiones simples.",
-            "isCorrect": true
-          },
-          {
-            "text": "Se puede acceder al resultado de la última expresión mediante la variable especial _.",
-            "isCorrect": false
-          },
-          {
-            "text": "Permite probar código Python de forma inmediata sin crear archivos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Se puede iniciar escribiendo python o python3 en la terminal.",
-            "isCorrect": false
-          }
-        ]
+        "text": "app",
+        "isCorrect": false
       },
       {
-        "id": 2,
-        "question": "¿Cuál es la forma correcta de ejecutar un script de Python llamado «script.py» desde la línea de\ncomandos?",
-        "options": [
-          {
-            "text": "Python script.py.",
-            "isCorrect": true
-          },
-          {
-            "text": "Run script.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "Execute python script.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python -run script.py.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Flask.create()",
+        "isCorrect": false
       },
       {
-        "id": 3,
-        "question": "¿Quién creó el lenguaje de programación Python?",
-        "options": [
-          {
-            "text": "James Gosling.",
-            "isCorrect": false
-          },
-          {
-            "text": "Bjarne Stroustrup.",
-            "isCorrect": false
-          },
-          {
-            "text": "Rasmus Lerdorf.",
-            "isCorrect": false
-          },
-          {
-            "text": "Guido van Rossum.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Flask(name)",
+        "isCorrect": false
       },
       {
-        "id": 4,
-        "question": "¿Qué módulo de Python se utiliza para depuración interactiva dentro del código?",
-        "options": [
-          {
-            "text": "Pdb.",
-            "isCorrect": true
-          },
-          {
-            "text": "Debug.",
-            "isCorrect": false
-          },
-          {
-            "text": "Trace.",
-            "isCorrect": false
-          },
-          {
-            "text": "Inspect.",
-            "isCorrect": false
-          }
-        ]
+        "text": "new Flask(name)",
+        "isCorrect": false
       },
       {
-        "id": 5,
-        "question": "¿Qué ocurrió en 2018 con respecto a la gobernanza de Python?",
-        "options": [
-          {
-            "text": "Guido van Rossum se retiró como «dictador benevolente de por vida» y se creó el\nconsejo directivo de Python.",
-            "isCorrect": true
-          },
-          {
-            "text": "Python fue adquirido por Microsoft.",
-            "isCorrect": false
-          },
-          {
-            "text": "La Python Software Foundation se disolvió.",
-            "isCorrect": false
-          },
-          {
-            "text": "Se decidió terminar el soporte para Python 2 inmediatamente.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Flask()",
+        "isCorrect": true
       },
       {
-        "id": 6,
-        "question": "¿Cuál es la principal diferencia entre Python 2 y Python 3?",
-        "options": [
-          {
-            "text": "Python 3 introdujo cambios que no son compatibles hacia atrás con Python 2.",
-            "isCorrect": true
-          },
-          {
-            "text": "Python 3 solo funciona en sistemas operativos modernos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python 3 es más lento que Python 2.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python 3 no soporta programación orientada a objetos.",
-            "isCorrect": false
-          }
-        ]
+        "text": "app",
+        "isCorrect": false
       },
       {
-        "id": 7,
-        "question": "¿Qué comando se utiliza para crear un entorno virtual con el módulo venv en Python?",
-        "options": [
-          {
-            "text": "Python -m venv nombre_entorno.",
-            "isCorrect": true
-          },
-          {
-            "text": "Pip install venv nombre_entorno.",
-            "isCorrect": false
-          },
-          {
-            "text": "Virtualenv create nombre_entorno.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python venv --create nombre_entorno.",
-            "isCorrect": false
-          }
-        ]
+        "text": "app",
+        "isCorrect": false
       },
       {
-        "id": 8,
-        "question": "¿Qué opción permite ejecutar un script Python y luego entrar en modo interactivo con acceso a las\nvariables definidas en el script?",
-        "options": [
-          {
-            "text": "Python -i script.py.",
-            "isCorrect": true
-          },
-          {
-            "text": "Python --interactive script.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python script.py --console.",
-            "isCorrect": false
-          },
-          {
-            "text": "Python --repl script.py.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "¿Qué es un f-string en Python?",
-        "options": [
-          {
-            "text": "Una forma de formatear cadenas que permite incluir expresiones dentro de llaves {}.",
-            "isCorrect": true
-          },
-          {
-            "text": "Un tipo especial de cadena que solo contiene caracteres del alfabeto.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una función para convertir números a cadenas de texto.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una cadena que solo puede contener valores flotantes.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "question": "¿Cuál de los siguientes no es un IDE o editor comúnmente usado para Python?",
-        "options": [
-          {
-            "text": "Eclipse C/C++.",
-            "isCorrect": true
-          },
-          {
-            "text": "Visual Studio Code.",
-            "isCorrect": false
-          },
-          {
-            "text": "PyCharm.",
-            "isCorrect": false
-          },
-          {
-            "text": "Jupyter Notebook.",
-            "isCorrect": false
-          }
-        ]
+        "text": "app",
+        "isCorrect": false
       }
     ]
   },
   {
-    "section": "TEMA 2",
-    "questions": [
+    "id": 2,
+    "question": "¿Qué librería se usa para trabajar con DataFrames?",
+    "options": [
       {
-        "id": 11,
-        "question": "¿Cuál es la salida del siguiente código?\ndef modificar(lista):\nlista.append(4)\nlista = [7, 8, 9]\nreturn lista\nmi_lista = [1, 2, 3]\nresultado = modificar(mi_lista)\nprint(mi_lista)",
-        "options": [
-          {
-            "text": "[1, 2, 3, 4].",
-            "isCorrect": true
-          },
-          {
-            "text": "[7, 8, 9].",
-            "isCorrect": false
-          },
-          {
-            "text": "[1, 2, 3].",
-            "isCorrect": false
-          },
-          {
-            "text": "[1, 2, 3, 4, 7, 8, 9].",
-            "isCorrect": false
-          }
-        ]
+        "text": "SciPy",
+        "isCorrect": false
       },
       {
-        "id": 12,
-        "question": "¿Cuál es la forma correcta de definir una función en Python?",
-        "options": [
-          {
-            "text": "def saludar(nombre):\nreturn f\"Hola, {nombre}\"",
-            "isCorrect": true
-          },
-          {
-            "text": "function saludar(nombre) {\nreturn f\"Hola, {nombre}\" }",
-            "isCorrect": false
-          },
-          {
-            "text": "func saludar(nombre):\nreturn f\"Hola, {nombre}\"",
-            "isCorrect": false
-          },
-          {
-            "text": "saludar = function(nombre):\nreturn f\"Hola, {nombre}\"",
-            "isCorrect": false
-          }
-        ]
+        "text": "NumPy",
+        "isCorrect": false
       },
       {
-        "id": 13,
-        "question": "¿Cuál es la forma correcta de crear una variable en Python?",
-        "options": [
-          {
-            "text": "Nombre = \"Ana\"",
-            "isCorrect": true
-          },
-          {
-            "text": "Var nombre = \"Ana\"",
-            "isCorrect": false
-          },
-          {
-            "text": "String nombre = \"Ana\"",
-            "isCorrect": false
-          },
-          {
-            "text": "Nombre := \"Ana\"",
-            "isCorrect": false
-          }
-        ]
+        "text": "Matplotlib",
+        "isCorrect": false
       },
       {
-        "id": 14,
-        "question": "¿Cuál es la salida del código print(\"Python\"[1:4]) ?",
-        "options": [
-          {
-            "text": "“yth”",
-            "isCorrect": true
-          },
-          {
-            "text": "“Pyt”",
-            "isCorrect": false
-          },
-          {
-            "text": "“ytho”",
-            "isCorrect": false
-          },
-          {
-            "text": "“Python”",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "question": "¿Cuál es la forma correcta de crear un conjunto (set) en Python?",
-        "options": [
-          {
-            "text": "Colores = {\"rojo\", \"verde\", \"azul\"}.",
-            "isCorrect": true
-          },
-          {
-            "text": "Colores = [\"rojo\", \"verde\", \"azul\"].",
-            "isCorrect": false
-          },
-          {
-            "text": "Colores = (\"rojo\", \"verde\", \"azul\").",
-            "isCorrect": false
-          },
-          {
-            "text": "Colores = {1: \"rojo\", 2: \"verde\", 3: \"azul\"}.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "question": "¿Qué hace f = lambda x, y: x * y ?",
-        "options": [
-          {
-            "text": "Multiplica dos números.",
-            "isCorrect": true
-          },
-          {
-            "text": "Crea una lista con los elementos x e y repetidos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Concatena las cadenas x e y.",
-            "isCorrect": false
-          },
-          {
-            "text": "Eleva x a la potencia y.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "question": "¿Cuál es la salida del siguiente código?\nx = True\ny = False\nprint(x and not y)",
-        "options": [
-          {
-            "text": "True.",
-            "isCorrect": true
-          },
-          {
-            "text": "False.",
-            "isCorrect": false
-          },
-          {
-            "text": "None.",
-            "isCorrect": false
-          },
-          {
-            "text": "Error, no se pueden combinar operadores lógicos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "question": "¿Cuál es la forma correcta de crear una función que acepte un número variable de argumentos\nposicionales?",
-        "options": [
-          {
-            "text": "def suma(*args):\nreturn sum(args)",
-            "isCorrect": true
-          },
-          {
-            "text": "def suma([*args]):\nreturn sum(args)",
-            "isCorrect": false
-          },
-          {
-            "text": "def suma(**args):\nreturn sum(args)",
-            "isCorrect": false
-          },
-          {
-            "text": "def suma(args...):\nreturn sum(args)",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "question": "¿Cuál es la salida del siguiente código?\nx = 5\ny = 2\nprint(x // y)",
-        "options": [
-          {
-            "text": "2.",
-            "isCorrect": true
-          },
-          {
-            "text": "2,5.",
-            "isCorrect": false
-          },
-          {
-            "text": "2,0.",
-            "isCorrect": false
-          },
-          {
-            "text": "3.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "question": "¿Qué hace la comprensión de lista [x**2 for x in range(5) if x % 2 == 0] ?",
-        "options": [
-          {
-            "text": "Crea una lista con los cuadrados de los números pares entre 0 y 4.",
-            "isCorrect": true
-          },
-          {
-            "text": "Crea una lista con los cuadrados de todos los números entre 0 y 4.",
-            "isCorrect": false
-          },
-          {
-            "text": "Crea una lista con los números pares entre 0 y 4.",
-            "isCorrect": false
-          },
-          {
-            "text": "Crea una lista con los cuadrados de los números impares entre 0 y 4.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Pandas",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "TEMA 3",
-    "questions": [
+    "id": 3,
+    "question": "¿Cuál es el operador de división entera en Python?",
+    "options": [
       {
-        "id": 21,
-        "question": "¿Cómo se define correctamente una clase que hereda de otra en Python?",
-        "options": [
-          {
-            "text": "class ClaseHija(ClasePadre):\npass",
-            "isCorrect": true
-          },
-          {
-            "text": "class ClaseHija extends ClasePadre:\npass",
-            "isCorrect": false
-          },
-          {
-            "text": "class ClaseHija inherits ClasePadre:\npass",
-            "isCorrect": false
-          },
-          {
-            "text": "class ClaseHija parent = ClasePadre",
-            "isCorrect": false
-          }
-        ]
+        "text": "**",
+        "isCorrect": false
       },
       {
-        "id": 22,
-        "question": "¿Qué es una propiedad en Python?",
-        "options": [
-          {
-            "text": "Un método especial que se comporta como un atributo, permitiendo controlar el acceso\ny la modificación de datos.",
-            "isCorrect": true
-          },
-          {
-            "text": "Un tipo especial de atributo que no puede ser modificado después de su inicialización.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un atributo que se comparte entre todas las instancias de una clase.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una variable global accesible desde cualquier parte del programa.",
-            "isCorrect": false
-          }
-        ]
+        "text": "//",
+        "isCorrect": true
       },
       {
-        "id": 23,
-        "question": "¿Qué es la herencia en programación orientada a objetos?",
-        "options": [
-          {
-            "text": "Un mecanismo que permite crear una nueva clase basada en una clase existente,\nheredando sus atributos y métodos.",
-            "isCorrect": true
-          },
-          {
-            "text": "Un proceso para copiar objetos existentes y modificarlos sin afectar al original.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una técnica para ocultar los detalles de implementación de una clase.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un método para compartir variables entre diferentes módulos de Python.",
-            "isCorrect": false
-          }
-        ]
+        "text": "/",
+        "isCorrect": false
       },
       {
-        "id": 24,
-        "question": "¿Qué es una fixture en PyTest?",
-        "options": [
-          {
-            "text": "Una función que se ejecuta antes de cada prueba para preparar el entorno de prueba.",
-            "isCorrect": true
-          },
-          {
-            "text": "Un conjunto de datos de prueba predefinidos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una clase base que todas las pruebas deben heredar.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un archivo de configuración para PyTest.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 25,
-        "question": "¿Cuál es la convención de nomenclatura para los archivos de prueba en PyTest?",
-        "options": [
-          {
-            "text": "Deben comenzar con test_ o terminar con _test.py.",
-            "isCorrect": true
-          },
-          {
-            "text": "Deben comenzar con pytest_ o terminar con _pytest.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "Deben estar en un directorio llamado tests o testing.",
-            "isCorrect": false
-          },
-          {
-            "text": "Deben tener la extensión .pytest en lugar de .py.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 26,
-        "question": "¿Cómo se parametrizan pruebas en Pytest?",
-        "options": [
-          {
-            "text": "@pytest.mark.parametrize(“entrada, esperado”, [\n(1, 2),\n(2, 4),\n(3, 6)\n])\ndef test_funcion(entrada, esperado):\nassert 5étodo5(entrada) == esperado",
-            "isCorrect": true
-          },
-          {
-            "text": "@pytest.parametrize(“entrada, esperado”, [\n(1, 2),\n(2, 4),\n(3, 6)\n])\ndef test_funcion(entrada, esperado):\nassert 5étodo5(entrada) == esperado",
-            "isCorrect": false
-          },
-          {
-            "text": "def test_funcion():\nfor entrada, esperado in [(1, 2), (2, 4), (3, 6)]:\nassert 5étodo5(entrada) == esperado",
-            "isCorrect": false
-          },
-          {
-            "text": "@pytest.parameters([\n(1, 2),\n(2, 4),\n(3, 6)\n])\ndef test_funcion(entrada, esperado):\nassert 5étodo5(entrada) == esperado",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 27,
-        "question": "¿Qué es PyTest?",
-        "options": [
-          {
-            "text": "Un framework para realizar pruebas unitarias en Python.",
-            "isCorrect": true
-          },
-          {
-            "text": "Una herramienta para medir el rendimiento de código Python.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un módulo estándar de Python para depuración de código.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una biblioteca para generar documentación automática a partir de pruebas.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 28,
-        "question": "¿Qué es el polimorfismo en programación orientada a objetos?",
-        "options": [
-          {
-            "text": "La capacidad de objetos de diferentes clases de responder al mismo método o función\nde manera diferente.",
-            "isCorrect": true
-          },
-          {
-            "text": "La capacidad de una clase de heredar de múltiples clases base.",
-            "isCorrect": false
-          },
-          {
-            "text": "La capacidad de ocultar los detalles de implementación de una clase.",
-            "isCorrect": false
-          },
-          {
-            "text": "La capacidad de crear múltiples instancias de una misma clase.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 29,
-        "question": "¿Cómo se define un método abstracto en Python?",
-        "options": [
-          {
-            "text": "from abc import ABC, abstractmethod\nclass MiClase(ABC):\n@abstractmethod\ndef mi_metodo(self):\npass",
-            "isCorrect": true
-          },
-          {
-            "text": "class MiClase:\ndef mi_metodo(self):\nraise NotImplementedError()",
-            "isCorrect": false
-          },
-          {
-            "text": "class MiClase:\n@abstract\ndef mi_metodo(self):\npass",
-            "isCorrect": false
-          },
-          {
-            "text": "class MiClase:\nabstract def mi_metodo(self):\npass",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 30,
-        "question": "¿Cuál es la convención de nomenclatura recomendada para nombrar clases en Python?",
-        "options": [
-          {
-            "text": "Palabras en minúscula separadas por guiones bajos: snake_case ().",
-            "isCorrect": false
-          },
-          {
-            "text": "Primera palabra en minúscula y el resto de las palabras con la primera letra\nmayúscula: camelCase ().",
-            "isCorrect": false
-          },
-          {
-            "text": "Toda la palabra en mayúsculas: UPPERCASE ().",
-            "isCorrect": false
-          },
-          {
-            "text": "La primera letra de cada palabra en mayúscula: PascalCase ().",
-            "isCorrect": true
-          }
-        ]
+        "text": "%",
+        "isCorrect": false
       }
     ]
   },
   {
-    "section": "TEMA 4",
-    "questions": [
+    "id": 4,
+    "question": "¿Cuál es el resultado de len(\"Python\")?",
+    "options": [
       {
-        "id": 31,
-        "question": "¿Cuál es la forma correcta de ejecutar una transacción con múltiples operaciones en MySQL usando\nPython?",
-        "options": [
-          {
-            "text": "try:\ncursor.execute(\"INSERT INTO tabla1 VALUES (1, 'a')\")\ncursor.execute(\"UPDATE tabla2 SET col = 'valor' WHERE id = 1\")\nconexion.commit()\nexcept:\nconexion.rollback()",
-            "isCorrect": true
-          },
-          {
-            "text": "cursor.begin_transaction()\ncursor.execute(\"INSERT INTO tabla1 VALUES (1, 'a')\")\ncursor.execute(\"UPDATE tabla2 SET col = 'valor' WHERE id = 1\")\ncursor.end_transaction()",
-            "isCorrect": false
-          },
-          {
-            "text": "with conexion.transaction():\ncursor.execute(\"INSERT INTO tabla1 VALUES (1, 'a')\")\ncursor.execute(\"UPDATE tabla2 SET col = 'valor' WHERE id = 1\")",
-            "isCorrect": false
-          },
-          {
-            "text": "cursor.execute(\"BEGIN TRANSACTION\")\ncursor.execute(\"INSERT INTO tabla1 VALUES (1, 'a')\")\ncursor.execute(\"UPDATE tabla2 SET col = 'valor' WHERE id = 1\")\ncursor.execute(\"COMMIT\")",
-            "isCorrect": false
-          }
-        ]
+        "text": "Error",
+        "isCorrect": false
       },
       {
-        "id": 32,
-        "question": "¿Qué tipo de error se produce cuando intentamos conectarnos a MySQL con credenciales incorrectas?",
-        "options": [
-          {
-            "text": "ER_ACCESS_DENIED_ERROR",
-            "isCorrect": true
-          },
-          {
-            "text": "AUTHENTICATION_FAILED",
-            "isCorrect": false
-          },
-          {
-            "text": "INVALID_CREDENTIALS_ERROR",
-            "isCorrect": false
-          },
-          {
-            "text": "LOGIN_FAILED_ERROR",
-            "isCorrect": false
-          }
-        ]
+        "text": "7",
+        "isCorrect": false
       },
       {
-        "id": 33,
-        "question": "¿Qué parámetro se debe pasar al crear un cursor para que los resultados se devuelvan como\ndiccionarios en lugar de tuplas?",
-        "options": [
-          {
-            "text": "dictionary=True.",
-            "isCorrect": true
-          },
-          {
-            "text": "as_dict=True.",
-            "isCorrect": false
-          },
-          {
-            "text": "dict_format=True.",
-            "isCorrect": false
-          },
-          {
-            "text": "return_dict=True.",
-            "isCorrect": false
-          }
-        ]
+        "text": "5",
+        "isCorrect": false
       },
       {
-        "id": 34,
-        "question": "¿Qué método se utiliza para revertir los cambios realizados en una transacción si ocurre un error?",
-        "options": [
-          {
-            "text": "conexion.rollback()",
-            "isCorrect": true
-          },
-          {
-            "text": "conexion.revert()",
-            "isCorrect": false
-          },
-          {
-            "text": "cursor.rollback()",
-            "isCorrect": false
-          },
-          {
-            "text": "cursor.undo()",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 35,
-        "question": "¿Qué biblioteca se utiliza comúnmente para cargar variables de entorno desde un archivo .env en\nPython?",
-        "options": [
-          {
-            "text": "python-dotenv.",
-            "isCorrect": true
-          },
-          {
-            "text": "env-loader.",
-            "isCorrect": false
-          },
-          {
-            "text": "environment-vars.",
-            "isCorrect": false
-          },
-          {
-            "text": "config-env.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 36,
-        "question": "¿Cómo se instala MySQL Connector/Python?",
-        "options": [
-          {
-            "text": "pip install mysql-connector-python",
-            "isCorrect": true
-          },
-          {
-            "text": "pip install python-mysql",
-            "isCorrect": false
-          },
-          {
-            "text": "apt-get install mysql-python",
-            "isCorrect": false
-          },
-          {
-            "text": "conda install mysql",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 37,
-        "question": "¿Qué ventaja ofrece el uso de un pool de conexiones al trabajar con bases de datos en aplicaciones\nPython?",
-        "options": [
-          {
-            "text": "Reduce la sobrecarga de crear y cerrar conexiones frecuentemente, mejorando el\nrendimiento.",
-            "isCorrect": true
-          },
-          {
-            "text": "Permite ejecutar consultas SQL sin necesidad de crear un cursor.",
-            "isCorrect": false
-          },
-          {
-            "text": "Convierte automáticamente los resultados de las consultas en objetos Python.",
-            "isCorrect": false
-          },
-          {
-            "text": "Elimina la necesidad de usar transacciones explícitas.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 38,
-        "question": "¿Cuál es el propósito principal del patrón DAO (data access object) en aplicaciones que trabajan con\nbases de datos?",
-        "options": [
-          {
-            "text": "Proporcionar una interfaz orientada a objetos para interactuar con la base de datos,\nocultando los detalles de implementación.",
-            "isCorrect": true
-          },
-          {
-            "text": "Optimizar automáticamente las consultas SQL para mejorar el rendimiento.",
-            "isCorrect": false
-          },
-          {
-            "text": "Convertir objetos Python en registros de base de datos sin escribir SQL.",
-            "isCorrect": false
-          },
-          {
-            "text": "Crear una capa de caché para reducir las consultas a la base de datos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 39,
-        "question": "¿Qué significa el parámetro autocommit=True al establecer una conexión a MySQL?",
-        "options": [
-          {
-            "text": "Los cambios se confirman automáticamente sin necesidad de llamar\na commit() explícitamente.",
-            "isCorrect": true
-          },
-          {
-            "text": "Las consultas se ejecutan automáticamente sin necesidad de llamar a execute().",
-            "isCorrect": false
-          },
-          {
-            "text": "La conexión se cierra automáticamente después de cada operación.",
-            "isCorrect": false
-          },
-          {
-            "text": "Los errores se manejan automáticamente sin necesidad de bloques try-except.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 40,
-        "question": "¿Cuál es la mejor práctica para manejar credenciales de base de datos en una aplicación Python?",
-        "options": [
-          {
-            "text": "Almacenarlas en variables de entorno o archivos de configuración externos.",
-            "isCorrect": true
-          },
-          {
-            "text": "Codificarlas directamente en el código fuente.",
-            "isCorrect": false
-          },
-          {
-            "text": "Guardarlas en un archivo de texto plano junto al código.",
-            "isCorrect": false
-          },
-          {
-            "text": "Almacenarlas en una variable global dentro del programa.",
-            "isCorrect": false
-          }
-        ]
+        "text": "6",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "TEMA 5",
-    "questions": [
+    "id": 5,
+    "question": "¿Para qué sirve un modelo en Django?",
+    "options": [
       {
-        "id": 41,
-        "question": "¿Cómo se crea un formulario basado en modelo en Django?",
-        "options": [
-          {
-            "text": "from django import forms\nfrom .models import MiModelo\nclass MiModeloForm(forms.ModelForm):\nclass Meta:\nmodel = MiModelo\nfields = ['campo1', 'campo2']",
-            "isCorrect": true
-          },
-          {
-            "text": "from django.forms import ModelForm\nfrom .models import MiModelo\nclass MiModeloForm(ModelForm):\nmodel = MiModelo\nfields = ['campo1', 'campo2']",
-            "isCorrect": false
-          },
-          {
-            "text": "from django import forms\nfrom .models import MiModelo\nclass MiModeloForm(forms.Form):\nclass Meta:\nmodel = MiModelo\nfields = ['campo1', 'campo2']",
-            "isCorrect": false
-          },
-          {
-            "text": "from django.forms import Form\nfrom .models import MiModelo\nclass MiModeloForm(Form, MiModelo):\nfields = ['campo1', 'campo2']",
-            "isCorrect": false
-          }
-        ]
+        "text": "Gestionar rutas",
+        "isCorrect": false
       },
       {
-        "id": 42,
-        "question": "¿Cómo se redirige a otra página después de procesar un formulario en Django?",
-        "options": [
-          {
-            "text": "from django.shortcuts import redirect\nreturn redirect('nombre_url')",
-            "isCorrect": true
-          },
-          {
-            "text": "from django.http import HttpRedirect\nreturn HttpRedirect('nombre_url')",
-            "isCorrect": false
-          },
-          {
-            "text": "from django.shortcuts import render_redirect\nreturn render_redirect('nombre_url')",
-            "isCorrect": false
-          },
-          {
-            "text": "from django.http import Redirect\nreturn Redirect('nombre_url')",
-            "isCorrect": false
-          }
-        ]
+        "text": "Procesar peticiones",
+        "isCorrect": false
       },
       {
-        "id": 43,
-        "question": "¿Qué clase se utiliza para personalizar la apariencia de un modelo en el panel de administración de\nDjango?",
-        "options": [
-          {
-            "text": "ModelAdmin.",
-            "isCorrect": true
-          },
-          {
-            "text": "AdminModel.",
-            "isCorrect": false
-          },
-          {
-            "text": "AdminPanel.",
-            "isCorrect": false
-          },
-          {
-            "text": "ModelPanel.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Renderizar vistas",
+        "isCorrect": false
       },
       {
-        "id": 44,
-        "question": "¿Cómo se muestra una variable en una plantilla de Django?",
-        "options": [
-          {
-            "text": "{{ variable }}.",
-            "isCorrect": true
-          },
-          {
-            "text": "{% variable %}.",
-            "isCorrect": false
-          },
-          {
-            "text": "{# variable #}.",
-            "isCorrect": false
-          },
-          {
-            "text": "{$ variable $}.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 45,
-        "question": "¿Cuál es la forma correcta de extender una plantilla base en Django?",
-        "options": [
-          {
-            "text": "{% extends 'base.html' %}\n{% block contenido %}\n<!-- Contenido específico -->\n{% endblock %}",
-            "isCorrect": true
-          },
-          {
-            "text": "{% include 'base.html' %}\n{% block contenido %}\n<!-- Contenido específico -->\n{% endblock %}",
-            "isCorrect": false
-          },
-          {
-            "text": "{% inherit 'base.html' %}\n{% block contenido %}\n<!-- Contenido específico -->\n{% endblock %}",
-            "isCorrect": false
-          },
-          {
-            "text": "{% extends from 'base.html' %}\n{% section contenido %}\n<!-- Contenido específico -->\n{% endsection %}",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 46,
-        "question": "¿Cómo se incluye una plantilla parcial dentro de otra plantilla en Django?",
-        "options": [
-          {
-            "text": "{% include 'parcial.html' %}.",
-            "isCorrect": true
-          },
-          {
-            "text": "{% partial 'parcial.html' %}.",
-            "isCorrect": false
-          },
-          {
-            "text": "{% insert 'parcial.html' %}.",
-            "isCorrect": false
-          },
-          {
-            "text": "{% extends 'parcial.html' %}.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 47,
-        "question": "¿Cómo se muestra un formulario en una plantilla de Django?",
-        "options": [
-          {
-            "text": "<form method=\"post\">\n{% csrf_token %}\n{{ form.as_p }}\n<button type=\"submit\">Enviar</button>\n</form>",
-            "isCorrect": true
-          },
-          {
-            "text": "<form method=\"post\">\n{% csrf_token %}\n{% form.render %}\n<button type=\"submit\">Enviar</button>\n</form>",
-            "isCorrect": false
-          },
-          {
-            "text": "<form method=\"post\">\n{{ csrf_token }}\n{{ form.as_p }}\n<button type=\"submit\">Enviar</button> </form>",
-            "isCorrect": false
-          },
-          {
-            "text": "<form method=\"post\">\n{% csrf %}\n{% for field in form %}\n{{ field }}\n{% endfor %}\n</form>",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 48,
-        "question": "¿Cuál de los siguientes comandos se utiliza para crear un nuevo proyecto Django?",
-        "options": [
-          {
-            "text": "django-admin startproject miproyecto.",
-            "isCorrect": true
-          },
-          {
-            "text": "python manage.py createproject miproyecto.",
-            "isCorrect": false
-          },
-          {
-            "text": "django-admin createproject miproyecto.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py startproject miproyecto.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 49,
-        "question": "¿Cuál es la forma correcta de definir una relación uno a muchos en Django?",
-        "options": [
-          {
-            "text": "autor = models.ForeignKey(Autor, on_delete=models.CASCADE).",
-            "isCorrect": true
-          },
-          {
-            "text": "autor = models.OneToMany(Autor, on_delete=models.CASCADE).",
-            "isCorrect": false
-          },
-          {
-            "text": "autor = models.ManyToOne(Autor, on_delete=models.CASCADE).",
-            "isCorrect": false
-          },
-          {
-            "text": "autor = models.RelatedTo(Autor, type='one_to_many').",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 50,
-        "question": "¿Qué archivo de Django se utiliza para definir los modelos de datos de una aplicación?",
-        "options": [
-          {
-            "text": "models.py.",
-            "isCorrect": true
-          },
-          {
-            "text": "schema.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "database.py.",
-            "isCorrect": false
-          },
-          {
-            "text": "tables.py.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Definir la estructura de datos",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "EXAMEN PRIMER TRIMESTRE",
-    "questions": [
+    "id": 6,
+    "question": "¿Qué clase se usa en SQLAlchemy para definir modelos?",
+    "options": [
       {
-        "id": 51,
-        "question": "¿Qué es Python?",
-        "options": [
-          {
-            "text": "Un motor de base de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un sistema operativo.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un compilador para Java.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un lenguaje de programación de alto nivel, interpretado y de propósito general.",
-            "isCorrect": true
-          }
-        ]
+        "text": "SQLAlchemy.Model",
+        "isCorrect": false
       },
       {
-        "id": 52,
-        "question": "¿Cuál de los siguientes es un nombre de variable válido en Python?",
-        "options": [
-          {
-            "text": "2variable.",
-            "isCorrect": false
-          },
-          {
-            "text": "class.",
-            "isCorrect": false
-          },
-          {
-            "text": "mi-variable.",
-            "isCorrect": false
-          },
-          {
-            "text": "_mi_variable.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Base.Model",
+        "isCorrect": false
       },
       {
-        "id": 53,
-        "question": "¿Qué tipo de dato tiene la variable x en el código x = True?",
-        "options": [
-          {
-            "text": "Booleano.",
-            "isCorrect": true
-          },
-          {
-            "text": "Cadena.",
-            "isCorrect": false
-          },
-          {
-            "text": "Entero.",
-            "isCorrect": false
-          },
-          {
-            "text": "Ninguno.",
-            "isCorrect": false
-          }
-        ]
+        "text": "db.Table",
+        "isCorrect": false
       },
       {
-        "id": 54,
-        "question": "¿Cuál es el operador para la división entera en Python?",
-        "options": [
-          {
-            "text": "/.",
-            "isCorrect": false
-          },
-          {
-            "text": "//.",
-            "isCorrect": true
-          },
-          {
-            "text": "**.",
-            "isCorrect": false
-          },
-          {
-            "text": "%.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 55,
-        "question": "¿Cuál es el resultado de la expresión 5 % 2?",
-        "options": [
-          {
-            "text": "2.",
-            "isCorrect": false
-          },
-          {
-            "text": "0.",
-            "isCorrect": false
-          },
-          {
-            "text": "2.5.",
-            "isCorrect": false
-          },
-          {
-            "text": "1.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 56,
-        "question": "¿Qué estructura de control se usa para decisiones condicionales?",
-        "options": [
-          {
-            "text": "if.",
-            "isCorrect": true
-          },
-          {
-            "text": "while.",
-            "isCorrect": false
-          },
-          {
-            "text": "try.",
-            "isCorrect": false
-          },
-          {
-            "text": "for.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 57,
-        "question": "¿Cuál de las siguientes estructuras permite iterar un número definido de veces?",
-        "options": [
-          {
-            "text": "if.",
-            "isCorrect": false
-          },
-          {
-            "text": "for.",
-            "isCorrect": true
-          },
-          {
-            "text": "try.",
-            "isCorrect": false
-          },
-          {
-            "text": "break.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 58,
-        "question": "¿Cuál de las siguientes es una lista válida en Python?:",
-        "options": [
-          {
-            "text": "(1, 2, 3).",
-            "isCorrect": false
-          },
-          {
-            "text": "{1, 2, 3}.",
-            "isCorrect": false
-          },
-          {
-            "text": "[1, 2, 3].",
-            "isCorrect": true
-          },
-          {
-            "text": "“1, 2, 3”.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 59,
-        "question": "¿Qué estructura de datos es inmutable?",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Diccionario.",
-            "isCorrect": false
-          },
-          {
-            "text": "Tupla.",
-            "isCorrect": true
-          },
-          {
-            "text": "Conjunto.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 60,
-        "question": "¿Cuál es la función para obtener la longitud de una lista?",
-        "options": [
-          {
-            "text": "count().",
-            "isCorrect": false
-          },
-          {
-            "text": "length().",
-            "isCorrect": false
-          },
-          {
-            "text": "size().",
-            "isCorrect": false
-          },
-          {
-            "text": "len().",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 61,
-        "question": "¿Qué método se usa para agregar un elemento a una lista?",
-        "options": [
-          {
-            "text": "append().",
-            "isCorrect": true
-          },
-          {
-            "text": "insert().",
-            "isCorrect": false
-          },
-          {
-            "text": "put().",
-            "isCorrect": false
-          },
-          {
-            "text": "add().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 62,
-        "question": "¿Qué palabra clave se usa para definir una función en Python?",
-        "options": [
-          {
-            "text": "function.",
-            "isCorrect": false
-          },
-          {
-            "text": "def.",
-            "isCorrect": true
-          },
-          {
-            "text": "define.",
-            "isCorrect": false
-          },
-          {
-            "text": "func.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 63,
-        "question": "¿Qué palabra clave se usa para manejar excepciones en Python?",
-        "options": [
-          {
-            "text": "try.",
-            "isCorrect": true
-          },
-          {
-            "text": "error.",
-            "isCorrect": false
-          },
-          {
-            "text": "catch.",
-            "isCorrect": false
-          },
-          {
-            "text": "exception.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 64,
-        "question": "¿Cuál es el propósito de import en Python?",
-        "options": [
-          {
-            "text": "Importar módulos o bibliotecas.",
-            "isCorrect": true
-          },
-          {
-            "text": "Exportar funciones.",
-            "isCorrect": false
-          },
-          {
-            "text": "Crear clases.",
-            "isCorrect": false
-          },
-          {
-            "text": "Definir excepciones.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 65,
-        "question": "¿Qué tipo de datos devuelve la función input()?:",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Entero.",
-            "isCorrect": false
-          },
-          {
-            "text": "Booleano.",
-            "isCorrect": false
-          },
-          {
-            "text": "Cadena de texto.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 66,
-        "question": "¿Cuál es el resultado de la operación len(“Python”)?",
-        "options": [
-          {
-            "text": "5.",
-            "isCorrect": false
-          },
-          {
-            "text": "7.",
-            "isCorrect": false
-          },
-          {
-            "text": "Error.",
-            "isCorrect": false
-          },
-          {
-            "text": "6.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 67,
-        "question": "¿Cómo se crea una clase en Python?",
-        "options": [
-          {
-            "text": "Usando la palabra clave class.",
-            "isCorrect": true
-          },
-          {
-            "text": "Usando la palabra clave object.",
-            "isCorrect": false
-          },
-          {
-            "text": "Usando la palabra clave def.",
-            "isCorrect": false
-          },
-          {
-            "text": "Usando la palabra clave type.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 68,
-        "question": "¿Cuál es el nombre del método constructor en una clase de Python?",
-        "options": [
-          {
-            "text": "__init__.",
-            "isCorrect": true
-          },
-          {
-            "text": "__start__.",
-            "isCorrect": false
-          },
-          {
-            "text": "_create__.",
-            "isCorrect": false
-          },
-          {
-            "text": "constructor.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 69,
-        "question": "¿Qué palabra clave permite acceder a atributos y métodos dentro de una clase?",
-        "options": [
-          {
-            "text": "this.",
-            "isCorrect": false
-          },
-          {
-            "text": "self.",
-            "isCorrect": true
-          },
-          {
-            "text": "cls.",
-            "isCorrect": false
-          },
-          {
-            "text": "me.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 70,
-        "question": "¿Cuál de las siguientes opciones es correcta acerca de estas clases?:",
-        "options": [
-          {
-            "text": "class Estudiante(Persona):",
-            "isCorrect": false
-          },
-          {
-            "text": "pass",
-            "isCorrect": false
-          },
-          {
-            "text": "Es una composición.",
-            "isCorrect": false
-          },
-          {
-            "text": "Es polimorfismo.\nLa clase Persona hereda de Estudiante.\nLa clase Estudiante hereda de Persona.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 71,
-        "question": "¿Qué es el polimorfismo en programación orientada a objetos?",
-        "options": [
-          {
-            "text": "La creación de múltiples clases a partir de una sola.",
-            "isCorrect": false
-          },
-          {
-            "text": "La restricción del acceso a los datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "La capacidad de usar el mismo método con diferentes comportamientos.",
-            "isCorrect": true
-          },
-          {
-            "text": "La eliminación de herencia.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 72,
-        "question": "¿Qué es la encapsulación?",
-        "options": [
-          {
-            "text": "El uso de múltiples clases.",
-            "isCorrect": false
-          },
-          {
-            "text": "La modificación de métodos.",
-            "isCorrect": false
-          },
-          {
-            "text": "El ocultamiento de los detalles internos de un objeto.",
-            "isCorrect": true
-          },
-          {
-            "text": "La herencia de atributos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 73,
-        "question": "¿Cuál es la diferencia entre una lista y un conjunto en Python?",
-        "options": [
-          {
-            "text": "Un conjunto mantiene el orden de inserción.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una lista no puede contener enteros.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un conjunto no permite elementos duplicados, una lista sí.",
-            "isCorrect": true
-          },
-          {
-            "text": "No hay diferencia.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 74,
-        "question": "¿Qué estructura se usa para asociar claves a valores?",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Tupla.",
-            "isCorrect": false
-          },
-          {
-            "text": "Set.",
-            "isCorrect": false
-          },
-          {
-            "text": "Diccionario.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 75,
-        "question": "¿Cuál es el resultado de la operación ‘a’ * 3?",
-        "options": [
-          {
-            "text": "‘a3’.",
-            "isCorrect": false
-          },
-          {
-            "text": "Error.",
-            "isCorrect": false
-          },
-          {
-            "text": "‘aaa’.",
-            "isCorrect": true
-          },
-          {
-            "text": "‘a a a’.",
-            "isCorrect": false
-          }
-        ]
+        "text": "db.Model",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "TEMA 6",
-    "questions": [
+    "id": 7,
+    "question": "¿Qué comando aplica migraciones en Django?",
+    "options": [
       {
-        "id": 76,
-        "question": "¿Qué línea debe añadirse a INSTALLED_APPS en settings.py para habilitar Django REST framework?",
-        "options": [
-          {
-            "text": "'rest_framework'",
-            "isCorrect": true
-          },
-          {
-            "text": "'django_rest_framework'",
-            "isCorrect": false
-          },
-          {
-            "text": "'API_framework'",
-            "isCorrect": false
-          },
-          {
-            "text": "'django.contrib.rest_framework'",
-            "isCorrect": false
-          }
-        ]
+        "text": "makemigrations",
+        "isCorrect": false
       },
       {
-        "id": 77,
-        "question": "¿Qué método se utiliza en un ViewSet para seleccionar diferentes serializadores según la acción?",
-        "options": [
-          {
-            "text": "get_serializer_class().",
-            "isCorrect": true
-          },
-          {
-            "text": "select_serializer().",
-            "isCorrect": false
-          },
-          {
-            "text": "choose_serializer().",
-            "isCorrect": false
-          },
-          {
-            "text": "serializer_for_action().",
-            "isCorrect": false
-          }
-        ]
+        "text": "runserver",
+        "isCorrect": false
       },
       {
-        "id": 78,
-        "question": "¿Qué método se utiliza en un ViewSet para personalizar el queryset basado en parámetros de la\nsolicitud?",
-        "options": [
-          {
-            "text": "get_queryset()",
-            "isCorrect": true
-          },
-          {
-            "text": "filter_queryset()",
-            "isCorrect": false
-          },
-          {
-            "text": "customize_queryset()",
-            "isCorrect": false
-          },
-          {
-            "text": "queryset_filter()",
-            "isCorrect": false
-          }
-        ]
+        "text": "python manage.py migrate",
+        "isCorrect": true
       },
       {
-        "id": 79,
-        "question": "¿Cuál es la diferencia principal entre PUT y PATCH en una API REST?",
-        "options": [
-          {
-            "text": "PUT actualiza todo el recurso, mientras que PATCH actualiza parcialmente el recurso.",
-            "isCorrect": true
-          },
-          {
-            "text": "PUT crea un nuevo recurso, mientras que PATCH actualiza uno existente.",
-            "isCorrect": false
-          },
-          {
-            "text": "PUT es idempotente, mientras que PATCH no lo es.",
-            "isCorrect": false
-          },
-          {
-            "text": "PUT requiere autenticación, mientras que PATCH no.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 80,
-        "question": "¿Qué código de estado HTTP se devuelve típicamente después de eliminar con éxito un recurso?",
-        "options": [
-          {
-            "text": "204 No Content.",
-            "isCorrect": true
-          },
-          {
-            "text": "200 OK.",
-            "isCorrect": false
-          },
-          {
-            "text": "202 Accepted.",
-            "isCorrect": false
-          },
-          {
-            "text": "205 Reset Content.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 81,
-        "question": "¿Qué decorador se utiliza para añadir acciones personalizadas a un ViewSet?",
-        "options": [
-          {
-            "text": "@action.",
-            "isCorrect": true
-          },
-          {
-            "text": "@custom_action.",
-            "isCorrect": false
-          },
-          {
-            "text": "@detail_route.",
-            "isCorrect": false
-          },
-          {
-            "text": "@API_action.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 82,
-        "question": "¿Qué decorador se utiliza para crear una vista basada en función en Django REST framework?",
-        "options": [
-          {
-            "text": "@API_view.",
-            "isCorrect": true
-          },
-          {
-            "text": "@rest_view.",
-            "isCorrect": false
-          },
-          {
-            "text": "@APIView.",
-            "isCorrect": false
-          },
-          {
-            "text": "@rest_API.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 83,
-        "question": "¿Qué tipo de campo se utiliza en un serializador para crear un campo calculado que no existe en el\nmodelo?",
-        "options": [
-          {
-            "text": "SerializerMethodField.",
-            "isCorrect": true
-          },
-          {
-            "text": "ComputedField.",
-            "isCorrect": false
-          },
-          {
-            "text": "CalculatedField.",
-            "isCorrect": false
-          },
-          {
-            "text": "DerivedField.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 84,
-        "question": "¿Cuál de los siguientes no es uno de los métodos HTTP estándar utilizados en API REST?",
-        "options": [
-          {
-            "text": "MODIFY.",
-            "isCorrect": true
-          },
-          {
-            "text": "GET.",
-            "isCorrect": false
-          },
-          {
-            "text": "POST.",
-            "isCorrect": false
-          },
-          {
-            "text": "DELETE.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 85,
-        "question": "¿Qué clase base se utiliza para crear un ViewSet que proporcione solo operaciones de lectura?",
-        "options": [
-          {
-            "text": "ReadOnlyModelViewSet.",
-            "isCorrect": true
-          },
-          {
-            "text": "ListRetrieveViewSet.",
-            "isCorrect": false
-          },
-          {
-            "text": "GetOnlyViewSet.",
-            "isCorrect": false
-          },
-          {
-            "text": "ViewOnlyModelViewSet.",
-            "isCorrect": false
-          }
-        ]
+        "text": "startapp",
+        "isCorrect": false
       }
     ]
   },
   {
-    "section": "TEMA 7",
-    "questions": [
+    "id": 8,
+    "question": "¿Cómo se instala Django REST Framework?",
+    "options": [
       {
-        "id": 86,
-        "question": "¿Qué método se utiliza para filtrar registros en Flask-SQLAlchemy?",
-        "options": [
-          {
-            "text": "db.session.select().",
-            "isCorrect": false
-          },
-          {
-            "text": "Producto.query.filter().",
-            "isCorrect": true
-          },
-          {
-            "text": "db.Model.find().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.session.where().",
-            "isCorrect": false
-          }
-        ]
+        "text": "django-rest",
+        "isCorrect": false
       },
       {
-        "id": 87,
-        "question": "¿Cuál de las siguientes no es una extensión popular de Flask?",
-        "options": [
-          {
-            "text": "Flask-SQLAlchemy.",
-            "isCorrect": false
-          },
-          {
-            "text": "Flask-WTF.",
-            "isCorrect": false
-          },
-          {
-            "text": "Flask-Security.",
-            "isCorrect": false
-          },
-          {
-            "text": "Flask-Django.",
-            "isCorrect": true
-          }
-        ]
+        "text": "django-api",
+        "isCorrect": false
       },
       {
-        "id": 88,
-        "question": "¿Qué método de Flask-SQLAlchemy se utiliza para añadir un nuevo objeto a la sesión de base de\ndatos?",
-        "options": [
-          {
-            "text": "db.session.add().",
-            "isCorrect": true
-          },
-          {
-            "text": "db.session.insert().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.session.create().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.session.new().",
-            "isCorrect": false
-          }
-        ]
+        "text": "pip install drf",
+        "isCorrect": false
       },
       {
-        "id": 89,
-        "question": "¿Con qué propósito inicial se creó Flask?",
-        "options": [
-          {
-            "text": "Como un framework empresarial.",
-            "isCorrect": false
-          },
-          {
-            "text": "Como un proyecto académico.",
-            "isCorrect": false
-          },
-          {
-            "text": "Como una broma del día de los Inocentes.",
-            "isCorrect": true
-          },
-          {
-            "text": "Como una alternativa a Django.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 90,
-        "question": "¿Cuál es la estructura de directorios recomendada para un proyecto Flask simple?",
-        "options": [
-          {
-            "text": "Una estructura MVC estricta con modelos, vistas y controladores.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una estructura basada en paquetes para proyectos grandes.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una estructura simple con «app.py», venv/ , static/ y otros archivos básicos.",
-            "isCorrect": true
-          },
-          {
-            "text": "Una estructura de aplicación de fábrica con blueprints.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 91,
-        "question": "¿Cuál es el propósito principal de Werkzeug en Flask?",
-        "options": [
-          {
-            "text": "Manejar las plantillas HTML.",
-            "isCorrect": false
-          },
-          {
-            "text": "Proporcionar un ORM para bases de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Manejar las interacciones de bajo nivel con servidores web.",
-            "isCorrect": true
-          },
-          {
-            "text": "Gestionar la autenticación de usuarios.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 92,
-        "question": "¿Qué característica se introdujo en la versión 0.11 de Flask?",
-        "options": [
-          {
-            "text": "Una nueva interfaz de línea de comandos (CLI).",
-            "isCorrect": true
-          },
-          {
-            "text": "Vistas asíncronas.",
-            "isCorrect": false
-          },
-          {
-            "text": "Soporte para Python 3.",
-            "isCorrect": false
-          },
-          {
-            "text": "Integración con python-dotenv.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 93,
-        "question": "¿Para qué sirve la función get_or_404() en Flask-SQLAlchemy?",
-        "options": [
-          {
-            "text": "Para crear un registro si no existe.",
-            "isCorrect": false
-          },
-          {
-            "text": "Para obtener un registro por ID o devolver un error 404 si no existe.",
-            "isCorrect": true
-          },
-          {
-            "text": "Para verificar si una tabla existe en la base de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Para comprobar conexiones a la base de datos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 94,
-        "question": "¿Cuál es la filosofía central de Flask?",
-        "options": [
-          {
-            "text": "Todo incluido.",
-            "isCorrect": false
-          },
-          {
-            "text": "Micro, pero no demasiado.",
-            "isCorrect": false
-          },
-          {
-            "text": "Convención sobre configuración.",
-            "isCorrect": false
-          },
-          {
-            "text": "Baterías no incluidas.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 95,
-        "question": "¿En qué año se creó Flask?",
-        "options": [
-          {
-            "text": "2008.",
-            "isCorrect": false
-          },
-          {
-            "text": "2011.",
-            "isCorrect": false
-          },
-          {
-            "text": "2007.",
-            "isCorrect": false
-          },
-          {
-            "text": "2010.",
-            "isCorrect": true
-          }
-        ]
+        "text": "pip install djangorestframework",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "TEMA 8",
-    "questions": [
+    "id": 9,
+    "question": "¿Qué devuelve 5 // 2?",
+    "options": [
       {
-        "id": 96,
-        "question": "¿Qué función se utiliza comúnmente en FastAPI para obtener una sesión de base de datos?",
-        "options": [
-          {
-            "text": "db_connection().",
-            "isCorrect": false
-          },
-          {
-            "text": "session_maker().",
-            "isCorrect": false
-          },
-          {
-            "text": "get_db().",
-            "isCorrect": true
-          },
-          {
-            "text": "create_session().",
-            "isCorrect": false
-          }
-        ]
+        "text": "2.5",
+        "isCorrect": false
       },
       {
-        "id": 97,
-        "question": "¿Qué patrón arquitectónico implementa FastAPI para la gestión de componentes reutilizables?",
-        "options": [
-          {
-            "text": "Factory method.",
-            "isCorrect": false
-          },
-          {
-            "text": "Singleton.",
-            "isCorrect": false
-          },
-          {
-            "text": "Dependency injection.",
-            "isCorrect": true
-          },
-          {
-            "text": "Observer pattern.",
-            "isCorrect": false
-          }
-        ]
+        "text": "0",
+        "isCorrect": false
       },
       {
-        "id": 98,
-        "question": "¿Qué método HTTP se utiliza típicamente para actualizar un recurso existente en una API REST?",
-        "options": [
-          {
-            "text": "POST.",
-            "isCorrect": false
-          },
-          {
-            "text": "PUT.",
-            "isCorrect": true
-          },
-          {
-            "text": "PATH.",
-            "isCorrect": false
-          },
-          {
-            "text": "UPDATE.",
-            "isCorrect": false
-          }
-        ]
+        "text": "1",
+        "isCorrect": false
       },
       {
-        "id": 99,
-        "question": "¿Qué se necesita definir en Pydantic para validar los datos de entrada de una API?",
-        "options": [
-          {
-            "text": "Funciones validadoras.",
-            "isCorrect": false
-          },
-          {
-            "text": "Modelos con anotaciones de tipo.",
-            "isCorrect": true
-          },
-          {
-            "text": "Esquemas JSON.",
-            "isCorrect": false
-          },
-          {
-            "text": "Reglas de expresiones regulares.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 100,
-        "question": "¿Qué clase base se utiliza comúnmente para definir modelos SQLAlchemy?",
-        "options": [
-          {
-            "text": "SQLModel.",
-            "isCorrect": false
-          },
-          {
-            "text": "ModelBase.",
-            "isCorrect": false
-          },
-          {
-            "text": "declarative_base().",
-            "isCorrect": true
-          },
-          {
-            "text": "BaseEntity.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 101,
-        "question": "¿Quién es el creador de FastAPI?",
-        "options": [
-          {
-            "text": "Sebastián Ramírez.",
-            "isCorrect": true
-          },
-          {
-            "text": "Armin Ronacher.",
-            "isCorrect": false
-          },
-          {
-            "text": "Tom Christie.",
-            "isCorrect": false
-          },
-          {
-            "text": "David Beazley.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 102,
-        "question": "¿Qué método de SQLAlchemy confirma los cambios en la base de datos?",
-        "options": [
-          {
-            "text": "db.save().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.commit().",
-            "isCorrect": true
-          },
-          {
-            "text": "db.flush().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.update().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 103,
-        "question": "¿Qué representa el código de estado HTTP 201?",
-        "options": [
-          {
-            "text": "OK.",
-            "isCorrect": false
-          },
-          {
-            "text": "Created.",
-            "isCorrect": true
-          },
-          {
-            "text": "Accepted.",
-            "isCorrect": false
-          },
-          {
-            "text": "No Content.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 104,
-        "question": "¿Cuál de las siguientes empresas no se menciona como usuaria de FastAPI?",
-        "options": [
-          {
-            "text": "Microsoft.",
-            "isCorrect": false
-          },
-          {
-            "text": "Netflix.",
-            "isCorrect": false
-          },
-          {
-            "text": "Uber.",
-            "isCorrect": false
-          },
-          {
-            "text": "Apple.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 105,
-        "question": "¿Qué librería se recomienda para el hash de contraseñas en aplicaciones FastAPI?",
-        "options": [
-          {
-            "text": "hashlib.",
-            "isCorrect": false
-          },
-          {
-            "text": "passlib.",
-            "isCorrect": true
-          },
-          {
-            "text": "bcrypt.",
-            "isCorrect": false
-          },
-          {
-            "text": "cryptography.",
-            "isCorrect": false
-          }
-        ]
+        "text": "2",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "TEMA 9",
-    "questions": [
+    "id": 10,
+    "question": "¿Qué es Python?",
+    "options": [
       {
-        "id": 106,
-        "question": "¿Cuál es la estructura de datos fundamental de NumPy?",
-        "options": [
-          {
-            "text": "DataFrame.",
-            "isCorrect": false
-          },
-          {
-            "text": "Series.",
-            "isCorrect": false
-          },
-          {
-            "text": "ndarray.",
-            "isCorrect": true
-          },
-          {
-            "text": "Matrix.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Lenguaje interpretado",
+        "isCorrect": true
       },
       {
-        "id": 107,
-        "question": "¿Qué función de NumPy calcula los percentiles de un conjunto de datos?",
-        "options": [
-          {
-            "text": "np.percent().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.quantile().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.percentile().",
-            "isCorrect": true
-          },
-          {
-            "text": "np.rank().",
-            "isCorrect": false
-          }
-        ]
+        "text": "Base de datos",
+        "isCorrect": false
       },
       {
-        "id": 108,
-        "question": "¿Qué es la vectorización en el contexto de NumPy?",
-        "options": [
-          {
-            "text": "La capacidad de realizar operaciones sobre arrays completos sin necesidad de iterar\nexplícitamente.",
-            "isCorrect": true
-          },
-          {
-            "text": "El proceso de convertir matrices en vectores unidimensionales.",
-            "isCorrect": false
-          },
-          {
-            "text": "La transformación de valores escalares a matrices.",
-            "isCorrect": false
-          },
-          {
-            "text": "La aplicación de álgebra vectorial a estructuras de datos.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Framework",
+        "isCorrect": false
       },
       {
-        "id": 109,
-        "question": "¿Qué función de NumPy crea un array con números equidistantes en un rango específico?",
-        "options": [
-          {
-            "text": "np.arange().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.linspace().",
-            "isCorrect": true
-          },
-          {
-            "text": "np.sequence().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.range().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 110,
-        "question": "¿Cómo se calcula el determinante de una matriz en NumPy ?",
-        "options": [
-          {
-            "text": "np.det().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.linalg.det().",
-            "isCorrect": true
-          },
-          {
-            "text": "matrix.determinant().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.determinant().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 111,
-        "question": "¿Qué comando se utiliza para instalar NumPy?",
-        "options": [
-          {
-            "text": "pip install numpy.",
-            "isCorrect": true
-          },
-          {
-            "text": "conda install numpy.",
-            "isCorrect": false
-          },
-          {
-            "text": "apt-get install numpy.",
-            "isCorrect": false
-          },
-          {
-            "text": "npm install numpy.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 112,
-        "question": "¿Qué método se utiliza para generar números aleatorios con distribución normal en NumPy ?",
-        "options": [
-          {
-            "text": "np.random().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.random.uniform().",
-            "isCorrect": false
-          },
-          {
-            "text": "np.random.default_rng().normal().",
-            "isCorrect": true
-          },
-          {
-            "text": "np.normal().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 113,
-        "question": "¿Qué método se utiliza para cambiar la forma de un array sin modificar sus datos?",
-        "options": [
-          {
-            "text": "reshape().",
-            "isCorrect": true
-          },
-          {
-            "text": "resize().",
-            "isCorrect": false
-          },
-          {
-            "text": "reorder().",
-            "isCorrect": false
-          },
-          {
-            "text": "remold().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 114,
-        "question": "¿Cómo se accede a la forma (dimensiones) de un array en NumPy?",
-        "options": [
-          {
-            "text": "array.form.",
-            "isCorrect": false
-          },
-          {
-            "text": "array.dimensions.",
-            "isCorrect": false
-          },
-          {
-            "text": "array.shape.",
-            "isCorrect": true
-          },
-          {
-            "text": "array.size().",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 115,
-        "question": "¿Cómo se importa convencionalmente NumPy en scripts de Python?",
-        "options": [
-          {
-            "text": "import numpy.",
-            "isCorrect": false
-          },
-          {
-            "text": "from numpy import *.",
-            "isCorrect": false
-          },
-          {
-            "text": "import numpy as np.",
-            "isCorrect": true
-          },
-          {
-            "text": "require numpy.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Sistema operativo",
+        "isCorrect": false
       }
     ]
   },
   {
-    "section": "TEMA 10",
-    "questions": [
+    "id": 11,
+    "question": "¿Qué hace @app.delete en FastAPI?",
+    "options": [
       {
-        "id": 116,
-        "question": "¿Qué operación permite calcular un promedio móvil en una serie temporal?",
-        "options": [
-          {
-            "text": "serie.moving_avg().",
-            "isCorrect": false
-          },
-          {
-            "text": "serie.rolling().mean().",
-            "isCorrect": true
-          },
-          {
-            "text": "serie.window_mean().",
-            "isCorrect": false
-          },
-          {
-            "text": "serie.smooth().",
-            "isCorrect": false
-          }
-        ]
+        "text": "Lee datos",
+        "isCorrect": false
       },
       {
-        "id": 117,
-        "question": "¿Qué tipo de índice se crea por defecto si no se especifica al crear una Series o DataFrame?",
-        "options": [
-          {
-            "text": "Índice numérico secuencial, empezando en cero.",
-            "isCorrect": true
-          },
-          {
-            "text": "Índice basado en los valores de la primera columna.",
-            "isCorrect": false
-          },
-          {
-            "text": "Índice alfabético de letras.",
-            "isCorrect": false
-          },
-          {
-            "text": "Índice temporal basado en la fecha de creación.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Actualiza",
+        "isCorrect": false
       },
       {
-        "id": 118,
-        "question": "¿Qué método se usa para ordenar un DataFrame por los valores de una columna?",
-        "options": [
-          {
-            "text": "df.order_by(‘columna’).",
-            "isCorrect": false
-          },
-          {
-            "text": "df.sort_values(‘columna’).",
-            "isCorrect": true
-          },
-          {
-            "text": "df.sort(‘columna’).",
-            "isCorrect": false
-          },
-          {
-            "text": "df.arrange(‘columna’).",
-            "isCorrect": false
-          }
-        ]
+        "text": "Crea recurso",
+        "isCorrect": false
       },
       {
-        "id": 119,
-        "question": "¿Qué diferencia principal existe entre los métodos iloc y loc en Pandas?",
-        "options": [
-          {
-            "text": "iloc permite seleccionar datos numéricos, mientras que loc solo texto.",
-            "isCorrect": false
-          },
-          {
-            "text": "iloc funciona con DataFrames y loc solo con series.",
-            "isCorrect": false
-          },
-          {
-            "text": "iloc selecciona por posición numérica, mientras que loc selecciona por etiquetas.",
-            "isCorrect": true
-          },
-          {
-            "text": "iloc permite filtrar datos, mientras que loc solo permite visualizarlos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 120,
-        "question": "¿Qué limitación conceptual presenta Pandas respecto al procesamiento de datos?",
-        "options": [
-          {
-            "text": "No puede manejar datos temporales con precisión.",
-            "isCorrect": false
-          },
-          {
-            "text": "No permite operaciones vectorizadas.",
-            "isCorrect": false
-          },
-          {
-            "text": "Está diseñado principalmente para computación en memoria en una sola máquina.",
-            "isCorrect": true
-          },
-          {
-            "text": "No soporta datos categóricos eficientemente.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 121,
-        "question": "¿Qué accesorio permite realizar operaciones con cadenas de texto en Pandas?",
-        "options": [
-          {
-            "text": "df[‘texto’].string.",
-            "isCorrect": false
-          },
-          {
-            "text": "df[‘texto’].str.",
-            "isCorrect": true
-          },
-          {
-            "text": "df[‘texto’].text.",
-            "isCorrect": false
-          },
-          {
-            "text": "df[‘texto’].chars.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 122,
-        "question": "¿Qué función se utiliza para concatenar DataFrames verticalmente?",
-        "options": [
-          {
-            "text": "pd.concat([df1, df2], axis=0).",
-            "isCorrect": true
-          },
-          {
-            "text": "pd.append(df1, df2).",
-            "isCorrect": false
-          },
-          {
-            "text": "pd.stack([df1, df2]).",
-            "isCorrect": false
-          },
-          {
-            "text": "pd.union(df1, df2).",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 123,
-        "question": "¿Cómo se pueden filtrar las filas de un DataFrame donde una columna cumple una condición?",
-        "options": [
-          {
-            "text": "df.filter(df.columna > valor).",
-            "isCorrect": false
-          },
-          {
-            "text": "df.where(df.columna > valor).",
-            "isCorrect": false
-          },
-          {
-            "text": "df[df[‘columna’] > valor].",
-            "isCorrect": true
-          },
-          {
-            "text": "df.select(df.columna > valor).",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 124,
-        "question": "¿Cómo se importa convencionalmente Pandas en scripts de Python?",
-        "options": [
-          {
-            "text": "import pandas.",
-            "isCorrect": false
-          },
-          {
-            "text": "from pandas import *.",
-            "isCorrect": false
-          },
-          {
-            "text": "import pandas as pd.",
-            "isCorrect": true
-          },
-          {
-            "text": "require pandas.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 125,
-        "question": "¿Qué función se utiliza para analizar rápidamente la información de un DataFrame incluyendo tipos de\ndatos y valores no nulos?",
-        "options": [
-          {
-            "text": "df.summary().",
-            "isCorrect": false
-          },
-          {
-            "text": "df.describe().",
-            "isCorrect": false
-          },
-          {
-            "text": "df.info().",
-            "isCorrect": true
-          },
-          {
-            "text": "df.details().",
-            "isCorrect": false
-          }
-        ]
+        "text": "Define endpoint DELETE",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "EXAMEN 1T",
-    "questions": [
+    "id": 12,
+    "question": "¿Qué devuelve una ruta GET típica en FastAPI?",
+    "options": [
       {
-        "id": 126,
-        "question": "¿Qué es Python?",
-        "options": [
-          {
-            "text": "Un motor de base de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un sistema operativo.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un compilador para Java.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un lenguaje de programación de alto nivel, interpretado y de propósito general.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Texto plano",
+        "isCorrect": false
       },
       {
-        "id": 127,
-        "question": "¿Cuál de los siguientes es un nombre de variable válido en Python?",
-        "options": [
-          {
-            "text": "2variable",
-            "isCorrect": false
-          },
-          {
-            "text": "class",
-            "isCorrect": false
-          },
-          {
-            "text": "mi-variable",
-            "isCorrect": false
-          },
-          {
-            "text": "_mi_variable",
-            "isCorrect": true
-          }
-        ]
+        "text": "HTML",
+        "isCorrect": false
       },
       {
-        "id": 128,
-        "question": "¿Qué tipo de dato tiene la variable x en el código x = True ?",
-        "options": [
-          {
-            "text": "Booleano.",
-            "isCorrect": true
-          },
-          {
-            "text": "Cadena.",
-            "isCorrect": false
-          },
-          {
-            "text": "Entero.",
-            "isCorrect": false
-          },
-          {
-            "text": "Ninguno.",
-            "isCorrect": false
-          }
-        ]
+        "text": "XML",
+        "isCorrect": false
       },
       {
-        "id": 129,
-        "question": "¿Cuál es el operador para la división entera en Python?",
-        "options": [
-          {
-            "text": "/.",
-            "isCorrect": false
-          },
-          {
-            "text": "//.",
-            "isCorrect": true
-          },
-          {
-            "text": "**.",
-            "isCorrect": false
-          },
-          {
-            "text": "%.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 130,
-        "question": "¿Cuál es el resultado de la expresión 5 % 2?",
-        "options": [
-          {
-            "text": "2.",
-            "isCorrect": false
-          },
-          {
-            "text": "0.",
-            "isCorrect": false
-          },
-          {
-            "text": "2.5.",
-            "isCorrect": false
-          },
-          {
-            "text": "1.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 131,
-        "question": "¿Qué estructura de control se usa para decisiones condicionales?",
-        "options": [
-          {
-            "text": "if",
-            "isCorrect": true
-          },
-          {
-            "text": "while",
-            "isCorrect": false
-          },
-          {
-            "text": "try",
-            "isCorrect": false
-          },
-          {
-            "text": "for",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 132,
-        "question": "¿Cuál de las siguientes estructuras permite iterar un número definido de veces?",
-        "options": [
-          {
-            "text": "if",
-            "isCorrect": false
-          },
-          {
-            "text": "for",
-            "isCorrect": true
-          },
-          {
-            "text": "try",
-            "isCorrect": false
-          },
-          {
-            "text": "break",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 133,
-        "question": "¿Cuál de las siguientes es una lista válida en Python?:",
-        "options": [
-          {
-            "text": "(1, 2, 3).",
-            "isCorrect": false
-          },
-          {
-            "text": "{1, 2, 3}.",
-            "isCorrect": false
-          },
-          {
-            "text": "[1, 2, 3].",
-            "isCorrect": true
-          },
-          {
-            "text": "“1, 2, 3”.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 134,
-        "question": "¿Qué estructura de datos es inmutable?",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Diccionario.",
-            "isCorrect": false
-          },
-          {
-            "text": "Tupla.",
-            "isCorrect": true
-          },
-          {
-            "text": "Conjunto.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 135,
-        "question": "¿Cuál es la función para obtener la longitud de una lista?",
-        "options": [
-          {
-            "text": "count()",
-            "isCorrect": false
-          },
-          {
-            "text": "length()",
-            "isCorrect": false
-          },
-          {
-            "text": "size()",
-            "isCorrect": false
-          },
-          {
-            "text": "len()",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 136,
-        "question": "¿Qué método se usa para agregar un elemento a una lista?",
-        "options": [
-          {
-            "text": "append()",
-            "isCorrect": true
-          },
-          {
-            "text": "insert()",
-            "isCorrect": false
-          },
-          {
-            "text": "put()",
-            "isCorrect": false
-          },
-          {
-            "text": "add()",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 137,
-        "question": "¿Qué palabra clave se usa para definir una función en Python?",
-        "options": [
-          {
-            "text": "function",
-            "isCorrect": false
-          },
-          {
-            "text": "def",
-            "isCorrect": true
-          },
-          {
-            "text": "define",
-            "isCorrect": false
-          },
-          {
-            "text": "func",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 138,
-        "question": "¿Qué palabra clave se usa para manejar excepciones en Python?",
-        "options": [
-          {
-            "text": "try",
-            "isCorrect": true
-          },
-          {
-            "text": "error",
-            "isCorrect": false
-          },
-          {
-            "text": "catch",
-            "isCorrect": false
-          },
-          {
-            "text": "exception",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 139,
-        "question": "¿Cuál es el propósito de import en Python?",
-        "options": [
-          {
-            "text": "Importar módulos o bibliotecas.",
-            "isCorrect": true
-          },
-          {
-            "text": "Exportar funciones.",
-            "isCorrect": false
-          },
-          {
-            "text": "Crear clases.",
-            "isCorrect": false
-          },
-          {
-            "text": "Definir excepciones.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 140,
-        "question": "¿Qué tipo de datos devuelve la función input()?:",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Entero.",
-            "isCorrect": false
-          },
-          {
-            "text": "Booleano.",
-            "isCorrect": false
-          },
-          {
-            "text": "Cadena de texto.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 141,
-        "question": "¿Cuál es el resultado de la operación len(“Python”) ?",
-        "options": [
-          {
-            "text": "5.",
-            "isCorrect": false
-          },
-          {
-            "text": "7.",
-            "isCorrect": false
-          },
-          {
-            "text": "Error",
-            "isCorrect": false
-          },
-          {
-            "text": "6.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 142,
-        "question": "¿Cómo se crea una clase en Python?",
-        "options": [
-          {
-            "text": "Usando la palabra clave class",
-            "isCorrect": true
-          },
-          {
-            "text": "Usando la palabra clave object",
-            "isCorrect": false
-          },
-          {
-            "text": "Usando la palabra clave def",
-            "isCorrect": false
-          },
-          {
-            "text": "Usando la palabra clave type",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 143,
-        "question": "¿Cuál es el nombre del método constructor en una clase de Python?",
-        "options": [
-          {
-            "text": "__init__.",
-            "isCorrect": true
-          },
-          {
-            "text": "__start__.",
-            "isCorrect": false
-          },
-          {
-            "text": "_create__.",
-            "isCorrect": false
-          },
-          {
-            "text": "constructor.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 144,
-        "question": "¿Qué palabra clave permite acceder a atributos y métodos dentro de una clase?",
-        "options": [
-          {
-            "text": "this",
-            "isCorrect": false
-          },
-          {
-            "text": "self",
-            "isCorrect": true
-          },
-          {
-            "text": "cls.",
-            "isCorrect": false
-          },
-          {
-            "text": "me",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 145,
-        "question": "¿Cuál de las siguientes opciones es correcta acerca de estas clases?:",
-        "options": [
-          {
-            "text": "class Estudiante(Persona):",
-            "isCorrect": false
-          },
-          {
-            "text": "pass",
-            "isCorrect": false
-          },
-          {
-            "text": "Es una composición.",
-            "isCorrect": false
-          },
-          {
-            "text": "Es polimorfismo.\nLa clase Persona hereda de Estudiante.\nLa clase Estudiante hereda de Persona.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 146,
-        "question": "¿Qué es el polimorfismo en programación orientada a objetos?",
-        "options": [
-          {
-            "text": "La creación de múltiples clases a partir de una sola.",
-            "isCorrect": false
-          },
-          {
-            "text": "La restricción del acceso a los datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "La capacidad de usar el mismo método con diferentes comportamientos.",
-            "isCorrect": true
-          },
-          {
-            "text": "La eliminación de herencia.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 147,
-        "question": "¿Qué es la encapsulación?",
-        "options": [
-          {
-            "text": "El uso de múltiples clases.",
-            "isCorrect": false
-          },
-          {
-            "text": "La modificación de métodos.",
-            "isCorrect": false
-          },
-          {
-            "text": "El ocultamiento de los detalles internos de un objeto.",
-            "isCorrect": true
-          },
-          {
-            "text": "La herencia de atributos.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 148,
-        "question": "¿Cuál es la diferencia entre una lista y un conjunto en Python?",
-        "options": [
-          {
-            "text": "Un conjunto mantiene el orden de inserción.",
-            "isCorrect": false
-          },
-          {
-            "text": "Una lista no puede contener enteros.",
-            "isCorrect": false
-          },
-          {
-            "text": "Un conjunto no permite elementos duplicados, una lista sí.",
-            "isCorrect": true
-          },
-          {
-            "text": "No hay diferencia.",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "id": 149,
-        "question": "¿Qué estructura se usa para asociar claves a valores?",
-        "options": [
-          {
-            "text": "Lista.",
-            "isCorrect": false
-          },
-          {
-            "text": "Tupla.",
-            "isCorrect": false
-          },
-          {
-            "text": "Set.",
-            "isCorrect": false
-          },
-          {
-            "text": "Diccionario.",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "id": 150,
-        "question": "¿Cuál es el resultado de la operación ‘a’ * 3?",
-        "options": [
-          {
-            "text": "‘a3’.",
-            "isCorrect": false
-          },
-          {
-            "text": "Error.",
-            "isCorrect": false
-          },
-          {
-            "text": "‘aaa’.",
-            "isCorrect": true
-          },
-          {
-            "text": "‘a a a’.",
-            "isCorrect": false
-          }
-        ]
+        "text": "JSON",
+        "isCorrect": true
       }
     ]
   },
   {
-    "section": "EXAMEN 2T",
-    "questions": [
+    "id": 13,
+    "question": "¿Qué ocurre si un recurso no existe en FastAPI?",
+    "options": [
       {
-        "id": 151,
-        "question": "¿Cuál es la biblioteca estándar de Python para conectarse a bases de datos MySQL?",
-        "options": [
-          {
-            "text": "mysql-connector-python.",
-            "isCorrect": true
-          },
-          {
-            "text": "pymongo.",
-            "isCorrect": false
-          },
-          {
-            "text": "sqlite3.",
-            "isCorrect": false
-          },
-          {
-            "text": "psycopg2.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Se devuelve error o mensaje",
+        "isCorrect": true
       },
       {
-        "id": 152,
-        "question": "En el siguiente código MySQL con Python, ¿qué hace el método fetchall()? cursor.execute(“SELECT *\nFROM usuarios”) resultados = cursor.fetchall()",
-        "options": [
-          {
-            "text": "Ejecuta la consulta en la base de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Obtiene todas las filas del resultado de la consulta.",
-            "isCorrect": true
-          },
-          {
-            "text": "Cierra la conexión a la base de datos.",
-            "isCorrect": false
-          },
-          {
-            "text": "Obtiene solo la primera fila del resultado.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Se elimina",
+        "isCorrect": false
       },
       {
-        "id": 153,
-        "question": "¿Cuál es el comando correcto para instalar Django?",
-        "options": [
-          {
-            "text": "pip install django-framework.",
-            "isCorrect": false
-          },
-          {
-            "text": "pip install Django.",
-            "isCorrect": true
-          },
-          {
-            "text": "npm install django.",
-            "isCorrect": false
-          },
-          {
-            "text": "conda install django-web.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Se crea",
+        "isCorrect": false
       },
       {
-        "id": 154,
-        "question": "En Django, ¿cuál es el archivo principal de configuración de un proyecto?",
-        "options": [
-          {
-            "text": "«config.py».",
-            "isCorrect": false
-          },
-          {
-            "text": "«settings.py».",
-            "isCorrect": true
-          },
-          {
-            "text": "«urls.py».",
-            "isCorrect": false
-          },
-          {
-            "text": "«models.py».",
-            "isCorrect": false
-          }
-        ]
+        "text": "Se ignora",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "¿Para qué sirve BaseModel en FastAPI?",
+    "options": [
+      {
+        "text": "Ejecutar SQL",
+        "isCorrect": false
       },
       {
-        "id": 155,
-        "question": "¿Qué comando de Django se utiliza para crear las tablas en la base de datos basándose en los\nmodelos?",
-        "options": [
-          {
-            "text": "python manage.py makemigrations.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py syncdb.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py created.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py migrate.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Renderizar HTML",
+        "isCorrect": false
       },
       {
-        "id": 156,
-        "question": "En Django, ¿cuál es la función principal de un modelo?:",
-        "options": [
-          {
-            "text": "Definir la estructura de los datos y mapear tablas de base de datos.",
-            "isCorrect": true
-          },
-          {
-            "text": "Manejar las URL del proyecto.",
-            "isCorrect": false
-          },
-          {
-            "text": "Procesar las solicitudes HTTP.",
-            "isCorrect": false
-          },
-          {
-            "text": "Renderizar plantillas HTML.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Conectar BD",
+        "isCorrect": false
       },
       {
-        "id": 157,
-        "question": "¿Cuál es el tipo de campo correcto en Django para almacenar texto largo?",
-        "options": [
-          {
-            "text": "CharField.",
-            "isCorrect": false
-          },
-          {
-            "text": "StringField.",
-            "isCorrect": false
-          },
-          {
-            "text": "TextField.",
-            "isCorrect": true
-          },
-          {
-            "text": "LongTextField.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Validar datos",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "¿Qué hace un endpoint GET con parámetro id?",
+    "options": [
+      {
+        "text": "Elimina recurso",
+        "isCorrect": false
       },
       {
-        "id": 158,
-        "question": "En Django, ¿qué comando se usa para crear migraciones después de modificar un modelo?",
-        "options": [
-          {
-            "text": "python manage.py migrate.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py makemigrations.",
-            "isCorrect": true
-          },
-          {
-            "text": "python manage.py createmigrations.",
-            "isCorrect": false
-          },
-          {
-            "text": "python manage.py updatemigrations.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Recupera recurso",
+        "isCorrect": true
       },
       {
-        "id": 159,
-        "question": "¿Cuál es la sintaxis correcta para definir una vista basada en función en Django?",
-        "options": [
-          {
-            "text": "class MiVista(View):\ndef get(self, request):",
-            "isCorrect": false
-          },
-          {
-            "text": "def mi_vista():\nreturn render(‘template.html’)",
-            "isCorrect": false
-          },
-          {
-            "text": "@view\ndef mi_vista(request):",
-            "isCorrect": false
-          },
-          {
-            "text": "def mi_vista(request):\nreturn HttpResponse(‘Hola’)",
-            "isCorrect": true
-          }
-        ]
+        "text": "Actualiza",
+        "isCorrect": false
       },
       {
-        "id": 160,
-        "question": "En las plantillas de Django, ¿cuál es la sintaxis correcta para mostrar una variable?",
-        "options": [
-          {
-            "text": "{% variable %}.",
-            "isCorrect": false
-          },
-          {
-            "text": "<% variable %>.",
-            "isCorrect": false
-          },
-          {
-            "text": "{$ variable $}.",
-            "isCorrect": false
-          },
-          {
-            "text": "{{ variable }}.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Crea recurso",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "¿Qué devuelve un GET por id inexistente?",
+    "options": [
+      {
+        "text": "Error o mensaje",
+        "isCorrect": true
       },
       {
-        "id": 161,
-        "question": "¿Cuál es la clase base más básica y general para crear formularios en Django?",
-        "options": [
-          {
-            "text": "forms.BaseForm.",
-            "isCorrect": false
-          },
-          {
-            "text": "forms.Form.",
-            "isCorrect": true
-          },
-          {
-            "text": "forms.ModelForm.",
-            "isCorrect": false
-          },
-          {
-            "text": "forms.HTMLForm.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Nuevo objeto",
+        "isCorrect": false
       },
       {
-        "id": 162,
-        "question": "En Django, ¿qué método HTTP se usa típicamente para eliminar un registro?",
-        "options": [
-          {
-            "text": "POST.",
-            "isCorrect": false
-          },
-          {
-            "text": "DELETE.",
-            "isCorrect": true
-          },
-          {
-            "text": "GET.",
-            "isCorrect": false
-          },
-          {
-            "text": "PUT.",
-            "isCorrect": false
-          }
-        ]
+        "text": "None",
+        "isCorrect": false
       },
       {
-        "id": 163,
-        "question": "¿Cuál es el comando para instalar Django REST Framework?",
-        "options": [
-          {
-            "text": "pip install django-rest.",
-            "isCorrect": false
-          },
-          {
-            "text": "pip install drf.",
-            "isCorrect": false
-          },
-          {
-            "text": "pip install djangorestframework.",
-            "isCorrect": true
-          },
-          {
-            "text": "pip install django-api.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Lista vacía",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "¿Qué hace POST en una API REST?",
+    "options": [
+      {
+        "text": "Leer recurso",
+        "isCorrect": false
       },
       {
-        "id": 164,
-        "question": "En Django REST Framework, ¿cuál es la función principal de un serializador?",
-        "options": [
-          {
-            "text": "Manejar las URL de la API.",
-            "isCorrect": false
-          },
-          {
-            "text": "Autenticar usuarios.",
-            "isCorrect": false
-          },
-          {
-            "text": "Convertir objetos Python a JSON y viceversa.",
-            "isCorrect": true
-          },
-          {
-            "text": "Cachear respuestas de la API.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Actualizar",
+        "isCorrect": false
       },
       {
-        "id": 165,
-        "question": "¿Cuál es la clase base más común para crear un serializador de modelo en DRF?:",
-        "options": [
-          {
-            "text": "serializers.Serializer.",
-            "isCorrect": false
-          },
-          {
-            "text": "serializers.BaseSerializer.",
-            "isCorrect": false
-          },
-          {
-            "text": "serializers.JSONSerializer.",
-            "isCorrect": false
-          },
-          {
-            "text": "serializers.ModelSerializer.",
-            "isCorrect": true
-          }
-        ]
+        "text": "Eliminar",
+        "isCorrect": false
       },
       {
-        "id": 166,
-        "question": "En Django REST Framework, ¿qué clase proporciona operaciones CRUD completas automáticamente?:",
-        "options": [
-          {
-            "text": "APIView.",
-            "isCorrect": false
-          },
-          {
-            "text": "ModelViewSet.",
-            "isCorrect": true
-          },
-          {
-            "text": "GenericAPIView.",
-            "isCorrect": false
-          },
-          {
-            "text": "ListCreateAPIView.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Crear recurso",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "¿Qué hace DELETE si el recurso existe?",
+    "options": [
+      {
+        "text": "Elimina recurso",
+        "isCorrect": true
       },
       {
-        "id": 167,
-        "question": "¿Cuál es la función de DefaultRouter en Django REST Framework?:",
-        "options": [
-          {
-            "text": "Generar automáticamente las URL para ViewSets.",
-            "isCorrect": true
-          },
-          {
-            "text": "Manejar la autenticación de usuarios.",
-            "isCorrect": false
-          },
-          {
-            "text": "Serializar modelos de Django.",
-            "isCorrect": false
-          },
-          {
-            "text": "Configurar permisos de API.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Devuelve lista",
+        "isCorrect": false
       },
       {
-        "id": 168,
-        "question": "¿Cuál es el comando para instalar Flask?",
-        "options": [
-          {
-            "text": "npm install flask.",
-            "isCorrect": false
-          },
-          {
-            "text": "pip install flask-framework.",
-            "isCorrect": false
-          },
-          {
-            "text": "pip install flask.",
-            "isCorrect": true
-          },
-          {
-            "text": "conda install python-flask.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Ignora",
+        "isCorrect": false
       },
       {
-        "id": 169,
-        "question": "En Flask, ¿cuál es el decorador básico para definir una ruta?",
-        "options": [
-          {
-            "text": "@route().",
-            "isCorrect": false
-          },
-          {
-            "text": "@app.url().",
-            "isCorrect": false
-          },
-          {
-            "text": "@app.route().",
-            "isCorrect": true
-          },
-          {
-            "text": "@flask.route().",
-            "isCorrect": false
-          }
-        ]
+        "text": "Actualiza",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "¿Qué hace DELETE si no existe el recurso?",
+    "options": [
+      {
+        "text": "Actualiza",
+        "isCorrect": false
       },
       {
-        "id": 170,
-        "question": "¿Cuál es la forma correcta de crear una aplicación Flask básica?",
-        "options": [
-          {
-            "text": "app = Flask().",
-            "isCorrect": false
-          },
-          {
-            "text": "app = new Flask(name).",
-            "isCorrect": false
-          },
-          {
-            "text": "app = Flask(name).",
-            "isCorrect": true
-          },
-          {
-            "text": "app = Flask.create(name).",
-            "isCorrect": false
-          }
-        ]
+        "text": "Crea recurso",
+        "isCorrect": false
       },
       {
-        "id": 171,
-        "question": "En Flask con SQLAlchemy, ¿cuál es la clase base típica para definir modelos?",
-        "options": [
-          {
-            "text": "SQLAlchemy.Model.",
-            "isCorrect": false
-          },
-          {
-            "text": "Model.Base.",
-            "isCorrect": false
-          },
-          {
-            "text": "db.Model.",
-            "isCorrect": true
-          },
-          {
-            "text": "db.Table.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Nada",
+        "isCorrect": false
       },
       {
-        "id": 172,
-        "question": "¿Cuál es el método correcto para guardar cambios en la base de datos con SQLAlchemy?",
-        "options": [
-          {
-            "text": "db.save().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.session.save().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.commit().",
-            "isCorrect": false
-          },
-          {
-            "text": "db.session.commit().",
-            "isCorrect": true
-          }
-        ]
+        "text": "Devuelve error",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué hace PUT en una API?",
+    "options": [
+      {
+        "text": "Crear",
+        "isCorrect": false
       },
       {
-        "id": 173,
-        "question": "¿Cuál es la forma correcta de usar like para buscar patrones que contengan una palabra específica en\nSQLAlchemy?",
-        "options": [
-          {
-            "text": "session.query(User).filter(User.name.like(‘john’)).all().",
-            "isCorrect": false
-          },
-          {
-            "text": "session.query(User).filter(User.name.like(‘.john.’)).all().",
-            "isCorrect": false
-          },
-          {
-            "text": "session.query(User).filter(User.name.like(‘%john%’)).all().",
-            "isCorrect": true
-          },
-          {
-            "text": "session.query(User).filter(User.name.like(‘john’)).all().",
-            "isCorrect": false
-          }
-        ]
+        "text": "Leer",
+        "isCorrect": false
       },
       {
-        "id": 174,
-        "question": "¿Cuál es la extensión de archivo típica para las plantillas en Django?",
-        "options": [
-          {
-            "text": ".template.",
-            "isCorrect": false
-          },
-          {
-            "text": ".django.",
-            "isCorrect": false
-          },
-          {
-            "text": ".html.",
-            "isCorrect": true
-          },
-          {
-            "text": ".tpl.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Eliminar",
+        "isCorrect": false
       },
       {
-        "id": 175,
-        "question": "En Django REST Framework, ¿cuál es el código de estado HTTP típico para una creación exitosa?",
-        "options": [
-          {
-            "text": "200 OK.",
-            "isCorrect": false
-          },
-          {
-            "text": "204 No Content.",
-            "isCorrect": false
-          },
-          {
-            "text": "201 Created.",
-            "isCorrect": true
-          },
-          {
-            "text": "202 Accepted.",
-            "isCorrect": false
-          }
-        ]
+        "text": "Actualizar recurso",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿Qué estructura se usa para representar JSON en Python?",
+    "options": [
+      {
+        "text": "Tupla",
+        "isCorrect": false
+      },
+      {
+        "text": "Set",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Diccionario",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "¿Qué comando inicia servidor Django?",
+    "options": [
+      {
+        "text": "startapp",
+        "isCorrect": false
+      },
+      {
+        "text": "python manage.py runserver",
+        "isCorrect": true
+      },
+      {
+        "text": "migrate",
+        "isCorrect": false
+      },
+      {
+        "text": "makemigrations",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "¿Qué hace makemigrations?",
+    "options": [
+      {
+        "text": "Borra BD",
+        "isCorrect": false
+      },
+      {
+        "text": "Ejecuta servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "Genera migraciones",
+        "isCorrect": true
+      },
+      {
+        "text": "Aplica migraciones",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "¿Qué hace migrate?",
+    "options": [
+      {
+        "text": "Arranca servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "Aplica cambios BD",
+        "isCorrect": true
+      },
+      {
+        "text": "Crea modelos",
+        "isCorrect": false
+      },
+      {
+        "text": "Borra datos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Qué archivo define modelos en Django?",
+    "options": [
+      {
+        "text": "settings.py",
+        "isCorrect": false
+      },
+      {
+        "text": "models.py",
+        "isCorrect": true
+      },
+      {
+        "text": "urls.py",
+        "isCorrect": false
+      },
+      {
+        "text": "views.py",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "¿Qué archivo define rutas en Django?",
+    "options": [
+      {
+        "text": "views.py",
+        "isCorrect": false
+      },
+      {
+        "text": "admin.py",
+        "isCorrect": false
+      },
+      {
+        "text": "models.py",
+        "isCorrect": false
+      },
+      {
+        "text": "urls.py",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Qué archivo contiene lógica en Django?",
+    "options": [
+      {
+        "text": "settings.py",
+        "isCorrect": false
+      },
+      {
+        "text": "views.py",
+        "isCorrect": true
+      },
+      {
+        "text": "models.py",
+        "isCorrect": false
+      },
+      {
+        "text": "urls.py",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "¿Qué hace Flask route?",
+    "options": [
+      {
+        "text": "Compila",
+        "isCorrect": false
+      },
+      {
+        "text": "Ejecuta BD",
+        "isCorrect": false
+      },
+      {
+        "text": "Define endpoint",
+        "isCorrect": true
+      },
+      {
+        "text": "Renderiza CSS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "¿Qué devuelve jsonify en Flask?",
+    "options": [
+      {
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "JSON",
+        "isCorrect": true
+      },
+      {
+        "text": "XML",
+        "isCorrect": false
+      },
+      {
+        "text": "Texto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Qué hace request.json en Flask?",
+    "options": [
+      {
+        "text": "Leer JSON",
+        "isCorrect": true
+      },
+      {
+        "text": "Borrar JSON",
+        "isCorrect": false
+      },
+      {
+        "text": "Validar",
+        "isCorrect": false
+      },
+      {
+        "text": "Escribir JSON",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué hace db.session.add()?",
+    "options": [
+      {
+        "text": "Guardar definitivo",
+        "isCorrect": false
+      },
+      {
+        "text": "Añadir objeto",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      },
+      {
+        "text": "Actualizar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Qué hace commit()?",
+    "options": [
+      {
+        "text": "Guardar cambios",
+        "isCorrect": true
+      },
+      {
+        "text": "Crear tabla",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar BD",
+        "isCorrect": false
+      },
+      {
+        "text": "Leer datos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué hace query.all()?",
+    "options": [
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguno",
+        "isCorrect": false
+      },
+      {
+        "text": "Uno",
+        "isCorrect": false
+      },
+      {
+        "text": "Devuelve todos registros",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "¿Qué hace query.get(id)?",
+    "options": [
+      {
+        "text": "Crea objeto",
+        "isCorrect": false
+      },
+      {
+        "text": "Devuelve lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Borra",
+        "isCorrect": false
+      },
+      {
+        "text": "Busca por id",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "¿Qué ocurre si query.get(id) no encuentra?",
+    "options": [
+      {
+        "text": "None",
+        "isCorrect": true
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista vacía",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Qué hace pip install?",
+    "options": [
+      {
+        "text": "Instala paquetes",
+        "isCorrect": true
+      },
+      {
+        "text": "Compila",
+        "isCorrect": false
+      },
+      {
+        "text": "Borra",
+        "isCorrect": false
+      },
+      {
+        "text": "Ejecuta código",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "¿Qué es un entorno virtual?",
+    "options": [
+      {
+        "text": "Servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "BD",
+        "isCorrect": false
+      },
+      {
+        "text": "Framework",
+        "isCorrect": false
+      },
+      {
+        "text": "Entorno aislado",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "¿Qué comando activa venv (Windows)?",
+    "options": [
+      {
+        "text": "run venv",
+        "isCorrect": false
+      },
+      {
+        "text": "source venv/bin/activate",
+        "isCorrect": false
+      },
+      {
+        "text": "venv\\Scripts\\activate",
+        "isCorrect": true
+      },
+      {
+        "text": "activate venv",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "¿Qué comando instala FastAPI?",
+    "options": [
+      {
+        "text": "pip fastapi",
+        "isCorrect": false
+      },
+      {
+        "text": "fastapi install",
+        "isCorrect": false
+      },
+      {
+        "text": "install fastapi",
+        "isCorrect": false
+      },
+      {
+        "text": "pip install fastapi",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Qué servidor usa FastAPI?",
+    "options": [
+      {
+        "text": "gunicorn",
+        "isCorrect": false
+      },
+      {
+        "text": "apache",
+        "isCorrect": false
+      },
+      {
+        "text": "uvicorn",
+        "isCorrect": true
+      },
+      {
+        "text": "nginx",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "¿Qué hace uvicorn?",
+    "options": [
+      {
+        "text": "Base de datos",
+        "isCorrect": false
+      },
+      {
+        "text": "IDE",
+        "isCorrect": false
+      },
+      {
+        "text": "Framework",
+        "isCorrect": false
+      },
+      {
+        "text": "Servidor ASGI",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "¿Qué indica código 404?",
+    "options": [
+      {
+        "text": "Correcto",
+        "isCorrect": false
+      },
+      {
+        "text": "Error servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "No encontrado",
+        "isCorrect": true
+      },
+      {
+        "text": "Creado",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué indica código 500?",
+    "options": [
+      {
+        "text": "Error servidor",
+        "isCorrect": true
+      },
+      {
+        "text": "No encontrado",
+        "isCorrect": false
+      },
+      {
+        "text": "OK",
+        "isCorrect": false
+      },
+      {
+        "text": "Creado",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué indica código 200?",
+    "options": [
+      {
+        "text": "No encontrado",
+        "isCorrect": false
+      },
+      {
+        "text": "OK",
+        "isCorrect": true
+      },
+      {
+        "text": "Creado",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Qué hace status.HTTP_201_CREATED?",
+    "options": [
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Indica creación",
+        "isCorrect": true
+      },
+      {
+        "text": "OK",
+        "isCorrect": false
+      },
+      {
+        "text": "Borrado",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Qué hace un endpoint sin return?",
+    "options": [
+      {
+        "text": "Devuelve lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Devuelve JSON",
+        "isCorrect": false
+      },
+      {
+        "text": "Error o None",
+        "isCorrect": true
+      },
+      {
+        "text": "Devuelve string",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Qué tipo devuelve FastAPI automáticamente?",
+    "options": [
+      {
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "XML",
+        "isCorrect": false
+      },
+      {
+        "text": "JSON",
+        "isCorrect": true
+      },
+      {
+        "text": "Texto",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "¿Qué hace @app.put?",
+    "options": [
+      {
+        "text": "Crear",
+        "isCorrect": false
+      },
+      {
+        "text": "Actualizar",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      },
+      {
+        "text": "Leer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Qué hace @app.get?",
+    "options": [
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      },
+      {
+        "text": "Actualizar",
+        "isCorrect": false
+      },
+      {
+        "text": "Leer",
+        "isCorrect": true
+      },
+      {
+        "text": "Crear",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Qué hace un parámetro tipado (id:int)?",
+    "options": [
+      {
+        "text": "Elimina",
+        "isCorrect": false
+      },
+      {
+        "text": "Convierte siempre",
+        "isCorrect": false
+      },
+      {
+        "text": "Ignora",
+        "isCorrect": false
+      },
+      {
+        "text": "Valida tipo",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Qué pasa si envías mal tipo en FastAPI?",
+    "options": [
+      {
+        "text": "Error validación",
+        "isCorrect": true
+      },
+      {
+        "text": "Se corrige",
+        "isCorrect": false
+      },
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Se ignora",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Qué hace list.append() en API?",
+    "options": [
+      {
+        "text": "Actualizar",
+        "isCorrect": false
+      },
+      {
+        "text": "Añadir elemento",
+        "isCorrect": true
+      },
+      {
+        "text": "Leer",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "¿Qué ocurre tras POST exitoso?",
+    "options": [
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Nuevo recurso",
+        "isCorrect": true
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Elimina",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "¿Qué devuelve normalmente POST?",
+    "options": [
+      {
+        "text": "Lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Objeto creado",
+        "isCorrect": true
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "¿Qué hace DELETE tras eliminar?",
+    "options": [
+      {
+        "text": "Objeto",
+        "isCorrect": false
+      },
+      {
+        "text": "Mensaje confirmación",
+        "isCorrect": true
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "¿Qué devuelve DELETE inexistente?",
+    "options": [
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Mensaje error",
+        "isCorrect": true
+      },
+      {
+        "text": "Objeto",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "¿Qué hace GET colección?",
+    "options": [
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista recursos",
+        "isCorrect": true
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Uno",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Qué hace GET por id?",
+    "options": [
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "Un recurso",
+        "isCorrect": true
+      },
+      {
+        "text": "Lista",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué devuelve si lista está vacía?",
+    "options": [
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista vacía",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "¿Qué estructura devuelve JSON?",
+    "options": [
+      {
+        "text": "Set",
+        "isCorrect": false
+      },
+      {
+        "text": "Lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Diccionario",
+        "isCorrect": true
+      },
+      {
+        "text": "Tupla",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Qué hace import fastapi?",
+    "options": [
+      {
+        "text": "Ejecuta API",
+        "isCorrect": false
+      },
+      {
+        "text": "Crea servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "Importa módulo",
+        "isCorrect": true
+      },
+      {
+        "text": "Nada",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "¿Qué hace from fastapi import FastAPI?",
+    "options": [
+      {
+        "text": "Nada",
+        "isCorrect": false
+      },
+      {
+        "text": "Importa clase",
+        "isCorrect": true
+      },
+      {
+        "text": "Ejecuta",
+        "isCorrect": false
+      },
+      {
+        "text": "Crea app",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "¿Qué hace FastAPI()?",
+    "options": [
+      {
+        "text": "Importa",
+        "isCorrect": false
+      },
+      {
+        "text": "Crea ruta",
+        "isCorrect": false
+      },
+      {
+        "text": "Ejecuta servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "Crea aplicación",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "¿Qué devuelve una función sin return?",
+    "options": [
+      {
+        "text": "None",
+        "isCorrect": true
+      },
+      {
+        "text": "Error",
+        "isCorrect": false
+      },
+      {
+        "text": "String",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "¿Qué hace raise HTTPException?",
+    "options": [
+      {
+        "text": "Crea objeto",
+        "isCorrect": false
+      },
+      {
+        "text": "Actualiza",
+        "isCorrect": false
+      },
+      {
+        "text": "Borra",
+        "isCorrect": false
+      },
+      {
+        "text": "Lanza error HTTP",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "¿Qué atributo define código en HTTPException?",
+    "options": [
+      {
+        "text": "status_code",
+        "isCorrect": true
+      },
+      {
+        "text": "code",
+        "isCorrect": false
+      },
+      {
+        "text": "error",
+        "isCorrect": false
+      },
+      {
+        "text": "http",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "¿Qué atributo define mensaje?",
+    "options": [
+      {
+        "text": "message",
+        "isCorrect": false
+      },
+      {
+        "text": "detail",
+        "isCorrect": true
+      },
+      {
+        "text": "text",
+        "isCorrect": false
+      },
+      {
+        "text": "body",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "¿Qué hace path parameter en FastAPI?",
+    "options": [
+      {
+        "text": "Crear ruta",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      },
+      {
+        "text": "Actualizar",
+        "isCorrect": false
+      },
+      {
+        "text": "Recibir valor URL",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "¿Qué hace query parameter?",
+    "options": [
+      {
+        "text": "Crear objeto",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar",
+        "isCorrect": false
+      },
+      {
+        "text": "Recibir datos query",
+        "isCorrect": true
+      },
+      {
+        "text": "Guardar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "¿Cuál es la sintaxis correcta para mostrar una variable en Django?",
+    "options": [
+      {
+        "text": "{{ variable }}",
+        "isCorrect": true
+      },
+      {
+        "text": "{% variable %}",
+        "isCorrect": false
+      },
+      {
+        "text": "$ variable",
+        "isCorrect": false
+      },
+      {
+        "text": "<%= variable %>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "¿Qué proporciona Swagger en FastAPI?",
+    "options": [
+      {
+        "text": "Servidor",
+        "isCorrect": false
+      },
+      {
+        "text": "Base de datos",
+        "isCorrect": false
+      },
+      {
+        "text": "Documentación interactiva",
+        "isCorrect": true
+      },
+      {
+        "text": "Testing",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "¿Qué estructura es inmutable?",
+    "options": [
+      {
+        "text": "Lista",
+        "isCorrect": false
+      },
+      {
+        "text": "Set",
+        "isCorrect": false
+      },
+      {
+        "text": "Tupla",
+        "isCorrect": true
+      },
+      {
+        "text": "Diccionario",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "¿Qué hace un serializador en DRF?",
+    "options": [
+      {
+        "text": "Migrar",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar URLs",
+        "isCorrect": false
+      },
+      {
+        "text": "Autenticar",
+        "isCorrect": false
+      },
+      {
+        "text": "Convertir objetos a JSON",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "¿Cómo se guardan cambios en SQLAlchemy?",
+    "options": [
+      {
+        "text": "session.save()",
+        "isCorrect": false
+      },
+      {
+        "text": "db.commit()",
+        "isCorrect": false
+      },
+      {
+        "text": "db.save()",
+        "isCorrect": false
+      },
+      {
+        "text": "db.session.commit()",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "¿Qué método obtiene todos los resultados de una consulta?",
+    "options": [
+      {
+        "text": "fetchone()",
+        "isCorrect": false
+      },
+      {
+        "text": "fetchall()",
+        "isCorrect": true
+      },
+      {
+        "text": "execute()",
+        "isCorrect": false
+      },
+      {
+        "text": "queryall()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Qué palabra clave define una función?",
+    "options": [
+      {
+        "text": "function",
+        "isCorrect": false
+      },
+      {
+        "text": "func",
+        "isCorrect": false
+      },
+      {
+        "text": "def",
+        "isCorrect": true
+      },
+      {
+        "text": "define",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "¿Qué código HTTP indica creación?",
+    "options": [
+      {
+        "text": "201",
+        "isCorrect": true
+      },
+      {
+        "text": "204",
+        "isCorrect": false
+      },
+      {
+        "text": "404",
+        "isCorrect": false
+      },
+      {
+        "text": "200",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "¿Qué tipo es True?",
+    "options": [
+      {
+        "text": "Entero",
+        "isCorrect": false
+      },
+      {
+        "text": "Float",
+        "isCorrect": false
+      },
+      {
+        "text": "Booleano",
+        "isCorrect": true
+      },
+      {
+        "text": "String",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "¿Qué método muestra primeras filas en Pandas?",
+    "options": [
+      {
+        "text": "df.top()",
+        "isCorrect": false
+      },
+      {
+        "text": "df.head()",
+        "isCorrect": true
+      },
+      {
+        "text": "df.start()",
+        "isCorrect": false
+      },
+      {
+        "text": "df.first()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Qué hace @app.post en FastAPI?",
+    "options": [
+      {
+        "text": "Ejecuta consulta",
+        "isCorrect": false
+      },
+      {
+        "text": "Define endpoint POST",
+        "isCorrect": true
+      },
+      {
+        "text": "Renderiza HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "Define clase",
+        "isCorrect": false
       }
     ]
   }
