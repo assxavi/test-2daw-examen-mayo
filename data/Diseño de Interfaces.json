@@ -1270,7 +1270,211 @@
       { "text": "Exclusión de media queries.", "isCorrect": true },
       { "text": "Contraste adecuado en colores y tipografía.", "isCorrect": false }
     ]
+  },
+
+   {
+    "id": 121,
+    "question": "¿Cómo puedes cambiar el tema del navbar a un esquema de colores oscuros en Bootstrap?",
+    "options": [
+      { "text": "Añadiendo .bg-dark-theme a la clase navbar.", "isCorrect": false },
+      { "text": "Estableciendo data-bs-theme=\"dark\" en el elemento .navbar.", "isCorrect": true },
+      { "text": "Cambiando la clase a .navbar-dark.", "isCorrect": false },
+      { "text": "Agregando theme=\"dark\" al contenedor principal.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 122,
+    "question": "¿Qué clase adicional se utiliza para que los elementos de un Listgroup sean interactivos, como enlaces o botones?",
+    "options": [
+      { "text": ".list-group-item-interactive", "isCorrect": false },
+      { "text": ".list-group-item-clickable", "isCorrect": false },
+      { "text": ".list-group-item-action", "isCorrect": true },
+      { "text": ".list-group-link", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 123,
+    "question": "¿Cuál es la clase base que se utiliza en Bootstrap para aplicar estilos básicos a los botones?",
+    "options": [
+      { "text": ".btn-base", "isCorrect": false },
+      { "text": ".btn-primary", "isCorrect": false },
+      { "text": ".button-default", "isCorrect": false },
+      { "text": ".btn", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 124,
+    "question": "¿Cuál de las siguientes clases de botón en Bootstrap se utiliza para representar una acción de advertencia (warning)?",
+    "options": [
+      { "text": ".btn-warning", "isCorrect": true },
+      { "text": ".btn-danger", "isCorrect": false },
+      { "text": ".btn-info", "isCorrect": false },
+      { "text": ".btn-success", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 125,
+    "question": "¿Cuál de los siguientes elementos de Bootstrap 3 han sido reemplazados por las tarjetas (cards) en Bootstrap?",
+    "options": [
+      { "text": "Botones y modales.", "isCorrect": false },
+      { "text": "Paneles y miniaturas.", "isCorrect": true },
+      { "text": "Formularios y alertas.", "isCorrect": false },
+      { "text": "Carruseles y menús desplegables.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 126,
+    "question": "¿Cómo se indica que un elemento del Listgroup está activo en Bootstrap?",
+    "options": [
+      { "text": "Añadiendo la clase .selected al elemento.", "isCorrect": false },
+      { "text": "Usando la clase .active en el elemento .list-group-item.", "isCorrect": true },
+      { "text": "Agregando el atributo selected=\"true\" al elemento.", "isCorrect": false },
+      { "text": "Aplicando la clase .highlight al elemento.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 127,
+    "question": "¿Qué clase se debe agregar para que la barra de navegación sea responsive y pueda colapsar en pantallas pequeñas?",
+    "options": [
+      { "text": ".navbar-collapse-lg", "isCorrect": false },
+      { "text": ".navbar-expand-lg", "isCorrect": true },
+      { "text": ".navbar-responsive", "isCorrect": false },
+      { "text": ".navbar-flex", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 128,
+    "question": "¿Cómo se define un título dentro de una tarjeta en Bootstrap?",
+    "options": [
+      { "text": "Usando la clase .card-header en un <h1>.", "isCorrect": false },
+      { "text": "Aplicando la clase .card-title a una etiqueta de encabezado <h*>.", "isCorrect": true },
+      { "text": "Colocando el título directamente dentro de un <div> sin clase.", "isCorrect": false },
+      { "text": "Usando la clase .card-heading en un <p>.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 129,
+    "question": "¿Qué atributo debe usarse para garantizar la accesibilidad cuando se utiliza un <div> en lugar de un <nav> para la barra de navegación?",
+    "options": [
+      { "text": "role=\"banner\"", "isCorrect": false },
+      { "text": "role=\"navigation\"", "isCorrect": true },
+      { "text": "aria-label=\"navbar\"", "isCorrect": false },
+      { "text": "data-role=\"navbar\"", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 130,
+    "question": "¿Cuál es la clase que se usa para agregar el nombre o logotipo de la empresa dentro del navbar?",
+    "options": [
+      { "text": ".navbar-brand", "isCorrect": true },
+      { "text": ".navbar-logo", "isCorrect": false },
+      { "text": ".nav-title", "isCorrect": false },
+      { "text": ".navbar-header", "isCorrect": false }
+    ]
+  },
+  
+  {
+    "id": 131,
+    "question": "¿Qué estructura sigue un formulario basado en el sistema de cuadrícula (Form grid) de Bootstrap?",
+    "options": [
+      { "text": "Fila (.row) > Contenedor (.container) > Columna (.col) > Input", "isCorrect": false },
+      { "text": "Contenedor (.container) > Input > Fila (.row) > Columna (.col)", "isCorrect": false },
+      { "text": "Fila (.row) > Columna (.col) > Input", "isCorrect": true },
+      { "text": "Input > Columna (.col) > Fila (.row) > Contenedor (.container)", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 132,
+    "question": "¿Qué ventaja principal ofrece Bootstrap en la creación de formularios?",
+    "options": [
+      { "text": "Permite agregar animaciones avanzadas en forma automática.", "isCorrect": false },
+      { "text": "Asegura compatibilidad con todos los navegadores antiguos.", "isCorrect": false },
+      { "text": "Se ajusta automáticamente a distintos tamaños de pantalla.", "isCorrect": true },
+      { "text": "Solo funciona correctamente en ordenadores de escritorio.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 133,
+    "question": "¿Cómo se recomienda incluir Bootstrap en un proyecto desde cero?",
+    "options": [
+      { "text": "Con un zip.", "isCorrect": false },
+      { "text": "Incorporando los archivos CSS y JavaScript a través de un CDN.", "isCorrect": true },
+      { "text": "Creando cada componente de Bootstrap desde cero.", "isCorrect": false },
+      { "text": "Utilizando exclusivamente archivos locales sin vinculación externa.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 134,
+    "question": "¿Por qué Bootstrap está optimizado para dispositivos móviles?",
+    "options": [
+      { "text": "Porque oculta automáticamente contenido en pantallas grandes.", "isCorrect": false },
+      { "text": "Porque solo permite desarrollar aplicaciones móviles y no para escritorio.", "isCorrect": false },
+      { "text": "Porque reduce el uso de HTML y CSS.", "isCorrect": false },
+      { "text": "Porque usa una estrategia de diseño mobile-first, aplicando estilos mínimos en pantallas pequeñas y escalando a dispositivos más grandes.", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 135,
+    "question": "¿Qué clase se utiliza para dar estilo a un menú <select> en Bootstrap?",
+    "options": [
+      { "text": ".form-input", "isCorrect": false },
+      { "text": ".select-bootstrap", "isCorrect": false },
+      { "text": ".form-dropdown", "isCorrect": false },
+      { "text": ".form-select", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 136,
+    "question": "¿Cuál es una de las principales ventajas de Bootstrap?",
+    "options": [
+      { "text": "Obliga a los desarrolladores a crear todas las clases desde cero.", "isCorrect": false },
+      { "text": "Solo funciona si se escriben estilos personalizados.", "isCorrect": false },
+      { "text": "Viene con clases y estilos predefinidos que pueden usarse directamente.", "isCorrect": true },
+      { "text": "Solo es compatible con navegadores antiguos.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 137,
+    "question": "¿Cuál es la versión más reciente de Bootstrap mencionada en el contenido?",
+    "options": [
+      { "text": "3.5.", "isCorrect": false },
+      { "text": "4.6.", "isCorrect": false },
+      { "text": "5.3.", "isCorrect": true },
+      { "text": "6.0.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 138,
+    "question": "¿Qué clase se usa para agregar un texto de ayuda debajo de un input en Bootstrap?",
+    "options": [
+      { "text": ".form-help", "isCorrect": false },
+      { "text": ".form-text", "isCorrect": true },
+      { "text": ".input-helper", "isCorrect": false },
+      { "text": ".text-small", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 139,
+    "question": "¿Qué es Bootstrap?",
+    "options": [
+      { "text": "Un lenguaje de programación para diseñar aplicaciones.", "isCorrect": false },
+      { "text": "Un conjunto de herramientas que incorpora componentes HTML, CSS y JavaScript.", "isCorrect": true },
+      { "text": "Un framework exclusivo de JavaScript.", "isCorrect": false },
+      { "text": "Un programa de diseño gráfico.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 140,
+    "question": "¿Cuál fue el propósito principal de Twitter al desarrollar Bootstrap?",
+    "options": [
+      { "text": "Crear una red social más atractiva.", "isCorrect": false },
+      { "text": "Facilitar a los desarrolladores la creación de funciones sin preocuparse por el diseño.", "isCorrect": true },
+      { "text": "Sustituir por completo CSS en el desarrollo web.", "isCorrect": false },
+      { "text": "Proporcionar una plataforma de desarrollo móvil exclusiva.", "isCorrect": false }
+    ]
   }
+
+
 
 ]
 
