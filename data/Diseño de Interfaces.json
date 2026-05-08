@@ -885,6 +885,391 @@
       { "text": "Ayudan a detectar y corregir problemas de accesibilidad", "isCorrect": true },
       { "text": "Solo sirven para programadores expertos", "isCorrect": false }
     ]
+  },
+
+  {
+    "id": 86,
+    "question": "¿Cuál de los siguientes componentes se utiliza principalmente para facilitar la navegación del usuario en una interfaz web?",
+    "options": [
+      { "text": "Cabecera.", "isCorrect": false },
+      { "text": "Pie de página.", "isCorrect": false },
+      { "text": "Menú de navegación.", "isCorrect": true },
+      { "text": "Banner.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 87,
+    "question": "¿Qué elemento en el diseño web se utiliza para representar la identidad de la marca en la parte superior de la página?",
+    "options": [
+      { "text": "Cabecera.", "isCorrect": true },
+      { "text": "Barra lateral.", "isCorrect": false },
+      { "text": "Cuerpo.", "isCorrect": false },
+      { "text": "Footer.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 88,
+    "question": "En CSS, ¿qué propiedad se utiliza para definir el color de fondo de un elemento?",
+    "options": [
+      { "text": "background-color", "isCorrect": true },
+      { "text": "color", "isCorrect": false },
+      { "text": "border-color", "isCorrect": false },
+      { "text": "text-color", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 89,
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor el modelo de cajas en CSS?",
+    "options": [
+      { "text": "Cada elemento HTML se representa como una caja que incluye margen, borde y relleno.", "isCorrect": true },
+      { "text": "Solo los elementos de bloque tienen modelo de caja.", "isCorrect": false },
+      { "text": "El modelo de cajas se aplica únicamente a imágenes y textos.", "isCorrect": false },
+      { "text": "Las cajas en CSS se usan únicamente para diseño de fondos.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 90,
+    "question": "¿Qué propiedad CSS se utiliza para cambiar el comportamiento de visualización de un elemento (por ejemplo, de block a inline)?",
+    "options": [
+      { "text": "display", "isCorrect": true },
+      { "text": "position", "isCorrect": false },
+      { "text": "float", "isCorrect": false },
+      { "text": "visibility", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 91,
+    "question": "En la selección de una herramienta de mockup, ¿cuál es un criterio fundamental?",
+    "options": [
+      { "text": "La cantidad de plugins disponibles.", "isCorrect": false },
+      { "text": "La facilidad de uso y la curva de aprendizaje.", "isCorrect": true },
+      { "text": "La popularidad en redes sociales.", "isCorrect": false },
+      { "text": "El tamaño de la comunidad de desarrolladores.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 92,
+    "question": "¿Qué ventaja ofrece el uso de un archivo CSS externo en comparación con incluir CSS directamente en el HTML?",
+    "options": [
+      { "text": "Permite una edición más rápida del HTML.", "isCorrect": false },
+      { "text": "Facilita el mantenimiento y la reutilización de estilos en múltiples páginas.", "isCorrect": true },
+      { "text": "Reduce significativamente el tamaño del archivo HTML.", "isCorrect": false },
+      { "text": "Mejora la velocidad de carga de imágenes.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 93,
+    "question": "¿Qué elemento se utiliza para proporcionar retroalimentación al usuario mediante mensajes emergentes?",
+    "options": [
+      { "text": "Banner.", "isCorrect": false },
+      { "text": "Tooltip o ayuda flotante.", "isCorrect": true },
+      { "text": "Carrusel.", "isCorrect": false },
+      { "text": "Footer.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 94,
+    "question": "En el desarrollo front-end, ¿cuál de las siguientes tecnologías se utiliza para transformar diseños en código funcional?",
+    "options": [
+      { "text": "HTML.", "isCorrect": false },
+      { "text": "JavaScript.", "isCorrect": false },
+      { "text": "Frameworks de desarrollo de interfaces.", "isCorrect": true },
+      { "text": "Bases de datos.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 95,
+    "question": "¿Qué diferencia principal existe entre un mockup de alta fidelidad y uno de baja fidelidad?",
+    "options": [
+      { "text": "Los mockups de alta fidelidad carecen de colores.", "isCorrect": false },
+      { "text": "Los mockups de alta fidelidad muestran detalles gráficos y se aproximan al diseño final.", "isCorrect": true },
+      { "text": "Los mockups de baja fidelidad incluyen interactividad completa.", "isCorrect": false },
+      { "text": "Los mockups de baja fidelidad utilizan tipografías predefinidas sin personalización.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 96,
+    "question": "¿Cuál es la principal función de la propiedad CSS display: flex?",
+    "options": [
+      { "text": "Distribuir y alinear elementos en un contenedor flexible.", "isCorrect": true },
+      { "text": "Ocultar elementos en la página.", "isCorrect": false },
+      { "text": "Aumentar el tamaño de fuente.", "isCorrect": false },
+      { "text": "Establecer márgenes automáticos.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 97,
+    "question": "¿Qué componente se ubica generalmente en la parte inferior de una interfaz web y suele contener enlaces a políticas y formularios de contacto?",
+    "options": [
+      { "text": "Cabecera.", "isCorrect": false },
+      { "text": "Barra lateral.", "isCorrect": false },
+      { "text": "Pie de página.", "isCorrect": true },
+      { "text": "Menú de navegación.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 98,
+    "question": "En CSS, ¿cuál de las siguientes unidades de medida es relativa?",
+    "options": [
+      { "text": "px.", "isCorrect": false },
+      { "text": "em.", "isCorrect": true },
+      { "text": "cm.", "isCorrect": false },
+      { "text": "in.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 99,
+    "question": "¿Cuál es uno de los principales beneficios de utilizar frameworks como Bootstrap en el desarrollo web?",
+    "options": [
+      { "text": "Permiten escribir menos código HTML.", "isCorrect": false },
+      { "text": "Eliminan la necesidad de utilizar CSS.", "isCorrect": false },
+      { "text": "Aumentan la seguridad de la aplicación web.", "isCorrect": false },
+      { "text": "Facilitan la creación de sitios web responsivos con componentes predefinidos.", "isCorrect": true }
+    ]
+  },
+
+  {
+    "id": 100,
+    "question": "¿Qué propiedad CSS se utiliza para ajustar el espacio interno (relleno) de un elemento?",
+    "options": [
+      { "text": "margin", "isCorrect": false },
+      { "text": "padding", "isCorrect": true },
+      { "text": "border", "isCorrect": false },
+      { "text": "outline", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 101,
+    "question": "¿Cuál de los siguientes componentes no forma parte de la interfaz de usuario final de un sitio web?",
+    "options": [
+      { "text": "Formulario de contacto.", "isCorrect": false },
+      { "text": "Cuadro de diálogo.", "isCorrect": false },
+      { "text": "Prototipo interactivo.", "isCorrect": true },
+      { "text": "Iconos.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 102,
+    "question": "¿Qué técnica se utiliza para asegurar la compatibilidad y consistencia de visualización en distintos navegadores?",
+    "options": [
+      { "text": "Uso de HTML obsoleto.", "isCorrect": false },
+      { "text": "Uso de un único archivo CSS externo.", "isCorrect": false },
+      { "text": "Implementación de los estándares del W3C.", "isCorrect": true },
+      { "text": "Uso exclusivo de JavaScript.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 103,
+    "question": "¿Cuál es la principal función de los iconos en el diseño de interfaces web?",
+    "options": [
+      { "text": "Representar gráficamente acciones o contenidos para facilitar la comunicación.", "isCorrect": true },
+      { "text": "Reemplazar completamente el texto.", "isCorrect": false },
+      { "text": "Aumentar el tamaño del sitio web.", "isCorrect": false },
+      { "text": "Mejorar el SEO.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 104,
+    "question": "¿Qué representa la propiedad font-family en CSS?",
+    "options": [
+      { "text": "La alineación del texto.", "isCorrect": false },
+      { "text": "El tipo de letra o tipografía a utilizar.", "isCorrect": true },
+      { "text": "El tamaño del borde.", "isCorrect": false },
+      { "text": "El color de fondo.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 105,
+    "question": "¿Cuál de las siguientes afirmaciones sobre el equilibrio visual en el diseño es correcta?",
+    "options": [
+      { "text": "El equilibrio visual solo se logra con simetría perfecta.", "isCorrect": false },
+      { "text": "El equilibrio visual no es relevante en el diseño de interfaces.", "isCorrect": false },
+      { "text": "Se consigue eliminando todos los elementos superfluos.", "isCorrect": false },
+      { "text": "El equilibrio formal se basa en la bisimetría y un centro óptico, mientras que el equilibrio informal se alcanza mediante contraposición de pesos visuales.", "isCorrect": true }
+    ]
+  },
+
+  {
+    "id": 106,
+    "question": "¿Qué etiqueta HTML se utiliza para forzar un salto de línea en un párrafo?",
+    "options": [
+      { "text": "<p>", "isCorrect": false },
+      { "text": "<div>", "isCorrect": false },
+      { "text": "<br>", "isCorrect": true },
+      { "text": "<span>", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 107,
+    "question": "¿Cuál es el objetivo principal del diseño responsive?",
+    "options": [
+      { "text": "Ofrecer una experiencia visual óptima en cualquier dispositivo.", "isCorrect": true },
+      { "text": "Aumentar la velocidad de carga únicamente en móviles.", "isCorrect": false },
+      { "text": "Permitir la utilización de imágenes de alta resolución en escritorio.", "isCorrect": false },
+      { "text": "Unificar la apariencia sin importar el dispositivo.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 108,
+    "question": "¿Qué tecnología de CSS3 permite aplicar estilos en función de la resolución del dispositivo?",
+    "options": [
+      { "text": "Animaciones CSS.", "isCorrect": false },
+      { "text": "Media queries.", "isCorrect": true },
+      { "text": "Transiciones.", "isCorrect": false },
+      { "text": "Variables CSS.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 109,
+    "question": "¿Qué atributo HTML se utiliza para definir el viewport en un sitio web adaptativo?",
+    "options": [
+      { "text": "lang", "isCorrect": false },
+      { "text": "charset", "isCorrect": false },
+      { "text": "meta viewport", "isCorrect": true },
+      { "text": "link rel", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 110,
+    "question": "En un diseño adaptativo, ¿cuál de las siguientes afirmaciones es cierta?",
+    "options": [
+      { "text": "Se muestra el mismo contenido en todos los dispositivos sin modificaciones.", "isCorrect": false },
+      { "text": "La estructura se modifica en función del ancho del navegador.", "isCorrect": true },
+      { "text": "Se utilizan únicamente imágenes estáticas.", "isCorrect": false },
+      { "text": "El diseño se basa en colores predefinidos sin cambios.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 111,
+    "question": "¿Qué propiedad CSS se utiliza comúnmente para asegurar que padding y border se incluyan en el ancho total de un elemento?",
+    "options": [
+      { "text": "float", "isCorrect": false },
+      { "text": "display", "isCorrect": false },
+      { "text": "box-sizing: border-box", "isCorrect": true },
+      { "text": "overflow", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 112,
+    "question": "¿Cuál es la función principal del clear: both aplicado al contenedor de columnas?",
+    "options": [
+      { "text": "Ocultar las columnas flotantes.", "isCorrect": false },
+      { "text": "Evitar que elementos posteriores se sitúen en los huecos generados por los floats.", "isCorrect": true },
+      { "text": "Centrar el contenido horizontalmente.", "isCorrect": false },
+      { "text": "Cambiar el color de fondo.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 113,
+    "question": "¿Qué modelo de diseño se basa en la creación de filas y columnas sin necesidad de usar floats?",
+    "options": [
+      { "text": "Diseño de ancho fijo.", "isCorrect": false },
+      { "text": "Diseño de caja.", "isCorrect": false },
+      { "text": "CSS Grid.", "isCorrect": true },
+      { "text": "Diseño fluido.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 114,
+    "question": "¿Cómo se denomina el campo de visión en el contexto del diseño responsive?",
+    "options": [
+      { "text": "Viewport.", "isCorrect": true },
+      { "text": "Grid.", "isCorrect": false },
+      { "text": "Container.", "isCorrect": false },
+      { "text": "Margin.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 115,
+    "question": "En una media query, ¿qué operador se utiliza para establecer una restricción máxima de ancho?",
+    "options": [
+      { "text": "min-width", "isCorrect": false },
+      { "text": "width-equals", "isCorrect": false },
+      { "text": "only-width", "isCorrect": false },
+      { "text": "max-width", "isCorrect": true }
+    ]
+  },
+
+  {
+    "id": 116,
+    "question": "¿Cuál de las siguientes opciones no es un tipo de diseño adaptativo mencionado en el documento?",
+    "options": [
+      { "text": "Diseño predominantemente fluido.", "isCorrect": false },
+      { "text": "Patrón de caída de columnas.", "isCorrect": false },
+      { "text": "Patrón fuera de la ventana.", "isCorrect": false },
+      { "text": "Diseño de resolución fija.", "isCorrect": true }
+    ]
+  },
+
+  {
+    "id": 117,
+    "question": "¿Qué término se utiliza para describir la experiencia global del usuario al interactuar con un producto digital?",
+    "options": [
+      { "text": "Usabilidad.", "isCorrect": false },
+      { "text": "User experience (UX).", "isCorrect": true },
+      { "text": "Diseño gráfico.", "isCorrect": false },
+      { "text": "Front-end.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 118,
+    "question": "¿Cuál es la finalidad de establecer altos niveles de contraste en el CSS?",
+    "options": [
+      { "text": "Mejorar la legibilidad para usuarios con dificultades visuales.", "isCorrect": true },
+      { "text": "Aumentar la velocidad del sitio web.", "isCorrect": false },
+      { "text": "Reducir el consumo de energía en dispositivos móviles.", "isCorrect": false },
+      { "text": "Facilitar el uso de animaciones.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 119,
+    "question": "¿Qué significa alcanzar el nivel AAA en las WCAG?",
+    "options": [
+      { "text": "Cumplir solo las especificaciones básicas de accesibilidad.", "isCorrect": false },
+      { "text": "Lograr el nivel medio recomendado para la mayoría de las páginas.", "isCorrect": false },
+      { "text": "Alcanzar el grado más alto de accesibilidad, aplicable en situaciones específicas.", "isCorrect": true },
+      { "text": "Implementar estilos avanzados de CSS sin restricciones.", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": 120,
+    "question": "¿Qué elemento no es fundamental para garantizar la accesibilidad en el diseño web según el documento?",
+    "options": [
+      { "text": "Uso de HTML semántico.", "isCorrect": false },
+      { "text": "Inclusión de textos alternativos en imágenes.", "isCorrect": false },
+      { "text": "Exclusión de media queries.", "isCorrect": true },
+      { "text": "Contraste adecuado en colores y tipografía.", "isCorrect": false }
+    ]
   }
 
 ]
