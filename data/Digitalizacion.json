@@ -1,32 +1,2202 @@
 [
   {
     "id": 1,
-    "question": "¿En qué año comenzó la Guerra Civil española?",
+    "question": "¿Cuál fue uno de los principales inventos de la Primera Revolución Industrial?",
     "options": [
-      { "text": "1936", "isCorrect": true },
-      { "text": "1929", "isCorrect": false },
-      { "text": "1942", "isCorrect": false },
-      { "text": "1918", "isCorrect": false }
+      {
+        "text": "Internet.",
+        "isCorrect": false
+      },
+      {
+        "text": "La televisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "La máquina de vapor.",
+        "isCorrect": true
+      },
+      {
+        "text": "La energía eléctrica.",
+        "isCorrect": false
+      }
     ]
   },
   {
     "id": 2,
-    "question": "¿Qué constitución instauró la Segunda República en España?",
+    "question": "En el contexto de la Industria 4.0, ¿qué tecnología es comúnmente utilizada para almacenar grandes volúmenes de datos?",
     "options": [
-      { "text": "La Constitución de 1931", "isCorrect": true },
-      { "text": "La Constitución de 1978", "isCorrect": false },
-      { "text": "La Constitución de Cádiz de 1812", "isCorrect": false },
-      { "text": "El Estatuto Real de 1834", "isCorrect": false }
+      {
+        "text": "Disquetes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cintas magnéticas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Almacenamiento en la nube.",
+        "isCorrect": true
+      },
+      {
+        "text": "CD-ROM.",
+        "isCorrect": false
+      }
     ]
   },
   {
     "id": 3,
-    "question": "¿Qué rey impulsó la unificación dinástica junto con Isabel de Castilla?",
+    "question": "¿Qué diferencia principal hay entre IT y OT?",
     "options": [
-      { "text": "Fernando de Aragón", "isCorrect": true },
-      { "text": "Carlos III", "isCorrect": false },
-      { "text": "Felipe II", "isCorrect": false },
-      { "text": "Alfonso XIII", "isCorrect": false }
+      {
+        "text": "IT se basa en producción y OT en análisis.",
+        "isCorrect": false
+      },
+      {
+        "text": "OT es digital y IT es mecánica.",
+        "isCorrect": false
+      },
+      {
+        "text": "IT gestiona datos y OT controla procesos físicos.",
+        "isCorrect": true
+      },
+      {
+        "text": "No hay diferencia entre ambos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "¿Qué aporta la digitalización en cuanto a la gestión del riesgo?",
+    "options": [
+      {
+        "text": "Aumenta la incertidumbre.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mejora la identificación y gestión temprana de problemas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reduce el análisis de datos disponibles.",
+        "isCorrect": false
+      },
+      {
+        "text": "Obliga a tomar decisiones más lentas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál fue un avance destacado de la Tercera Revolución Industrial?",
+    "options": [
+      {
+        "text": "Desarrollo del motor de combustión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Uso del telégrafo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aparición de ordenadores y energías renovables.",
+        "isCorrect": true
+      },
+      {
+        "text": "Implementación del vapor.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "¿Qué cambio supuso la Segunda Revolución Industrial?",
+    "options": [
+      {
+        "text": "Introducción del big data.",
+        "isCorrect": false
+      },
+      {
+        "text": "Uso de la robótica colaborativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Uso de nuevas fuentes de energía como electricidad y gas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Digitalización de procesos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "¿Qué objetivo tiene la economía circular en la Industria 5.0?",
+    "options": [
+      {
+        "text": "Sustituir personas por máquinas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reutilizar recursos y reducir residuos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar toda innovación tecnológica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear productos únicos sin replicabilidad.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Qué término se refiere a la tecnología que permite que sistemas físicos y digitales interactúen?",
+    "options": [
+      {
+        "text": "Internet.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sistema ciberfísico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Red social.",
+        "isCorrect": false
+      },
+      {
+        "text": "Almacenamiento en la nube.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "¿Qué aspecto representa una tendencia hacia la Quinta Revolución Industrial?",
+    "options": [
+      {
+        "text": "Exclusión del trabajador humano.",
+        "isCorrect": false
+      },
+      {
+        "text": "Menor personalización del producto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Industria centrada en las personas y sostenibilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayor contaminación.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "¿Qué representa el concepto de smart factory?",
+    "options": [
+      {
+        "text": "Una fábrica con empleados altamente capacitados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una fábrica automatizada e interconectada que se adapta dinámicamente a las necesidades.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un centro logístico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una oficina inteligente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "¿Qué elemento caracteriza a la informática en la nube?",
+    "options": [
+      {
+        "text": "Los servicios se acceden remotamente desde cualquier dispositivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Los datos se almacenan en servidores físicos locales.",
+        "isCorrect": false
+      },
+      {
+        "text": "No necesita conexión a Internet.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo funciona en red local.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "¿Qué función tiene la informática en la nube en una empresa digitalizada?",
+    "options": [
+      {
+        "text": "Controlar robots.",
+        "isCorrect": false
+      },
+      {
+        "text": "Diseñar piezas industriales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Gestionar manualmente el mantenimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesar y almacenar datos de forma remota.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "¿Cuál es una función típica de la IA en la empresa?",
+    "options": [
+      {
+        "text": "Pintar objetos automáticamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Comprimir archivos grandes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Automatizar decisiones y predecir comportamientos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Conectar sensores por cable.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "¿Cuál de estas es una función de la ciberseguridad en entornos digitales?",
+    "options": [
+      {
+        "text": "Crear prototipos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Simular movimientos físicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Proteger sistemas IT y OT de accesos no autorizados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aumentar el rendimiento de impresoras.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "¿Qué ventaja aporta la informática difusa (fog computing)?",
+    "options": [
+      {
+        "text": "Evita el uso de sensores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elimina la necesidad de conexión.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesa datos en el propio dispositivo o cerca del origen.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reduce el rendimiento de la nube.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "¿Qué ventaja aporta la robótica colaborativa frente a la robótica tradicional?",
+    "options": [
+      {
+        "text": "Mayor consumo energético.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayor aislamiento de los operarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Interacción segura y directa con humanos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Funcionamiento solo en grandes empresas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "¿Qué objetivo tiene el uso de blockchain en la cadena de suministro?",
+    "options": [
+      {
+        "text": "Aumentar el tamaño de los paquetes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Garantizar la trazabilidad segura e inmutable.",
+        "isCorrect": true
+      },
+      {
+        "text": "Controlar manualmente los envíos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conectar sensores de temperatura.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "¿Qué permite la tecnología háptica en un entorno de realidad virtual?",
+    "options": [
+      {
+        "text": "Escuchar sonidos tridimensionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ver imágenes más nítidas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sentir texturas y movimientos físicos simulados.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aumentar la velocidad de conexión.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "¿Qué tecnología combina datos físicos y digitales para crear entornos inmersivos interactivos?",
+    "options": [
+      {
+        "text": "Robótica industrial.",
+        "isCorrect": false
+      },
+      {
+        "text": "Big data.",
+        "isCorrect": false
+      },
+      {
+        "text": "Realidad aumentada.",
+        "isCorrect": true
+      },
+      {
+        "text": "Informática en la nube.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Qué tecnología se utiliza para recrear sensaciones táctiles en entornos digitales?",
+    "options": [
+      {
+        "text": "Blockchain.",
+        "isCorrect": false
+      },
+      {
+        "text": "Háptica.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ciberseguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inteligencia artificial (IA).",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿Qué tipo de nube combina servicios públicos y privados?",
+    "options": [
+      {
+        "text": "Pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Privada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Híbrida.",
+        "isCorrect": true
+      },
+      {
+        "text": "Comunitaria.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "¿Cuál de estas no es una ventaja del cloud?",
+    "options": [
+      {
+        "text": "Acceso remoto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducción de costes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Escalabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inversión fija obligatoria.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "¿Qué permite la escalabilidad del cloud?",
+    "options": [
+      {
+        "text": "Ajustar recursos según demanda.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reducir usuarios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aumentar personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desactivar servicios fijos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "¿Cuál de estas características define al cloud?",
+    "options": [
+      {
+        "text": "Autoservicio bajo demanda.",
+        "isCorrect": true
+      },
+      {
+        "text": "Licencia perpetua.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acceso solo local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Configuración fija.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Qué es el cloud computing?",
+    "options": [
+      {
+        "text": "Un disco duro externo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un sistema operativo local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un modelo de prestación de servicios digitales por red.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un antivirus para redes.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "¿Cuál de estas afirmaciones es falsa?",
+    "options": [
+      {
+        "text": "La nube se adapta a empresas de cualquier tamaño.",
+        "isCorrect": false
+      },
+      {
+        "text": "Los datos en la nube no necesitan seguridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Puede usarse desde dispositivos móviles.",
+        "isCorrect": false
+      },
+      {
+        "text": "Permite colaboración en tiempo real.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Qué característica mejora la productividad con cloud computing?",
+    "options": [
+      {
+        "text": "Almacenamiento limitado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Trabajo colaborativo en tiempo real.",
+        "isCorrect": true
+      },
+      {
+        "text": "Revisión manual de documentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Necesidad de compartir archivos por USB.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "¿Qué expresión define la alta disponibilidad en la nube?",
+    "options": [
+      {
+        "text": "Acceso solo en horas de oficina.",
+        "isCorrect": false
+      },
+      {
+        "text": "Necesidad de instalar en local.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disponibilidad 24/7 desde cualquier lugar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Dependencia de disco duro físico.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "¿Qué rol cumple el edge computing respecto al cloud?",
+    "options": [
+      {
+        "text": "Sustituye al cloud.",
+        "isCorrect": false
+      },
+      {
+        "text": "Centraliza todo el procesamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "Acerca el procesamiento al lugar de uso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Bloquea el acceso remoto.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Cuál de estos riesgos es frecuente en entornos cloud mal gestionados?",
+    "options": [
+      {
+        "text": "Falta de copias de seguridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Pérdida de electricidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sobrecarga de papel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Lentitud del sistema operativo.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué principio guía el desarrollo de una IA confiable en Europa?",
+    "options": [
+      {
+        "text": "Rentabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Respeto a los derechos fundamentales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Automatización total.",
+        "isCorrect": false
+      },
+      {
+        "text": "Minimización de costes.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Qué herramienta permite descubrir patrones ocultos en grandes volúmenes de información para apoyar la toma de decisiones?",
+    "options": [
+      {
+        "text": "Big data.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ciberseguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Minería de datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Blockchain.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "¿Qué debe cumplir un modelo de IA generativa como ChatGPT según la normativa de la UE?",
+    "options": [
+      {
+        "text": "No usar datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Evitar cualquier tipo de respuesta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Revelar que el contenido fue generado por IA.",
+        "isCorrect": true
+      },
+      {
+        "text": "Operar sin intervención humana.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "¿Qué avance marcó el inicio del uso comercial del reconocimiento de voz?",
+    "options": [
+      {
+        "text": "Deep Blue gana al ajedrez.",
+        "isCorrect": false
+      },
+      {
+        "text": "Google lanza una aplicación de voz en 2008.",
+        "isCorrect": true
+      },
+      {
+        "text": "Primer chatbot.",
+        "isCorrect": false
+      },
+      {
+        "text": "Traducción automática.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "¿Quién propuso el test de Turing como criterio para determinar si una máquina piensa?",
+    "options": [
+      {
+        "text": "Descartes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alan Turing.",
+        "isCorrect": true
+      },
+      {
+        "text": "Marvin Minsky.",
+        "isCorrect": false
+      },
+      {
+        "text": "John McCarthy.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Qué tipo de inteligencia artificial (IA) está diseñada para realizar tareas específicas como responder preguntas o clasificar correos electrónicos?",
+    "options": [
+      {
+        "text": "IA general.",
+        "isCorrect": false
+      },
+      {
+        "text": "IA simbólica.",
+        "isCorrect": false
+      },
+      {
+        "text": "IA débil.",
+        "isCorrect": true
+      },
+      {
+        "text": "IA fuerte.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "¿Cuál es un sistema considerado de riesgo inaceptable, según la Ley de Inteligencia Artificial de la Unión Europea?",
+    "options": [
+      {
+        "text": "Sistemas de puntuación social.",
+        "isCorrect": true
+      },
+      {
+        "text": "Predicción del clima.",
+        "isCorrect": false
+      },
+      {
+        "text": "Recomendación de productos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Traducción automática.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál de los siguientes sectores utiliza IA para análisis de imágenes médicas?",
+    "options": [
+      {
+        "text": "Agricultura.",
+        "isCorrect": false
+      },
+      {
+        "text": "Industria manufacturera.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sanidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hostelería.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "¿Qué exige la normativa europea para los sistemas de IA considerados de alto riesgo?",
+    "options": [
+      {
+        "text": "Libertad total de uso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Registro opcional.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo supervisión automática.",
+        "isCorrect": false
+      },
+      {
+        "text": "Evaluación continua y registro en la base de datos.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Qué tecnología de IA se utiliza para ajustar la producción en función de la demanda real en la industria?",
+    "options": [
+      {
+        "text": "Blockchain.",
+        "isCorrect": false
+      },
+      {
+        "text": "Drones.",
+        "isCorrect": false
+      },
+      {
+        "text": "Producción basada en demanda con sensores e IA.",
+        "isCorrect": true
+      },
+      {
+        "text": "Redes sociales.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "¿Cuál de estas amenazas afecta a la seguridad de los datos?",
+    "options": [
+      {
+        "text": "Incremento de ventas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Malware y ransomware.",
+        "isCorrect": true
+      },
+      {
+        "text": "Crecimiento de personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Uso de emails corporativos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "¿Qué herramienta ayuda a visualizar patrones y datos en gráficos?",
+    "options": [
+      {
+        "text": "Antivirus.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cortafuegos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Power BI.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cifrado de datos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué objetivo busca la personalización en las empresas?",
+    "options": [
+      {
+        "text": "Crear un solo producto para todos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Igualar los precios para todos los clientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ofrecer productos ajustados a cada cliente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reducir la cantidad de productos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué característica del big data está relacionada con la precisión y veracidad de los datos?",
+    "options": [
+      {
+        "text": "Velocidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Visualización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Veracidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Variedad.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "¿Cuál de estos no es un objetivo de la ciencia de datos en las empresas?",
+    "options": [
+      {
+        "text": "Detección de fraudes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pintura artística.",
+        "isCorrect": true
+      },
+      {
+        "text": "Optimización de procesos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mejora de la experiencia del cliente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Qué perfil se encarga de crear la infraestructura de datos en las empresas?",
+    "options": [
+      {
+        "text": "Director financiero.",
+        "isCorrect": false
+      },
+      {
+        "text": "Jefe de ventas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ingeniero de datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Experto en redes sociales.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Qué se busca garantizar con la confidencialidad en la seguridad de datos?",
+    "options": [
+      {
+        "text": "Que los datos sean verificados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que estén en la nube.",
+        "isCorrect": false
+      },
+      {
+        "text": "Que solo los autorizados accedan.",
+        "isCorrect": true
+      },
+      {
+        "text": "Que se borren rápidamente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "¿Qué método de análisis se basa en aprender de ejemplos etiquetados?",
+    "options": [
+      {
+        "text": "Aprendizaje no supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Algoritmos de clusterización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprendizaje supervisado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Redes sociales.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Cuál de estas situaciones representa un riesgo para la seguridad de los datos?",
+    "options": [
+      {
+        "text": "Mejora de la visualización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Accesos no autorizados a datos confidenciales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Mayor flexibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayor velocidad de conexión.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Cuál de estas no forma parte de las siete V del big data?",
+    "options": [
+      {
+        "text": "Volumen.",
+        "isCorrect": false
+      },
+      {
+        "text": "Velocidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Variedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Valoración personal.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Qué permiten las tecnologías habilitadoras digitales (THD)?",
+    "options": [
+      {
+        "text": "Reemplazar al profesorado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Transformar procesos productivos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar la industria.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir salarios.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Cuál de las siguientes es una THD?",
+    "options": [
+      {
+        "text": "Fotocopiadora.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impresora láser.",
+        "isCorrect": false
+      },
+      {
+        "text": "Inteligencia artificial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Bolígrafo digital.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "¿Qué organización definió el modelo cloud ampliamente citado?",
+    "options": [
+      {
+        "text": "IEEE.",
+        "isCorrect": false
+      },
+      {
+        "text": "MIT.",
+        "isCorrect": false
+      },
+      {
+        "text": "NIST.",
+        "isCorrect": true
+      },
+      {
+        "text": "Apple.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "¿Qué característica define a la nube pública?",
+    "options": [
+      {
+        "text": "Uso exclusivo de una organización.",
+        "isCorrect": false
+      },
+      {
+        "text": "Infraestructura compartida.",
+        "isCorrect": true
+      },
+      {
+        "text": "Solo disponible en Europa.",
+        "isCorrect": false
+      },
+      {
+        "text": "No escalable.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "¿Qué permite el big data?",
+    "options": [
+      {
+        "text": "Almacenar información de manera analógica",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesar grandes volúmenes de datos",
+        "isCorrect": true
+      },
+      {
+        "text": "Imprimir datos en papel",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir la conectividad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "¿Cuál es una ventaja económica del cloud?",
+    "options": [
+      {
+        "text": "Mayor coste en hardware.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayor gasto en licencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Pago por uso.",
+        "isCorrect": true
+      },
+      {
+        "text": "Necesidad de centros de datos propios.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "¿Qué es un gemelo digital?",
+    "options": [
+      {
+        "text": "Un robot físico.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una copia en papel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una réplica virtual de un objeto real.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una impresora 3D.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "¿Qué permite la red 5G?",
+    "options": [
+      {
+        "text": "Mayor latencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Baja velocidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conectividad lenta.",
+        "isCorrect": false
+      },
+      {
+        "text": "Alta velocidad y baja latencia.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Cuál es una característica del modelo cloud?",
+    "options": [
+      {
+        "text": "Acceso bajo demanda desde cualquier lugar.",
+        "isCorrect": true
+      },
+      {
+        "text": "Acceso limitado solo desde la empresa.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo funciona con conexión 5G.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo disponible en papel.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "¿Qué es la informática en la nube?",
+    "options": [
+      {
+        "text": "El uso de papel digital.",
+        "isCorrect": false
+      },
+      {
+        "text": "La creación de robots físicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El acceso remoto a datos y aplicaciones por Internet.",
+        "isCorrect": true
+      },
+      {
+        "text": "Un sistema de energía renovable.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Cuál de estas tecnologías se considera parte de las realidades inmersivas?",
+    "options": [
+      {
+        "text": "Bluetooth.",
+        "isCorrect": false
+      },
+      {
+        "text": "Realidad virtual.",
+        "isCorrect": true
+      },
+      {
+        "text": "Nube híbrida.",
+        "isCorrect": false
+      },
+      {
+        "text": "USB-C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "¿Cuál de las siguientes opciones es una ventaja del cloud para las pymes?",
+    "options": [
+      {
+        "text": "Altos costes iniciales",
+        "isCorrect": false
+      },
+      {
+        "text": "Dependencia de servidores locales",
+        "isCorrect": false
+      },
+      {
+        "text": "Acceso a tecnologías avanzadas sin gran inversión",
+        "isCorrect": true
+      },
+      {
+        "text": "Falta de escalabilidad",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "¿Qué implica la escalabilidad del cloud?",
+    "options": [
+      {
+        "text": "Reducción del personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adaptación flexible del servicio según la demanda.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cierre de servidores.",
+        "isCorrect": false
+      },
+      {
+        "text": "Duplicación de documentos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "¿Cuál es una buena práctica en ciberseguridad cloud?",
+    "options": [
+      {
+        "text": "Compartir contraseñas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Usar 2FA (doble autenticación).",
+        "isCorrect": true
+      },
+      {
+        "text": "Hacer copias físicas diarias.",
+        "isCorrect": false
+      },
+      {
+        "text": "Conectar desde redes abiertas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": "¿Qué permite la robótica colaborativa?",
+    "options": [
+      {
+        "text": "Controlar ordenadores a distancia.",
+        "isCorrect": false
+      },
+      {
+        "text": "Simular datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Colaborar de forma segura entre humanos y robots.",
+        "isCorrect": true
+      },
+      {
+        "text": "Enseñar idiomas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": "¿Qué define a una nube híbrida?",
+    "options": [
+      {
+        "text": "Combina nube privada y pública.",
+        "isCorrect": true
+      },
+      {
+        "text": "Es exclusivamente pública.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo sirve para correo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Es parte de una red cerrada.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": "¿Qué permite el uso del cloud computing en educación?",
+    "options": [
+      {
+        "text": "Desconectar las aulas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Limitar el acceso al contenido.",
+        "isCorrect": false
+      },
+      {
+        "text": "Compartir materiales y acceder desde cualquier dispositivo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Evitar el uso de Internet.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": "¿Qué permite el procesamiento masivo de datos?",
+    "options": [
+      {
+        "text": "Imprimir informes físicos rápidamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Analizar grandes cantidades de información en tiempo real.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar datos antiguos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Desconectar sistemas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": "¿Qué característica es clave en las realidades inmersivas?",
+    "options": [
+      {
+        "text": "Imágenes impresas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Documentación en papel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Impresoras 3D.",
+        "isCorrect": false
+      },
+      {
+        "text": "Simulación digital del entorno.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": "¿Qué tecnología mejora la toma de decisiones mediante datos?",
+    "options": [
+      {
+        "text": "Inteligencia artificial.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cableado estructurado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sensor de humedad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Fotocopiadora.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": "¿Qué sector puede beneficiarse de la IA para diagnósticos médicos?",
+    "options": [
+      {
+        "text": "Logística.",
+        "isCorrect": false
+      },
+      {
+        "text": "Educación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Sanidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Turismo.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": "¿Cuál es una ventaja del cloud en sostenibilidad?",
+    "options": [
+      {
+        "text": "Mayor consumo energético.",
+        "isCorrect": false
+      },
+      {
+        "text": "Centros de datos poco eficientes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Uso más eficiente de recursos compartidos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Necesidad de papel.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál de las siguientes afirmaciones refleja una ventaja estratégica del uso de cloud computing en empresas?",
+    "options": [
+      {
+        "text": "Facilita la transformación y escalabilidad del modelo de negocio.",
+        "isCorrect": true
+      },
+      {
+        "text": "Permite mantener estructuras tradicionales sin cambios.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reduce el contacto digital con el cliente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Elimina la necesidad de planificación a largo plazo.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": "¿Qué papel desempeñan los gemelos digitales en la toma de decisiones industriales?",
+    "options": [
+      {
+        "text": "Son modelos artísticos 3D.",
+        "isCorrect": false
+      },
+      {
+        "text": "Simulan procesos para optimizar decisiones sin riesgo físico.",
+        "isCorrect": true
+      },
+      {
+        "text": "Sustituyen los recursos humanos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Se usan solo en videojuegos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question": "¿Cuál es una diferencia clave entre el edge computing y el cloud computing tradicional?",
+    "options": [
+      {
+        "text": "El edge procesa los datos en servidores centrales.",
+        "isCorrect": false
+      },
+      {
+        "text": "El cloud tiene menor latencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "El edge reduce la latencia al acercar el procesamiento al origen del dato.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ambos funcionan sin Internet.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question": "¿Qué es la IA simbólica?",
+    "options": [
+      {
+        "text": "Una técnica de minería de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un modelo biológico de redes neuronales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un enfoque que usa reglas lógicas para resolver problemas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una técnica para procesar imágenes médicas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question": "¿Qué tipo de IA (inteligencia artificial) busca imitar la mente humana en su totalidad?",
+    "options": [
+      {
+        "text": "IA subsimbólica.",
+        "isCorrect": false
+      },
+      {
+        "text": "IA fuerte.",
+        "isCorrect": true
+      },
+      {
+        "text": "IA débil.",
+        "isCorrect": false
+      },
+      {
+        "text": "IA de lenguaje natural.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question": "¿Qué son las siete V del big data?",
+    "options": [
+      {
+        "text": "Valores, volumen, velocidad, variedad, veracidad, visualización y valor.",
+        "isCorrect": false
+      },
+      {
+        "text": "Valores, volumen, veracidad, variedad, victoria, vivacidad y verificación.",
+        "isCorrect": false
+      },
+      {
+        "text": "Volumen, velocidad, variedad, veracidad, viabilidad, visualización y valor.",
+        "isCorrect": true
+      },
+      {
+        "text": "Volumen, velocidad, vulnerabilidad, veracidad, virtualidad, variedad y valor.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question": "¿Cuál de estos no es un método de aprendizaje en IA?",
+    "options": [
+      {
+        "text": "Aprendizaje supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprendizaje no supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprendizaje por refuerzo.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprendizaje estancado.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question": "¿Qué principio de seguridad busca que los datos permanezcan exactos y sin alteraciones?",
+    "options": [
+      {
+        "text": "Confidencialidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Integridad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disponibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ninguna de las anteriores.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "question": "¿Qué técnica de IA utiliza múltiples capas de redes neuronales?",
+    "options": [
+      {
+        "text": "Aprendizaje supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Algoritmos básicos de IA.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deep learning.",
+        "isCorrect": true
+      },
+      {
+        "text": "Algoritmos de segmentación manual.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "question": "¿Qué principio busca que solo usuarios autorizados accedan a la información?",
+    "options": [
+      {
+        "text": "Confidencialidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Integridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disponibilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Visualización.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "question": "¿Qué campo de la IA se ocupa de procesar el lenguaje humano?",
+    "options": [
+      {
+        "text": "Análisis de imágenes.",
+        "isCorrect": false
+      },
+      {
+        "text": "Control de calidad en fábricas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesamiento de lenguaje natural (PLN).",
+        "isCorrect": true
+      },
+      {
+        "text": "Mantenimiento predictivo.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "question": "¿Qué objetivo tiene la personalización en las empresas?",
+    "options": [
+      {
+        "text": "Igualar las ofertas para todos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Reducir la variedad de productos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Adaptar los productos y servicios a cada cliente.",
+        "isCorrect": true
+      },
+      {
+        "text": "Eliminar la segmentación.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "question": "¿Qué representa la veracidad en big data?",
+    "options": [
+      {
+        "text": "La rapidez con la que llegan los datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "El tamaño del conjunto de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "La calidad y fiabilidad de los datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "La forma gráfica de representar los datos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "question": "¿Qué medida ayuda a proteger datos frente a accesos no autorizados?",
+    "options": [
+      {
+        "text": "Compartir las contraseñas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Eliminar los backups.",
+        "isCorrect": false
+      },
+      {
+        "text": "Autenticación multifactor.",
+        "isCorrect": true
+      },
+      {
+        "text": "Guardar los datos sin protección.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "question": "¿Qué recurso ayuda a representar patrones complejos y dinámicos?",
+    "options": [
+      {
+        "text": "Reglas de papel.",
+        "isCorrect": false
+      },
+      {
+        "text": "Redes manuales de contactos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Visualización de datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Libros de texto en papel.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "question": "¿Qué aspecto mide la velocidad en big data?",
+    "options": [
+      {
+        "text": "Cuánto dinero se gana.",
+        "isCorrect": false
+      },
+      {
+        "text": "Qué tanto se varía el tipo de dato.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cuán rápido se generan y procesan los datos.",
+        "isCorrect": true
+      },
+      {
+        "text": "Cuántas personas los ven.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "question": "¿Qué tipo de aprendizaje utiliza datos sin etiquetas?",
+    "options": [
+      {
+        "text": "Supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supervisado reforzado.",
+        "isCorrect": false
+      },
+      {
+        "text": "No supervisado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguno.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "question": "¿Qué técnica detecta patrones extraños en datos financieros?",
+    "options": [
+      {
+        "text": "Pintura de gráficos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Marketing digital.",
+        "isCorrect": false
+      },
+      {
+        "text": "Análisis de fraude y riesgo.",
+        "isCorrect": true
+      },
+      {
+        "text": "Elaboración de flyers.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "question": "¿Qué significa visualización de datos?",
+    "options": [
+      {
+        "text": "Representar gráficamente patrones y tendencias.",
+        "isCorrect": true
+      },
+      {
+        "text": "Compartir datos en redes sociales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Cambiar datos manualmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Crear música a partir de datos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "question": "¿Qué tipo de IA incluye asistentes virtuales como Alexa o Siri?",
+    "options": [
+      {
+        "text": "IA simbólica básica.",
+        "isCorrect": false
+      },
+      {
+        "text": "Árboles de decisión manuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "Deep learning.",
+        "isCorrect": true
+      },
+      {
+        "text": "Ninguna de las anteriores.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "question": "¿Qué principio de seguridad garantiza que los datos estén disponibles cuando se necesiten?",
+    "options": [
+      {
+        "text": "Confidencialidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Integridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disponibilidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "Visualización.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "question": "¿Qué tecnología permite gestionar grandes volúmenes de datos a través de clústeres distribuidos?",
+    "options": [
+      {
+        "text": "Word y PowerPoint.",
+        "isCorrect": false
+      },
+      {
+        "text": "Procesadores de texto.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hadoop.",
+        "isCorrect": true
+      },
+      {
+        "text": "Hojas de cálculo básicas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "question": "¿Qué riesgo puede tener el uso inadecuado de datos?",
+    "options": [
+      {
+        "text": "Mejora continua garantizada.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mayor creatividad sin límites.",
+        "isCorrect": false
+      },
+      {
+        "text": "Vulneración de la privacidad y normativas legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aumento automático de beneficios.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "question": "¿Qué significa que la IA sea fuerte?",
+    "options": [
+      {
+        "text": "Simula la mente humana completa.",
+        "isCorrect": true
+      },
+      {
+        "text": "No requiere entrenamiento de datos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo realiza cálculos simples.",
+        "isCorrect": false
+      },
+      {
+        "text": "Funciona sin datos.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "question": "¿Qué técnica usa datos etiquetados para entrenar modelos?",
+    "options": [
+      {
+        "text": "No supervisado.",
+        "isCorrect": false
+      },
+      {
+        "text": "Supervisado.",
+        "isCorrect": true
+      },
+      {
+        "text": "Aprendizaje difuso.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aleatorio.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "question": "¿Qué es un árbol de decisión en IA?",
+    "options": [
+      {
+        "text": "Una lista de tareas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Una red social para empresas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Un diagrama con reglas lógicas de decisión.",
+        "isCorrect": true
+      },
+      {
+        "text": "Una hoja de cálculo básica.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "question": "¿Qué permite la analítica avanzada?",
+    "options": [
+      {
+        "text": "Decorar las oficinas.",
+        "isCorrect": false
+      },
+      {
+        "text": "Tomar decisiones basadas en datos reales.",
+        "isCorrect": true
+      },
+      {
+        "text": "Reemplazar todos los empleados.",
+        "isCorrect": false
+      },
+      {
+        "text": "Hacer copias de seguridad únicamente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "question": "¿Qué es el deep learning?",
+    "options": [
+      {
+        "text": "Aprender solo manualmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "Solo usar gráficos.",
+        "isCorrect": false
+      },
+      {
+        "text": "Aprender a partir de grandes cantidades de datos y redes neuronales profundas.",
+        "isCorrect": true
+      },
+      {
+        "text": "Revisión de correo electrónico.",
+        "isCorrect": false
+      }
     ]
   }
 ]
