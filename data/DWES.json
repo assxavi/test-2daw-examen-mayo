@@ -36,7 +36,7 @@
       { "text": "Java.", "isCorrect": false },
       { "text": "HTML.", "isCorrect": true },
       { "text": "PHP.", "isCorrect": false },
-      { "text": "CSS.", "isCorrect": false }
+      { "text": "CSS.", "isCorrect": true }
     ]
   },
   {
