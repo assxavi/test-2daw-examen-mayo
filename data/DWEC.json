@@ -99,16 +99,7 @@
       { "text": "Crear servicios", "isCorrect": false }
     ]
   },
-  {
-    "id": 11,
-    "question": "¿Qué hace el método set() en un signal?",
-    "options": [
-      { "text": "Incrementa valor", "isCorrect": false },
-      { "text": "Elimina el signal", "isCorrect": false },
-      { "text": "Convierte el tipo", "isCorrect": false },
-      { "text": "Sustituye el valor completo", "isCorrect": true }
-    ]
-  },
+ 
   {
     "id": 12,
     "question": "¿Qué ocurre si se hacen varias llamadas a fetch?",
@@ -179,16 +170,7 @@
       { "text": "El tipo de datos", "isCorrect": false }
     ]
   },
-  {
-    "id": 19,
-    "question": "¿Qué ocurre cuando cambia el valor de un signal?",
-    "options": [
-      { "text": "Se reinicia el componente", "isCorrect": false },
-      { "text": "No ocurre nada", "isCorrect": false },
-      { "text": "Se recarga la página", "isCorrect": false },
-      { "text": "Angular actualiza automáticamente la vista", "isCorrect": true }
-    ]
-  },
+  
   {
     "id": 20,
     "question": "En Angular, un servicio suele declararse en:",
@@ -339,16 +321,7 @@
       { "text": "Define un servicio", "isCorrect": false }
     ]
   },
-  {
-    "id": 36,
-    "question": "El bloque @if en Angular moderno permite:",
-    "options": [
-      { "text": "Iterar arrays", "isCorrect": false },
-      { "text": "Definir servicios", "isCorrect": false },
-      { "text": "Renderizar contenido condicionalmente", "isCorrect": true },
-      { "text": "Crear rutas", "isCorrect": false }
-    ]
-  },
+ 
   {
     "id": 37,
     "question": "En Angular, ¿qué ocurre si no se hace subscribe() a un Observable HTTP?",
@@ -419,16 +392,7 @@
       { "text": "Ordena", "isCorrect": false }
     ]
   },
-  {
-    "id": 44,
-    "question": "¿Qué ocurre cuando un método modifica un signal?",
-    "options": [
-      { "text": "La vista se actualiza automáticamente", "isCorrect": true },
-      { "text": "Se recarga la página", "isCorrect": false },
-      { "text": "No ocurre nada", "isCorrect": false },
-      { "text": "Da error", "isCorrect": false }
-    ]
-  },
+  
   {
     "id": 45,
     "question": "¿Cómo se accede al valor de un signal dentro del template?",
@@ -659,16 +623,7 @@
       { "text": "Ejecutar HTTP", "isCorrect": false }
     ]
   },
-  {
-    "id": 68,
-    "question": "¿Qué hace el método set() en un signal?",
-    "options": [
-      { "text": "Añade un valor", "isCorrect": false },
-      { "text": "Ejecuta HTTP", "isCorrect": false },
-      { "text": "Sustituye el valor actual", "isCorrect": true },
-      { "text": "Elimina el signal", "isCorrect": false }
-    ]
-  },
+  
   {
     "id": 69,
     "question": "¿Qué hace JSON.parse()?",
@@ -761,7 +716,7 @@
   },
   {
     "id": 78,
-    "question": "En Angular moderno, un signal es:",
+    "question": "En Angular moderno, un  es:",
     "options": [
       { "text": "Un servicio", "isCorrect": false },
       { "text": "Un tipo de Observable", "isCorrect": false },
